@@ -4,8 +4,8 @@ import os
 from os import symlink
 from os.path import join, exists, relpath
 
-contrib_home_path="/Users/dannwebster/Documents/RPGs/Gurps-Character-Sheet-contrib-"
-gcs_home_path="/Applications/Gurps Character Sheet"
+contrib_home_path="/Users/dwebster/Documents/RPGs/Gurps-Character-Sheet-contrib-"
+gcs_home_path="/Applications/GURPScs"
 
 contrib_lib_path=join(contrib_home_path, "Library")
 gcs_lib_path=join(gcs_home_path, "Library")

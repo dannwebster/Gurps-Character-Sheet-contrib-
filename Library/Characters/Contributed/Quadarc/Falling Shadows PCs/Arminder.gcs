@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="hrg3qxr3:1jh2kfpt324ij" version="2">
 	<created_date>Feb 9, 2014</created_date>
-	<modified_date>Aug 2, 2015 4:20 PM</modified_date>
+	<modified_date>Sep 9, 2015 9:19 PM</modified_date>
 	<profile>
 		<player_name>NPC/Melora</player_name>
 		<name>Arminder</name>
@@ -1322,7 +1322,7 @@ CTk4Pyb3LIzJ/wLbehedzn+pngAAAABJRU5ErkJggg==
 	<include_kick>true</include_kick>
 	<include_kick_with_boots>true</include_kick_with_boots>
 	<advantage_list>
-		<advantage_container version="2" open="no">
+		<advantage_container version="2" open="yes">
 			<name>Animal Ally Meta-Trait</name>
 			<advantage version="2">
 				<name>Wealth</name>
@@ -1705,7 +1705,7 @@ CTk4Pyb3LIzJ/wLbehedzn+pngAAAABJRU5ErkJggg==
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage_container version="2" open="no">
+		<advantage_container version="2" open="yes">
 			<name>Timber Wolf</name>
 			<advantage_container version="2" open="no" type="meta trait">
 				<name>Meta-Trait: Quadruped</name>
