@@ -1,0 +1,265 @@
+<html>
+
+<head>
+    <title>@NAME</title>
+            <style type="text/css" title="text/css">
+        	/* <![CDATA[ */
+        	body
+        	{
+        		color: black;
+        		background-color: white;
+        		font: normal 7pt/9pt 'Lucida Sans','Arial',sans-serif;
+        		margin: 4pt;
+        	}
+        	table, tbody, tr, td
+        	{
+        		margin: 0;
+        		border-spacing: 0;
+        		border-collapse: collapse;
+        		font: normal 7pt/9pt 'Lucida Sans','Arial',sans-serif;
+        	}
+
+        	table, tbody, tr { padding: 0; }
+
+        	td
+        	{
+        		padding: 1pt 1pt 0 1pt;
+        		vertical-align: top;
+        		white-space: nowrap;
+        	}
+
+        	.note
+        	{
+        		font: normal 6pt/8pt 'Lucida Sans','Arial',sans-serif;
+        		color: gray;
+        		display: block-inline;
+        		white-space: normal;
+        	}
+
+        	.primary { display: block; font-weight:bold; }
+            .secondary { display: block; text-size:smaller; font-style:italics;}
+        	.top_info { margin: 0; }
+        	.list, .info { margin: 2pt 0 0 0; }
+
+        	.list, .info, .top_info
+        	{
+        		width: 100%;
+        		border: 1pt solid black;
+        	}
+
+        	#advantages { width: 100%; }
+        	#skills { width: 100%; }
+        	#spells, #melee_weapons, #ranged_weapons, #equipment, #notes, #copyright { width: 540pt; }
+
+        	.list td { border: 1pt solid black; }
+            .list td.title { border: 1pt solid silver; }
+        	.odd { background-color: #FFF; }
+        	.even { background-color: #E8FFE8; }
+        	#encumbrance_move_dodge td, #hit_location td, #description td.label { border-left: 1pt solid black; }
+        	#copyright {
+        		color: gray;
+         		font: italic 7pt/9pt 'Lucida Sans','Arial',sans-serif;
+         		text-align: center;
+         		white-space: normal;
+         		margin: 4pt;
+        	}
+        	.top_border { border-top: 1pt solid black; }
+
+        	.title
+        	{
+        		border: 1pt solid silver;
+        		background-color: black;
+        		color: white;
+        		text-align: center;
+        	}
+
+        	.description, .value, .rvalue, .natural_damage { width: 100%; }
+        	.quantity, .cost, .weight, .cost_summary, .weight_summary, .ref, .level, .accuracy, .damage, .range, .rof, .shots, .bulk, .recoil, .strength, .block, .reach, .points, .spell_level, .relative_spell_level, .skill_level, .relative_skill_level, .rvalue { text-align: right; }
+        	.state, .parry, .natural_damage { text-align: center; }
+
+        	.wrapper
+        	{
+        		width: 3.5in;
+        		border: 1px solid black;
+        	}
+
+        	.wrapper > tbody > tr > td { padding: 0; }
+        	.spacer { width: 2pt; }
+        	.rowspacer1 { padding: 1pt 0 0 0; }
+        	.rowspacer2 { padding: 2pt 0 0 0; }
+        	.rowspacer3 { padding: 3pt 0 0 0; }
+        	.rowspacer4 { padding: 4pt 0 0 0; }
+        	.rowspacer5 { padding: 5pt 0 0 0; }
+
+        	.clabel { text-align: center; }
+        	.label { text-align: right; }
+
+        	.label, .clabel
+        	{
+        		color: gray;
+        		background-color: inherit;
+        	}
+
+        	.encumbrance
+        	{
+        		background-color: #FCF2C4;
+        		color: inherit;
+        	}
+
+        	#portrait
+        	{
+        		width: 60pt;
+        		height: 80pt;
+        	}
+
+        	td.portrait { width: 60pt; }
+
+        	td.portrait_cell
+        	{
+        		padding: 0;
+        		background-color: white;
+				align-items: center;
+        	}
+            #attributes { width: 100%; }
+            #description { width: 100%; }
+            #status-tracking { width: 100%; }
+            .primary-label { background-color: #E8FFE8; }
+            .primary-value { background-color: #E8FFE8; }
+
+        	/* ]]> */
+</style>
+</style>
+</head>
+<body>
+<table class="wrapper">
+	<tbody>
+        <tr>
+            <td class="title" class="name">@NAME: @RACE @TITLE [@TOTAL_POINTS]</td>
+        </tr>
+        <tr>
+            <td>
+                <table class="list" id="attributes">
+					<tbody>
+                        <tr>
+                            <td class="title" colspan="6">Attributes [@ATTRIBUTE_POINTS]</td>
+                            <td class="title" colspan="4">Description</td>
+                            <td class="title" colspan="1">Picture</td>
+                        </tr>
+                        <tr>
+                            <td class="title" colspan="2">Primary</td>
+                            <td class="title" colspan="2">Secondary</td>
+                            <td class="title" colspan="2">Additional</td>
+                            <td class="title" colspan="2">Identity</td>
+                            <td class="title" colspan="2">Appearance</td>
+                            <td class="portrait_cell" rowspan="5">
+                                <img id="portrait" src="@PORTRAIT" alt="Portrait"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="primary-label">ST</td>    <td class="primary-value">@ST</td>
+                            <td class="label">Per</td>   <td class="value">@PERCEPTION</td>
+                            <td class="label">Thr</td>   <td class="value">@THRUST</td>
+                            <td class="label">Religion</td> <td class="value">@RELIGION</td>
+                            <td class="label">Height</td> <td class="value">@HEIGHT</td>
+                        </tr>
+                        <tr>
+                            <td class="primary-label">DX</td>    <td class="primary-value">@DX</td>
+                            <td class="label">Will</td>  <td class="value">@WILL</td>
+                            <td class="label">Sw</td>    <td class="value">@SWING</td>
+                            <td class="label">Age</td> <td class="value">@AGE</td>
+                            <td class="label">Weight</td> <td class="value">@WEIGHT</td>
+                        </tr>
+                        <tr>
+                            <td class="primary-label">IQ</td>    <td class="primary-value">@IQ</td>
+                            <td class="label">Speed</td> <td class="value">@BASIC_SPEED</td>
+                            <td class="label">DR</td>    <td class="value">&nbsp;</td>
+                            <td class="label">Sex</td> <td class="value">@GENDER</td>
+                            <td class="label">Hair</td> <td class="value">@HAIR</td>
+                        </tr>
+                        <tr>
+                            <td class="primary-label">HT</td>    <td class="primary-value">@HT</td>
+                            <td class="label">Move</td>  <td class="value">@BASIC_MOVE</td>
+                            <td class="label">Size</td>  <td class="value">@SIZE</td>
+                            <td class="label">Skin</td> <td class="value">@SKIN</td>
+                            <td class="label">Eyes</td> <td class="value">@EYES</td>
+                        </tr>
+                        <tr>
+                            <td class="title" colspan="11">Status Tracking</td>
+                        </tr>
+                        <tr>
+                            <td class="primary-label">FP</td>
+                            <td class="primary-value" colspan="2">Total: @BASIC_FP</td>
+                            <td colspan="8">Current:</td>
+                        </tr>
+                        <tr>
+                            <td class="primary-label">HP</td>
+                            <td class="primary-value" colspan="2">Total: @BASIC_HP</td>
+                            <td colspan="8">Current:</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <!--
+        <tr>
+            <td class="title" colspan="11">Notes</td>
+        </tr>
+        <tr>
+            <td id="notes" colspan="11">@NOTES</td>
+        </tr>
+        -->
+        <tr>
+            <td>
+                <table class="list" id="advantages">
+                    <tbody>
+                        <tr>
+                            <td class="title" colspan="2">Advantages &amp; Disadvantages [@ADVANTAGE_POINTS]</td>
+                        </tr>
+                        <tr>
+                            <td class="title">Name</td>
+                            <td class="title">Points</td>
+                        </tr>
+                        @ADVANTAGES_LOOP_START
+                        <tr class="@EVEN_ODD">
+                            <td>
+                                <span class="primary">@DESCRIPTION_PRIMARY</span>
+                                <span class="secondary">@DESCRIPTION_MODIFIER_NOTES_PAREN</span>
+                            </td>
+                            <td>
+                                [@POINTS]
+                            </td>
+                        </tr>
+                        @ADVANTAGES_LOOP_END
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="list" id="skills">
+                    <tbody>
+                        <tr>
+                            <td class="title" colspan="4">Skills [@SKILL_POINTS]</td>
+                        </tr>
+                        <tr>
+                            <td class="title">Name</td>
+                            <td class="title">SL</td>
+                            <td class="title">RSL</td>
+                            <td class="title">Pts</td>
+                        </tr>
+                        @SKILLS_LOOP_START
+                        <tr class="@EVEN_ODD">
+                            <td>@DESCRIPTION_PRIMARY @DESCRIPTION_NOTES_PAREN</td>
+                            <td>@SL</td>
+                            <td>(@RSL)</td>
+                            <td>[@POINTS]</td>
+                        </tr>
+                        @SKILLS_LOOP_END
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+	</tbody>
+</table>
+</body>
+</html>
