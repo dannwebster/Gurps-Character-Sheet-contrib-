@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="ijdrnlrg:13404hmpuf2o8" version="2">
 	<created_date>Jan 13, 2016</created_date>
-	<modified_date>Jan 13, 2016 8:39 PM</modified_date>
+	<modified_date>Jan 16, 2016 10:45 AM</modified_date>
 	<profile>
 		<player_name>dwebster</player_name>
 		<campaign>Quadarc</campaign>
@@ -18,25 +18,9 @@
 		<gender>Male</gender>
 		<race>Human</race>
 		<tech_level>3</tech_level>
-		<notes>The bizarre insect men live solely underground, near the border
-between Zarak and the Great Desert. To date, only a few dwarves know
-they are more than just large bugs. The Zarakun of Ginnrel consider
-them a major threat and are trying to wipe them out. Doing so, however,
-is proving difficult.
-  Insect men are probably native to Gabrook, though no one is certain.
-They could just be a mutation of Yrth insects, affected by the intense
-magical &#8220;fallout&#8221; from the Banestorm in this area. This would explain
-why they only began appearing in the past decade. They are currently
-TL2; they&#8217;ve apparently learned a lot from their enemies in a short time.
-Insect men are roughly the same size and shape as humans. They
-have hard, chitinous, bronze-colored skin, faceted black eyes, and long
-antennae. Like ants, they have different castes. Insect men proper are the
-intelligent guides for the colony; the taller, brawnier, four-armed insect
-warriors are servants and fighters. Both types are sexless; breeding is
-done by the queen and her consorts, neither of which are intelligent.
-  Many insect men and warriors have the quirk Secretive, and for some
-it is outright Paranoia. Very few lack any of the racial disadvantages;
-GMs should emphasize the resulting weird behavior.</notes>
+		<notes>Depends on Insect Man leader to use weapons. If insect man is around, it will make Attack maneuvers each turn, using both clubs for 2d+1 damage, and block with a shield.
+
+If no Insect Man is around, they will drop their clubs, and All-Out-Attack (Determined) for a +4 to skill to grapple, then bite with their mandibles.</notes>
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
@@ -274,6 +258,7 @@ GMs should emphasize the resulting weird behavior.</notes>
 					<reference>B53</reference>
 				</modifier>
 				<reference>B53</reference>
+				<notes>+4 to grapple or break free, +3 to pin or resist pinning</notes>
 				<categories>
 					<category>Advantage</category>
 				</categories>
@@ -442,8 +427,251 @@ GMs should emphasize the resulting weird behavior.</notes>
 				<name>Sterility</name>
 				<type>Physical</type>
 			</advantage>
+			<advantage version="2">
+				<name>Affliction</name>
+				<type>Physical, Exotic</type>
+				<levels>2</levels>
+				<points_per_level>10</points_per_level>
+				<modifier version="1">
+					<name>Moderate Pain</name>
+					<cost type="percentage">20</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1">
+					<name>Follow-Up (bite)</name>
+					<cost type="percentage">0</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1">
+					<name>Blood Agent</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>B35</reference>
+				<notes>Venomous Bite (-2 to DX/IQ for minute of failure)</notes>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Teeth, Sharp (Mandibles)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<melee_weapon>
+					<damage>thr-1 cut</damage>
+					<usage>Bite</usage>
+					<reach>C</reach>
+					<parry>No</parry>
+					<block>No</block>
+					<default>
+						<type>Skill</type>
+						<name>Brawling</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>DX</type>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<reference>B91</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Fragile (Brittle)</name>
+				<type>Physical, Exotic</type>
+				<base_points>-15</base_points>
+				<reference>B136</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
 		</advantage_container>
 	</advantage_list>
+	<skill_list>
+		<skill version="2">
+			<name>Axe/Mace</name>
+			<difficulty>DX/A</difficulty>
+			<points>8</points>
+			<reference>B208</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Two-Handed Axe/Mace</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Flail</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Brawling</name>
+			<difficulty>DX/E</difficulty>
+			<points>4</points>
+			<reference>B182</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<weapon_bonus>
+				<name compare="is">Brawling</name>
+				<specialization compare="is anything"></specialization>
+				<level compare="at least">2</level>
+				<amount per_level="yes">1</amount>
+			</weapon_bonus>
+		</skill>
+		<skill version="2">
+			<name>Wrestling</name>
+			<difficulty>DX/A</difficulty>
+			<points>8</points>
+			<reference>B228</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+		</skill>
+		<skill version="2">
+			<name>Shield</name>
+			<specialization>Shield</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>4</points>
+			<reference>B220</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+	</skill_list>
+	<equipment_list>
+		<equipment version="3" state="equipped">
+			<quantity>2</quantity>
+			<description>Small Mace</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>35</value>
+			<weight>3 lb</weight>
+			<reference>B271</reference>
+			<melee_weapon>
+				<damage>sw+2 cr</damage>
+				<strength>10</strength>
+				<usage>Swung</usage>
+				<reach>1</reach>
+				<parry>0U</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Axe/Mace</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Flail</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Two-Handed Axe/Mace</name>
+					<modifier>-3</modifier>
+				</default>
+			</melee_weapon>
+			<ranged_weapon>
+				<damage>sw+2 cr</damage>
+				<strength>10</strength>
+				<usage>Thrown</usage>
+				<accuracy>1</accuracy>
+				<range>x1/x1.5</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>T(1)</shots>
+				<bulk>-3</bulk>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Thrown Weapon</name>
+					<specialization>Axe/Mace</specialization>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Melee Weapon</category>
+				<category>Missile Weapon</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Medium Shield</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>60</value>
+			<weight>15 lb</weight>
+			<reference>B287</reference>
+			<melee_weapon>
+				<damage>thr cr</damage>
+				<strength>0</strength>
+				<usage>Shield Bash</usage>
+				<reach>1</reach>
+				<parry>No</parry>
+				<block>+0</block>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<specialization>Buckler</specialization>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<specialization>Force Shield</specialization>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<specialization>Shield</specialization>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<categories>
+				<category>Shield</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>block</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+		</equipment>
+	</equipment_list>
 	<print_settings printer="Photosmart C4700 series" units="in">
 		<orientation>portrait</orientation>
 		<width>8.5</width>
