@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="ebdb301e-a395-43dd-8a2e-3042f10301cd" version="2">
 	<created_date>Sep 25, 2016</created_date>
-	<modified_date>Sep 25, 2016 6:49 PM</modified_date>
+	<modified_date>Sep 25, 2016 6:51 PM</modified_date>
 	<profile>
 		<player_name>dwebster</player_name>
 		<campaign>Dark Borders</campaign>
@@ -1305,6 +1305,55 @@ TzKV/z/dDDRXpvR/tave/82+5v/3A9tBByKc/x8DJiIAN+2ypECaPq0AAAAASUVORK5CYII=
 	<include_punch>true</include_punch>
 	<include_kick>true</include_kick>
 	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage version="2">
+			<name>Resistant</name>
+			<type>Physical</type>
+			<modifier version="1">
+				<name>Annunaki Programming</name>
+				<cost type="points">30</cost>
+				<affects>total</affects>
+				<reference>B80</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Common: Poison, Sickness, etc.@</name>
+				<cost type="points">15</cost>
+				<affects>total</affects>
+				<reference>B81</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Occasional: Disease, Ingested Poison, etc.@</name>
+				<cost type="points">10</cost>
+				<affects>total</affects>
+				<reference>B81</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@</name>
+				<cost type="points">5</cost>
+				<affects>total</affects>
+				<reference>B81</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Immunity</name>
+				<cost type="multiplier">1</cost>
+				<reference>B81</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>+8 to all HT rolls to resist</name>
+				<cost type="multiplier">0.5</cost>
+				<reference>B81</reference>
+			</modifier>
+			<modifier version="1">
+				<name>+3 to all HT rolls to resist</name>
+				<cost type="multiplier">0.33</cost>
+				<reference>B81</reference>
+			</modifier>
+			<reference>B81</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+	</advantage_list>
 	<print_settings printer="Photosmart C4700 series" units="in">
 		<orientation>portrait</orientation>
 		<width>8.5</width>
