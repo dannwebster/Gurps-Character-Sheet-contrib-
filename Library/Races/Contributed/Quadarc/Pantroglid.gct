@@ -2,7 +2,7 @@
 <template unique_id="i678hgcy:15skkosqo6n5p" version="1">
 	<advantage_list>
 		<advantage_container version="2" open="yes" type="race">
-			<name>Pantroglid</name>
+			<name>Race: Pantroglid</name>
 			<advantage version="2">
 				<name>Increased Strength</name>
 				<type>Physical</type>

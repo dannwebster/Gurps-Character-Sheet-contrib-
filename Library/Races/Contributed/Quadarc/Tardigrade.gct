@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template unique_id="ijryftvc:-6s9rhsfmosph" version="1">
+	<advantage_list>
+		<advantage_container version="2" open="yes" type="race">
+			<name>Race: Tardigrade</name>
+			<advantage version="2">
+				<name>Decreased Dexterity</name>
+				<type>Physical</type>
+				<levels>1</levels>
+				<points_per_level>-20</points_per_level>
+				<reference>B15</reference>
+				<categories>
+					<category>Attribute</category>
+					<category>Disadvantage</category>
+				</categories>
+				<attribute_bonus>
+					<attribute>dx</attribute>
+					<amount per_level="yes">-1</amount>
+				</attribute_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Decreased Intelligence</name>
+				<type>Mental</type>
+				<levels>1</levels>
+				<points_per_level>-20</points_per_level>
+				<reference>B15</reference>
+				<categories>
+					<category>Attribute</category>
+					<category>Disadvantage</category>
+				</categories>
+				<attribute_bonus>
+					<attribute>iq</attribute>
+					<amount per_level="yes">-1</amount>
+				</attribute_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Hidebound</name>
+				<type>Mental</type>
+				<base_points>-5</base_points>
+				<reference>B138</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Unusual Biochemistry</name>
+				<type>Physical</type>
+				<base_points>-5</base_points>
+				<reference>B160</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Extra Hit Points</name>
+				<type>Physical</type>
+				<levels>1</levels>
+				<points_per_level>2</points_per_level>
+				<modifier version="1">
+					<name>Size</name>
+					<cost type="percentage">-10</cost>
+					<levels>1</levels>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>No Fine Manipulators</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>B16</reference>
+				<categories>
+					<category>Advantage</category>
+					<category>Attribute</category>
+				</categories>
+				<attribute_bonus>
+					<attribute>hp</attribute>
+					<amount per_level="yes">1</amount>
+				</attribute_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Damage Resistance</name>
+				<type>Physical, Exotic</type>
+				<levels>1</levels>
+				<points_per_level>5</points_per_level>
+				<modifier version="1" enabled="no">
+					<name>Force Field</name>
+					<cost type="percentage">20</cost>
+					<affects>total</affects>
+					<reference>B47</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Hardened</name>
+					<cost type="percentage">20</cost>
+					<levels>1</levels>
+					<affects>total</affects>
+					<reference>B47</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Absorption</name>
+					<cost type="percentage">80</cost>
+					<affects>total</affects>
+					<reference>B46</reference>
+					<notes>Enhances @Trait@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Absorption</name>
+					<cost type="percentage">80</cost>
+					<affects>total</affects>
+					<reference>B46</reference>
+					<notes>Healing only</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Absorption</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>B46</reference>
+					<notes>Enhances any trait</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Reflection</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>B47</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Bane</name>
+					<cost type="points">-1</cost>
+					<affects>total</affects>
+					<reference>H14</reference>
+					<notes>@Rare@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Bane</name>
+					<cost type="percentage">-5</cost>
+					<affects>total</affects>
+					<reference>H14</reference>
+					<notes>@Occasional@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Bane</name>
+					<cost type="percentage">-10</cost>
+					<affects>total</affects>
+					<reference>H14</reference>
+					<notes>@Common@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Bane</name>
+					<cost type="percentage">-15</cost>
+					<affects>total</affects>
+					<reference>H14</reference>
+					<notes>@Very Common@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Directional</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+					<reference>B47</reference>
+					<notes>Front</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Flexible</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+					<reference>B47</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Limited</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+					<reference>B46</reference>
+					<notes>@Very Common Attack Form@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Semi-Ablative</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+					<reference>B47</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Can't wear armor</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+					<reference>B47</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Directional</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+					<reference>B47</reference>
+					<notes>@Direction: Back, Right, Left, Top or Underside@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Limited</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+					<reference>B46</reference>
+					<notes>@Common Attack Form@</notes>
+				</modifier>
+				<modifier version="1">
+					<name>Tough Skin</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+					<notes>Effects that just require skin contact or a scratch ignore this DR</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Limited</name>
+					<cost type="percentage">-60</cost>
+					<affects>total</affects>
+					<reference>B46</reference>
+					<notes>@Occasional Attack Form@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Ablative</name>
+					<cost type="percentage">-80</cost>
+					<affects>total</affects>
+					<reference>B47</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Limited</name>
+					<cost type="percentage">-80</cost>
+					<affects>total</affects>
+					<reference>B46</reference>
+					<notes>@Rare Attack Form@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Laminate</name>
+					<cost type="percentage">10</cost>
+					<affects>total</affects>
+					<reference>RSWL18</reference>
+				</modifier>
+				<reference>B47</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+				<dr_bonus>
+					<location>full body</location>
+					<amount per_level="yes">1</amount>
+				</dr_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Injury Tolerance (No Neck)</name>
+				<type>Physical, Exotic</type>
+				<base_points>5</base_points>
+				<reference>B61</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Injury Tolerance (No Vitals)</name>
+				<type>Physical, Exotic</type>
+				<base_points>5</base_points>
+				<reference>B61</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Amphibious</name>
+				<type>Physical, Exotic</type>
+				<base_points>10</base_points>
+				<reference>B40</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Extra Legs</name>
+				<type>Physical, Exotic</type>
+				<modifier version="1" enabled="no">
+					<name>@3 or 4@</name>
+					<cost type="points">5</cost>
+					<affects>total</affects>
+					<reference>B54</reference>
+				</modifier>
+				<modifier version="1">
+					<name>6</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B55</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@7+@</name>
+					<cost type="points">15</cost>
+					<affects>total</affects>
+					<reference>B55</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Long</name>
+					<cost type="percentage">100</cost>
+					<levels>1</levels>
+					<affects>total</affects>
+					<reference>B55</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Cannot Kick</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B55</reference>
+				</modifier>
+				<reference>B54</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Resistant</name>
+				<type>Physical</type>
+				<modifier version="1">
+					<name>Metabolic Hazards</name>
+					<cost type="points">30</cost>
+					<affects>total</affects>
+					<reference>B80</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Common: Poison, Sickness, etc.@</name>
+					<cost type="points">15</cost>
+					<affects>total</affects>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Occasional: Disease, Ingested Poison, etc.@</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@</name>
+					<cost type="points">5</cost>
+					<affects>total</affects>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Immunity</name>
+					<cost type="multiplier">1</cost>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>+8 to all HT rolls to resist</name>
+					<cost type="multiplier">0.5</cost>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>+3 to all HT rolls to resist</name>
+					<cost type="multiplier">0.33</cost>
+					<reference>B81</reference>
+				</modifier>
+				<reference>B81</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Increased Strength</name>
+				<type>Physical</type>
+				<levels>5</levels>
+				<points_per_level>10</points_per_level>
+				<modifier version="1" enabled="no">
+					<name>No Fine Manipulators</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+					<reference>B15</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Size</name>
+					<cost type="percentage">-10</cost>
+					<levels>1</levels>
+					<affects>total</affects>
+					<reference>B15</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Super-Effort</name>
+					<cost type="percentage">300</cost>
+					<affects>total</affects>
+					<reference>SU24</reference>
+				</modifier>
+				<reference>B14</reference>
+				<categories>
+					<category>Advantage</category>
+					<category>Attribute</category>
+				</categories>
+				<attribute_bonus>
+					<attribute>st</attribute>
+					<amount per_level="yes">1</amount>
+				</attribute_bonus>
+			</advantage>
+		</advantage_container>
+	</advantage_list>
+</template>

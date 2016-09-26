@@ -2,7 +2,7 @@
 <template unique_id="faee8i36:-saqienx3whib" version="1">
 	<advantage_list>
 		<advantage_container version="2" open="yes" type="race">
-			<name>Insect Man</name>
+			<name>Race: Insect Man</name>
 			<advantage version="2">
 				<name>Increased Strength</name>
 				<type>Physical</type>

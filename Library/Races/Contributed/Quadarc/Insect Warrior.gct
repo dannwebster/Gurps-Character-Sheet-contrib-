@@ -2,7 +2,7 @@
 <template unique_id="faeet2nr:-n838e5y1holj" version="1">
 	<advantage_list>
 		<advantage_container version="2" open="yes" type="race">
-			<name>Insect Warrior</name>
+			<name>Race: Insect Warrior</name>
 			<advantage version="2">
 				<name>Increased Strength</name>
 				<type>Physical</type>

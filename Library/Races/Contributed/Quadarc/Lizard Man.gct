@@ -2,7 +2,7 @@
 <template unique_id="fczoepqw:f5neojypui04" version="1">
 	<advantage_list>
 		<advantage_container version="2" open="yes" type="race">
-			<name>Lizard Man</name>
+			<name>Race: Reptalox</name>
 			<reference>DF3:15</reference>
 			<advantage version="2">
 				<name>Increased Strength</name>
@@ -258,7 +258,7 @@
 					<category>Advantage</category>
 				</categories>
 				<dr_bonus>
-					<location>full_body_except_eyes</location>
+					<location>full body except eyes</location>
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>

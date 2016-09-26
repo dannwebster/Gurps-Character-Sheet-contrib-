@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template id="376fd540-804f-4db6-a4b7-cf70b8fe46c2" version="1">
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Irruptor Meta Trait</name>
+			<advantage version="2">
+				<name>Appearance</name>
+				<type>Physical</type>
+				<modifier version="1" enabled="no">
+					<name>Universal</name>
+					<cost type="percentage">25</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Off-the-Shelf Looks</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Androgynous</name>
+					<cost type="points">0</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Impressive</name>
+					<cost type="points">0</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Attractive</name>
+					<cost type="points">4</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Average</name>
+					<cost type="points">0</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Horrific</name>
+					<cost type="points">-24</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1">
+					<name>Monstrous</name>
+					<cost type="points">-20</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Hideous</name>
+					<cost type="points">-16</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Ugly</name>
+					<cost type="points">-8</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Unattractive</name>
+					<cost type="points">-4</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Handsome</name>
+					<cost type="points">12</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Beautiful</name>
+					<cost type="points">12</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Very Handsome</name>
+					<cost type="points">16</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Very Beautiful</name>
+					<cost type="points">16</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Transcendent</name>
+					<cost type="points">20</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>B21</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Sadism</name>
+				<type>Mental</type>
+				<base_points>-15</base_points>
+				<cr>12</cr>
+				<reference>B152</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Sense of Duty</name>
+				<type>Mental</type>
+				<modifier version="1" enabled="no">
+					<name>Friends and Companions</name>
+					<cost type="points">-5</cost>
+					<affects>total</affects>
+					<reference>B153</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Small Group@</name>
+					<cost type="points">-5</cost>
+					<affects>total</affects>
+					<reference>B153</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Individual@</name>
+					<cost type="points">-2</cost>
+					<affects>total</affects>
+					<reference>B153</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Large Group@</name>
+					<cost type="points">-10</cost>
+					<affects>total</affects>
+					<reference>B153</reference>
+				</modifier>
+				<modifier version="1">
+					<name>History B</name>
+					<cost type="points">-15</cost>
+					<affects>total</affects>
+					<reference>B153</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Every Living Being</name>
+					<cost type="points">-20</cost>
+					<affects>total</affects>
+					<reference>B153</reference>
+				</modifier>
+				<reference>B153</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Weirdness Magnet</name>
+				<type>Mental, Supernatural</type>
+				<base_points>-15</base_points>
+				<modifier version="1" enabled="no">
+					<name>Origins Magnet</name>
+					<cost type="percentage">0</cost>
+					<affects>total</affects>
+					<reference>SU32</reference>
+				</modifier>
+				<reference>B161</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>No Sense of Humor</name>
+				<type>Physical</type>
+				<base_points>-10</base_points>
+				<reference>B146</reference>
+				<notes>-2 Reaction</notes>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Callous</name>
+				<type>Mental</type>
+				<base_points>-5</base_points>
+				<reference>B125</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+				<skill_bonus>
+					<name compare="is">psychology</name>
+					<specialization compare="is anything"></specialization>
+					<amount>-3</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">teaching</name>
+					<specialization compare="is anything"></specialization>
+					<amount>-3</amount>
+				</skill_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Recovery</name>
+				<type>Physical, Exotic</type>
+				<base_points>10</base_points>
+				<reference>B80</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Subsonic Speech</name>
+				<type>Physical, Exotic</type>
+				<base_points>10</base_points>
+				<modifier version="1" enabled="no">
+					<name>No normal speech</name>
+					<cost type="points">-10</cost>
+					<affects>total</affects>
+					<reference>B89</reference>
+				</modifier>
+				<reference>B89</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Resistant</name>
+				<type>Physical</type>
+				<modifier version="1">
+					<name>Human Psi</name>
+					<cost type="points">30</cost>
+					<affects>total</affects>
+					<reference>B80</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Common: Poison, Sickness, etc.@</name>
+					<cost type="points">15</cost>
+					<affects>total</affects>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Occasional: Disease, Ingested Poison, etc.@</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@</name>
+					<cost type="points">5</cost>
+					<affects>total</affects>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Immunity</name>
+					<cost type="multiplier">1</cost>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1">
+					<name>+8 to all HT rolls to resist</name>
+					<cost type="multiplier">0.5</cost>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>+3 to all HT rolls to resist</name>
+					<cost type="multiplier">0.33</cost>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Human Psi Only</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>B81</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Resistant</name>
+				<type>Physical</type>
+				<modifier version="1">
+					<name>Annunaki Programming</name>
+					<cost type="points">30</cost>
+					<affects>total</affects>
+					<reference>B80</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Common: Poison, Sickness, etc.@</name>
+					<cost type="points">15</cost>
+					<affects>total</affects>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Occasional: Disease, Ingested Poison, etc.@</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@</name>
+					<cost type="points">5</cost>
+					<affects>total</affects>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Immunity</name>
+					<cost type="multiplier">1</cost>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>+8 to all HT rolls to resist</name>
+					<cost type="multiplier">0.5</cost>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>+3 to all HT rolls to resist</name>
+					<cost type="multiplier">0.33</cost>
+					<reference>B81</reference>
+				</modifier>
+				<reference>B81</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Detect</name>
+				<type>Mental/Physical, Exotic</type>
+				<modifier version="1" enabled="no">
+					<name>@Rare Substance/Condition@</name>
+					<cost type="points">5</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Occasional Substance/Condition@</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1">
+					<name>History B</name>
+					<cost type="points">20</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Very Common Substance/Condition@</name>
+					<cost type="points">30</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Precise</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Signal Detection</name>
+					<cost type="percentage">0</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Vague</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Analyzing</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>P47</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Irruptor Psi</name>
+					<cost type="percentage">-10</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>B48</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+	</advantage_list>
+	<skill_list>
+		<skill_container version="2" open="yes">
+			<name>Irruptor Meta Trait</name>
+			<skill version="2">
+				<name>Hidden Lore</name>
+				<specialization>History B</specialization>
+				<difficulty>IQ/A</difficulty>
+				<points>2</points>
+				<reference>B199</reference>
+				<categories>
+					<category>Knowledge</category>
+				</categories>
+			</skill>
+		</skill_container>
+	</skill_list>
+</template>
