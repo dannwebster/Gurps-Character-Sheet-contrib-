@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="0d1e63db-4469-4376-93ae-409deea497da" version="3">
 	<created_date>Jan 15, 2017</created_date>
-	<modified_date>Feb 13, 2017 11:21 PM</modified_date>
+	<modified_date>Feb 20, 2017 11:38 AM</modified_date>
 	<profile>
 		<player_name>Tinsley Webster</player_name>
 		<campaign>Harmony of the Spheres</campaign>
@@ -1176,14 +1176,14 @@ bHntZ7LyPOXeUfxfltOBCdnhmVgAAAAASUVORK5CYII=
 		</portrait>
 	</profile>
 	<HP>1</HP>
-	<FP>0</FP>
-	<total_points>300</total_points>
+	<FP>-1</FP>
+	<total_points>350</total_points>
 	<ST>10</ST>
 	<DX>12</DX>
-	<IQ>15</IQ>
+	<IQ>14</IQ>
 	<HT>12</HT>
-	<will>0</will>
-	<perception>0</perception>
+	<will>4</will>
+	<perception>2</perception>
 	<speed>-3</speed>
 	<move>0</move>
 	<include_punch>true</include_punch>
@@ -1784,7 +1784,7 @@ bHntZ7LyPOXeUfxfltOBCdnhmVgAAAAASUVORK5CYII=
 		<advantage_container version="2" open="yes">
 			<name>Powers</name>
 			<modifier version="1">
-				<name>Ethereal Sphere</name>
+				<name>Empathic Sphere</name>
 				<cost type="percentage">-10</cost>
 				<affects>total</affects>
 			</modifier>
@@ -1854,6 +1854,18 @@ bHntZ7LyPOXeUfxfltOBCdnhmVgAAAAASUVORK5CYII=
 					<cost type="percentage">50</cost>
 					<affects>total</affects>
 					<reference>P61</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Requires Will Roll</name>
+					<cost type="percentage">-5</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1">
+					<name>Costs Energy</name>
+					<cost type="percentage">-5</cost>
+					<levels>3</levels>
+					<affects>total</affects>
+					<notes>Costs 2 Will, Lasts for 1 minute</notes>
 				</modifier>
 				<reference>B68</reference>
 				<categories>
@@ -1959,6 +1971,26 @@ bHntZ7LyPOXeUfxfltOBCdnhmVgAAAAASUVORK5CYII=
 		</advantage_container>
 		<advantage_container version="2" open="yes">
 			<name>Advantages</name>
+			<advantage version="2">
+				<name>Unusual Background</name>
+				<type>Mental</type>
+				<base_points>30</base_points>
+				<reference>B96</reference>
+				<notes>Sphere Harmonics</notes>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Unusual Background</name>
+				<type>Mental</type>
+				<base_points>10</base_points>
+				<reference>B96</reference>
+				<notes>Empathic Affinity</notes>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
 			<advantage version="2">
 				<name>Absolute Timing</name>
 				<type>Mental</type>
@@ -2877,7 +2909,7 @@ bHntZ7LyPOXeUfxfltOBCdnhmVgAAAAASUVORK5CYII=
 			</default>
 		</skill>
 		<skill_container version="2" open="yes">
-			<name>Ethereal Sphere</name>
+			<name>Empathic Sphere</name>
 			<skill version="2">
 				<name>Musical Enthrallment</name>
 				<specialization>Captive</specialization>
@@ -3133,6 +3165,16 @@ bHntZ7LyPOXeUfxfltOBCdnhmVgAAAAASUVORK5CYII=
 			<categories>
 				<category>Knowledge</category>
 				<category>Occult/Magical</category>
+			</categories>
+		</skill>
+		<skill version="2">
+			<name>Hidden Lore</name>
+			<specialization>Spheres</specialization>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B199</reference>
+			<categories>
+				<category>Knowledge</category>
 			</categories>
 		</skill>
 		<skill version="2">
