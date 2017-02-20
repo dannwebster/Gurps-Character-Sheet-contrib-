@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="dd01bf03-7842-4416-a462-a476c4a9f9d4" version="2">
 	<created_date>Jun 18, 2016</created_date>
-	<modified_date>Sep 18, 2016 4:50 PM</modified_date>
+	<modified_date>Oct 30, 2016 5:03 PM</modified_date>
 	<profile>
 		<player_name>dwebster</player_name>
 		<campaign>Dark Borders</campaign>
@@ -945,9 +945,10 @@ odZuzdv/AkgmZJ0YXZjMAAAAAElFTkSuQmCC
 		</portrait>
 	</profile>
 	<HP>0</HP>
+	<current_hp>9</current_hp>
 	<FP>0</FP>
 	<current_fp>7</current_fp>
-	<total_points>357</total_points>
+	<total_points>363</total_points>
 	<ST>11</ST>
 	<DX>16</DX>
 	<IQ>13</IQ>
@@ -1974,6 +1975,19 @@ odZuzdv/AkgmZJ0YXZjMAAAAAElFTkSuQmCC
 	</advantage_list>
 	<skill_list>
 		<skill version="2">
+			<name>Acrobatics</name>
+			<difficulty>DX/H</difficulty>
+			<points>1</points>
+			<reference>B174</reference>
+			<categories>
+				<category>Athletic</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Acting</name>
 			<difficulty>IQ/A</difficulty>
 			<points>2</points>
@@ -2109,7 +2123,7 @@ odZuzdv/AkgmZJ0YXZjMAAAAAElFTkSuQmCC
 			<specialization>Automobile</specialization>
 			<tech_level>8</tech_level>
 			<difficulty>DX/A</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B188</reference>
 			<categories>
 				<category>Vehicle</category>
@@ -2641,7 +2655,7 @@ odZuzdv/AkgmZJ0YXZjMAAAAAElFTkSuQmCC
 		<skill version="2">
 			<name>Observation</name>
 			<difficulty>Per/A</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B211</reference>
 			<categories>
 				<category>Criminal/Street</category>
@@ -2657,6 +2671,29 @@ odZuzdv/AkgmZJ0YXZjMAAAAAElFTkSuQmCC
 				<type>Skill</type>
 				<name>Shadowing</name>
 				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Pickpocket</name>
+			<difficulty>DX/H</difficulty>
+			<points>1</points>
+			<reference>B213</reference>
+			<categories>
+				<category>Criminal/Street</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Filch</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Sleight of Hand</name>
+				<modifier>-4</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -2810,6 +2847,25 @@ odZuzdv/AkgmZJ0YXZjMAAAAAElFTkSuQmCC
 			<default>
 				<type>IQ</type>
 				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Tactics</name>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B224</reference>
+			<categories>
+				<category>Military</category>
+				<category>Police</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Strategy</name>
+				<modifier>-6</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -3455,6 +3511,109 @@ odZuzdv/AkgmZJ0YXZjMAAAAAElFTkSuQmCC
 				<category>Communicators</category>
 			</categories>
 		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Izhmash AK-74, 5.45x39mm</description>
+			<tech_level>7</tech_level>
+			<legality_class>2</legality_class>
+			<value>400</value>
+			<weight>9.1 lb</weight>
+			<reference>HT120</reference>
+			<ranged_weapon>
+				<damage>4d+2 pi</damage>
+				<strength>9&#8224;</strength>
+				<accuracy>4</accuracy>
+				<range>440/3,000</range>
+				<rate_of_fire>11</rate_of_fire>
+				<shots>30+1(3)</shots>
+				<bulk>-5</bulk>
+				<recoil>2</recoil>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Rifle</specialization>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Pistol</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Rifle</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Musket</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Shotgun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Machine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Submachine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Gun!</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Grenade Launcher</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Gyroc</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Anti-Armor Weapon</specialization>
+					<modifier>-4</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Firearms</category>
+			</categories>
+		</equipment>
+		<equipment_container version="3" open="yes" state="equipped">
+			<description>Medical Bed</description>
+			<tech_level>9</tech_level>
+			<legality_class>4</legality_class>
+			<value>10000</value>
+			<weight>100 lb</weight>
+			<reference>UT199</reference>
+			<notes>Can heal 100 HP: Has healed 10</notes>
+			<categories>
+				<category>Medical</category>
+			</categories>
+		</equipment_container>
 	</equipment_list>
 	<print_settings printer="Photosmart C4700 series" units="in">
 		<orientation>portrait</orientation>

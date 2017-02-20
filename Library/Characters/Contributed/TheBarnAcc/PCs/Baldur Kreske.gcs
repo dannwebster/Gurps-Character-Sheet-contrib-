@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character id="e2fc43b2-5b3e-42a5-8365-02bae9d83ad7" version="2">
+<character id="7b79cf9e-ef6a-49f5-be1f-04f9b1a28a66" version="2">
 	<created_date>Aug 22, 2016</created_date>
-	<modified_date>Aug 28, 2016 2:19 PM</modified_date>
+	<modified_date>Nov 5, 2016 2:15 PM</modified_date>
 	<profile>
 		<player_name>ajwebster</player_name>
-		<name>=</name>
+		<campaign>BarnAcc</campaign>
+		<name>Baldur Kreske</name>
+		<title>Courier</title>
 		<age>23</age>
 		<birthday>ML+7.11.18</birthday>
 		<eyes>Blue</eyes>
@@ -18,6 +20,7 @@
 		<race>Human</race>
 		<tech_level>9</tech_level>
 		<religion>none</religion>
+		<notes>skills to aquire:   Intel. analysis,</notes>
 		<!-- The portrait is a PNG file encoded as Base64. -->
 		<portrait>
 iVBORw0KGgoAAAANSUhEUgAAAJAAAADACAYAAADryOpPAACAAElEQVR42rS9d39b17UtSosSKXYS
@@ -1221,7 +1224,7 @@ rkJggg==
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
-	<total_points>250</total_points>
+	<total_points>254</total_points>
 	<ST>11</ST>
 	<DX>12</DX>
 	<IQ>14</IQ>
@@ -1234,6 +1237,378 @@ rkJggg==
 	<include_kick>true</include_kick>
 	<include_kick_with_boots>true</include_kick_with_boots>
 	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Advantages</name>
+			<advantage version="2">
+				<name>Absolute Direction</name>
+				<type>Mental/Physical</type>
+				<base_points>5</base_points>
+				<modifier version="1" enabled="no">
+					<name>Requires signal</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+					<reference>B34</reference>
+				</modifier>
+				<modifier version="1">
+					<name>3D Spatial Sense</name>
+					<cost type="points">5</cost>
+					<affects>total</affects>
+					<reference>B34</reference>
+					<skill_bonus>
+						<name compare="starts with">piloting</name>
+						<specialization compare="is anything"></specialization>
+						<amount>1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">aerobatics</name>
+						<specialization compare="is anything"></specialization>
+						<amount>2</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">free fall</name>
+						<specialization compare="is anything"></specialization>
+						<amount>2</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">navigation</name>
+						<specialization compare="is">hyperspace</specialization>
+						<amount>2</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">navigation</name>
+						<specialization compare="is">space</specialization>
+						<amount>2</amount>
+					</skill_bonus>
+				</modifier>
+				<reference>B34</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+				<skill_bonus>
+					<name compare="is">body sense</name>
+					<specialization compare="is anything"></specialization>
+					<amount>3</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">navigation</name>
+					<specialization compare="is">air</specialization>
+					<amount>3</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">navigation</name>
+					<specialization compare="is">land</specialization>
+					<amount>3</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">navigation</name>
+					<specialization compare="is">sea</specialization>
+					<amount>3</amount>
+				</skill_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Absolute Timing</name>
+				<type>Mental</type>
+				<base_points>2</base_points>
+				<modifier version="1" enabled="no">
+					<name>Chronolocation</name>
+					<cost type="points">3</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>B35</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Acrobatic Feints</name>
+				<type>Physical</type>
+				<base_points>1</base_points>
+				<reference>ACT3:15</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Acrobatic Kicks</name>
+				<type>Physical</type>
+				<base_points>1</base_points>
+				<reference>ACT3:15</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Catfall</name>
+				<type>Physical, Exotic</type>
+				<base_points>10</base_points>
+				<modifier version="1" enabled="no">
+					<name>Feather Fall</name>
+					<cost type="percentage">20</cost>
+					<affects>total</affects>
+					<reference>P43</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Parachute</name>
+					<cost type="percentage">-30</cost>
+					<affects>total</affects>
+					<reference>P43</reference>
+				</modifier>
+				<reference>B41</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Combat Reflexes</name>
+				<type>Mental</type>
+				<base_points>15</base_points>
+				<reference>B43</reference>
+				<notes>Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)</notes>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+				<skill_bonus>
+					<name compare="starts with">fast-draw</name>
+					<specialization compare="is anything"></specialization>
+					<amount>1</amount>
+				</skill_bonus>
+				<attribute_bonus>
+					<attribute>dodge</attribute>
+					<amount>1</amount>
+				</attribute_bonus>
+				<attribute_bonus>
+					<attribute>parry</attribute>
+					<amount>1</amount>
+				</attribute_bonus>
+				<attribute_bonus>
+					<attribute>block</attribute>
+					<amount>1</amount>
+				</attribute_bonus>
+				<attribute_bonus>
+					<attribute>fright check</attribute>
+					<amount>2</amount>
+				</attribute_bonus>
+				<prereq_list all="yes">
+					<advantage_prereq has="no">
+						<name compare="is">Enhanced Time Sense</name>
+						<notes compare="is anything"></notes>
+					</advantage_prereq>
+				</prereq_list>
+			</advantage>
+			<advantage version="2">
+				<name>Eidetic Memory</name>
+				<type>Mental</type>
+				<base_points>5</base_points>
+				<modifier version="1">
+					<name>Photographic</name>
+					<cost type="points">5</cost>
+					<affects>total</affects>
+					<reference>B51</reference>
+				</modifier>
+				<reference>B51</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Increased Basic Move</name>
+				<type>Physical</type>
+				<levels>2</levels>
+				<points_per_level>5</points_per_level>
+				<reference>B17</reference>
+				<categories>
+					<category>Advantage</category>
+					<category>Attribute</category>
+				</categories>
+				<attribute_bonus>
+					<attribute>move</attribute>
+					<amount per_level="yes">1</amount>
+				</attribute_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Luck</name>
+				<type>Mental</type>
+				<base_points>15</base_points>
+				<modifier version="1" enabled="no">
+					<name>Active</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+					<reference>B66</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Aspected</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+					<reference>B66</reference>
+					<notes>@Aspect@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Defensive</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+					<reference>B66</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Wishing</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>P59</reference>
+				</modifier>
+				<reference>B66</reference>
+				<notes>Usable once per hour of play</notes>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+				<prereq_list all="yes">
+					<advantage_prereq has="no">
+						<name compare="starts with">Luck</name>
+						<notes compare="is anything"></notes>
+					</advantage_prereq>
+				</prereq_list>
+			</advantage>
+			<advantage version="2">
+				<name>Patron</name>
+				<type>Social</type>
+				<modifier version="1" enabled="no">
+					<name>@Who: Individual with 150% of PC's starting points@</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: Organization with assets of at least 1000 times starting wealth@</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: Individual with twice the PC's starting points@</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: Organization with assets of at least 10000 times starting wealth@</name>
+					<cost type="points">15</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: An ultra-powerful individual@</name>
+					<cost type="points">20</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: Organization with assets of at least 100000 times starting wealth@</name>
+					<cost type="points">20</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: Organization with assets of at least 1000000 times starting wealth@</name>
+					<cost type="points">25</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Marathon Leadership</name>
+					<cost type="points">30</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: A diety@</name>
+					<cost type="points">30</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Appears almost all the time</name>
+					<cost type="multiplier">3</cost>
+					<reference>B36</reference>
+					<notes>15-</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Appears quite often</name>
+					<cost type="multiplier">2</cost>
+					<reference>B36</reference>
+					<notes>12-</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Appears fairly often</name>
+					<cost type="multiplier">1</cost>
+					<reference>B36</reference>
+					<notes>9-</notes>
+				</modifier>
+				<modifier version="1">
+					<name>Appears quite rarely</name>
+					<cost type="multiplier">0.5</cost>
+					<reference>B36</reference>
+					<notes>6-</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Equipment</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+					<notes>@Equipment worth no more than average starting wealth@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Equipment</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+					<notes>@Equipment worth more than average starting wealth@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Highly Accessible</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Special Abilities</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Special Abilities</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+					<notes>@Magical powers in a non-magical world, higher TL equipment, grants special powers or is supernatural@</notes>
+				</modifier>
+				<modifier version="1">
+					<name>Minimal Interventions</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Secret</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Unwilling</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B74</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Favor</name>
+					<cost type="multiplier">0.2</cost>
+					<reference>B55</reference>
+				</modifier>
+				<reference>B72</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+		</advantage_container>
 		<advantage_container version="2" open="yes">
 			<name>Culture</name>
 			<advantage version="2">
@@ -1560,6 +1935,26 @@ rkJggg==
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
+			<advantage version="2">
+				<name>Insomniac (Mild)</name>
+				<type>Physical</type>
+				<base_points>-10</base_points>
+				<reference>B140</reference>
+				<notes>GM secretly rolls 3d for the number of days between episodes</notes>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Overconfidence</name>
+				<type>Mental</type>
+				<base_points>-5</base_points>
+				<cr>12</cr>
+				<reference>B148</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
 			<advantage version="2" round_down="yes">
 				<name>Reputation - annoying guy who bumps us in the halls</name>
 				<type>Social</type>
@@ -1687,29 +2082,27 @@ rkJggg==
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
-				<name>Insomniac (Mild)</name>
-				<type>Physical</type>
-				<base_points>-10</base_points>
-				<reference>B140</reference>
-				<notes>GM secretly rolls 3d for the number of days between episodes</notes>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Overconfidence</name>
-				<type>Mental</type>
-				<base_points>-5</base_points>
-				<cr>12</cr>
-				<reference>B148</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
 		</advantage_container>
 		<advantage_container version="2" open="yes">
 			<name>Quirks</name>
+			<advantage version="2">
+				<name>Alcohol Intolerance</name>
+				<type>Physical</type>
+				<base_points>-1</base_points>
+				<reference>B165</reference>
+				<categories>
+					<category>Quirk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Broad-Minded</name>
+				<type>Mental</type>
+				<base_points>-1</base_points>
+				<reference>B163</reference>
+				<categories>
+					<category>Quirk</category>
+				</categories>
+			</advantage>
 			<advantage version="2">
 				<name>Congenial</name>
 				<type>Mental</type>
@@ -1731,402 +2124,12 @@ rkJggg==
 				</categories>
 			</advantage>
 			<advantage version="2">
-				<name>Alcohol Intolerance</name>
-				<type>Physical</type>
-				<base_points>-1</base_points>
-				<reference>B165</reference>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
 				<name>Imaginative</name>
 				<type>Mental</type>
 				<base_points>-1</base_points>
 				<reference>B164</reference>
 				<categories>
 					<category>Quirk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Broad-Minded</name>
-				<type>Mental</type>
-				<base_points>-1</base_points>
-				<reference>B163</reference>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-		<advantage_container version="2" open="yes">
-			<name>Advantages</name>
-			<advantage version="2">
-				<name>Luck</name>
-				<type>Mental</type>
-				<base_points>15</base_points>
-				<modifier version="1" enabled="no">
-					<name>Active</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B66</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Aspected</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B66</reference>
-					<notes>@Aspect@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Defensive</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B66</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Wishing</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>P59</reference>
-				</modifier>
-				<reference>B66</reference>
-				<notes>Usable once per hour of play</notes>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<prereq_list all="yes">
-					<advantage_prereq has="no">
-						<name compare="starts with">Luck</name>
-						<notes compare="is anything"></notes>
-					</advantage_prereq>
-				</prereq_list>
-			</advantage>
-			<advantage version="2">
-				<name>Eidetic Memory</name>
-				<type>Mental</type>
-				<base_points>5</base_points>
-				<modifier version="1">
-					<name>Photographic</name>
-					<cost type="points">5</cost>
-					<affects>total</affects>
-					<reference>B51</reference>
-				</modifier>
-				<reference>B51</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Increased Basic Move</name>
-				<type>Physical</type>
-				<levels>2</levels>
-				<points_per_level>5</points_per_level>
-				<reference>B17</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Attribute</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>move</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Absolute Direction</name>
-				<type>Mental/Physical</type>
-				<base_points>5</base_points>
-				<modifier version="1" enabled="no">
-					<name>Requires signal</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B34</reference>
-				</modifier>
-				<modifier version="1">
-					<name>3D Spatial Sense</name>
-					<cost type="points">5</cost>
-					<affects>total</affects>
-					<reference>B34</reference>
-					<skill_bonus>
-						<name compare="starts with">piloting</name>
-						<specialization compare="is anything"></specialization>
-						<amount>1</amount>
-					</skill_bonus>
-					<skill_bonus>
-						<name compare="is">aerobatics</name>
-						<specialization compare="is anything"></specialization>
-						<amount>2</amount>
-					</skill_bonus>
-					<skill_bonus>
-						<name compare="is">free fall</name>
-						<specialization compare="is anything"></specialization>
-						<amount>2</amount>
-					</skill_bonus>
-					<skill_bonus>
-						<name compare="is">navigation</name>
-						<specialization compare="is">hyperspace</specialization>
-						<amount>2</amount>
-					</skill_bonus>
-					<skill_bonus>
-						<name compare="is">navigation</name>
-						<specialization compare="is">space</specialization>
-						<amount>2</amount>
-					</skill_bonus>
-				</modifier>
-				<reference>B34</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<skill_bonus>
-					<name compare="is">body sense</name>
-					<specialization compare="is anything"></specialization>
-					<amount>3</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">navigation</name>
-					<specialization compare="is">air</specialization>
-					<amount>3</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">navigation</name>
-					<specialization compare="is">land</specialization>
-					<amount>3</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">navigation</name>
-					<specialization compare="is">sea</specialization>
-					<amount>3</amount>
-				</skill_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Absolute Timing</name>
-				<type>Mental</type>
-				<base_points>2</base_points>
-				<modifier version="1" enabled="no">
-					<name>Chronolocation</name>
-					<cost type="points">3</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B35</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Acrobatic Feints</name>
-				<type>Physical</type>
-				<base_points>1</base_points>
-				<reference>ACT3:15</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Acrobatic Kicks</name>
-				<type>Physical</type>
-				<base_points>1</base_points>
-				<reference>ACT3:15</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Combat Reflexes</name>
-				<type>Mental</type>
-				<base_points>15</base_points>
-				<reference>B43</reference>
-				<notes>Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)</notes>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<skill_bonus>
-					<name compare="starts with">fast-draw</name>
-					<specialization compare="is anything"></specialization>
-					<amount>1</amount>
-				</skill_bonus>
-				<attribute_bonus>
-					<attribute>dodge</attribute>
-					<amount>1</amount>
-				</attribute_bonus>
-				<attribute_bonus>
-					<attribute>parry</attribute>
-					<amount>1</amount>
-				</attribute_bonus>
-				<attribute_bonus>
-					<attribute>block</attribute>
-					<amount>1</amount>
-				</attribute_bonus>
-				<attribute_bonus>
-					<attribute>fright check</attribute>
-					<amount>2</amount>
-				</attribute_bonus>
-				<prereq_list all="yes">
-					<advantage_prereq has="no">
-						<name compare="is">Enhanced Time Sense</name>
-						<notes compare="is anything"></notes>
-					</advantage_prereq>
-				</prereq_list>
-			</advantage>
-			<advantage version="2">
-				<name>Patron</name>
-				<type>Social</type>
-				<modifier version="1" enabled="no">
-					<name>@Who: Individual with 150% of PC's starting points@</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Who: Organization with assets of at least 1000 times starting wealth@</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Who: Individual with twice the PC's starting points@</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Who: Organization with assets of at least 10000 times starting wealth@</name>
-					<cost type="points">15</cost>
-					<affects>total</affects>
-					<reference>B72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Who: An ultra-powerful individual@</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>B72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Who: Organization with assets of at least 100000 times starting wealth@</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>B72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Who: Organization with assets of at least 1000000 times starting wealth@</name>
-					<cost type="points">25</cost>
-					<affects>total</affects>
-					<reference>B72</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Marathon Leadership</name>
-					<cost type="points">30</cost>
-					<affects>total</affects>
-					<reference>B72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Who: A diety@</name>
-					<cost type="points">30</cost>
-					<affects>total</affects>
-					<reference>B72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Appears almost all the time</name>
-					<cost type="multiplier">3</cost>
-					<reference>B36</reference>
-					<notes>15-</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Appears quite often</name>
-					<cost type="multiplier">2</cost>
-					<reference>B36</reference>
-					<notes>12-</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Appears fairly often</name>
-					<cost type="multiplier">1</cost>
-					<reference>B36</reference>
-					<notes>9-</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Appears quite rarely</name>
-					<cost type="multiplier">0.5</cost>
-					<reference>B36</reference>
-					<notes>6-</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Equipment</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B73</reference>
-					<notes>@Equipment worth no more than average starting wealth@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Equipment</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B73</reference>
-					<notes>@Equipment worth more than average starting wealth@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Highly Accessible</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B73</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Special Abilities</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B73</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Special Abilities</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B73</reference>
-					<notes>@Magical powers in a non-magical world, higher TL equipment, grants special powers or is supernatural@</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Minimal Interventions</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B73</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Secret</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B73</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Unwilling</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B74</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Favor</name>
-					<cost type="multiplier">0.2</cost>
-					<reference>B55</reference>
-				</modifier>
-				<reference>B72</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Catfall</name>
-				<type>Physical, Exotic</type>
-				<base_points>10</base_points>
-				<modifier version="1" enabled="no">
-					<name>Feather Fall</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>P43</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Parachute</name>
-					<cost type="percentage">-30</cost>
-					<affects>total</affects>
-					<reference>P43</reference>
-				</modifier>
-				<reference>B41</reference>
-				<categories>
-					<category>Advantage</category>
 				</categories>
 			</advantage>
 		</advantage_container>
@@ -2539,7 +2542,7 @@ rkJggg==
 		</skill>
 		<skill version="2">
 			<name>First Aid</name>
-			<tech_level>6</tech_level>
+			<tech_level>9</tech_level>
 			<difficulty>IQ/E</difficulty>
 			<points>1</points>
 			<reference>B195</reference>
@@ -2933,8 +2936,233 @@ rkJggg==
 				<modifier>-5</modifier>
 			</default>
 		</skill>
+		<skill version="2">
+			<name>Stealth</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B222</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Hidden Lore</name>
+			<specialization>DarkWatcher Religion</specialization>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B199</reference>
+			<categories>
+				<category>Knowledge</category>
+			</categories>
+		</skill>
+		<skill version="2">
+			<name>Holdout</name>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B200</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Sleight of Hand</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Fast-Draw</name>
+			<specialization>Sword</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B194</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+		</skill>
 	</skill_list>
-	<print_settings printer="Photosmart C4700 series" units="in">
+	<equipment_list>
+		<equipment_container version="3" open="yes" state="equipped">
+			<description>Backpack, Small</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>60</value>
+			<weight>3 lb</weight>
+			<reference>B288</reference>
+			<categories>
+				<category>Camping and Survival Gear</category>
+			</categories>
+			<prereq_list all="yes">
+				<contained_weight_prereq has="yes" compare="at most">40 lb</contained_weight_prereq>
+			</prereq_list>
+		</equipment_container>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Expandable Baton</description>
+			<tech_level>6</tech_level>
+			<legality_class>4</legality_class>
+			<value>60</value>
+			<weight>2 lb</weight>
+			<reference>HT200</reference>
+			<melee_weapon>
+				<damage>sw cr</damage>
+				<strength>6</strength>
+				<reach>1</reach>
+				<parry>0</parry>
+				<default>
+					<type>Skill</type>
+					<name>Shortsword</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Broadsword</name>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Force Sword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Jitte/Sai</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Knife</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Saber</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Smallsword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Tonfa</name>
+					<modifier>-3</modifier>
+				</default>
+			</melee_weapon>
+			<melee_weapon>
+				<damage>thr cr</damage>
+				<strength>6</strength>
+				<reach>1</reach>
+				<parry>0</parry>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shortsword</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Broadsword</name>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Force Sword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Jitte/Sai</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Knife</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Saber</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Smallsword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Tonfa</name>
+					<modifier>-3</modifier>
+				</default>
+			</melee_weapon>
+			<categories>
+				<category>Melee Weapons</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Kneepads</description>
+			<tech_level>8</tech_level>
+			<legality_class>4</legality_class>
+			<value>20</value>
+			<weight>0.5 lb</weight>
+			<reference>HT71</reference>
+			<categories>
+				<category>Defenses</category>
+			</categories>
+		</equipment>
+		<equipment_container version="3" open="no" state="equipped">
+			<description>Tiny Computer</description>
+			<tech_level>8</tech_level>
+			<legality_class>4</legality_class>
+			<value>50</value>
+			<weight>0.04 lb</weight>
+			<reference>HT20</reference>
+			<notes>Complexity 1. Stores 1GB. 2S/5hrs.</notes>
+			<categories>
+				<category>Information Technology</category>
+			</categories>
+		</equipment_container>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Video Surveillance Camera</description>
+			<tech_level>9</tech_level>
+			<legality_class>3</legality_class>
+			<value>150</value>
+			<weight>0.5 lb</weight>
+			<reference>HT206</reference>
+			<notes>External power.</notes>
+			<categories>
+				<category>Security and Surveillance</category>
+			</categories>
+		</equipment>
+	</equipment_list>
+	<print_settings printer="LAPRINTSERVER-MailRoom" units="in">
 		<orientation>portrait</orientation>
 		<width>8.5</width>
 		<height>11</height>

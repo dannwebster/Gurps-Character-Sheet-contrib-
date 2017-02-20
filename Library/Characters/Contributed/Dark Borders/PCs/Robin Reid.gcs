@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="e518d16c-761d-452c-873a-0e144bd096ae" version="2">
 	<created_date>May 19, 2016</created_date>
-	<modified_date>Sep 18, 2016 12:05 PM</modified_date>
+	<modified_date>Oct 30, 2016 5:02 PM</modified_date>
 	<profile>
 		<player_name>Tinsley Webster</player_name>
 		<campaign>Dark Borders</campaign>
@@ -997,9 +997,10 @@ SGdEhirNjxrQ/wfHtwqnfyQ61QAAAABJRU5ErkJggg==
 		</portrait>
 	</profile>
 	<HP>0</HP>
+	<current_hp>8</current_hp>
 	<FP>0</FP>
-	<current_fp>9</current_fp>
-	<total_points>358</total_points>
+	<current_fp>12</current_fp>
+	<total_points>361</total_points>
 	<ST>9</ST>
 	<DX>13</DX>
 	<IQ>15</IQ>
@@ -2615,6 +2616,36 @@ SGdEhirNjxrQ/wfHtwqnfyQ61QAAAABJRU5ErkJggg==
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Driving</name>
+			<specialization>Automobile</specialization>
+			<tech_level>8</tech_level>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B188</reference>
+			<categories>
+				<category>Vehicle</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Driving</name>
+				<specialization>Heavy Wheeled</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Driving</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Electronics Operation</name>
 			<specialization>Scientific</specialization>
 			<tech_level>8</tech_level>
@@ -3466,6 +3497,25 @@ SGdEhirNjxrQ/wfHtwqnfyQ61QAAAABJRU5ErkJggg==
 			<categories>
 				<category>Occult/Magical</category>
 			</categories>
+		</skill>
+		<skill version="2">
+			<name>Tactics</name>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B224</reference>
+			<categories>
+				<category>Military</category>
+				<category>Police</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Strategy</name>
+				<modifier>-6</modifier>
+			</default>
 		</skill>
 		<skill version="2">
 			<name>Tracking</name>
