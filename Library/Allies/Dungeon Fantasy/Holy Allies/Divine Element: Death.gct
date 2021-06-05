@@ -1,556 +1,956 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="ab508eec-125a-4bb1-bea7-f3ea370e6db5" version="1">
-	<advantage_list>
-		<advantage_container version="2" open="yes" type="meta trait">
-			<name>Divine Element: Death</name>
-			<advantage version="2">
-				<name>Ally (20 Zombies)</name>
-				<type>Social</type>
-				<modifier version="1">
-					<name>Point total</name>
-					<cost type="points">1</cost>
-					<affects>total</affects>
-					<reference>B37</reference>
-					<notes>25% of your starting points</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Point total</name>
-					<cost type="points">2</cost>
-					<affects>total</affects>
-					<reference>B37</reference>
-					<notes>50% of your starting points</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Point total</name>
-					<cost type="points">3</cost>
-					<affects>total</affects>
-					<reference>B37</reference>
-					<notes>75% of your starting points</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Point total</name>
-					<cost type="points">5</cost>
-					<affects>total</affects>
-					<reference>B37</reference>
-					<notes>100% of your starting points</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Point total</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B37</reference>
-					<notes>150% of your starting points</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Appears constantly</name>
-					<cost type="multiplier">4</cost>
-					<reference>B36</reference>
-					<notes>No roll required</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Appears almost all the time</name>
-					<cost type="multiplier">3</cost>
-					<reference>B36</reference>
-					<notes>15-</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Appears quite often</name>
-					<cost type="multiplier">2</cost>
-					<reference>B36</reference>
-					<notes>12-</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Appears fairly often</name>
-					<cost type="multiplier">1</cost>
-					<reference>B36</reference>
-					<notes>9-</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Appears quite rarely</name>
-					<cost type="multiplier">0.5</cost>
-					<reference>B36</reference>
-					<notes>6-</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Group of 6-10</name>
-					<cost type="multiplier">6</cost>
-					<reference>B37</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Group of 11-20</name>
-					<cost type="multiplier">8</cost>
-					<reference>B37</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Group of 21-50</name>
-					<cost type="multiplier">10</cost>
-					<reference>B37</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Group of 51-100</name>
-					<cost type="multiplier">12</cost>
-					<reference>B37</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Group of 101-1000</name>
-					<cost type="multiplier">18</cost>
-					<reference>B37</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Group of 1001-10000</name>
-					<cost type="multiplier">24</cost>
-					<reference>B37</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Group of 10001-100000</name>
-					<cost type="multiplier">30</cost>
-					<reference>B37</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Group of 100001-1000000</name>
-					<cost type="multiplier">36</cost>
-					<reference>B37</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Minion</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B38</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Minion</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-					<reference>B38</reference>
-					<notes>IQ 0 or Slave Mentality</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Special Abilities</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B38</reference>
-					<notes>@Abilities@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Summonable</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B38</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Sympathy</name>
-					<cost type="percentage">-25</cost>
-					<affects>total</affects>
-					<reference>B38</reference>
-					<notes>Death of one party reduces the other to 0 HP</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Sympathy</name>
-					<cost type="percentage">-5</cost>
-					<affects>total</affects>
-					<reference>B38</reference>
-					<notes>Death of one party reduces the other to 0 HP and wounds affect ally but not you</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Sympathy</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B38</reference>
-					<notes>Death of one party kills the other</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Sympathy</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>B38</reference>
-					<notes>Death of one party kills the other and wounds affect ally but not you</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Unwilling</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B38</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Favor</name>
-					<cost type="multiplier">0.2</cost>
-					<reference>B55</reference>
-				</modifier>
-				<reference>B36</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Corpse-Smart</name>
-				<type>Mental/Physical</type>
-				<base_points>1</base_points>
-				<reference>B101,HT250,MA51</reference>
-				<notes>Recognize Undead on Sight</notes>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Dominance</name>
-				<type>Mental, Exotic</type>
-				<base_points>20</base_points>
-				<modifier version="1">
-					<name>Only if Victim Dies</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1">
-					<name>Victims Arise as Zombies, and cannot infect others</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B50</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Innate Attack (Toxic)</name>
-				<type>Physical, Exotic</type>
-				<levels>1</levels>
-				<points_per_level>4</points_per_level>
-				<ranged_weapon>
-					<damage>1d tox</damage>
-					<accuracy>3</accuracy>
-					<range>100/10</range>
-					<rate_of_fire>1</rate_of_fire>
-					<recoil>1</recoil>
-					<default>
-						<type>Skill</type>
-						<name>Innate Attack</name>
-						<specialization>Death Touch</specialization>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Innate Attack</name>
-						<modifier>-2</modifier>
-					</default>
-					<default>
-						<type>DX</type>
-						<modifier>-4</modifier>
-					</default>
-				</ranged_weapon>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">100</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>1 sec</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">50</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>10 sec</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">40</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>1 min</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">20</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>1 hr</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">10</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>1 day</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">50</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>1 sec; Resistible</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">25</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>10 sec; Resistible</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">20</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>1 min; Resistible</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">10</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>1 hr; Resistible</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">5</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>1 day; Resistible</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Contagious</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>Mildly</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Contagious</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>Highly</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Double Blunt Trauma</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B104</reference>
-					<notes>1HP per 10 dmg</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Explosion</name>
-					<cost type="percentage">50</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B104</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Fragmentation</name>
-					<cost type="percentage">15</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B104</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Fragmentation</name>
-					<cost type="percentage">15</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B104</reference>
-					<notes>Hot</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Radiation</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B104</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Surge</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B104</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B102</reference>
-					<notes>2</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B102</reference>
-					<notes>3</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">150</cost>
-					<affects>total</affects>
-					<reference>B102</reference>
-					<notes>5</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">200</cost>
-					<affects>total</affects>
-					<reference>B102</reference>
-					<notes>10</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Side Effect</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-					<reference>B109</reference>
-					<notes>@Effect@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Symptoms</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-					<reference>B109</reference>
-					<notes>@Effect@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">-30</cost>
-					<affects>total</affects>
-					<reference>B110</reference>
-					<notes>0.5</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B110</reference>
-					<notes>0.2</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">-70</cost>
-					<affects>total</affects>
-					<reference>B110</reference>
-					<notes>0.1</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>No Wounding</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B111</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Incendiary</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>B104</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Costs Fatigue</name>
-					<cost type="percentage">-5</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<notes>1 FP/Level</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Malediction</name>
-					<cost type="percentage">100</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1">
-					<name>Melee Attack, C</name>
-					<cost type="percentage">-30</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B62</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage_container version="2" open="yes">
-				<name>Doubled</name>
-				<advantage version="2">
-					<name>Channeling</name>
-					<type>Mental, Supernatural</type>
-					<base_points>10</base_points>
-					<modifier version="1">
-						<name>Aware</name>
-						<cost type="percentage">50</cost>
-						<affects>total</affects>
-						<reference>P43</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Specialized</name>
-						<cost type="percentage">-50</cost>
-						<affects>total</affects>
-						<reference>P44</reference>
-						<notes>@Type@</notes>
-					</modifier>
-					<reference>B41</reference>
-					<categories>
-						<category>Advantage</category>
-					</categories>
-				</advantage>
-				<advantage version="2">
-					<name>Spirit Empathy</name>
-					<type>Mental, Supernatural</type>
-					<base_points>10</base_points>
-					<modifier version="1" enabled="no">
-						<name>Specialized</name>
-						<cost type="percentage">-50</cost>
-						<affects>total</affects>
-						<reference>B87</reference>
-						<notes>@Type: Angels, Demons, Elementals, Faerie, Ghosts, etc.@</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Remote</name>
-						<cost type="percentage">50</cost>
-						<affects>total</affects>
-						<reference>P48</reference>
-					</modifier>
-					<reference>B88</reference>
-					<categories>
-						<category>Advantage</category>
-					</categories>
-				</advantage>
-				<advantage version="2">
-					<name>Medium</name>
-					<type>Mental, Supernatural</type>
-					<base_points>10</base_points>
-					<modifier version="1">
-						<name>Manifestation</name>
-						<cost type="percentage">100</cost>
-						<affects>total</affects>
-						<reference>P60</reference>
-					</modifier>
-					<modifier version="1">
-						<name>Universal</name>
-						<cost type="percentage">50</cost>
-						<affects>total</affects>
-						<reference>P60</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Visual</name>
-						<cost type="percentage">50</cost>
-						<affects>total</affects>
-						<reference>P60</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Specialized</name>
-						<cost type="percentage">-50</cost>
-						<affects>total</affects>
-						<reference>P60</reference>
-						<notes>@Class of Spirits@</notes>
-					</modifier>
-					<reference>B68</reference>
-					<categories>
-						<category>Advantage</category>
-					</categories>
-				</advantage>
-			</advantage_container>
-		</advantage_container>
-	</advantage_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "ab508eec-125a-4bb1-bea7-f3ea370e6db5",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "5c7c8a8c-d1e4-4d02-90f5-3323e05fa3b1",
+			"container_type": "meta_trait",
+			"name": "Divine Element: Death",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "50620d86-596a-41f6-88e2-80c33500e528",
+					"name": "Ally (20 Zombies)",
+					"social": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0afc0b72-9554-4578-88c5-e29d4ba5519d",
+							"name": "Point total",
+							"reference": "B37",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "25% of your starting points"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "615c3f00-5df5-4fcd-9e25-87ee93de9f9c",
+							"disabled": true,
+							"name": "Point total",
+							"reference": "B37",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "50% of your starting points"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "60a8699e-2aec-4a2c-8072-b4304dad39a4",
+							"disabled": true,
+							"name": "Point total",
+							"reference": "B37",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "75% of your starting points"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "96a48c61-7af9-4135-ad48-06a8ab4b1d93",
+							"disabled": true,
+							"name": "Point total",
+							"reference": "B37",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total",
+							"notes": "100% of your starting points"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "09698e31-fa93-422a-9695-6b396f45a142",
+							"disabled": true,
+							"name": "Point total",
+							"reference": "B37",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total",
+							"notes": "150% of your starting points"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "57f1bd31-4184-4e69-aa9c-b8c4e7f700e6",
+							"name": "Appears constantly",
+							"reference": "B36",
+							"cost_type": "multiplier",
+							"cost": 4,
+							"notes": "No roll required"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d1280271-0557-4928-b248-22d042f8f18a",
+							"disabled": true,
+							"name": "Appears almost all the time",
+							"reference": "B36",
+							"cost_type": "multiplier",
+							"cost": 3,
+							"notes": "15-"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ac5d738a-591c-4587-87c3-4d164ee19077",
+							"disabled": true,
+							"name": "Appears quite often",
+							"reference": "B36",
+							"cost_type": "multiplier",
+							"cost": 2,
+							"notes": "12-"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d93d25d6-b683-4563-b24d-a94632e20b55",
+							"disabled": true,
+							"name": "Appears fairly often",
+							"reference": "B36",
+							"cost_type": "multiplier",
+							"cost": 1,
+							"notes": "9-"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "cd11825e-a96f-46f8-8375-1680c8039138",
+							"disabled": true,
+							"name": "Appears quite rarely",
+							"reference": "B36",
+							"cost_type": "multiplier",
+							"cost": 0.5,
+							"notes": "6-"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "60cc88ed-276f-40d7-9fc0-c4e6b44f057d",
+							"disabled": true,
+							"name": "Group of 6-10",
+							"reference": "B37",
+							"cost_type": "multiplier",
+							"cost": 6
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d7e2a7df-0c35-48ba-95d5-bb198cff2a26",
+							"name": "Group of 11-20",
+							"reference": "B37",
+							"cost_type": "multiplier",
+							"cost": 8
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "02b6325c-c104-40b4-ba39-a71645a5675e",
+							"disabled": true,
+							"name": "Group of 21-50",
+							"reference": "B37",
+							"cost_type": "multiplier",
+							"cost": 10
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c9b600f1-63b2-4f42-89cc-3f9c677496d9",
+							"disabled": true,
+							"name": "Group of 51-100",
+							"reference": "B37",
+							"cost_type": "multiplier",
+							"cost": 12
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "442c2443-cae0-413c-aa8f-3e1e60b5926c",
+							"disabled": true,
+							"name": "Group of 101-1000",
+							"reference": "B37",
+							"cost_type": "multiplier",
+							"cost": 18
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "bcb7c5dd-b847-4c25-abba-c18732712b40",
+							"disabled": true,
+							"name": "Group of 1001-10000",
+							"reference": "B37",
+							"cost_type": "multiplier",
+							"cost": 24
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4e6dc902-abdc-4d84-90cf-1233a760d949",
+							"disabled": true,
+							"name": "Group of 10001-100000",
+							"reference": "B37",
+							"cost_type": "multiplier",
+							"cost": 30
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d2d68b8b-e1b0-4722-81cc-d26d8a8bc5ac",
+							"disabled": true,
+							"name": "Group of 100001-1000000",
+							"reference": "B37",
+							"cost_type": "multiplier",
+							"cost": 36
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "533337a2-cbe1-44f0-b526-ecc41f8cb922",
+							"disabled": true,
+							"name": "Minion",
+							"reference": "B38",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5a2576de-79ab-4be5-bad6-06dd2ec39ee7",
+							"disabled": true,
+							"name": "Minion",
+							"reference": "B38",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total",
+							"notes": "IQ 0 or Slave Mentality"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e8480738-92bd-4119-b34d-e47615ac701d",
+							"disabled": true,
+							"name": "Special Abilities",
+							"reference": "B38",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"notes": "@Abilities@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "82d70c65-6397-496b-b02a-289ffd611ccc",
+							"disabled": true,
+							"name": "Summonable",
+							"reference": "B38",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6ff9615d-62eb-4883-936a-6b6a75435693",
+							"disabled": true,
+							"name": "Sympathy",
+							"reference": "B38",
+							"cost_type": "percentage",
+							"cost": -25,
+							"affects": "total",
+							"notes": "Death of one party reduces the other to 0 HP"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "60d62a4f-b6bc-4aae-9682-46767a26619e",
+							"disabled": true,
+							"name": "Sympathy",
+							"reference": "B38",
+							"cost_type": "percentage",
+							"cost": -5,
+							"affects": "total",
+							"notes": "Death of one party reduces the other to 0 HP and wounds affect ally but not you"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "aa8840a3-2259-4fb8-86a7-471c0d84423a",
+							"disabled": true,
+							"name": "Sympathy",
+							"reference": "B38",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total",
+							"notes": "Death of one party kills the other"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7f1ba323-f9d9-4b6e-b4bf-6b656b9efb73",
+							"disabled": true,
+							"name": "Sympathy",
+							"reference": "B38",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"notes": "Death of one party kills the other and wounds affect ally but not you"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f1a6d60d-1818-419e-8681-d1588edd23f4",
+							"disabled": true,
+							"name": "Unwilling",
+							"reference": "B38",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ee6af2a3-0dae-4de0-974c-57239df77c63",
+							"disabled": true,
+							"name": "Favor",
+							"reference": "B55",
+							"cost_type": "multiplier",
+							"cost": 0.2
+						}
+					],
+					"reference": "B36",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "804b85f5-4c13-4d5d-8aba-7b9599f38943",
+					"name": "Corpse-Smart",
+					"mental": true,
+					"physical": true,
+					"base_points": 1,
+					"reference": "B101,HT250,MA51",
+					"notes": "Recognize Undead on Sight",
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "10cdcf19-984f-4fea-bf50-48a0e6453bea",
+					"name": "Dominance",
+					"mental": true,
+					"exotic": true,
+					"base_points": 20,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9d5fccdf-cdb6-4521-9eef-bb74c7440981",
+							"name": "Only if Victim Dies",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0d2582b5-ba6b-47bb-9813-c456a87e306f",
+							"name": "Victims Arise as Zombies, and cannot infect others",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						}
+					],
+					"reference": "B50",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "0fa852e6-9e26-483f-9f4b-db52ad63a182",
+					"name": "Innate Attack (Toxic)",
+					"physical": true,
+					"exotic": true,
+					"levels": "1",
+					"points_per_level": 4,
+					"weapons": [
+						{
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "tox",
+								"base": "1d"
+							},
+							"accuracy": "3",
+							"range": "100/10",
+							"rate_of_fire": "1",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "Skill",
+									"name": "Innate Attack",
+									"specialization": "Death Touch"
+								},
+								{
+									"type": "Skill",
+									"name": "Innate Attack",
+									"modifier": -2
+								},
+								{
+									"type": "DX",
+									"modifier": -4
+								}
+							]
+						}
+					],
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3e9bf9e8-3aba-4591-8712-1313559ec068",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"levels": 1,
+							"notes": "1 sec"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e58efe4d-6ff0-4b20-a26a-55fbe87e38f1",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"levels": 1,
+							"notes": "10 sec"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "14579d6a-8cc1-4ffa-a2af-c1a43567e5e6",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 40,
+							"affects": "total",
+							"levels": 1,
+							"notes": "1 min"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6b2f0719-a0ff-4756-9907-0d25ea704ad0",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total",
+							"levels": 1,
+							"notes": "1 hr"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4b974459-e1b5-451b-beb2-d90d56cc95e5",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 10,
+							"affects": "total",
+							"levels": 1,
+							"notes": "1 day"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2e4f1ec7-ca11-47de-9d16-163073883685",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"levels": 1,
+							"notes": "1 sec; Resistible"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "add61d8d-10f4-4e39-956f-9b17505d7def",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 25,
+							"affects": "total",
+							"levels": 1,
+							"notes": "10 sec; Resistible"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "362dfda6-e62c-427e-8b35-6f7a98cc439d",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total",
+							"levels": 1,
+							"notes": "1 min; Resistible"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "34319c76-bda0-41ef-bba9-990c555e3a19",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 10,
+							"affects": "total",
+							"levels": 1,
+							"notes": "1 hr; Resistible"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "32449569-dbcc-4fc4-a9d6-9c79144e0fdc",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 5,
+							"affects": "total",
+							"levels": 1,
+							"notes": "1 day; Resistible"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2f22b6bc-d08f-415c-b296-66d6206e4285",
+							"disabled": true,
+							"name": "Contagious",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total",
+							"notes": "Mildly"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "51b54319-4df9-4203-9717-c59cb7037ae1",
+							"disabled": true,
+							"name": "Contagious",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"notes": "Highly"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ca6042eb-54e8-4eab-acd7-759f59519cfa",
+							"disabled": true,
+							"name": "Double Blunt Trauma",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total",
+							"notes": "1HP per 10 dmg"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5a2b79f3-0f88-4c0c-887d-5969d96e0a9f",
+							"disabled": true,
+							"name": "Explosion",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "25f6ecac-2b8e-48b8-b27b-22df8b881fc5",
+							"disabled": true,
+							"name": "Fragmentation",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": 15,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8e7d0877-502a-4552-96d8-ddb81fe2f98f",
+							"disabled": true,
+							"name": "Fragmentation",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": 15,
+							"affects": "total",
+							"levels": 1,
+							"notes": "Hot"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "889f487b-6e70-4ddf-be27-b4bc84a8ec14",
+							"disabled": true,
+							"name": "Radiation",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6c4860c7-80e4-40aa-8e38-8c1b399db92a",
+							"disabled": true,
+							"name": "Surge",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d7a471c6-61a4-4744-87d0-882d04b0d166",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"notes": "2"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "78f918ea-3e42-473c-a100-83499f9d9351",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"notes": "3"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6945650f-a985-40c2-8efb-1d4a71ea1bc7",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"cost_type": "percentage",
+							"cost": 150,
+							"affects": "total",
+							"notes": "5"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5282c1de-c2fc-4eb7-be14-9a28c517782f",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"cost_type": "percentage",
+							"cost": 200,
+							"affects": "total",
+							"notes": "10"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0597651e-7bfa-454e-9e77-4aa0b2ef8a46",
+							"disabled": true,
+							"name": "Side Effect",
+							"reference": "B109",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total",
+							"notes": "@Effect@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f3291a04-fb2a-4dd7-8827-d66a63cc72ab",
+							"disabled": true,
+							"name": "Symptoms",
+							"reference": "B109",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total",
+							"notes": "@Effect@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8500e305-aca4-44b0-97a8-3f35d530424b",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total",
+							"notes": "0.5"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5bff67f8-ee3f-49e9-bbb8-bd541066420b",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total",
+							"notes": "0.2"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "39adc20b-707f-422c-bc36-f28d12e3796c",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"cost_type": "percentage",
+							"cost": -70,
+							"affects": "total",
+							"notes": "0.1"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3d563de0-fb60-4437-ac56-4e958b48c334",
+							"disabled": true,
+							"name": "No Wounding",
+							"reference": "B111",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f0cccb6d-cc95-4a2b-b5ce-ee8431efc6b8",
+							"disabled": true,
+							"name": "Incendiary",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "dae37083-7bf7-48ce-ab4c-dbb162923611",
+							"name": "Costs Fatigue",
+							"cost_type": "percentage",
+							"cost": -5,
+							"affects": "total",
+							"levels": 1,
+							"notes": "1 FP/Level"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "48b44e4f-1fa4-47bb-a5b0-678ee9ce64c7",
+							"name": "Malediction",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "dd709197-2117-402e-bc07-7f83cea6a425",
+							"name": "Melee Attack, C",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total"
+						}
+					],
+					"reference": "B62",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage_container",
+					"version": 1,
+					"id": "0b49a537-6162-4312-9915-28654b1842c1",
+					"name": "Doubled",
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "706b4483-5639-48b9-b430-49fe4ea90963",
+							"name": "Channeling",
+							"mental": true,
+							"supernatural": true,
+							"base_points": 10,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "fb724d36-46da-40cc-a780-e73ec0883dbd",
+									"name": "Aware",
+									"reference": "P43",
+									"cost_type": "percentage",
+									"cost": 50,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "c8cc6671-19f3-4e6a-8e10-2c7d891f349f",
+									"disabled": true,
+									"name": "Specialized",
+									"reference": "P44",
+									"cost_type": "percentage",
+									"cost": -50,
+									"affects": "total",
+									"notes": "@Type@"
+								}
+							],
+							"reference": "B41",
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "d6abc95c-e9f6-4e08-b90e-345929b82415",
+							"name": "Spirit Empathy",
+							"mental": true,
+							"supernatural": true,
+							"base_points": 10,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "c53352b3-52dd-4733-b76b-4091162602ac",
+									"disabled": true,
+									"name": "Specialized",
+									"reference": "B87",
+									"cost_type": "percentage",
+									"cost": -50,
+									"affects": "total",
+									"notes": "@Type: Angels, Demons, Elementals, Faerie, Ghosts, etc.@"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "91d720b4-b3ec-409a-a3ff-772f545b54c7",
+									"disabled": true,
+									"name": "Remote",
+									"reference": "P48",
+									"cost_type": "percentage",
+									"cost": 50,
+									"affects": "total"
+								}
+							],
+							"reference": "B88",
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "0bb6f794-12b8-44fc-a627-5dbc12ad78c6",
+							"name": "Medium",
+							"mental": true,
+							"supernatural": true,
+							"base_points": 10,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "92b2e63b-de85-47f5-a44d-38d1eb1286a2",
+									"name": "Manifestation",
+									"reference": "P60",
+									"cost_type": "percentage",
+									"cost": 100,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "8e394aa7-04a7-4108-b983-61cf2448fcb3",
+									"name": "Universal",
+									"reference": "P60",
+									"cost_type": "percentage",
+									"cost": 50,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "d12b020c-ce58-4207-b091-f7d731a9c3a0",
+									"disabled": true,
+									"name": "Visual",
+									"reference": "P60",
+									"cost_type": "percentage",
+									"cost": 50,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "bd1cd726-fecc-45e0-983d-8d8e3be3dbc7",
+									"disabled": true,
+									"name": "Specialized",
+									"reference": "P60",
+									"cost_type": "percentage",
+									"cost": -50,
+									"affects": "total",
+									"notes": "@Class of Spirits@"
+								}
+							],
+							"reference": "B68",
+							"categories": [
+								"Advantage"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

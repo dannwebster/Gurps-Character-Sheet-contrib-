@@ -1,640 +1,843 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="ijrz796u:vg2ek8j48jag" version="2">
-	<created_date>Jan 23, 2016</created_date>
-	<modified_date>Jan 23, 2016 7:29 PM</modified_date>
-	<profile>
-		<player_name>dwebster</player_name>
-		<campaign>Quadarc</campaign>
-		<name>Fighter</name>
-		<title>Scrub</title>
-		<age>16</age>
-		<birthday>May 11</birthday>
-		<eyes>Blue</eyes>
-		<hair>Brown, Straight, Short</hair>
-		<skin>Light Brown</skin>
-		<handedness>Left</handedness>
-		<height>5' 9"</height>
-		<weight>159 lb</weight>
-		<SM>0</SM>
-		<gender>Male</gender>
-		<race>Human</race>
-		<tech_level>3</tech_level>
-	</profile>
-	<HP>0</HP>
-	<FP>0</FP>
-	<total_points>100</total_points>
-	<ST>0</ST>
-	<DX>11</DX>
-	<IQ>10</IQ>
-	<HT>10</HT>
-	<will>0</will>
-	<perception>0</perception>
-	<speed>0</speed>
-	<move>0</move>
-	<include_punch>true</include_punch>
-	<include_kick>true</include_kick>
-	<include_kick_with_boots>true</include_kick_with_boots>
-	<skill_list>
-		<skill version="2">
-			<name>Shield</name>
-			<specialization>Shield</specialization>
-			<difficulty>DX/E</difficulty>
-			<points>2</points>
-			<reference>B220</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Broadsword</name>
-			<difficulty>DX/A</difficulty>
-			<points>4</points>
-			<reference>B208</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Rapier</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Two-Handed Sword</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Axe/Mace</name>
-			<difficulty>DX/A</difficulty>
-			<points>4</points>
-			<reference>B208</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Two-Handed Axe/Mace</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Flail</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Spear</name>
-			<difficulty>DX/A</difficulty>
-			<points>4</points>
-			<reference>B208</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Polearm</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Staff</name>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Bow</name>
-			<difficulty>DX/A</difficulty>
-			<points>4</points>
-			<reference>B182</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Wrestling</name>
-			<difficulty>DX/A</difficulty>
-			<points>4</points>
-			<reference>B228</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Brawling</name>
-			<difficulty>DX/E</difficulty>
-			<points>2</points>
-			<reference>B182</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<weapon_bonus>
-				<name compare="is">Brawling</name>
-				<specialization compare="is anything"></specialization>
-				<level compare="at least">2</level>
-				<amount per_level="yes">1</amount>
-			</weapon_bonus>
-		</skill>
-	</skill_list>
-	<equipment_list>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Broadsword</description>
-			<tech_level>2</tech_level>
-			<legality_class>4</legality_class>
-			<value>500</value>
-			<weight>3 lb</weight>
-			<reference>B271</reference>
-			<melee_weapon>
-				<damage>sw+1 cut</damage>
-				<strength>10</strength>
-				<usage>Swung</usage>
-				<reach>1</reach>
-				<parry>0</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Force Sword</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Broadsword</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Rapier</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Saber</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shortsword</name>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Two-Handed Sword</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Sword!</name>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<melee_weapon>
-				<damage>thr+1 cr</damage>
-				<strength>10</strength>
-				<usage>Thrust</usage>
-				<reach>1</reach>
-				<parry>0</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Force Sword</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Broadsword</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Rapier</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Saber</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shortsword</name>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Two-Handed Sword</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Sword!</name>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<categories>
-				<category>Melee Weapon</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Mace</description>
-			<tech_level>2</tech_level>
-			<legality_class>4</legality_class>
-			<value>50</value>
-			<weight>5 lb</weight>
-			<reference>B271</reference>
-			<melee_weapon>
-				<damage>sw+3 cr</damage>
-				<strength>12</strength>
-				<usage>Swung</usage>
-				<reach>1</reach>
-				<parry>0U</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Axe/Mace</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Flail</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Two-Handed Axe/Mace</name>
-					<modifier>-3</modifier>
-				</default>
-			</melee_weapon>
-			<ranged_weapon>
-				<damage>sw+3 cr</damage>
-				<strength>12</strength>
-				<accuracy>1</accuracy>
-				<range>x0.5/x1</range>
-				<rate_of_fire>1</rate_of_fire>
-				<shots>T(1)</shots>
-				<bulk>-4</bulk>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Thrown Weapon</name>
-					<specialization>Axe/Mace</specialization>
-					<modifier>0</modifier>
-				</default>
-			</ranged_weapon>
-			<categories>
-				<category>Melee Weapon</category>
-				<category>Missile Weapon</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Medium Shield</description>
-			<tech_level>1</tech_level>
-			<legality_class>4</legality_class>
-			<value>60</value>
-			<weight>15 lb</weight>
-			<reference>B287</reference>
-			<melee_weapon>
-				<damage>thr cr</damage>
-				<strength>0</strength>
-				<usage>Shield Bash</usage>
-				<reach>1</reach>
-				<parry>No</parry>
-				<block>+0</block>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shield</name>
-					<specialization>Buckler</specialization>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shield</name>
-					<specialization>Force Shield</specialization>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shield</name>
-					<specialization>Shield</specialization>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<categories>
-				<category>Shield</category>
-			</categories>
-			<attribute_bonus>
-				<attribute>dodge</attribute>
-				<amount>2</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>parry</attribute>
-				<amount>2</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>block</attribute>
-				<amount>2</amount>
-			</attribute_bonus>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Short Bow</description>
-			<tech_level>0</tech_level>
-			<legality_class>4</legality_class>
-			<value>50</value>
-			<weight>2 lb</weight>
-			<reference>B275</reference>
-			<ranged_weapon>
-				<damage>thr imp</damage>
-				<strength>7&#8224;</strength>
-				<accuracy>1</accuracy>
-				<range>x10/x15</range>
-				<rate_of_fire>1</rate_of_fire>
-				<shots>1(2)</shots>
-				<bulk>-6</bulk>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Bow</name>
-					<modifier>0</modifier>
-				</default>
-			</ranged_weapon>
-			<categories>
-				<category>Missile Weapon</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Spear</description>
-			<tech_level>0</tech_level>
-			<legality_class>4</legality_class>
-			<value>40</value>
-			<weight>4 lb</weight>
-			<reference>B273</reference>
-			<melee_weapon>
-				<damage>thr+2 imp</damage>
-				<strength>9</strength>
-				<usage>Thrust</usage>
-				<reach>1*</reach>
-				<parry>0</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Spear</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Polearm</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Staff</name>
-					<modifier>-2</modifier>
-				</default>
-			</melee_weapon>
-			<melee_weapon>
-				<damage>thr+3 imp</damage>
-				<strength>9&#8224;</strength>
-				<usage>Thrust</usage>
-				<reach>1,2*</reach>
-				<parry>0</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Spear</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Polearm</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Staff</name>
-					<modifier>-2</modifier>
-				</default>
-			</melee_weapon>
-			<ranged_weapon>
-				<damage>thr+3 imp</damage>
-				<strength>9</strength>
-				<usage>Thrown</usage>
-				<accuracy>+2</accuracy>
-				<range>x1/x1.5</range>
-				<rate_of_fire>1</rate_of_fire>
-				<shots>T(1)</shots>
-				<bulk>-6</bulk>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Thrown Weapon</name>
-					<specialization>Spear</specialization>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Spear Thrower</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Thrown Weapon</name>
-					<specialization>Harpoon</specialization>
-					<modifier>-2</modifier>
-				</default>
-			</ranged_weapon>
-			<categories>
-				<category>Melee Weapon</category>
-				<category>Missile Weapon</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Leather Leggings</description>
-			<tech_level>1</tech_level>
-			<legality_class>-</legality_class>
-			<value>40</value>
-			<weight>2 lb</weight>
-			<reference>B283</reference>
-			<categories>
-				<category>Limb Armor</category>
-			</categories>
-			<dr_bonus>
-				<location>legs</location>
-				<amount>1</amount>
-			</dr_bonus>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Cloth Armor</description>
-			<tech_level>1</tech_level>
-			<legality_class>-</legality_class>
-			<value>30</value>
-			<weight>6 lb</weight>
-			<reference>B283</reference>
-			<categories>
-				<category>Body Armor</category>
-			</categories>
-			<dr_bonus>
-				<location>groin</location>
-				<amount>1</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
-				<amount>1</amount>
-			</dr_bonus>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Cloth Cap</description>
-			<tech_level>1</tech_level>
-			<legality_class>-</legality_class>
-			<value>5</value>
-			<reference>B284</reference>
-			<categories>
-				<category>Headgear</category>
-			</categories>
-			<dr_bonus>
-				<location>skull</location>
-				<amount>1</amount>
-			</dr_bonus>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Cloth Gloves</description>
-			<tech_level>1</tech_level>
-			<legality_class>-</legality_class>
-			<value>15</value>
-			<reference>B284</reference>
-			<categories>
-				<category>Gloves</category>
-			</categories>
-			<dr_bonus>
-				<location>hands</location>
-				<amount>1</amount>
-			</dr_bonus>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Cloth Sleeves</description>
-			<tech_level>1</tech_level>
-			<legality_class>-</legality_class>
-			<value>20</value>
-			<weight>2 lb</weight>
-			<reference>B283</reference>
-			<categories>
-				<category>Limb Armor</category>
-			</categories>
-			<dr_bonus>
-				<location>arms</location>
-				<amount>1</amount>
-			</dr_bonus>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Boots</description>
-			<tech_level>2</tech_level>
-			<legality_class>-</legality_class>
-			<value>80</value>
-			<weight>3 lb</weight>
-			<reference>B284</reference>
-			<categories>
-				<category>Footwear</category>
-			</categories>
-			<dr_bonus>
-				<location>feet</location>
-				<amount>2</amount>
-			</dr_bonus>
-		</equipment>
-	</equipment_list>
-	<print_settings printer="Photosmart C4700 series" units="in">
-		<orientation>portrait</orientation>
-		<width>8.5</width>
-		<height>11</height>
-		<top_margin>0.5</top_margin>
-		<left_margin>0.5</left_margin>
-		<bottom_margin>0.5</bottom_margin>
-		<right_margin>0.5</right_margin>
-		<ink_chromaticity>monochrome</ink_chromaticity>
-		<sides>single</sides>
-		<quality>normal</quality>
-	</print_settings>
-</character>
+{
+	"type": "character",
+	"version": 1,
+	"id": "c5987e8e-7c7e-483f-bed4-a3fe289ce75b",
+	"settings": {
+		"version": 1,
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_and_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"use_title_in_footer": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "Jan 23, 2016, 12:00 AM",
+	"modified_date": "Jan 23, 2016, 12:00 AM",
+	"profile": {
+		"player_name": "dwebster",
+		"name": "Fighter",
+		"title": "Scrub",
+		"age": 16,
+		"birthday": "May 11",
+		"eyes": "Blue",
+		"hair": "Brown, Straight, Short",
+		"skin": "Light Brown",
+		"handedness": "Left",
+		"height": "5' 9\"",
+		"weight": "159 lb",
+		"gender": "Male",
+		"body_type": "humanoid",
+		"tech_level": "3"
+	},
+	"total_points": 100,
+	"ST": 0,
+	"DX": 11,
+	"IQ": 10,
+	"HT": 10,
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "f2331b51-28ab-4a4a-8a34-7611de922950",
+			"name": "Shield",
+			"reference": "B220",
+			"specialization": "Shield",
+			"difficulty": "DX/E",
+			"points": 2,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -4,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "6532677e-412e-4e1a-ad1a-0900fcd3ff9f",
+			"name": "Broadsword",
+			"reference": "B208",
+			"difficulty": "DX/A",
+			"points": 4,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -5,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"defaults": [
+				{
+					"type": "Skill",
+					"name": "Force Sword",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Rapier",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Saber",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Shortsword",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Two-Handed Sword",
+					"modifier": -4
+				},
+				{
+					"type": "DX",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "6108d237-c009-4182-adde-57d1043892f8",
+			"name": "Axe/Mace",
+			"reference": "B208",
+			"difficulty": "DX/A",
+			"points": 4,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -5,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Two-Handed Axe/Mace",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Flail",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "e17d1554-247f-4d88-9872-c3d3ba6388d0",
+			"name": "Spear",
+			"reference": "B208",
+			"difficulty": "DX/A",
+			"points": 4,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -5,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Polearm",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Staff",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "3c365ca7-2a09-4d4b-baa6-3daee0e6fa64",
+			"name": "Bow",
+			"reference": "B182",
+			"difficulty": "DX/A",
+			"points": 4,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -5,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "072b5c22-9ba8-4566-86d8-e5ae4eaa2bf4",
+			"name": "Wrestling",
+			"reference": "B228",
+			"difficulty": "DX/A",
+			"points": 4,
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "de44d474-0f4f-433c-9a7a-dc38696aefad",
+			"name": "Brawling",
+			"reference": "B182",
+			"difficulty": "DX/E",
+			"points": 2,
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Brawling"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					}
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		}
+	],
+	"equipment": [
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "bdd38db1-336b-4f64-80be-cd3b89f9fd49",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Broadsword",
+			"tech_level": "2",
+			"value": "500",
+			"weight": "3 lb",
+			"reference": "B271",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "+1"
+					},
+					"strength": "10",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "Skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Sword!"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "+1"
+					},
+					"strength": "10",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "Skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Sword!"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "30030a5f-f944-4c04-9fc7-d5a3ed74b31c",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Mace",
+			"tech_level": "2",
+			"value": "50",
+			"weight": "5 lb",
+			"reference": "B271",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "+3"
+					},
+					"strength": "12",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0U",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Axe/Mace"
+						},
+						{
+							"type": "Skill",
+							"name": "Flail",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "+3"
+					},
+					"strength": "12",
+					"accuracy": "1",
+					"range": "x0.5/x1",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-4",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Axe/Mace"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon",
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "024ffc7b-62b2-4ac5-bb17-dcf3240ab97d",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Medium Shield",
+			"tech_level": "1",
+			"value": "60",
+			"weight": "15 lb",
+			"reference": "B287",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "0",
+					"usage": "Shield Bash",
+					"reach": "1",
+					"parry": "No",
+					"block": "+0",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Buckler"
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Force Shield"
+						},
+						{
+							"type": "Skill",
+							"name": "Shield",
+							"specialization": "Shield"
+						}
+					]
+				}
+			],
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "dodge"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "parry"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "block"
+				}
+			],
+			"categories": [
+				"Shield"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "a90d9e1c-ee92-4b49-b001-1d9a4b355d71",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Short Bow",
+			"tech_level": "0",
+			"value": "50",
+			"weight": "2 lb",
+			"reference": "B275",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "7†",
+					"accuracy": "1",
+					"range": "x10/x15",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Bow"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "8a5c83d5-5931-4084-ad04-7706467e8b47",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Spear",
+			"tech_level": "0",
+			"value": "40",
+			"weight": "4 lb",
+			"reference": "B273",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "+2"
+					},
+					"strength": "9",
+					"usage": "Thrust",
+					"reach": "1*",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Spear"
+						},
+						{
+							"type": "Skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Staff",
+							"modifier": -2
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "+3"
+					},
+					"strength": "9†",
+					"usage": "Thrust",
+					"reach": "1,2*",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Spear"
+						},
+						{
+							"type": "Skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Staff",
+							"modifier": -2
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "+3"
+					},
+					"strength": "9",
+					"usage": "Thrown",
+					"accuracy": "+2",
+					"range": "x1/x1.5",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Spear"
+						},
+						{
+							"type": "Skill",
+							"name": "Spear Thrower",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Thrown Weapon",
+							"specialization": "Harpoon",
+							"modifier": -2
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon",
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "ecc9decf-d071-46ac-b6f3-487cbf55d0a3",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Leather Leggings",
+			"tech_level": "1",
+			"legality_class": "-",
+			"value": "40",
+			"weight": "2 lb",
+			"reference": "B283",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "legs"
+				}
+			],
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "a5103cc6-0830-4ba1-a90f-be72e175b649",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Cloth Armor",
+			"tech_level": "1",
+			"legality_class": "-",
+			"value": "30",
+			"weight": "6 lb",
+			"reference": "B283",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "groin"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "torso"
+				}
+			],
+			"categories": [
+				"Body Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "1cc5b548-a2f9-4725-93bc-42cd47c173c3",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Cloth Cap",
+			"tech_level": "1",
+			"legality_class": "-",
+			"value": "5",
+			"reference": "B284",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "skull"
+				}
+			],
+			"categories": [
+				"Headgear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "45bae195-1021-488d-be43-4b7628bce539",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Cloth Gloves",
+			"tech_level": "1",
+			"legality_class": "-",
+			"value": "15",
+			"reference": "B284",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "hands"
+				}
+			],
+			"categories": [
+				"Gloves"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "1402374b-5709-4384-adb5-8f1a49743497",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Cloth Sleeves",
+			"tech_level": "1",
+			"legality_class": "-",
+			"value": "20",
+			"weight": "2 lb",
+			"reference": "B283",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "arms"
+				}
+			],
+			"categories": [
+				"Limb Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "8befa409-ebbf-4352-b303-6f685a822f86",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Boots",
+			"tech_level": "2",
+			"legality_class": "-",
+			"value": "80",
+			"weight": "3 lb",
+			"reference": "B284",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "feet"
+				}
+			],
+			"categories": [
+				"Footwear"
+			]
+		}
+	]
+}

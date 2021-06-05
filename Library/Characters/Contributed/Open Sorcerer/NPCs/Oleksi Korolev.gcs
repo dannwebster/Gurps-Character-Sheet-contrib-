@@ -1,995 +1,1567 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="hfg80bqs:1g9k3klech7mn" version="2">
-	<created_date>Apr 12, 2013</created_date>
-	<modified_date>Apr 12, 2013 10:05 PM</modified_date>
-	<profile>
-		<player_name>dannwebster</player_name>
-		<campaign>Open Sorcerer</campaign>
-		<name>Oleksi Korolev</name>
-		<title>Oligarch</title>
-		<age>18</age>
-		<birthday>January 20</birthday>
-		<eyes>Grey</eyes>
-		<hair>Blond, Straight, Long</hair>
-		<skin>Tan</skin>
-		<handedness>Right</handedness>
-		<height>5' 9"</height>
-		<weight>180 lb</weight>
-		<SM>0</SM>
-		<gender>Male</gender>
-		<race>Human</race>
-		<tech_level>8</tech_level>
-		<religion>Russian Orthodox</religion>
-	</profile>
-	<HP>0</HP>
-	<FP>0</FP>
-	<total_points>275</total_points>
-	<ST>9</ST>
-	<DX>12</DX>
-	<IQ>14</IQ>
-	<HT>9</HT>
-	<will>-1</will>
-	<perception>0</perception>
-	<speed>-1</speed>
-	<move>0</move>
-	<include_punch>true</include_punch>
-	<include_kick>true</include_kick>
-	<include_kick_with_boots>true</include_kick_with_boots>
-	<advantage_list>
-		<advantage version="2">
-			<name>Wealth, Multimillionaire</name>
-			<type>Social</type>
-			<levels>2</levels>
-			<base_points>50</base_points>
-			<points_per_level>25</points_per_level>
-			<reference>B25</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-			<prereq_list all="yes">
-				<advantage_prereq has="no">
-					<name compare="is">filthy rich</name>
-					<notes compare="is anything"></notes>
-				</advantage_prereq>
-			</prereq_list>
-		</advantage>
-		<advantage version="2">
-			<name>Status</name>
-			<type>Social</type>
-			<levels>4</levels>
-			<points_per_level>5</points_per_level>
-			<reference>B28</reference>
-			<notes>Russian Oligarch</notes>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Congenial</name>
-			<type>Mental</type>
-			<base_points>-1</base_points>
-			<reference>B164</reference>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Dislikes being told what to do</name>
-			<type>Mental</type>
-			<levels>0</levels>
-			<base_points>-1</base_points>
-			<reference>B164</reference>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Like Flashy Cars</name>
-			<type>Mental</type>
-			<levels>0</levels>
-			<base_points>-1</base_points>
-			<reference>B164</reference>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Obsession</name>
-			<type>Mental</type>
-			<levels>0</levels>
-			<base_points>-1</base_points>
-			<reference>B164</reference>
-			<notes>Visit every casino in America</notes>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Overweight</name>
-			<type>Physical</type>
-			<base_points>-1</base_points>
-			<reference>B19</reference>
-			<notes>+1 ST vs. knockback</notes>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-			<skill_bonus>
-				<name compare="is">disguise</name>
-				<specialization compare="is anything"></specialization>
-				<amount>-1</amount>
-			</skill_bonus>
-			<skill_bonus>
-				<name compare="is">shadowing</name>
-				<specialization compare="is anything"></specialization>
-				<amount>-1</amount>
-			</skill_bonus>
-			<skill_bonus>
-				<name compare="is">swimming</name>
-				<specialization compare="is anything"></specialization>
-				<amount>1</amount>
-			</skill_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Addiction (Cigars)</name>
-			<type>Mental/Physical</type>
-			<modifier version="1">
-				<name>Cost: Cheap</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Cost: Expensive</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Cost: Very Expensive</name>
-				<cost type="points">-20</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Effects: Hallucinogenic</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Effects: Highly Addictive (-5 on withdrawal roll)</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Effects: Incapacitating</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Effects: Totally Addictive (-10 on withdrawal roll)</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Illegal</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Legal</name>
-				<cost type="points">5</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<reference>B122</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Callous</name>
-			<type>Mental</type>
-			<base_points>-5</base_points>
-			<reference>B125</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-			<skill_bonus>
-				<name compare="is">psychology</name>
-				<specialization compare="is anything"></specialization>
-				<amount>-3</amount>
-			</skill_bonus>
-			<skill_bonus>
-				<name compare="is">teaching</name>
-				<specialization compare="is anything"></specialization>
-				<amount>-3</amount>
-			</skill_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Bad Sight (Nearsighted)</name>
-			<type>Physical</type>
-			<base_points>-25</base_points>
-			<modifier version="1">
-				<name>Mitigator</name>
-				<cost type="percentage">-60</cost>
-				<affects>total</affects>
-				<notes>Glasses</notes>
-			</modifier>
-			<reference>B123</reference>
-			<notes> -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks</notes>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Megalomania</name>
-			<type>Mental</type>
-			<base_points>-10</base_points>
-			<reference>B144</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Alcoholism</name>
-			<type>Physical</type>
-			<base_points>-15</base_points>
-			<modifier version="1" enabled="no">
-				<name>Illegal</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B122</reference>
-			</modifier>
-			<reference>B122</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Fanaticism (RaHoWa)</name>
-			<type>Mental</type>
-			<base_points>-15</base_points>
-			<modifier version="1" enabled="no">
-				<name>Extreme</name>
-				<cost type="percentage">0</cost>
-				<affects>total</affects>
-				<reference>B136</reference>
-			</modifier>
-			<reference>B136</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Telekinesis</name>
-			<type>Mental/Physical, Exotic</type>
-			<levels>20</levels>
-			<points_per_level>5</points_per_level>
-			<modifier version="1" enabled="no">
-				<name>Magnetic</name>
-				<cost type="percentage">-50</cost>
-				<affects>total</affects>
-				<reference>B92</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Visible</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>B92</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Super-Effort</name>
-				<cost type="percentage">400</cost>
-				<affects>total</affects>
-				<reference>P83</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Animation</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>P83</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Animation</name>
-				<cost type="percentage">-30</cost>
-				<affects>total</affects>
-				<reference>P83</reference>
-				<notes>No Flight</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Attraction</name>
-				<cost type="percentage">-60</cost>
-				<affects>total</affects>
-				<reference>P83</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Repulsion</name>
-				<cost type="percentage">-60</cost>
-				<affects>total</affects>
-				<reference>P83</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Attraction/Repulsion</name>
-				<cost type="percentage">-30</cost>
-				<affects>total</affects>
-				<reference>P83</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Lift Only</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>P83</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Move Only</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-				<reference>P83</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Animate Life-forms</name>
-				<cost type="percentage">100</cost>
-				<affects>total</affects>
-				<reference>Sup28</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Animate Life-forms</name>
-				<cost type="percentage">20</cost>
-				<affects>total</affects>
-				<reference>Sup28</reference>
-				<notes>Partial</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Super-Damage</name>
-				<cost type="percentage">900</cost>
-				<affects>total</affects>
-				<reference>Sup29</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Magical</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Increased Range (50 yd)</name>
-				<cost type="percentage">20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Requires Will Roll</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Costs Wil</name>
-				<cost type="percentage">-5</cost>
-				<levels>2</levels>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Unreliable (14)</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<reference>B92</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Tradition Investment (The Black Hundreds)</name>
-			<type>Physical</type>
-			<base_points>5</base_points>
-		</advantage>
-		<advantage version="2">
-			<name>Language: Russian</name>
-			<type>Mental</type>
-			<modifier version="1">
-				<name>Native</name>
-				<cost type="points">-6</cost>
-				<affects>total</affects>
-				<reference>B23</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>None</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Broken</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Accented</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Spoken</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Native</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>None</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Broken</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Accented</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Written</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Native</notes>
-			</modifier>
-			<reference>B24</reference>
-			<categories>
-				<category>Advantage</category>
-				<category>Language</category>
-			</categories>
-			<prereq_list all="yes">
-				<advantage_prereq has="no">
-					<name compare="is">Language Talent</name>
-					<notes compare="is anything"></notes>
-				</advantage_prereq>
-			</prereq_list>
-		</advantage>
-		<advantage version="2">
-			<name>Language: English</name>
-			<type>Mental</type>
-			<modifier version="1" enabled="no">
-				<name>Native</name>
-				<cost type="points">-6</cost>
-				<affects>total</affects>
-				<reference>B23</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>None</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Broken</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Spoken</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Accented</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Native</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>None</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Broken</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Written</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Accented</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Native</notes>
-			</modifier>
-			<reference>B24</reference>
-			<categories>
-				<category>Advantage</category>
-				<category>Language</category>
-			</categories>
-			<prereq_list all="yes">
-				<advantage_prereq has="no">
-					<name compare="is">Language Talent</name>
-					<notes compare="is anything"></notes>
-				</advantage_prereq>
-			</prereq_list>
-		</advantage>
-		<advantage version="2">
-			<name>Rank</name>
-			<type>Physical</type>
-			<levels>4</levels>
-			<points_per_level>5</points_per_level>
-			<modifier version="1" enabled="no">
-				<name>Replaces Status</name>
-				<cost type="points">5</cost>
-				<affects>levels_only</affects>
-				<reference>B29</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Courtesy</name>
-				<cost type="points">-4</cost>
-				<affects>levels_only</affects>
-				<reference>B29</reference>
-			</modifier>
-			<reference>B29</reference>
-			<notes>Black Hundreds: Exarch</notes>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-	</advantage_list>
-	<skill_list>
-		<skill version="2">
-			<name>Stealth</name>
-			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
-			<difficulty>DX/A</difficulty>
-			<points>1</points>
-			<reference>B222</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>History</name>
-			<specialization>Europe</specialization>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B200</reference>
-			<categories>
-				<category>Social Sciences/Humanities</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Judo</name>
-			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
-			<difficulty>DX/H</difficulty>
-			<points>4</points>
-			<reference>B203</reference>
-			<notes>Allows parrying two different attacks per turn, one with each hand.</notes>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Piloting</name>
-			<specialization>Helicopter</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/A</difficulty>
-			<points>2</points>
-			<reference>B214</reference>
-			<categories>
-				<category>Vehicle</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Piloting</name>
-				<specialization>Autogyro</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Piloting</name>
-				<specialization>Vertol</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Piloting</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Piloting</name>
-			<specialization>Light Airplane</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/A</difficulty>
-			<points>2</points>
-			<reference>B214</reference>
-			<categories>
-				<category>Vehicle</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Piloting</name>
-				<specialization>Glider</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Piloting</name>
-				<specialization>Heavy Airplane</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Piloting</name>
-				<specialization>High-Performance Airplane</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Piloting</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Piloting</name>
-				<specialization>Ultralight</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Shadowing</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B219</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Observation</name>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Stealth</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Symbol Drawing</name>
-			<specialization>Solomonic</specialization>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B224</reference>
-			<categories>
-				<category>Occult/Magical</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Connoisseur</name>
-			<specialization>Wine</specialization>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B185</reference>
-			<categories>
-				<category>Arts/Entertainment</category>
-				<category>Knowledge</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Driving</name>
-			<specialization>Automobile</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/A</difficulty>
-			<points>4</points>
-			<reference>B188</reference>
-			<categories>
-				<category>Vehicle</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Driving</name>
-				<specialization>Heavy Wheeled</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Driving</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Hidden Lore</name>
-			<specialization>Conspiracies</specialization>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B199</reference>
-			<categories>
-				<category>Knowledge</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Hidden Lore</name>
-			<specialization>Spirit Lore</specialization>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B199</reference>
-			<categories>
-				<category>Knowledge</category>
-				<category>Occult/Magical</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Hidden Lore</name>
-			<specialization>Traditions</specialization>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B199</reference>
-			<categories>
-				<category>Knowledge</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Observation</name>
-			<difficulty>Per/A</difficulty>
-			<points>1</points>
-			<reference>B211</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Military</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shadowing</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Throwing</name>
-			<difficulty>DX/A</difficulty>
-			<points>4</points>
-			<reference>B226</reference>
-			<categories>
-				<category>Athletic</category>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Dropping</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Games</name>
-			<specialization>Poker</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B197</reference>
-			<categories>
-				<category>Knowledge</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Guns</name>
-			<specialization>Pistol</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>4</points>
-			<reference>B198</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Savoir-Faire</name>
-			<specialization>High Society</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B218</reference>
-			<categories>
-				<category>Business</category>
-				<category>Knowledge</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Savoir-Faire</name>
-				<specialization>Servant</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Administration</name>
-			<difficulty>IQ/A</difficulty>
-			<points>4</points>
-			<reference>B174</reference>
-			<categories>
-				<category>Business</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Merchant</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Chemistry</name>
-			<tech_level>8</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>8</points>
-			<reference>B183</reference>
-			<categories>
-				<category>Natural Science</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Alchemy</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Gambling</name>
-			<difficulty>IQ/A</difficulty>
-			<points>4</points>
-			<reference>B197</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Mathematics</name>
-				<specialization>Statistics</specialization>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Merchant</name>
-			<difficulty>IQ/A</difficulty>
-			<points>4</points>
-			<reference>B209</reference>
-			<categories>
-				<category>Business</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Finance</name>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Market Analysis</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-	</skill_list>
-	<print_settings printer="7th Floor Kitchen Color" units="in">
-		<orientation>Portrait</orientation>
-		<width>8.5</width>
-		<height>11</height>
-		<top_margin>0.5</top_margin>
-		<left_margin>0.5</left_margin>
-		<bottom_margin>0.5</bottom_margin>
-		<right_margin>0.5</right_margin>
-		<ink_chromaticity>Monochrome</ink_chromaticity>
-		<sides>Single</sides>
-		<quality>Normal</quality>
-	</print_settings>
-</character>
+{
+	"type": "character",
+	"version": 1,
+	"id": "610e82de-99e8-4dd8-8607-c44171b77e84",
+	"settings": {
+		"version": 1,
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_and_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"use_title_in_footer": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "Apr 12, 2013, 12:00 AM",
+	"modified_date": "Apr 12, 2013, 12:00 AM",
+	"profile": {
+		"player_name": "dannwebster",
+		"name": "Oleksi Korolev",
+		"title": "Oligarch",
+		"age": 18,
+		"birthday": "January 20",
+		"eyes": "Grey",
+		"hair": "Blond, Straight, Long",
+		"skin": "Tan",
+		"handedness": "Right",
+		"height": "5' 9\"",
+		"weight": "180 lb",
+		"gender": "Male",
+		"body_type": "humanoid",
+		"tech_level": "8",
+		"religion": "Russian Orthodox"
+	},
+	"total_points": 275,
+	"ST": 9,
+	"DX": 12,
+	"IQ": 14,
+	"HT": 9,
+	"will_adj": -1,
+	"speed_adj": -1,
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "6385f32e-34c1-48f8-80fb-c5d92ba446bb",
+			"name": "Wealth, Multimillionaire",
+			"social": true,
+			"levels": "2",
+			"base_points": 50,
+			"points_per_level": 25,
+			"reference": "B25",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "filthy rich"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "c1c351ac-6b92-4194-8f20-beb6f616e665",
+			"name": "Status",
+			"social": true,
+			"levels": "4",
+			"points_per_level": 5,
+			"reference": "B28",
+			"notes": "Russian Oligarch",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "c8d3f325-f64a-4f07-817a-91d97c8ffb89",
+			"name": "Congenial",
+			"mental": true,
+			"base_points": -1,
+			"reference": "B164",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "0b48d1c1-6cba-43f3-bd80-844c77f48538",
+			"name": "Dislikes being told what to do",
+			"mental": true,
+			"levels": "0",
+			"base_points": -1,
+			"reference": "B164",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "5d7aaf82-c14c-43d0-b341-393214d61d07",
+			"name": "Like Flashy Cars",
+			"mental": true,
+			"levels": "0",
+			"base_points": -1,
+			"reference": "B164",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "32773bc2-7667-448d-afa8-80ead591a0be",
+			"name": "Obsession",
+			"mental": true,
+			"levels": "0",
+			"base_points": -1,
+			"reference": "B164",
+			"notes": "Visit every casino in America",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "fa8c2d36-36cd-4e63-af56-b0e316dcc4ca",
+			"name": "Overweight",
+			"physical": true,
+			"base_points": -1,
+			"reference": "B19",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": -1,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "disguise"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -1,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "shadowing"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "swimming"
+					}
+				}
+			],
+			"notes": "+1 ST vs. knockback",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "acc1090d-2293-42fa-8e01-a0b956241409",
+			"name": "Addiction (Cigars)",
+			"mental": true,
+			"physical": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a0edbf9c-f4a8-4120-96c7-55c936e3766c",
+					"name": "Cost: Cheap",
+					"reference": "B122",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "23a6f156-feb9-4c22-acf0-c1a2b152b5d5",
+					"disabled": true,
+					"name": "Cost: Expensive",
+					"reference": "B122",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e5ecf8d8-faad-48da-9e03-caaeb908de23",
+					"disabled": true,
+					"name": "Cost: Very Expensive",
+					"reference": "B122",
+					"cost_type": "points",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "65e5283a-8d86-4ae7-92c7-a662a2aaca0b",
+					"disabled": true,
+					"name": "Effects: Hallucinogenic",
+					"reference": "B122",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "216bd609-fb2f-4a51-a89e-48034f2188be",
+					"name": "Effects: Highly Addictive (-5 on withdrawal roll)",
+					"reference": "B122",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "84c03b40-b211-4107-9675-dfc97871932a",
+					"disabled": true,
+					"name": "Effects: Incapacitating",
+					"reference": "B122",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "21fefeeb-0579-438c-a9a0-d30d2dc2ebb3",
+					"disabled": true,
+					"name": "Effects: Totally Addictive (-10 on withdrawal roll)",
+					"reference": "B122",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0823770f-57e3-4b7e-9326-cca9ef9af6cc",
+					"disabled": true,
+					"name": "Illegal",
+					"reference": "B122",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f9b06b19-c82e-4622-8f27-499b977c8975",
+					"name": "Legal",
+					"reference": "B122",
+					"cost_type": "points",
+					"cost": 5,
+					"affects": "total"
+				}
+			],
+			"reference": "B122",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "8d75bd17-fafc-4dd2-9ed8-9de9ceafc579",
+			"name": "Callous",
+			"mental": true,
+			"base_points": -5,
+			"reference": "B125",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": -3,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "psychology"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -3,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "teaching"
+					}
+				}
+			],
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "c245d725-a864-4e0f-b8a6-80501bc21d0b",
+			"name": "Bad Sight (Nearsighted)",
+			"physical": true,
+			"base_points": -25,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "cbb7143d-d3c6-4349-abf1-085c9ef55dcd",
+					"name": "Mitigator",
+					"cost_type": "percentage",
+					"cost": -60,
+					"affects": "total",
+					"notes": "Glasses"
+				}
+			],
+			"reference": "B123",
+			"notes": " -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "54106190-fc60-40e6-a88c-9f3df248a295",
+			"name": "Megalomania",
+			"mental": true,
+			"base_points": -10,
+			"reference": "B144",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "e36b071a-5d52-4953-a5d6-dad570b493de",
+			"name": "Alcoholism",
+			"physical": true,
+			"base_points": -15,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0cff7c3a-8cbf-445f-9654-00d575e5fbeb",
+					"disabled": true,
+					"name": "Illegal",
+					"reference": "B122",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				}
+			],
+			"reference": "B122",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "7885c6f9-a7c8-41a8-8e9c-25784dfdabb1",
+			"name": "Fanaticism (RaHoWa)",
+			"mental": true,
+			"base_points": -15,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "28da940b-7f75-4c55-b00a-0b13dab4bd4e",
+					"disabled": true,
+					"name": "Extreme",
+					"reference": "B136",
+					"cost_type": "percentage",
+					"cost": 0,
+					"affects": "total"
+				}
+			],
+			"reference": "B136",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "6734b33f-4de1-4638-9274-f0ed843f1d6c",
+			"name": "Telekinesis",
+			"mental": true,
+			"physical": true,
+			"exotic": true,
+			"levels": "20",
+			"points_per_level": 5,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "341da494-a6f9-4837-aa6d-3c27aee1fc1c",
+					"disabled": true,
+					"name": "Magnetic",
+					"reference": "B92",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "627163f4-94c9-4823-99a1-62243e537dc1",
+					"name": "Visible",
+					"reference": "B92",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ad4dac8a-b5e0-40e6-a9f1-5599b20f59c9",
+					"disabled": true,
+					"name": "Super-Effort",
+					"reference": "P83",
+					"cost_type": "percentage",
+					"cost": 400,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "843a4e43-16da-41c7-86b6-2f035845e5e3",
+					"disabled": true,
+					"name": "Animation",
+					"reference": "P83",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "8ca8ea2f-f3e7-4ccb-a93a-74e0f9a96a67",
+					"disabled": true,
+					"name": "Animation",
+					"reference": "P83",
+					"cost_type": "percentage",
+					"cost": -30,
+					"affects": "total",
+					"notes": "No Flight"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a5f6931b-ef02-4ac8-b8ad-7382d843758d",
+					"disabled": true,
+					"name": "Attraction",
+					"reference": "P83",
+					"cost_type": "percentage",
+					"cost": -60,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "405b496a-a744-4df4-9342-1319bea5d184",
+					"disabled": true,
+					"name": "Repulsion",
+					"reference": "P83",
+					"cost_type": "percentage",
+					"cost": -60,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "51893d4e-0c0b-422f-8181-6283ca0983ef",
+					"disabled": true,
+					"name": "Attraction/Repulsion",
+					"reference": "P83",
+					"cost_type": "percentage",
+					"cost": -30,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4525b5cb-aab9-4638-8f84-cec90386149f",
+					"disabled": true,
+					"name": "Lift Only",
+					"reference": "P83",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "bc56da11-7bef-48bc-80fc-5100cdd293df",
+					"disabled": true,
+					"name": "Move Only",
+					"reference": "P83",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "86f2cb9d-63cb-4ad1-9f1e-69aea7b1ae3e",
+					"disabled": true,
+					"name": "Animate Life-forms",
+					"reference": "Sup28",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d9ed3d6a-085d-4bed-a9ce-8baa02377ee5",
+					"disabled": true,
+					"name": "Animate Life-forms",
+					"reference": "Sup28",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total",
+					"notes": "Partial"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7365cd9d-fbfd-499e-9acc-be62c2d4efcb",
+					"disabled": true,
+					"name": "Super-Damage",
+					"reference": "Sup29",
+					"cost_type": "percentage",
+					"cost": 900,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b23ff7aa-1eb5-46ae-ac22-998c99a4961f",
+					"name": "Magical",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "bceb3929-8b4c-429a-87ef-b921a0c9d052",
+					"name": "Increased Range (50 yd)",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "42d02b3c-0b6a-42c1-bdc5-de124dccf83a",
+					"name": "Requires Will Roll",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "99a6932d-6c18-45e5-b865-f21916691493",
+					"name": "Costs Wil",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total",
+					"levels": 2
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "399d9bdf-d055-4c37-a255-056d4efedf2b",
+					"name": "Unreliable (14)",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				}
+			],
+			"reference": "B92",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "9912d9a2-2b62-45b8-a8a3-458d92ff3d2e",
+			"name": "Tradition Investment (The Black Hundreds)",
+			"physical": true,
+			"base_points": 5
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "9aaf2d51-9b3a-4552-8d38-3444396bfd60",
+			"name": "Language: Russian",
+			"mental": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "63d0a4ad-5fc8-46e3-99f5-4dd228a38dc7",
+					"name": "Native",
+					"reference": "B23",
+					"cost_type": "points",
+					"cost": -6,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "bc93c4ee-4b2a-4e34-a02a-9dd0130a6ed7",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7487f20f-6b7a-4ff7-bd23-be88543c9efc",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b514f350-0bc7-4714-8b40-77eeba46a0f1",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "dabdb2c9-2d94-4b20-b493-1faa2834d988",
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1173ea57-549e-4da5-a08c-b6f9e1457d33",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4bae3f37-2142-410c-b175-8db338d55dd5",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "99675217-4201-433c-a247-aced52ab5227",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "39ad6c9b-152a-4989-bbdc-00a054908049",
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				}
+			],
+			"reference": "B24",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "Language Talent"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Advantage",
+				"Language"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "172e505b-1dbb-429e-9dd6-d9b3cb9bc43e",
+			"name": "Language: English",
+			"mental": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "023985ab-3425-44fd-ac41-075a32720d2f",
+					"disabled": true,
+					"name": "Native",
+					"reference": "B23",
+					"cost_type": "points",
+					"cost": -6,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4d6412a0-cd69-4482-8882-668d7e621bcd",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c2d98d61-d02f-4a81-8e25-a631bafd6852",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4eed5b0a-4d53-4aed-a5cb-0095e42fc868",
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "901b32d8-f879-4038-b41f-006b5ef45234",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c68e5fbe-9887-43ad-900c-fd5f5f37d8f1",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3fa1e99c-3497-48f9-aa1d-cb8ca7030c7c",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7eae3ae4-65f7-41ad-900b-60db8e95da14",
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "32eea240-b65a-48b6-b371-6beb8875a50b",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				}
+			],
+			"reference": "B24",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "Language Talent"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Advantage",
+				"Language"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "5e593c23-048b-4474-81c3-342e8fc16ac6",
+			"name": "Rank",
+			"physical": true,
+			"levels": "4",
+			"points_per_level": 5,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "569daedf-cfc1-40ef-866d-ebaac61cdcf3",
+					"disabled": true,
+					"name": "Replaces Status",
+					"reference": "B29",
+					"cost_type": "points",
+					"cost": 5,
+					"affects": "levels_only"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ba987280-fcf1-4bab-a51d-2be9f3bf5b9a",
+					"disabled": true,
+					"name": "Courtesy",
+					"reference": "B29",
+					"cost_type": "points",
+					"cost": -4,
+					"affects": "levels_only"
+				}
+			],
+			"reference": "B29",
+			"notes": "Black Hundreds: Exarch",
+			"categories": [
+				"Advantage"
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "2d25f859-49a1-4df2-b16e-0c1552d79e77",
+			"name": "Stealth",
+			"reference": "B222",
+			"encumbrance_penalty_multiplier": 1,
+			"difficulty": "DX/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "DX",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "6b61ab27-a958-473e-aa8e-0f5446ca815f",
+			"name": "History",
+			"reference": "B200",
+			"specialization": "Europe",
+			"difficulty": "IQ/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "df303e4e-dd1e-43e5-b8a4-5c4e576e24db",
+			"name": "Judo",
+			"reference": "B203",
+			"encumbrance_penalty_multiplier": 1,
+			"difficulty": "DX/H",
+			"points": 4,
+			"notes": "Allows parrying two different attacks per turn, one with each hand.",
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "83e9e2ef-8880-427c-b450-fa96bd61534a",
+			"name": "Piloting",
+			"reference": "B214",
+			"specialization": "Helicopter",
+			"tech_level": "8",
+			"difficulty": "DX/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Piloting",
+					"specialization": "Autogyro",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Piloting",
+					"specialization": "Vertol",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Piloting",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Vehicle"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "b7b0b4c5-9870-4dd1-a6a4-f7fade038708",
+			"name": "Piloting",
+			"reference": "B214",
+			"specialization": "Light Airplane",
+			"tech_level": "8",
+			"difficulty": "DX/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Piloting",
+					"specialization": "Glider",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Piloting",
+					"specialization": "Heavy Airplane",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Piloting",
+					"specialization": "High-Performance Airplane",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Piloting",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Piloting",
+					"specialization": "Ultralight",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Vehicle"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "a2d9246e-78a7-4023-8732-46dc2871ae1f",
+			"name": "Shadowing",
+			"reference": "B219",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Observation",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Stealth",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "a3162a39-e30c-4cc6-b605-3c70d1a48907",
+			"name": "Symbol Drawing",
+			"reference": "B224",
+			"specialization": "Solomonic",
+			"difficulty": "IQ/H",
+			"points": 1,
+			"categories": [
+				"Occult/Magical"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "7cc66551-2820-4d59-b1ff-56245fb53440",
+			"name": "Connoisseur",
+			"reference": "B185",
+			"specialization": "Wine",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Arts/Entertainment",
+				"Knowledge",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "3a32e410-8428-48b8-b632-6a58939c29f6",
+			"name": "Driving",
+			"reference": "B188",
+			"specialization": "Automobile",
+			"tech_level": "8",
+			"difficulty": "DX/A",
+			"points": 4,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -5
+				},
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Driving",
+					"specialization": "Heavy Wheeled",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Driving",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Vehicle"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "5affede5-a219-47c2-bcda-8596abf239d9",
+			"name": "Hidden Lore",
+			"reference": "B199",
+			"specialization": "Conspiracies",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"categories": [
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "bb819db9-2b91-4751-97f7-86baa0ff4e60",
+			"name": "Hidden Lore",
+			"reference": "B199",
+			"specialization": "Spirit Lore",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"categories": [
+				"Knowledge",
+				"Occult/Magical"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "f44b07c9-eca4-4d58-b98d-851ec484de21",
+			"name": "Hidden Lore",
+			"reference": "B199",
+			"specialization": "Traditions",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"categories": [
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "d9cba27a-94f9-4224-b947-e6ca685534bb",
+			"name": "Observation",
+			"reference": "B211",
+			"difficulty": "Per/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -5,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Shadowing",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Military",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "20e0771b-659e-4b76-9952-7046bf730d9d",
+			"name": "Throwing",
+			"reference": "B226",
+			"difficulty": "DX/A",
+			"points": 4,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -3,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Dropping",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Athletic",
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "99273f05-fca7-4c7a-8a9c-37e6c67be174",
+			"name": "Games",
+			"reference": "B197",
+			"specialization": "Poker",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -4,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "001d2ce8-e112-4be9-8e57-a3028c196efd",
+			"name": "Guns",
+			"reference": "B198",
+			"specialization": "Pistol",
+			"tech_level": "8",
+			"difficulty": "DX/E",
+			"points": 4,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -4,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "90c79516-52ff-4a65-a13d-80d04f455414",
+			"name": "Savoir-Faire",
+			"reference": "B218",
+			"specialization": "High Society",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -4,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Savoir-Faire",
+					"specialization": "Servant",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Business",
+				"Knowledge",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "c3c9561a-5901-46a5-bbce-3b3db1cac2c9",
+			"name": "Administration",
+			"reference": "B174",
+			"difficulty": "IQ/A",
+			"points": 4,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Merchant",
+				"modifier": -3,
+				"level": 12,
+				"adjusted_level": 12,
+				"points": -12
+			},
+			"defaults": [
+				{
+					"type": "Skill",
+					"name": "Merchant",
+					"modifier": -3
+				},
+				{
+					"type": "IQ",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Business",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "1a612062-1df8-4d97-8b3b-2b5a5eb856fb",
+			"name": "Chemistry",
+			"reference": "B183",
+			"tech_level": "8",
+			"difficulty": "IQ/H",
+			"points": 8,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Alchemy",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Natural Science"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "068b535a-81e9-4e47-a1ee-cd32117713d8",
+			"name": "Gambling",
+			"reference": "B197",
+			"difficulty": "IQ/A",
+			"points": 4,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Mathematics",
+					"specialization": "Statistics",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "90537f84-9caf-4b40-836e-559b02f0bb32",
+			"name": "Merchant",
+			"reference": "B209",
+			"difficulty": "IQ/A",
+			"points": 4,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Finance",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Market Analysis",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Business",
+				"Social"
+			]
+		}
+	]
+}

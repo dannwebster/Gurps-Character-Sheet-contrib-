@@ -1,572 +1,948 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="ijhgz0de:-3yud63x7flz5" version="2">
-	<created_date>Jan 16, 2016</created_date>
-	<modified_date>Jan 16, 2016 11:15 AM</modified_date>
-	<profile>
-		<player_name>dwebster</player_name>
-		<campaign>Quadarc</campaign>
-		<name>Cnyarathix</name>
-		<title>Star Squid</title>
-		<age>18</age>
-		<birthday>November 18</birthday>
-		<eyes>Blue</eyes>
-		<hair>Brown, Straight, Medium</hair>
-		<skin>Brown</skin>
-		<handedness>Left</handedness>
-		<height>5' 6.535433070866134"</height>
-		<weight>147.735 lb</weight>
-		<SM>3</SM>
-		<gender>Male</gender>
-		<race>Human</race>
-		<tech_level>3</tech_level>
-		<religion>Outer God</religion>
-	</profile>
-	<HP>0</HP>
-	<FP>0</FP>
-	<total_points>210</total_points>
-	<ST>10</ST>
-	<DX>10</DX>
-	<IQ>5</IQ>
-	<HT>12</HT>
-	<will>7</will>
-	<perception>7</perception>
-	<speed>0</speed>
-	<move>0</move>
-	<include_punch>true</include_punch>
-	<include_kick>true</include_kick>
-	<include_kick_with_boots>true</include_kick_with_boots>
-	<advantage_list>
-		<advantage version="2">
-			<name>Damage Resistance</name>
-			<type>Physical, Exotic</type>
-			<levels>9</levels>
-			<points_per_level>5</points_per_level>
-			<modifier version="1" enabled="no">
-				<name>Force Field</name>
-				<cost type="percentage">20</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Hardened</name>
-				<cost type="percentage">20</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Absorption</name>
-				<cost type="percentage">80</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>Enhances @Trait@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Absorption</name>
-				<cost type="percentage">80</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>Healing only</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Absorption</name>
-				<cost type="percentage">100</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>Enhances any trait</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Reflection</name>
-				<cost type="percentage">100</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Bane</name>
-				<cost type="points">-1</cost>
-				<affects>total</affects>
-				<reference>H14</reference>
-				<notes>@Rare@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Bane</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-				<reference>H14</reference>
-				<notes>@Occasional@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Bane</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-				<reference>H14</reference>
-				<notes>@Common@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Bane</name>
-				<cost type="percentage">-15</cost>
-				<affects>total</affects>
-				<reference>H14</reference>
-				<notes>@Very Common@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Directional</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-				<notes>Front</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Flexible</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Limited</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>@Very Common Attack Form@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Semi-Ablative</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Can't wear armor</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Directional</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-				<notes>@Direction: Back, Right, Left, Top or Underside@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Limited</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>@Common Attack Form@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Tough Skin</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-				<notes>Effects that just require skin contact or a scratch ignore this DR</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Limited</name>
-				<cost type="percentage">-60</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>@Occasional Attack Form@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Ablative</name>
-				<cost type="percentage">-80</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Limited</name>
-				<cost type="percentage">-80</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>@Rare Attack Form@</notes>
-			</modifier>
-			<reference>B47</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-			<dr_bonus>
-				<location>full body</location>
-				<amount per_level="yes">1</amount>
-			</dr_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Increased Strength</name>
-			<type>Physical</type>
-			<levels>25</levels>
-			<points_per_level>10</points_per_level>
-			<modifier version="1" enabled="no">
-				<name>No Fine Manipulators</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-				<reference>B15</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Size</name>
-				<cost type="percentage">-10</cost>
-				<levels>3</levels>
-				<affects>total</affects>
-				<reference>B15</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Super-Effort</name>
-				<cost type="percentage">300</cost>
-				<affects>total</affects>
-				<reference>Sup24</reference>
-			</modifier>
-			<reference>B14</reference>
-			<categories>
-				<category>Advantage</category>
-				<category>Attribute</category>
-			</categories>
-			<attribute_bonus>
-				<attribute>st</attribute>
-				<amount per_level="yes">1</amount>
-			</attribute_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Extra Attack</name>
-			<type>Physical</type>
-			<levels>5</levels>
-			<points_per_level>25</points_per_level>
-			<modifier version="1" enabled="no">
-				<name>Multi-Strike</name>
-				<cost type="percentage">20</cost>
-				<affects>total</affects>
-				<reference>P49</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Single Skill</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>P49</reference>
-				<notes>@Skill@</notes>
-			</modifier>
-			<reference>B53</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Extra Arm</name>
-			<type>Physical, Exotic</type>
-			<levels>1</levels>
-			<points_per_level>10</points_per_level>
-			<modifier version="1" enabled="no">
-				<name>Extra-Flexible</name>
-				<cost type="percentage">50</cost>
-				<affects>total</affects>
-				<reference>B53</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Long</name>
-				<cost type="percentage">100</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B53</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Foot Manipulators</name>
-				<cost type="percentage">-30</cost>
-				<affects>total</affects>
-				<reference>B53</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>No Physical Attack</name>
-				<cost type="percentage">-50</cost>
-				<affects>total</affects>
-				<reference>B53</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Short</name>
-				<cost type="percentage">-50</cost>
-				<affects>total</affects>
-				<reference>B53</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Weak</name>
-				<cost type="percentage">-25</cost>
-				<affects>total</affects>
-				<reference>B53</reference>
-				<notes>Half body ST</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Weak</name>
-				<cost type="percentage">-50</cost>
-				<affects>total</affects>
-				<reference>B53</reference>
-				<notes>Quarter body ST</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Weapon Mount</name>
-				<cost type="percentage">-80</cost>
-				<affects>total</affects>
-				<reference>B53</reference>
-			</modifier>
-			<reference>B53</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Innate Attack (Corrosion)</name>
-			<type>Physical, Exotic</type>
-			<levels>1</levels>
-			<points_per_level>16</points_per_level>
-			<melee_weapon>
-				<damage>1d+2 (2)</damage>
-				<usage>Brawling</usage>
-				<reach>1-4</reach>
-				<parry>0</parry>
-			</melee_weapon>
-			<modifier version="1" enabled="no">
-				<name>Cyclic</name>
-				<cost type="percentage">100</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B103</reference>
-				<notes>1 sec</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Cyclic</name>
-				<cost type="percentage">50</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B103</reference>
-				<notes>10 sec</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Cyclic</name>
-				<cost type="percentage">40</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B103</reference>
-				<notes>1 min</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Cyclic</name>
-				<cost type="percentage">20</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B103</reference>
-				<notes>1 hr</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Cyclic</name>
-				<cost type="percentage">10</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B103</reference>
-				<notes>1 day</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Cyclic</name>
-				<cost type="percentage">50</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B103</reference>
-				<notes>1 sec; Resistible</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Cyclic</name>
-				<cost type="percentage">25</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B103</reference>
-				<notes>10 sec; Resistible</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Cyclic</name>
-				<cost type="percentage">20</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B103</reference>
-				<notes>1 min; Resistible</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Cyclic</name>
-				<cost type="percentage">10</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B103</reference>
-				<notes>1 hr; Resistible</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Cyclic</name>
-				<cost type="percentage">5</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B103</reference>
-				<notes>1 day; Resistible</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Contagious</name>
-				<cost type="percentage">20</cost>
-				<affects>total</affects>
-				<reference>B103</reference>
-				<notes>Mildly</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Contagious</name>
-				<cost type="percentage">50</cost>
-				<affects>total</affects>
-				<reference>B103</reference>
-				<notes>Highly</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Double Blunt Trauma</name>
-				<cost type="percentage">20</cost>
-				<affects>total</affects>
-				<reference>B104</reference>
-				<notes>1HP per 10 dmg</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Explosion</name>
-				<cost type="percentage">50</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B104</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Fragmentation</name>
-				<cost type="percentage">15</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B104</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Fragmentation</name>
-				<cost type="percentage">15</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B104</reference>
-				<notes>Hot</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Surge</name>
-				<cost type="percentage">20</cost>
-				<affects>total</affects>
-				<reference>B104</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Armor Divisor</name>
-				<cost type="percentage">50</cost>
-				<affects>total</affects>
-				<reference>B102</reference>
-				<notes>2</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Armor Divisor</name>
-				<cost type="percentage">100</cost>
-				<affects>total</affects>
-				<reference>B102</reference>
-				<notes>3</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Armor Divisor</name>
-				<cost type="percentage">150</cost>
-				<affects>total</affects>
-				<reference>B102</reference>
-				<notes>5</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Armor Divisor</name>
-				<cost type="percentage">200</cost>
-				<affects>total</affects>
-				<reference>B102</reference>
-				<notes>10</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Side Effect</name>
-				<cost type="percentage">0</cost>
-				<affects>total</affects>
-				<reference>B109</reference>
-				<notes>@Effect@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Symptoms</name>
-				<cost type="percentage">0</cost>
-				<affects>total</affects>
-				<reference>B109</reference>
-				<notes>@Effect@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Armor Divisor</name>
-				<cost type="percentage">-30</cost>
-				<affects>total</affects>
-				<reference>B110</reference>
-				<notes>0.5</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Armor Divisor</name>
-				<cost type="percentage">-50</cost>
-				<affects>total</affects>
-				<reference>B110</reference>
-				<notes>0.2</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Armor Divisor</name>
-				<cost type="percentage">-70</cost>
-				<affects>total</affects>
-				<reference>B110</reference>
-				<notes>0.1</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>No Wounding</name>
-				<cost type="percentage">-50</cost>
-				<affects>total</affects>
-				<reference>B111</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Incendiary</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-				<reference>B104</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Melee Attack (Whip-like)</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<notes>Reach 1-4, cannot parry</notes>
-			</modifier>
-			<reference>B61</reference>
-			<notes>Corrosive Chaos (5 points basic damage, reduce armor by 1)</notes>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Affliction</name>
-			<type>Physical, Exotic</type>
-			<levels>2</levels>
-			<points_per_level>10</points_per_level>
-			<modifier version="1">
-				<name>Hallucinations</name>
-				<cost type="percentage">50</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Follow-Up (Crawling Chaos)</name>
-				<cost type="percentage">30</cost>
-				<affects>total</affects>
-			</modifier>
-			<reference>B35</reference>
-			<notes>Corrosive Chaos</notes>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-	</advantage_list>
-	<print_settings printer="LAPRINTSERVER-MailRoom" units="in">
-		<orientation>portrait</orientation>
-		<width>8.5</width>
-		<height>11</height>
-		<top_margin>0.5</top_margin>
-		<left_margin>0.5</left_margin>
-		<bottom_margin>0.5</bottom_margin>
-		<right_margin>0.5</right_margin>
-		<ink_chromaticity>monochrome</ink_chromaticity>
-		<sides>single</sides>
-		<quality>normal</quality>
-	</print_settings>
-</character>
+{
+	"type": "character",
+	"version": 1,
+	"id": "dee04fda-1475-4468-9e93-4fe37e3e4b88",
+	"settings": {
+		"version": 1,
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_and_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"use_title_in_footer": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "Jan 16, 2016, 12:00 AM",
+	"modified_date": "Jan 16, 2016, 12:00 AM",
+	"profile": {
+		"player_name": "dwebster",
+		"name": "Cnyarathix",
+		"title": "Star Squid",
+		"age": 18,
+		"birthday": "November 18",
+		"eyes": "Blue",
+		"hair": "Brown, Straight, Medium",
+		"skin": "Brown",
+		"handedness": "Left",
+		"height": "5' 6.535433\"",
+		"weight": "147.735 lb",
+		"SM": 3,
+		"gender": "Male",
+		"body_type": "humanoid",
+		"tech_level": "3",
+		"religion": "Outer God"
+	},
+	"total_points": 210,
+	"ST": 10,
+	"DX": 10,
+	"IQ": 5,
+	"HT": 12,
+	"will_adj": 7,
+	"per_adj": 7,
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "041287f5-fb19-4001-ba04-aebc829b47b1",
+			"name": "Damage Resistance",
+			"physical": true,
+			"exotic": true,
+			"levels": "9",
+			"points_per_level": 5,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d34e29cb-f8fc-45ea-ae91-04785614f20d",
+					"disabled": true,
+					"name": "Force Field",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "cac31115-c356-4ab9-8999-e8346a3fe733",
+					"disabled": true,
+					"name": "Hardened",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total",
+					"levels": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9953a550-a775-43dc-a2d1-9c78a2e09bc4",
+					"disabled": true,
+					"name": "Absorption",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": 80,
+					"affects": "total",
+					"notes": "Enhances @Trait@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "977dfefa-134e-428a-82bc-67e7ec65c90b",
+					"disabled": true,
+					"name": "Absorption",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": 80,
+					"affects": "total",
+					"notes": "Healing only"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9bed6718-10ed-4f3f-8ac0-815936d5410e",
+					"disabled": true,
+					"name": "Absorption",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total",
+					"notes": "Enhances any trait"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "31582f09-eb78-432f-95f3-9b696cb8e754",
+					"disabled": true,
+					"name": "Reflection",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5fb7c35a-abfb-443f-b211-b1c106b89f8c",
+					"disabled": true,
+					"name": "Bane",
+					"reference": "H14",
+					"cost_type": "points",
+					"cost": -1,
+					"affects": "total",
+					"notes": "@Rare@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "bd91343a-d9eb-42f4-aa8f-9f49c6eb1bd7",
+					"disabled": true,
+					"name": "Bane",
+					"reference": "H14",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total",
+					"notes": "@Occasional@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "77d96016-abc5-4586-88a9-81a6157b428b",
+					"disabled": true,
+					"name": "Bane",
+					"reference": "H14",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total",
+					"notes": "@Common@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f9b1ffd6-5b3b-491c-8099-43230a5a30cd",
+					"disabled": true,
+					"name": "Bane",
+					"reference": "H14",
+					"cost_type": "percentage",
+					"cost": -15,
+					"affects": "total",
+					"notes": "@Very Common@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "62805145-9546-44d4-929e-9943eea86112",
+					"disabled": true,
+					"name": "Directional",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "Front"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3da2178a-d2aa-48bf-aea0-56e4a228041e",
+					"disabled": true,
+					"name": "Flexible",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6dbe7385-798f-48c6-94b1-37209b9506d5",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "@Very Common Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b7b17d83-14c5-4806-a991-cb05415c20b3",
+					"disabled": true,
+					"name": "Semi-Ablative",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7aa326df-42e9-4802-add8-dfe4c735cfcc",
+					"disabled": true,
+					"name": "Can't wear armor",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "af1a4abe-3912-4a47-ba6b-c951c57c8eb0",
+					"disabled": true,
+					"name": "Directional",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total",
+					"notes": "@Direction: Back, Right, Left, Top or Underside@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c7b571c1-016c-49b1-aac7-6638e72be8dc",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total",
+					"notes": "@Common Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5841b28f-d3de-447e-813c-ce59d4466529",
+					"disabled": true,
+					"name": "Tough Skin",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total",
+					"notes": "Effects that just require skin contact or a scratch ignore this DR"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "56b6ec67-8732-4816-aada-bd53d16c8090",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -60,
+					"affects": "total",
+					"notes": "@Occasional Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "bdfe34cd-1463-473a-ae6c-4c2c9cb3126d",
+					"disabled": true,
+					"name": "Ablative",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -80,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "93dd7e6d-978e-43eb-900f-4fc44690116d",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -80,
+					"affects": "total",
+					"notes": "@Rare Attack Form@"
+				}
+			],
+			"reference": "B47",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"per_level": true,
+					"location": "full_body"
+				}
+			],
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "90741cc3-736c-416c-ac49-2aec6b95ae54",
+			"name": "Increased Strength",
+			"physical": true,
+			"levels": "25",
+			"points_per_level": 10,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "14803b5d-f632-4662-9021-cd053aaa9917",
+					"disabled": true,
+					"name": "No Fine Manipulators",
+					"reference": "B15",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "891df83c-71c1-4db2-990f-7ad8aea6a9fb",
+					"name": "Size",
+					"reference": "B15",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total",
+					"levels": 3
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "8064bdab-47a8-48f1-9e14-ea566c8faa98",
+					"disabled": true,
+					"name": "Super-Effort",
+					"reference": "Sup24",
+					"cost_type": "percentage",
+					"cost": 300,
+					"affects": "total"
+				}
+			],
+			"reference": "B14",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"per_level": true,
+					"attribute": "st"
+				}
+			],
+			"categories": [
+				"Advantage",
+				"Attribute"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "37e8d2e9-e7e4-44cc-b774-3cc618d9dec6",
+			"name": "Extra Attack",
+			"physical": true,
+			"levels": "5",
+			"points_per_level": 25,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1682e669-7b21-4a8b-85d1-cc9c0f2249a4",
+					"disabled": true,
+					"name": "Multi-Strike",
+					"reference": "P49",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "236e50b8-7db5-4940-b79f-aaba25f42e4e",
+					"disabled": true,
+					"name": "Single Skill",
+					"reference": "P49",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "@Skill@"
+				}
+			],
+			"reference": "B53",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "971c3448-834a-464c-9281-3440e0ff389f",
+			"name": "Extra Arm",
+			"physical": true,
+			"exotic": true,
+			"levels": "1",
+			"points_per_level": 10,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a9c26f83-7987-41f0-a950-4ae8e84f992a",
+					"disabled": true,
+					"name": "Extra-Flexible",
+					"reference": "B53",
+					"cost_type": "percentage",
+					"cost": 50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "08d13e24-d1d7-49b0-aaa8-42e10f309618",
+					"name": "Long",
+					"reference": "B53",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total",
+					"levels": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "97a354bd-b5e4-41c7-a03d-38f1184fc09d",
+					"disabled": true,
+					"name": "Foot Manipulators",
+					"reference": "B53",
+					"cost_type": "percentage",
+					"cost": -30,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0f51f76a-00b0-4dfb-b9b2-6a3814b68b87",
+					"disabled": true,
+					"name": "No Physical Attack",
+					"reference": "B53",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "db70873d-a52a-4935-979c-20b26d3b6bc5",
+					"disabled": true,
+					"name": "Short",
+					"reference": "B53",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1574d88a-0118-423d-a3c1-e54c5285da39",
+					"name": "Weak",
+					"reference": "B53",
+					"cost_type": "percentage",
+					"cost": -25,
+					"affects": "total",
+					"notes": "Half body ST"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "8ffbf49e-d1da-4435-88a0-ce61be75faa1",
+					"disabled": true,
+					"name": "Weak",
+					"reference": "B53",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total",
+					"notes": "Quarter body ST"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "cbfa2c80-01b2-4ad8-b118-ac9762f9c467",
+					"disabled": true,
+					"name": "Weapon Mount",
+					"reference": "B53",
+					"cost_type": "percentage",
+					"cost": -80,
+					"affects": "total"
+				}
+			],
+			"reference": "B53",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "f694e4c6-ad5c-41e9-b91a-4e9cfd1f5adc",
+			"name": "Innate Attack (Corrosion)",
+			"physical": true,
+			"exotic": true,
+			"levels": "1",
+			"points_per_level": 16,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "",
+						"base": "1d+2",
+						"armor_divisor": 2
+					},
+					"usage": "Brawling",
+					"reach": "1-4",
+					"parry": "0"
+				}
+			],
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9f7b1151-9948-4405-b091-3b10c235e4fe",
+					"disabled": true,
+					"name": "Cyclic",
+					"reference": "B103",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total",
+					"levels": 1,
+					"notes": "1 sec"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f5c65602-aca5-41e9-b83c-0da3e5ee4d95",
+					"disabled": true,
+					"name": "Cyclic",
+					"reference": "B103",
+					"cost_type": "percentage",
+					"cost": 50,
+					"affects": "total",
+					"levels": 1,
+					"notes": "10 sec"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "64d46584-32cd-43bb-958c-a5eee43fcfe4",
+					"disabled": true,
+					"name": "Cyclic",
+					"reference": "B103",
+					"cost_type": "percentage",
+					"cost": 40,
+					"affects": "total",
+					"levels": 1,
+					"notes": "1 min"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d6886cba-6064-4076-9ea9-205f1ee3ea4f",
+					"disabled": true,
+					"name": "Cyclic",
+					"reference": "B103",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total",
+					"levels": 1,
+					"notes": "1 hr"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "bb90c12e-39b8-4ae3-99cd-6f07e623d7fa",
+					"disabled": true,
+					"name": "Cyclic",
+					"reference": "B103",
+					"cost_type": "percentage",
+					"cost": 10,
+					"affects": "total",
+					"levels": 1,
+					"notes": "1 day"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c1fe5c14-1f82-45a6-919c-34833cce043c",
+					"disabled": true,
+					"name": "Cyclic",
+					"reference": "B103",
+					"cost_type": "percentage",
+					"cost": 50,
+					"affects": "total",
+					"levels": 1,
+					"notes": "1 sec; Resistible"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6f6dc4ad-ae08-4c91-be7a-dcf715008542",
+					"disabled": true,
+					"name": "Cyclic",
+					"reference": "B103",
+					"cost_type": "percentage",
+					"cost": 25,
+					"affects": "total",
+					"levels": 1,
+					"notes": "10 sec; Resistible"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "bd023c6f-8eda-4ea4-aa3f-9262eecd350c",
+					"disabled": true,
+					"name": "Cyclic",
+					"reference": "B103",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total",
+					"levels": 1,
+					"notes": "1 min; Resistible"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c4f64ba0-36a5-4fcb-b610-64f365fd25aa",
+					"disabled": true,
+					"name": "Cyclic",
+					"reference": "B103",
+					"cost_type": "percentage",
+					"cost": 10,
+					"affects": "total",
+					"levels": 1,
+					"notes": "1 hr; Resistible"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "35e52a55-7499-4cd5-9a77-0d009cb87ce1",
+					"disabled": true,
+					"name": "Cyclic",
+					"reference": "B103",
+					"cost_type": "percentage",
+					"cost": 5,
+					"affects": "total",
+					"levels": 1,
+					"notes": "1 day; Resistible"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c72fed3c-48e0-43cb-8567-158e4c71a59a",
+					"disabled": true,
+					"name": "Contagious",
+					"reference": "B103",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total",
+					"notes": "Mildly"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "81bc7913-443d-4051-a8e1-c5f8b27245e2",
+					"disabled": true,
+					"name": "Contagious",
+					"reference": "B103",
+					"cost_type": "percentage",
+					"cost": 50,
+					"affects": "total",
+					"notes": "Highly"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ad62e999-9542-48e8-8e7a-a7b688941776",
+					"disabled": true,
+					"name": "Double Blunt Trauma",
+					"reference": "B104",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total",
+					"notes": "1HP per 10 dmg"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "fdf8854e-a6d7-40be-aa8d-11a08ec4d85b",
+					"disabled": true,
+					"name": "Explosion",
+					"reference": "B104",
+					"cost_type": "percentage",
+					"cost": 50,
+					"affects": "total",
+					"levels": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3e0adf26-2915-4fda-ba7c-e7da7b348094",
+					"disabled": true,
+					"name": "Fragmentation",
+					"reference": "B104",
+					"cost_type": "percentage",
+					"cost": 15,
+					"affects": "total",
+					"levels": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6a46205b-0834-4c1a-b137-3c7e32408c27",
+					"disabled": true,
+					"name": "Fragmentation",
+					"reference": "B104",
+					"cost_type": "percentage",
+					"cost": 15,
+					"affects": "total",
+					"levels": 1,
+					"notes": "Hot"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6f94b711-a683-4d38-af11-ce067d5ef647",
+					"disabled": true,
+					"name": "Surge",
+					"reference": "B104",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "be5d381d-f328-44f0-849a-32feb3ea35c2",
+					"name": "Armor Divisor",
+					"reference": "B102",
+					"cost_type": "percentage",
+					"cost": 50,
+					"affects": "total",
+					"notes": "2"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "bc328837-37e1-4ade-8d03-d5ce16732e19",
+					"disabled": true,
+					"name": "Armor Divisor",
+					"reference": "B102",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total",
+					"notes": "3"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d45cf179-3fe0-413e-b2ea-ec6b4e093361",
+					"disabled": true,
+					"name": "Armor Divisor",
+					"reference": "B102",
+					"cost_type": "percentage",
+					"cost": 150,
+					"affects": "total",
+					"notes": "5"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "87c5fbd9-7efe-48c2-b471-ca75acffd980",
+					"disabled": true,
+					"name": "Armor Divisor",
+					"reference": "B102",
+					"cost_type": "percentage",
+					"cost": 200,
+					"affects": "total",
+					"notes": "10"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "454a0fba-d1fa-4dd6-9d76-f091fa3ec0c9",
+					"disabled": true,
+					"name": "Side Effect",
+					"reference": "B109",
+					"cost_type": "percentage",
+					"cost": 0,
+					"affects": "total",
+					"notes": "@Effect@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "19e00bd6-dadb-4b87-9eed-20ed37667107",
+					"disabled": true,
+					"name": "Symptoms",
+					"reference": "B109",
+					"cost_type": "percentage",
+					"cost": 0,
+					"affects": "total",
+					"notes": "@Effect@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1418f98d-f453-495d-b6c8-16843c7226e9",
+					"disabled": true,
+					"name": "Armor Divisor",
+					"reference": "B110",
+					"cost_type": "percentage",
+					"cost": -30,
+					"affects": "total",
+					"notes": "0.5"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "dc909401-ab9a-4da3-9f20-192bc9b91a0f",
+					"disabled": true,
+					"name": "Armor Divisor",
+					"reference": "B110",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total",
+					"notes": "0.2"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d297f30d-4277-4bc1-aa0b-e1a258d86f7b",
+					"disabled": true,
+					"name": "Armor Divisor",
+					"reference": "B110",
+					"cost_type": "percentage",
+					"cost": -70,
+					"affects": "total",
+					"notes": "0.1"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1095961a-ab89-4e0e-b0c1-ca5f53591a13",
+					"disabled": true,
+					"name": "No Wounding",
+					"reference": "B111",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "144b3d30-cd2e-44ce-98e4-e6245fa14932",
+					"disabled": true,
+					"name": "Incendiary",
+					"reference": "B104",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "aa9482bd-512e-4c30-a94b-4b91c6bc0217",
+					"name": "Melee Attack (Whip-like)",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "Reach 1-4, cannot parry"
+				}
+			],
+			"reference": "B61",
+			"notes": "Corrosive Chaos (5 points basic damage, reduce armor by 1)",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "9f4cafb7-1893-4706-b534-1610e8b68327",
+			"name": "Affliction",
+			"physical": true,
+			"exotic": true,
+			"levels": "2",
+			"points_per_level": 10,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b5b4aff1-db69-4de4-86cb-ddd29b2575ce",
+					"name": "Hallucinations",
+					"cost_type": "percentage",
+					"cost": 50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2e67519e-a1de-41a3-8611-e352305c32f2",
+					"name": "Follow-Up (Crawling Chaos)",
+					"cost_type": "percentage",
+					"cost": 30,
+					"affects": "total"
+				}
+			],
+			"reference": "B35",
+			"notes": "Corrosive Chaos",
+			"categories": [
+				"Advantage"
+			]
+		}
+	]
+}

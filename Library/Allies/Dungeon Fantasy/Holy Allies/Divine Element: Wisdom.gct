@@ -1,133 +1,229 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="4fb27307-3af6-42ff-a018-a5bccff85a8d" version="1">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Divine Element: Wisdom</name>
-			<advantage version="2">
-				<name>Increased Intelligence</name>
-				<type>Mental</type>
-				<levels>1</levels>
-				<points_per_level>20</points_per_level>
-				<reference>B15</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Attribute</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>iq</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Wild Talent</name>
-				<type>Mental, Supernatural</type>
-				<levels>2</levels>
-				<points_per_level>20</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Retention</name>
-					<cost type="percentage">25</cost>
-					<affects>total</affects>
-					<reference>B99</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Emergencies Only</name>
-					<cost type="percentage">-30</cost>
-					<affects>total</affects>
-					<reference>B100</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Focused</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B99</reference>
-					<notes>Mental</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Wild Ability</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>P90</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>External</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>P90</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Cannot access &#8220;special&#8221; skills</name>
-					<cost type="percentage">-5</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B99</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage_container version="2" open="yes">
-				<name>Doubled</name>
-				<advantage version="2">
-					<name>Increased Intelligence</name>
-					<type>Mental</type>
-					<levels>1</levels>
-					<points_per_level>20</points_per_level>
-					<reference>B15</reference>
-					<categories>
-						<category>Advantage</category>
-						<category>Attribute</category>
-					</categories>
-					<attribute_bonus>
-						<attribute>iq</attribute>
-						<amount per_level="yes">1</amount>
-					</attribute_bonus>
-				</advantage>
-				<advantage version="2">
-					<name>Wild Talent</name>
-					<type>Mental, Supernatural</type>
-					<levels>2</levels>
-					<points_per_level>20</points_per_level>
-					<modifier version="1" enabled="no">
-						<name>Retention</name>
-						<cost type="percentage">25</cost>
-						<affects>total</affects>
-						<reference>B99</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Emergencies Only</name>
-						<cost type="percentage">-30</cost>
-						<affects>total</affects>
-						<reference>B100</reference>
-					</modifier>
-					<modifier version="1">
-						<name>Focused</name>
-						<cost type="percentage">-20</cost>
-						<affects>total</affects>
-						<reference>B99</reference>
-						<notes>Mental</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Wild Ability</name>
-						<cost type="percentage">50</cost>
-						<affects>total</affects>
-						<reference>P90</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>External</name>
-						<cost type="percentage">-20</cost>
-						<affects>total</affects>
-						<reference>P90</reference>
-					</modifier>
-					<modifier version="1">
-						<name>Cannot access &#8220;special&#8221; skills</name>
-						<cost type="percentage">-5</cost>
-						<affects>total</affects>
-					</modifier>
-					<reference>B99</reference>
-					<categories>
-						<category>Advantage</category>
-					</categories>
-				</advantage>
-			</advantage_container>
-		</advantage_container>
-	</advantage_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "4fb27307-3af6-42ff-a018-a5bccff85a8d",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "a65e01f9-2fad-4ff4-8401-aca935e04a9a",
+			"name": "Divine Element: Wisdom",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "64897340-718a-40c4-a9d6-ff3c5a689e70",
+					"name": "Increased Intelligence",
+					"mental": true,
+					"levels": "1",
+					"points_per_level": 20,
+					"reference": "B15",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "iq"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "e3122cba-5ba3-4563-b521-91767fcefa31",
+					"name": "Wild Talent",
+					"mental": true,
+					"supernatural": true,
+					"levels": "2",
+					"points_per_level": 20,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0a51b7a6-c9a5-4708-8b4a-79cb7a994f76",
+							"disabled": true,
+							"name": "Retention",
+							"reference": "B99",
+							"cost_type": "percentage",
+							"cost": 25,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5e81fd5c-356c-4201-aa52-08eec94ca5ac",
+							"disabled": true,
+							"name": "Emergencies Only",
+							"reference": "B100",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1e0273ce-6ed0-4b4c-b9d3-286a9c10d009",
+							"name": "Focused",
+							"reference": "B99",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "Mental"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "89d459a3-2e56-4118-b691-e17fc2fda183",
+							"disabled": true,
+							"name": "Wild Ability",
+							"reference": "P90",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3f95dcf7-4cd3-4085-84c4-044358d9a383",
+							"disabled": true,
+							"name": "External",
+							"reference": "P90",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8f667bcd-fb6a-4e11-8886-a7194967bafb",
+							"name": "Cannot access “special” skills",
+							"cost_type": "percentage",
+							"cost": -5,
+							"affects": "total"
+						}
+					],
+					"reference": "B99",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage_container",
+					"version": 1,
+					"id": "85293c05-df28-4c2c-b134-b5a65addbc4e",
+					"name": "Doubled",
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "a03b4d4b-c4f6-48f5-b330-4da72be24b3f",
+							"name": "Increased Intelligence",
+							"mental": true,
+							"levels": "1",
+							"points_per_level": 20,
+							"reference": "B15",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"amount": 1,
+									"per_level": true,
+									"attribute": "iq"
+								}
+							],
+							"categories": [
+								"Advantage",
+								"Attribute"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "660e5fd2-38cc-4768-b1cc-54370ee08580",
+							"name": "Wild Talent",
+							"mental": true,
+							"supernatural": true,
+							"levels": "2",
+							"points_per_level": 20,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "91f815dc-5fd8-44e7-a6e2-13de64cfeb67",
+									"disabled": true,
+									"name": "Retention",
+									"reference": "B99",
+									"cost_type": "percentage",
+									"cost": 25,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "099798e5-0b0d-44d2-8f31-33da63ef4993",
+									"disabled": true,
+									"name": "Emergencies Only",
+									"reference": "B100",
+									"cost_type": "percentage",
+									"cost": -30,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "cd8c75d4-3788-42ee-a014-fc10cb80bec8",
+									"name": "Focused",
+									"reference": "B99",
+									"cost_type": "percentage",
+									"cost": -20,
+									"affects": "total",
+									"notes": "Mental"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "b9933fd7-b33d-44ef-878f-12e99e4b3f10",
+									"disabled": true,
+									"name": "Wild Ability",
+									"reference": "P90",
+									"cost_type": "percentage",
+									"cost": 50,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "64a22710-7230-4ae2-80e3-04478c8f3748",
+									"disabled": true,
+									"name": "External",
+									"reference": "P90",
+									"cost_type": "percentage",
+									"cost": -20,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "389a7e2a-a02c-42ff-92b5-ba5695778097",
+									"name": "Cannot access “special” skills",
+									"cost_type": "percentage",
+									"cost": -5,
+									"affects": "total"
+								}
+							],
+							"reference": "B99",
+							"categories": [
+								"Advantage"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

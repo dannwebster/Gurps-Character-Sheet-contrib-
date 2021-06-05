@@ -1,414 +1,666 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="faeet2nr:-n838e5y1holj" version="1">
-	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
-			<name>Race: Insect Warrior</name>
-			<advantage version="2">
-				<name>Increased Strength</name>
-				<type>Physical</type>
-				<levels>3</levels>
-				<points_per_level>10</points_per_level>
-				<reference>B14</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>st</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Decreased Intelligence</name>
-				<type>Physical</type>
-				<levels>1</levels>
-				<points_per_level>-20</points_per_level>
-				<reference>B15</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>iq</attribute>
-					<amount per_level="yes">-1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Increased Health</name>
-				<type>Physical</type>
-				<levels>2</levels>
-				<points_per_level>10</points_per_level>
-				<reference>B14</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>ht</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Damage Resistance</name>
-				<type>Physical, Exotic</type>
-				<levels>3</levels>
-				<points_per_level>5</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Ablative</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Enhances @Trait@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Enhances any trait</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Healing only</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Can't wear armor</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Directional</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-					<notes>@Direction: Back, Right, Left, Top or Underside@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Directional</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-					<notes>Front</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Flexible</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Hardened</name>
-					<cost type="percentage">20</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Common Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-60</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Occasional Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Rare Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Very Common Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Reflection</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Semi-Ablative</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Tough Skin</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<reference>B47</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<dr_bonus>
-					<location>full body except eyes</location>
-					<amount per_level="yes">1</amount>
-				</dr_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Extra Arm</name>
-				<type>Physical, Exotic</type>
-				<levels>2</levels>
-				<points_per_level>10</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Extra-Flexible</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Long</name>
-					<cost type="percentage">100</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Foot Manipulators</name>
-					<cost type="percentage">-30</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>No Physical Attack</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Short</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Weak</name>
-					<cost type="percentage">-25</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-					<notes>Half body ST</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Weak</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-					<notes>Quarter body ST</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Weapon Mount</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<reference>B53</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Extra Attack</name>
-				<type>Physical</type>
-				<levels>1</levels>
-				<points_per_level>25</points_per_level>
-				<reference>B53</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Telecommunication</name>
-				<type>Mental/Physical, Exotic</type>
-				<modifier version="1" enabled="no">
-					<name>Infrared Communication</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Laser Communication</name>
-					<cost type="points">15</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Radio</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Telesend</name>
-					<cost type="points">30</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Broadcast</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Short Wave</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Universal</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Video</name>
-					<cost type="percentage">40</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Racial</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Receive Only</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Send Only</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Vague</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<reference>B91</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Hard of Hearing</name>
-				<type>Physical</type>
-				<base_points>-10</base_points>
-				<reference>B138</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>hearing</attribute>
-					<amount>-4</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Low TL</name>
-				<type>Social</type>
-				<levels>1</levels>
-				<points_per_level>-5</points_per_level>
-				<reference>B22</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Cannot Speak (Mute)</name>
-				<type>Physical</type>
-				<base_points>-25</base_points>
-				<reference>B125</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Sense of Duty</name>
-				<type>Mental</type>
-				<base_points>-10</base_points>
-				<reference>B153</reference>
-				<notes>Colony</notes>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Short Lifespan</name>
-				<type>Physical, Exotic</type>
-				<levels>1</levels>
-				<points_per_level>-10</points_per_level>
-				<reference>B154</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Slave Mentality</name>
-				<type>Physical</type>
-				<base_points>-40</base_points>
-				<reference>B154</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Appearance (Unattractive)</name>
-				<type>Physical</type>
-				<base_points>-4</base_points>
-				<reference>B21</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Sterility</name>
-				<type>Physical</type>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<notes>  The bizarre insect men live solely underground, near the border
-between Zarak and the Great Desert. To date, only a few dwarves know
-they are more than just large bugs. The Zarakun of Ginnrel consider
-them a major threat and are trying to wipe them out. Doing so, however,
-is proving difficult.
-  Insect men are probably native to Gabrook, though no one is certain.
-They could just be a mutation of Yrth insects, affected by the intense
-magical &#8220;fallout&#8221; from the Banestorm in this area. This would explain
-why they only began appearing in the past decade. They are currently
-TL2; they&#8217;ve apparently learned a lot from their enemies in a short time.
-Insect men are roughly the same size and shape as humans. They
-have hard, chitinous, bronze-colored skin, faceted black eyes, and long
-antennae. Like ants, they have different castes. Insect men proper are the
-intelligent guides for the colony; the taller, brawnier, four-armed insect
-warriors are servants and fighters. Both types are sexless; breeding is
-done by the queen and her consorts, neither of which are intelligent.
-  Many insect men and warriors have the quirk Secretive, and for some
-it is outright Paranoia. Very few lack any of the racial disadvantages;
-GMs should emphasize the resulting weird behavior.</notes>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "82f91654-5bb6-48aa-9edd-bcb1b24ed82d",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "ce8f1b6e-14d6-45db-8cf1-b69d79c136cb",
+			"container_type": "race",
+			"name": "Race: Insect Warrior",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "35dbec94-ff64-42b1-b09b-8c2d718969f6",
+					"name": "Increased Strength",
+					"physical": true,
+					"levels": "3",
+					"points_per_level": 10,
+					"reference": "B14",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "st"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "9f33bd0a-9a30-425e-86ed-7000cea4d6f1",
+					"name": "Decreased Intelligence",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": -20,
+					"reference": "B15",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": -1,
+							"per_level": true,
+							"attribute": "iq"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "a110ebcf-3566-45e8-b980-905de62720e5",
+					"name": "Increased Health",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": 10,
+					"reference": "B14",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "ht"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "08b25152-9fc9-43b1-8098-562b0f63042e",
+					"name": "Damage Resistance",
+					"physical": true,
+					"exotic": true,
+					"levels": "3",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "14242dcc-8ca9-4d7b-a506-33cf1950974e",
+							"disabled": true,
+							"name": "Ablative",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b65ff224-8565-4504-8e55-f1b3de6d2c64",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 80,
+							"affects": "total",
+							"notes": "Enhances @Trait@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "102292d3-977e-4596-888d-2a161cd1466e",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"notes": "Enhances any trait"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0c75f87e-0835-48a4-ad8d-488953f46ed5",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 80,
+							"affects": "total",
+							"notes": "Healing only"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "467b2d05-bbda-47e5-8b3b-4dc4164fc830",
+							"disabled": true,
+							"name": "Can't wear armor",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2a60c72c-7ca8-4520-bbeb-bedf706faf4c",
+							"disabled": true,
+							"name": "Directional",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "@Direction: Back, Right, Left, Top or Underside@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f8944a3c-15ed-4433-ad79-4ec980cd0bd5",
+							"disabled": true,
+							"name": "Directional",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "Front"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "62d8f4bc-defa-4478-9550-b59ad3ef50d6",
+							"disabled": true,
+							"name": "Flexible",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b10410ea-3bf7-4d7b-a681-f3f2a4ab473d",
+							"disabled": true,
+							"name": "Hardened",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b6b20d3a-4513-441d-b6ab-01e8e7e42c4e",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "@Common Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e824643d-d991-43b0-aac9-b233f86979fe",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total",
+							"notes": "@Occasional Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a93fdb87-da5e-4975-9821-b3474db9f61c",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total",
+							"notes": "@Rare Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3c2d5c12-a803-42a4-b058-8d37e5898fe2",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "@Very Common Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "38802167-33b6-4ea7-9d52-f2fcd01a8d1a",
+							"disabled": true,
+							"name": "Reflection",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "73d4b9f6-39d8-4c8b-802f-c14614b9d3b5",
+							"disabled": true,
+							"name": "Semi-Ablative",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2366838c-0206-44f8-bb7c-a5270164bd09",
+							"disabled": true,
+							"name": "Tough Skin",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						}
+					],
+					"reference": "B47",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "full_body_except_eyes"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "8f45cc11-4cbb-49bf-965e-223f74ea04ee",
+					"name": "Extra Arm",
+					"physical": true,
+					"exotic": true,
+					"levels": "2",
+					"points_per_level": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6faa3c52-d181-4789-a6c4-f23bab446d45",
+							"disabled": true,
+							"name": "Extra-Flexible",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f2ef2988-bad9-4259-8b88-8198900173d7",
+							"disabled": true,
+							"name": "Long",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "dc6d4d4a-1b27-4e16-867e-f4c6587573f5",
+							"disabled": true,
+							"name": "Foot Manipulators",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ebeaec45-3200-48b3-a11c-55ee0e5a0f34",
+							"disabled": true,
+							"name": "No Physical Attack",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7c4db8eb-73ce-44a2-9f2d-8ec0eb71d4d2",
+							"disabled": true,
+							"name": "Short",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "82194975-b899-4ea3-957f-198063d2e9c4",
+							"disabled": true,
+							"name": "Weak",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -25,
+							"affects": "total",
+							"notes": "Half body ST"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "82785935-5607-4189-a30c-188b28b8c3ac",
+							"disabled": true,
+							"name": "Weak",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total",
+							"notes": "Quarter body ST"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1ffd5b09-76ef-4137-ab7c-05cb83fdd706",
+							"disabled": true,
+							"name": "Weapon Mount",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						}
+					],
+					"reference": "B53",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "72f4b6d5-fba3-4735-8deb-5177d3ea48e7",
+					"name": "Extra Attack",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": 25,
+					"reference": "B53",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "f61cb686-e0a4-43ac-86fd-8066738784d5",
+					"name": "Telecommunication",
+					"mental": true,
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "327c9b25-7354-4530-aea5-208b808374e3",
+							"disabled": true,
+							"name": "Infrared Communication",
+							"reference": "B91",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "038064c1-62e2-4f58-83b2-c49e1c3ea078",
+							"disabled": true,
+							"name": "Laser Communication",
+							"reference": "B91",
+							"cost_type": "points",
+							"cost": 15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "74118aeb-b7d0-4762-ab42-d5b79769f2c5",
+							"disabled": true,
+							"name": "Radio",
+							"reference": "B91",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e1910b94-bf09-43de-a67f-2616a503f18f",
+							"name": "Telesend",
+							"reference": "B91",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b0028e2a-a67d-413b-922e-0deb8cc01251",
+							"disabled": true,
+							"name": "Broadcast",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c114110d-7757-48f8-a5d8-72fc54665bea",
+							"disabled": true,
+							"name": "Short Wave",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8b4b6c9a-e844-42f8-901d-70aa2443a3d4",
+							"disabled": true,
+							"name": "Universal",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8d5ad472-87b0-43d2-ab39-920a3054167c",
+							"disabled": true,
+							"name": "Video",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": 40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9db40393-cea2-44bf-a7a5-6ca5cee55d47",
+							"disabled": true,
+							"name": "Racial",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9034c222-5e5c-4a36-938c-ba2e5f4ac85f",
+							"disabled": true,
+							"name": "Receive Only",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6f487aa9-6c16-41b5-8659-6c860ccd8dc7",
+							"disabled": true,
+							"name": "Send Only",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "184a4af5-490e-4c44-b8ce-5ba0a1315e9a",
+							"disabled": true,
+							"name": "Vague",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						}
+					],
+					"reference": "B91",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "652630db-a469-41e7-ac1b-50254f32a65c",
+					"name": "Hard of Hearing",
+					"physical": true,
+					"base_points": -10,
+					"reference": "B138",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": -4,
+							"attribute": "hearing"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "7242f01d-a26f-4299-8b0a-2f69a6259a05",
+					"name": "Low TL",
+					"social": true,
+					"levels": "1",
+					"points_per_level": -5,
+					"reference": "B22",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "2166d03a-fffc-46a8-a6cd-726d7b4fc73c",
+					"name": "Cannot Speak (Mute)",
+					"physical": true,
+					"base_points": -25,
+					"reference": "B125",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "8b493f35-e3ad-4c69-9660-ab8c08efb749",
+					"name": "Sense of Duty",
+					"mental": true,
+					"base_points": -10,
+					"reference": "B153",
+					"notes": "Colony",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "3e4c7f9e-08a3-4ed0-9fd9-8824dbd4ed3c",
+					"name": "Short Lifespan",
+					"physical": true,
+					"exotic": true,
+					"levels": "1",
+					"points_per_level": -10,
+					"reference": "B154",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "b3a1da2a-f652-471d-a1fc-9bd6632e76cb",
+					"name": "Slave Mentality",
+					"physical": true,
+					"base_points": -40,
+					"reference": "B154",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "052a05c6-420e-45ce-b9d0-c3fa872d4f53",
+					"name": "Appearance (Unattractive)",
+					"physical": true,
+					"base_points": -4,
+					"reference": "B21",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "baf167a4-174d-490b-8829-f8e6c801ed49",
+					"name": "Sterility",
+					"physical": true
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "cb8a690c-a219-452c-b1a6-18054d13aa56",
+			"text": "  The bizarre insect men live solely underground, near the border\nbetween Zarak and the Great Desert. To date, only a few dwarves know\nthey are more than just large bugs. The Zarakun of Ginnrel consider\nthem a major threat and are trying to wipe them out. Doing so, however,\nis proving difficult.\n  Insect men are probably native to Gabrook, though no one is certain.\nThey could just be a mutation of Yrth insects, affected by the intense\nmagical “fallout” from the Banestorm in this area. This would explain\nwhy they only began appearing in the past decade. They are currently\nTL2; they’ve apparently learned a lot from their enemies in a short time.\nInsect men are roughly the same size and shape as humans. They\nhave hard, chitinous, bronze-colored skin, faceted black eyes, and long\nantennae. Like ants, they have different castes. Insect men proper are the\nintelligent guides for the colony; the taller, brawnier, four-armed insect\nwarriors are servants and fighters. Both types are sexless; breeding is\ndone by the queen and her consorts, neither of which are intelligent.\n  Many insect men and warriors have the quirk Secretive, and for some\nit is outright Paranoia. Very few lack any of the racial disadvantages;\nGMs should emphasize the resulting weird behavior."
+		}
+	]
+}

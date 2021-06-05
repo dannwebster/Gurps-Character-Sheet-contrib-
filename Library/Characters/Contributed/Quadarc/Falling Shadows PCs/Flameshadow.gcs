@@ -1,1432 +1,2358 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="icmwpdb1:p19vazssy3ek" version="2">
-	<created_date>Jul 27, 2015</created_date>
-	<modified_date>Aug 22, 2015 11:44 AM</modified_date>
-	<profile>
-		<player_name>Harry Evans</player_name>
-		<name>Flameshadow</name>
-		<title>Servitor of Molmet</title>
-		<age>500</age>
-		<birthday>June 1</birthday>
-		<eyes>Blue</eyes>
-		<hair>Blond, Wavy, Short</hair>
-		<skin>Tan</skin>
-		<handedness>Left</handedness>
-		<height>6'</height>
-		<weight>170 lb</weight>
-		<SM>0</SM>
-		<gender>Male</gender>
-		<race>Servitor</race>
-		<tech_level>3</tech_level>
-		<religion>Molmet (Darkness, Fire, War)</religion>
-	</profile>
-	<HP>0</HP>
-	<FP>0</FP>
-	<total_points>250</total_points>
-	<ST>10</ST>
-	<DX>10</DX>
-	<IQ>10</IQ>
-	<HT>10</HT>
-	<will>0</will>
-	<perception>0</perception>
-	<speed>0</speed>
-	<move>0</move>
-	<include_punch>true</include_punch>
-	<include_kick>true</include_kick>
-	<include_kick_with_boots>true</include_kick_with_boots>
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Divine Servitor</name>
-			<advantage version="2">
-				<name>Code of Honor (Gentleman's)</name>
-				<type>Mental</type>
-				<base_points>-10</base_points>
-				<reference>B127</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Disciplines of Faith (Ritualism)</name>
-				<type>Mental</type>
-				<base_points>-5</base_points>
-				<reference>B132</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Increased Intelligence</name>
-				<type>Mental</type>
-				<levels>2</levels>
-				<points_per_level>20</points_per_level>
-				<reference>B15</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Attribute</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>iq</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Increased Dexterity</name>
-				<type>Physical</type>
-				<levels>2</levels>
-				<points_per_level>20</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>No Fine Manipulators</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B15</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Attribute</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>dx</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Increased Strength</name>
-				<type>Physical</type>
-				<levels>2</levels>
-				<points_per_level>10</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>No Fine Manipulators</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B15</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Size</name>
-					<cost type="percentage">-10</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B15</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Super-Effort</name>
-					<cost type="percentage">300</cost>
-					<affects>total</affects>
-					<reference>Sup24</reference>
-				</modifier>
-				<reference>B14</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Attribute</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>st</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Increased Health</name>
-				<type>Physical</type>
-				<levels>2</levels>
-				<points_per_level>10</points_per_level>
-				<reference>B14</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Attribute</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>ht</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Resistant</name>
-				<type>Physical</type>
-				<modifier version="1">
-					<name>Metabolic Hazards</name>
-					<cost type="points">30</cost>
-					<affects>total</affects>
-					<reference>B80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Common: Poison, Sickness, etc.@</name>
-					<cost type="points">15</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Occasional: Disease, Ingested Poison, etc.@</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@</name>
-					<cost type="points">5</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Immunity</name>
-					<cost type="multiplier">1</cost>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>+8 to all HT rolls to resist</name>
-					<cost type="multiplier">0.5</cost>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>+3 to all HT rolls to resist</name>
-					<cost type="multiplier">0.33</cost>
-					<reference>B81</reference>
-				</modifier>
-				<reference>B81</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Blessed</name>
-				<type>Mental, Supernatural</type>
-				<base_points>10</base_points>
-				<modifier version="1" enabled="no">
-					<name>Very</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B40</reference>
-				</modifier>
-				<reference>B40</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Chauvinistic</name>
-				<type>Mental</type>
-				<levels>0</levels>
-				<base_points>-1</base_points>
-				<reference>B163</reference>
-				<notes>Molmet</notes>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Dislikes Water</name>
-				<type>Mental</type>
-				<levels>0</levels>
-				<base_points>-1</base_points>
-				<reference>B164</reference>
-				<categories>
-					<category>Water</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Sexless</name>
-				<type>Physical</type>
-				<base_points>-1</base_points>
-				<reference>B165</reference>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Unnatural Features</name>
-				<type>Physical</type>
-				<levels>1</levels>
-				<points_per_level>-1</points_per_level>
-				<reference>B22</reference>
-				<notes>Being of Fire and Smoke</notes>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-				<skill_bonus>
-					<name compare="is">disguise</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">-1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">shadowing</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">-1</amount>
-				</skill_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Dependency (Sanctity)</name>
-				<type>Physical, Exotic</type>
-				<modifier version="1" enabled="no">
-					<name>Rarity: Rare</name>
-					<cost type="points">-30</cost>
-					<affects>total</affects>
-					<reference>B130</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Rarity: Occasional</name>
-					<cost type="points">-20</cost>
-					<affects>total</affects>
-					<reference>B130</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Rarity: Common</name>
-					<cost type="points">-10</cost>
-					<affects>total</affects>
-					<reference>B130</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Rarity: Very Common</name>
-					<cost type="points">-5</cost>
-					<affects>total</affects>
-					<reference>B130</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Illegal</name>
-					<cost type="points">-5</cost>
-					<affects>total</affects>
-					<reference>B130</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Frequency: Constantly</name>
-					<cost type="multiplier">5</cost>
-					<reference>B130</reference>
-					<notes>Lose 1 HP per minute without it</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Hourly</name>
-					<cost type="multiplier">4</cost>
-					<reference>B130</reference>
-					<notes>Lose 1 HP per 10 minutes after missing a hourly dose</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Daily</name>
-					<cost type="multiplier">3</cost>
-					<reference>B130</reference>
-					<notes>Lose 1 HP per hour after missing a daily dose</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Weekly</name>
-					<cost type="multiplier">2</cost>
-					<reference>B130</reference>
-					<notes>Lose 1 HP per six hours after missing a weekly dose</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Monthly</name>
-					<cost type="multiplier">1</cost>
-					<reference>B130</reference>
-					<notes>Lose 1 HP per day after missing a monthly dose</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Seasonally</name>
-					<cost type="multiplier">0.33333</cost>
-					<reference>B130</reference>
-					<notes>Lose 1 HP per 3 days after missing a seasonal dose</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Yearly</name>
-					<cost type="multiplier">0.1</cost>
-					<reference>B130</reference>
-					<notes>Lose 1 HP per 2 weeks after missing a yearly dose</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Aging</name>
-					<cost type="percentage">30</cost>
-					<affects>total</affects>
-					<reference>B130</reference>
-					<notes>Age 2 years for each HP lost due to this dependency</notes>
-				</modifier>
-				<reference>B130</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Wealth</name>
-				<type>Social</type>
-				<modifier version="1">
-					<name>Dead Broke</name>
-					<cost type="points">-25</cost>
-					<affects>total</affects>
-					<reference>B25</reference>
-					<notes>Starting wealth is $0</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Poor</name>
-					<cost type="points">-15</cost>
-					<affects>total</affects>
-					<reference>B25</reference>
-					<notes>Starting wealth is 1/5 average</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Struggling</name>
-					<cost type="points">-10</cost>
-					<affects>total</affects>
-					<reference>B25</reference>
-					<notes>Starting wealth is 1/2 average</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Average</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-					<reference>B25</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Comfortable</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B25</reference>
-					<notes>Starting wealth is 2x average</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Wealthy</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>B25</reference>
-					<notes>Starting wealth is 5x average</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Very Wealthy</name>
-					<cost type="points">30</cost>
-					<affects>total</affects>
-					<reference>B25</reference>
-					<notes>Starting wealth is 20x average</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Filthy Rich</name>
-					<cost type="points">50</cost>
-					<affects>total</affects>
-					<reference>B25</reference>
-					<notes>Starting wealth is 100x average</notes>
-				</modifier>
-				<reference>B25</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-		<advantage_container version="2" open="yes">
-			<name>Divine Element: Darkness</name>
-			<advantage version="2">
-				<name>Dark Vision</name>
-				<type>Physical, Exotic</type>
-				<base_points>25</base_points>
-				<modifier version="1">
-					<name>Can see colors in the dark</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Hypersensory</name>
-					<cost type="percentage">40</cost>
-					<affects>total</affects>
-					<reference>P46</reference>
-				</modifier>
-				<reference>B47</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Obscure (Vision)</name>
-				<type>Physical, Exotic</type>
-				<levels>10</levels>
-				<points_per_level>2</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Defensive</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Extended</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B72</reference>
-					<notes>@Sense@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Ranged</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Stealthy</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Always On</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>P65</reference>
-					<notes>@Source@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>P65</reference>
-					<notes>@Power@</notes>
-				</modifier>
-				<reference>B72</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-		<advantage_container version="2" open="yes" type="meta trait">
-			<name>Divine Element: Fire</name>
-			<reference>B262</reference>
-			<advantage_container version="2" open="yes" type="meta trait">
-				<name>Meta-Trait: Body of Fire</name>
-				<reference>B262</reference>
-				<advantage version="2">
-					<name>Attribute Modifier: Decreased ST</name>
-					<type>Physical</type>
-					<levels>10</levels>
-					<points_per_level>-10</points_per_level>
-					<reference>B14</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Doesn't Breathe (Oxygen Consumption, -50%)</name>
-					<type>Physical, Exotic</type>
-					<base_points>10</base_points>
-					<reference>B49</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Injury Tolerance (Diffuse)</name>
-					<type>Physical, Exotic</type>
-					<base_points>100</base_points>
-					<reference>B60</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Innate Attack (Burn, always on, -40%; aura, +80%; melee attack, reach C, -30%)</name>
-					<type>Physical, Exotic</type>
-					<levels>2</levels>
-					<points_per_level>6</points_per_level>
-					<reference>B61</reference>
-				</advantage>
-				<advantage version="2">
-					<name>No Manipulators</name>
-					<type>Physical</type>
-					<base_points>-50</base_points>
-					<reference>B145</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Secondary Attribute Modifier: HP</name>
-					<type>Physical</type>
-					<levels>10</levels>
-					<points_per_level>2</points_per_level>
-					<reference>B16</reference>
-					<attribute_bonus>
-						<attribute>hp</attribute>
-						<amount per_level="yes">1</amount>
-					</attribute_bonus>
-				</advantage>
-				<advantage version="2">
-					<name>Damage Resistance</name>
-					<type>Physical, Exotic</type>
-					<levels>20</levels>
-					<points_per_level>5</points_per_level>
-					<modifier version="1" enabled="no">
-						<name>Ablative</name>
-						<cost type="percentage">-80</cost>
-						<affects>total</affects>
-						<reference>B47</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Absorption</name>
-						<cost type="percentage">80</cost>
-						<affects>total</affects>
-						<reference>B46</reference>
-						<notes>Enhances @Trait@</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Absorption</name>
-						<cost type="percentage">100</cost>
-						<affects>total</affects>
-						<reference>B46</reference>
-						<notes>Enhances any trait</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Absorption</name>
-						<cost type="percentage">80</cost>
-						<affects>total</affects>
-						<reference>B46</reference>
-						<notes>Healing only</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Bane</name>
-						<cost type="percentage">-15</cost>
-						<affects>total</affects>
-						<reference>H14</reference>
-						<notes>@Very Common@</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Bane</name>
-						<cost type="percentage">-10</cost>
-						<affects>total</affects>
-						<reference>H14</reference>
-						<notes>@Common@</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Bane</name>
-						<cost type="percentage">-5</cost>
-						<affects>total</affects>
-						<reference>H14</reference>
-						<notes>@Occasional@</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Bane</name>
-						<cost type="points">-1</cost>
-						<affects>total</affects>
-						<reference>H14</reference>
-						<notes>@Rare@</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Can't wear armor</name>
-						<cost type="percentage">-40</cost>
-						<affects>total</affects>
-						<reference>B47</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Directional</name>
-						<cost type="percentage">-40</cost>
-						<affects>total</affects>
-						<reference>B47</reference>
-						<notes>@Direction: Back, Right, Left, Top or Underside@</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Directional</name>
-						<cost type="percentage">-20</cost>
-						<affects>total</affects>
-						<reference>B47</reference>
-						<notes>Front</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Flexible</name>
-						<cost type="percentage">-20</cost>
-						<affects>total</affects>
-						<reference>B47</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Hardened</name>
-						<cost type="percentage">20</cost>
-						<levels>1</levels>
-						<affects>total</affects>
-						<reference>B47</reference>
-					</modifier>
-					<modifier version="1">
-						<name>Limited</name>
-						<cost type="percentage">-40</cost>
-						<affects>total</affects>
-						<reference>B46</reference>
-						<notes>Heat/Fire</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Limited</name>
-						<cost type="percentage">-60</cost>
-						<affects>total</affects>
-						<reference>B46</reference>
-						<notes>@Occasional Attack Form@</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Limited</name>
-						<cost type="percentage">-80</cost>
-						<affects>total</affects>
-						<reference>B46</reference>
-						<notes>@Rare Attack Form@</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Limited</name>
-						<cost type="percentage">-20</cost>
-						<affects>total</affects>
-						<reference>B46</reference>
-						<notes>@Very Common Attack Form@</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Reflection</name>
-						<cost type="percentage">100</cost>
-						<affects>total</affects>
-						<reference>B47</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Semi-Ablative</name>
-						<cost type="percentage">-20</cost>
-						<affects>total</affects>
-						<reference>B47</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Force Field</name>
-						<cost type="percentage">20</cost>
-						<affects>total</affects>
-						<reference>B47</reference>
-					</modifier>
-					<reference>B47</reference>
-					<categories>
-						<category>Advantage</category>
-					</categories>
-					<dr_bonus>
-						<location>full body</location>
-						<amount per_level="yes">1</amount>
-					</dr_bonus>
-				</advantage>
-				<advantage version="2">
-					<name>Weakness (Water, 1D/Min)</name>
-					<type>Physical, Exotic</type>
-					<base_points>-40</base_points>
-					<reference>B161</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Reduced Time</name>
-					<type>Physical</type>
-					<levels>2</levels>
-					<points_per_level>9</points_per_level>
-					<notes>Change takes 3 seconds</notes>
-				</advantage>
-			</advantage_container>
-			<advantage version="2">
-				<name>Innate Attack (Burn)</name>
-				<type>Physical, Exotic</type>
-				<levels>2</levels>
-				<points_per_level>5</points_per_level>
-				<ranged_weapon>
-					<damage>1d burn</damage>
-					<accuracy>3</accuracy>
-					<range>100/10</range>
-					<rate_of_fire>1</rate_of_fire>
-					<recoil>1</recoil>
-					<default>
-						<type>Skill</type>
-						<name>Innate Attack</name>
-						<specialization>Fire</specialization>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Innate Attack</name>
-						<modifier>-2</modifier>
-					</default>
-					<default>
-						<type>DX</type>
-						<modifier>-4</modifier>
-					</default>
-				</ranged_weapon>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">100</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>1 sec</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">50</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>10 sec</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">40</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>1 min</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">20</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>1 hr</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">10</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>1 day</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">50</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>1 sec; Resistible</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">25</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>10 sec; Resistible</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">20</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>1 min; Resistible</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">10</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>1 hr; Resistible</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cyclic</name>
-					<cost type="percentage">5</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>1 day; Resistible</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Contagious</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>Mildly</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Contagious</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B103</reference>
-					<notes>Highly</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Double Blunt Trauma</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B104</reference>
-					<notes>1HP per 10 dmg</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Explosion</name>
-					<cost type="percentage">50</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B104</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Fragmentation</name>
-					<cost type="percentage">15</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B104</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Fragmentation</name>
-					<cost type="percentage">15</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B104</reference>
-					<notes>Hot</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Radiation</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B104</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Surge</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B104</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B102</reference>
-					<notes>2</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B102</reference>
-					<notes>3</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">150</cost>
-					<affects>total</affects>
-					<reference>B102</reference>
-					<notes>5</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">200</cost>
-					<affects>total</affects>
-					<reference>B102</reference>
-					<notes>10</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Side Effect</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-					<reference>B109</reference>
-					<notes>@Effect@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Symptoms</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-					<reference>B109</reference>
-					<notes>@Effect@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">-30</cost>
-					<affects>total</affects>
-					<reference>B110</reference>
-					<notes>0.5</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B110</reference>
-					<notes>0.2</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">-70</cost>
-					<affects>total</affects>
-					<reference>B110</reference>
-					<notes>0.1</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>No Wounding</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B111</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Costs Fatigue</name>
-					<cost type="percentage">-5</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-				</modifier>
-				<reference>B61</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Accessory (Torch)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-		<advantage_container version="2" open="yes">
-			<name>Divine Element: War</name>
-			<advantage version="2">
-				<name>Combat Reflexes</name>
-				<type>Mental</type>
-				<base_points>15</base_points>
-				<reference>B43</reference>
-				<notes>Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)</notes>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<skill_bonus>
-					<name compare="starts with">fast-draw</name>
-					<specialization compare="is anything"></specialization>
-					<amount>1</amount>
-				</skill_bonus>
-				<attribute_bonus>
-					<attribute>dodge</attribute>
-					<amount>1</amount>
-				</attribute_bonus>
-				<attribute_bonus>
-					<attribute>parry</attribute>
-					<amount>1</amount>
-				</attribute_bonus>
-				<attribute_bonus>
-					<attribute>block</attribute>
-					<amount>1</amount>
-				</attribute_bonus>
-				<attribute_bonus>
-					<attribute>fright check</attribute>
-					<amount>2</amount>
-				</attribute_bonus>
-				<prereq_list all="yes">
-					<advantage_prereq has="no">
-						<name compare="is">Enhanced Time Sense</name>
-						<notes compare="is anything"></notes>
-					</advantage_prereq>
-				</prereq_list>
-			</advantage>
-			<advantage version="2">
-				<name>Damage Resistance</name>
-				<type>Physical, Exotic</type>
-				<levels>2</levels>
-				<points_per_level>5</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Ablative</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Enhances @Trait@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Enhances any trait</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Healing only</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-15</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Very Common@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Common@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-5</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Occasional@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="points">-1</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Rare@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Can't wear armor</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Directional</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-					<notes>@Direction: Back, Right, Left, Top or Underside@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Directional</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-					<notes>Front</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Flexible</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Hardened</name>
-					<cost type="percentage">20</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Common Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-60</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Occasional Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Rare Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Very Common Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Reflection</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Semi-Ablative</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Force Field</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<reference>B47</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<dr_bonus>
-					<location>full body</location>
-					<amount per_level="yes">1</amount>
-				</dr_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>High Pain Threshold</name>
-				<type>Physical</type>
-				<base_points>10</base_points>
-				<reference>B59</reference>
-				<notes>Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture</notes>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-		<advantage version="2">
-			<name>Language: Armindic</name>
-			<type>Mental</type>
-			<modifier version="1" enabled="no">
-				<name>Native</name>
-				<cost type="points">-6</cost>
-				<affects>total</affects>
-				<reference>B23</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>None</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Broken</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Spoken</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Accented</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Native</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>None</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Written</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Broken</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Accented</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Native</notes>
-			</modifier>
-			<reference>B24</reference>
-			<categories>
-				<category>Advantage</category>
-				<category>Language</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Language: The Firespeech</name>
-			<type>Mental</type>
-			<modifier version="1">
-				<name>Native</name>
-				<cost type="points">-6</cost>
-				<affects>total</affects>
-				<reference>B23</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>None</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Broken</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Accented</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Spoken</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Native</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>None</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Broken</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Accented</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Written</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Native</notes>
-			</modifier>
-			<reference>B24</reference>
-			<categories>
-				<category>Advantage</category>
-				<category>Language</category>
-			</categories>
-		</advantage>
-	</advantage_list>
-	<skill_list>
-		<skill version="2">
-			<name>Hidden Lore</name>
-			<specialization>Molmet</specialization>
-			<difficulty>IQ/A</difficulty>
-			<points>2</points>
-			<reference>B199</reference>
-			<categories>
-				<category>Knowledge</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Theology</name>
-			<specialization>Molmet</specialization>
-			<difficulty>IQ/H</difficulty>
-			<points>4</points>
-			<reference>B226</reference>
-			<categories>
-				<category>Social Sciences/Humanities</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Religious Ritual</name>
-				<specialization>God</specialization>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Innate Attack</name>
-			<specialization>Projectile</specialization>
-			<difficulty>DX/E</difficulty>
-			<points>4</points>
-			<reference>B201</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Innate Attack</name>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Fast-Draw</name>
-			<specialization>Sword</specialization>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B194</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Tactics</name>
-			<difficulty>IQ/H</difficulty>
-			<points>2</points>
-			<reference>B224</reference>
-			<categories>
-				<category>Military</category>
-				<category>Police</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Strategy</name>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Broadsword</name>
-			<difficulty>DX/A</difficulty>
-			<points>8</points>
-			<reference>B208</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Rapier</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Two-Handed Sword</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Wrestling</name>
-			<difficulty>DX/A</difficulty>
-			<points>4</points>
-			<reference>B228</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-		</skill>
-	</skill_list>
-	<print_settings printer="Photosmart C4700 series [B59D87]" units="in">
-		<orientation>portrait</orientation>
-		<width>8.5</width>
-		<height>11</height>
-		<top_margin>0.5</top_margin>
-		<left_margin>0.5</left_margin>
-		<bottom_margin>0.5</bottom_margin>
-		<right_margin>0.5</right_margin>
-		<ink_chromaticity>monochrome</ink_chromaticity>
-		<sides>single</sides>
-		<quality>normal</quality>
-	</print_settings>
-</character>
+{
+	"type": "character",
+	"version": 1,
+	"id": "fd78eb6e-78b0-4acd-8a77-4c7e8a140344",
+	"settings": {
+		"version": 1,
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_and_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"use_title_in_footer": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "Jul 27, 2015, 12:00 AM",
+	"modified_date": "Aug 22, 2015, 12:00 AM",
+	"profile": {
+		"player_name": "Harry Evans",
+		"name": "Flameshadow",
+		"title": "Servitor of Molmet",
+		"age": 500,
+		"birthday": "June 1",
+		"eyes": "Blue",
+		"hair": "Blond, Wavy, Short",
+		"skin": "Tan",
+		"handedness": "Left",
+		"height": "6'",
+		"weight": "170 lb",
+		"gender": "Male",
+		"body_type": "humanoid",
+		"tech_level": "3",
+		"religion": "Molmet (Darkness, Fire, War)"
+	},
+	"total_points": 250,
+	"ST": 10,
+	"DX": 10,
+	"IQ": 10,
+	"HT": 10,
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "11dedf99-4ebb-4f76-8e6b-5815b6d9ff77",
+			"name": "Divine Servitor",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "28550688-8425-4b86-8f52-9da119d4e449",
+					"name": "Code of Honor (Gentleman's)",
+					"mental": true,
+					"base_points": -10,
+					"reference": "B127",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "d4072be2-409b-4800-8bf1-149412cd528f",
+					"name": "Disciplines of Faith (Ritualism)",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B132",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "78b96fef-8d11-4274-a719-b98bb2768396",
+					"name": "Increased Intelligence",
+					"mental": true,
+					"levels": "2",
+					"points_per_level": 20,
+					"reference": "B15",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "iq"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "10dffddb-e45e-47af-a345-f4567d1d57f8",
+					"name": "Increased Dexterity",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": 20,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4f1af39b-955e-4df3-bc33-9e4f5edb90ab",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						}
+					],
+					"reference": "B15",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "dx"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "04de523a-5779-4459-94ea-50f1073f1880",
+					"name": "Increased Strength",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4383eb8a-ba96-49c2-8b3b-a69929a4d156",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"reference": "B15",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fb47e6f9-7b88-4297-a78c-bc354d42584d",
+							"disabled": true,
+							"name": "Size",
+							"reference": "B15",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f8e65049-7d20-447d-9b4b-b2736bcde59d",
+							"disabled": true,
+							"name": "Super-Effort",
+							"reference": "Sup24",
+							"cost_type": "percentage",
+							"cost": 300,
+							"affects": "total"
+						}
+					],
+					"reference": "B14",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "st"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "f5085cb1-087d-4b97-a431-f2dda288a1e4",
+					"name": "Increased Health",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": 10,
+					"reference": "B14",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "ht"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "7a010cd2-6836-4a3f-a119-4745ee87aba4",
+					"name": "Resistant",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8621136c-3ea8-4068-b43f-ba0ccdc5d12d",
+							"name": "Metabolic Hazards",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "68b03b0b-88a7-474e-96e3-6afb5cd868ca",
+							"disabled": true,
+							"name": "@Common: Poison, Sickness, etc.@",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0b55e920-4407-4796-bfde-fc959ce0d874",
+							"disabled": true,
+							"name": "@Occasional: Disease, Ingested Poison, etc.@",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "37ffd6d1-44e7-4054-8940-19530aef3f29",
+							"disabled": true,
+							"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3e7d49aa-b14b-4d8f-af32-7a8585309dce",
+							"name": "Immunity",
+							"reference": "B81",
+							"cost_type": "multiplier",
+							"cost": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2e0e5e49-c525-44be-805b-6e7868c4b968",
+							"disabled": true,
+							"name": "+8 to all HT rolls to resist",
+							"reference": "B81",
+							"cost_type": "multiplier",
+							"cost": 0.5
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6910c5c1-4d35-46d4-874f-7c2c2dab37c7",
+							"disabled": true,
+							"name": "+3 to all HT rolls to resist",
+							"reference": "B81",
+							"cost_type": "multiplier",
+							"cost": 0.33
+						}
+					],
+					"reference": "B81",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "493c2df7-a58b-4e64-bc26-efc78b0437b3",
+					"name": "Blessed",
+					"mental": true,
+					"supernatural": true,
+					"base_points": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1069fec8-c094-42cd-a24c-8ce0879d4ca6",
+							"disabled": true,
+							"name": "Very",
+							"reference": "B40",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						}
+					],
+					"reference": "B40",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "fe6ca1d7-674d-414e-b9d7-6ef717851fb4",
+					"name": "Chauvinistic",
+					"mental": true,
+					"levels": "0",
+					"base_points": -1,
+					"reference": "B163",
+					"notes": "Molmet",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "d083e0ed-b961-46c6-b940-5075a474b338",
+					"name": "Dislikes Water",
+					"mental": true,
+					"levels": "0",
+					"base_points": -1,
+					"reference": "B164",
+					"categories": [
+						"Water"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "e3358dc4-7091-44fd-b0d8-732fd76dc4b8",
+					"name": "Sexless",
+					"physical": true,
+					"base_points": -1,
+					"reference": "B165",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "d85ec8f3-264e-4aaa-bfa8-5776a894cabe",
+					"name": "Unnatural Features",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": -1,
+					"reference": "B22",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "shadowing"
+							}
+						}
+					],
+					"notes": "Being of Fire and Smoke",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "13631464-856a-4c79-9c5e-2fe9164e4589",
+					"name": "Dependency (Sanctity)",
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f73f92e2-dea7-4367-8dfc-111a6554906c",
+							"disabled": true,
+							"name": "Rarity: Rare",
+							"reference": "B130",
+							"cost_type": "points",
+							"cost": -30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "cf0115b1-8bd3-472c-8815-d817aeb637df",
+							"disabled": true,
+							"name": "Rarity: Occasional",
+							"reference": "B130",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "91b139f9-cb63-4a9a-a17f-ae089ccabdd5",
+							"disabled": true,
+							"name": "Rarity: Common",
+							"reference": "B130",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "826def63-b83e-4e48-b162-3970b0b2603e",
+							"name": "Rarity: Very Common",
+							"reference": "B130",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "de06068d-1271-4f14-b424-23c4e1f7e4c3",
+							"disabled": true,
+							"name": "Illegal",
+							"reference": "B130",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "48104682-b79f-459e-b13e-ea3b29f0f359",
+							"name": "Frequency: Constantly",
+							"reference": "B130",
+							"cost_type": "multiplier",
+							"cost": 5,
+							"notes": "Lose 1 HP per minute without it"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4a15dd7b-def9-4e49-91c7-2d9c8501eea2",
+							"disabled": true,
+							"name": "Frequency: Hourly",
+							"reference": "B130",
+							"cost_type": "multiplier",
+							"cost": 4,
+							"notes": "Lose 1 HP per 10 minutes after missing a hourly dose"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "27c7b288-a87b-476a-a815-d8206fd34437",
+							"disabled": true,
+							"name": "Frequency: Daily",
+							"reference": "B130",
+							"cost_type": "multiplier",
+							"cost": 3,
+							"notes": "Lose 1 HP per hour after missing a daily dose"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7516c789-195e-45b4-baae-026d08ee0878",
+							"disabled": true,
+							"name": "Frequency: Weekly",
+							"reference": "B130",
+							"cost_type": "multiplier",
+							"cost": 2,
+							"notes": "Lose 1 HP per six hours after missing a weekly dose"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "590d5b4a-142c-4428-be3d-bb277b86634f",
+							"disabled": true,
+							"name": "Frequency: Monthly",
+							"reference": "B130",
+							"cost_type": "multiplier",
+							"cost": 1,
+							"notes": "Lose 1 HP per day after missing a monthly dose"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "38d076d3-e0c0-49c3-a062-82c5c8a5a350",
+							"disabled": true,
+							"name": "Frequency: Seasonally",
+							"reference": "B130",
+							"cost_type": "multiplier",
+							"cost": 0.33333,
+							"notes": "Lose 1 HP per 3 days after missing a seasonal dose"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "95e0d58a-08c4-4aa7-97b1-cad7c0f3ea66",
+							"disabled": true,
+							"name": "Frequency: Yearly",
+							"reference": "B130",
+							"cost_type": "multiplier",
+							"cost": 0.1,
+							"notes": "Lose 1 HP per 2 weeks after missing a yearly dose"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "03798772-a618-46fb-9953-1982815575b8",
+							"disabled": true,
+							"name": "Aging",
+							"reference": "B130",
+							"cost_type": "percentage",
+							"cost": 30,
+							"affects": "total",
+							"notes": "Age 2 years for each HP lost due to this dependency"
+						}
+					],
+					"reference": "B130",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "d5139350-e496-4936-a798-63a2d20a00d7",
+					"name": "Wealth",
+					"social": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0cc2c3b1-02c6-4fbf-a369-ed01a8ff936f",
+							"name": "Dead Broke",
+							"reference": "B25",
+							"cost_type": "points",
+							"cost": -25,
+							"affects": "total",
+							"notes": "Starting wealth is $0"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4b75c3ed-b35b-4078-a337-76f5b26c54c0",
+							"disabled": true,
+							"name": "Poor",
+							"reference": "B25",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total",
+							"notes": "Starting wealth is 1/5 average"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b60282ea-9159-4b55-9067-66949c9250cd",
+							"disabled": true,
+							"name": "Struggling",
+							"reference": "B25",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total",
+							"notes": "Starting wealth is 1/2 average"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0aec61a1-f05d-4284-a81c-186200b725d9",
+							"disabled": true,
+							"name": "Average",
+							"reference": "B25",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "58f199c1-4803-47ea-b9cf-8704feaa4ad3",
+							"disabled": true,
+							"name": "Comfortable",
+							"reference": "B25",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total",
+							"notes": "Starting wealth is 2x average"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "49a992b4-60aa-4dfb-b292-86b8565a13b3",
+							"disabled": true,
+							"name": "Wealthy",
+							"reference": "B25",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total",
+							"notes": "Starting wealth is 5x average"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "37886ccf-e9e6-4f38-a071-ff11ce5c3f07",
+							"disabled": true,
+							"name": "Very Wealthy",
+							"reference": "B25",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total",
+							"notes": "Starting wealth is 20x average"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b1c4e73a-5f0e-48d1-9e67-9334dae69dd1",
+							"disabled": true,
+							"name": "Filthy Rich",
+							"reference": "B25",
+							"cost_type": "points",
+							"cost": 50,
+							"affects": "total",
+							"notes": "Starting wealth is 100x average"
+						}
+					],
+					"reference": "B25",
+					"categories": [
+						"Advantage",
+						"Disadvantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "518eaef5-42f9-4680-b89e-86a1fe8edb11",
+			"name": "Divine Element: Darkness",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "9dc31234-7ec2-4e80-938b-ec62c7451343",
+					"name": "Dark Vision",
+					"physical": true,
+					"exotic": true,
+					"base_points": 25,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4e40a825-447c-4225-a68f-5f00afb2b65e",
+							"name": "Can see colors in the dark",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "43c28c98-0489-43d1-8f1f-b69307a3dd97",
+							"disabled": true,
+							"name": "Hypersensory",
+							"reference": "P46",
+							"cost_type": "percentage",
+							"cost": 40,
+							"affects": "total"
+						}
+					],
+					"reference": "B47",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "706b7ff4-4ffa-4202-b40d-e5dcf661fdb8",
+					"name": "Obscure (Vision)",
+					"physical": true,
+					"exotic": true,
+					"levels": "10",
+					"points_per_level": 2,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5090d9e9-0c13-44ab-ab35-390fa089b1a7",
+							"disabled": true,
+							"name": "Defensive",
+							"reference": "B72",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a1914de8-c4a7-4629-87ef-ad691fce4a13",
+							"disabled": true,
+							"name": "Extended",
+							"reference": "B72",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total",
+							"notes": "@Sense@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8d78885e-287c-4546-a954-05d0c4d53ad8",
+							"disabled": true,
+							"name": "Ranged",
+							"reference": "B72",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c67f0e38-e953-48fa-affd-e8314e30788a",
+							"disabled": true,
+							"name": "Stealthy",
+							"reference": "B72",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7fdebb3b-e818-436f-9b64-9642457a749d",
+							"disabled": true,
+							"name": "Always On",
+							"reference": "B72",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d1f86cee-de44-4832-9d94-6b70b7615f1b",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "P65",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "@Source@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "504dc78c-ed03-45e1-9799-8943d3295868",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "P65",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "@Power@"
+						}
+					],
+					"reference": "B72",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "9f3bc93e-ab52-4854-a922-cd386153d767",
+			"container_type": "meta_trait",
+			"name": "Divine Element: Fire",
+			"reference": "B262",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage_container",
+					"version": 1,
+					"id": "86e37451-3180-4126-98b4-2ba16c77fbe6",
+					"container_type": "meta_trait",
+					"name": "Meta-Trait: Body of Fire",
+					"reference": "B262",
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "e21743f1-1ba2-4df9-b0cb-e106bd032fe7",
+							"name": "Attribute Modifier: Decreased ST",
+							"physical": true,
+							"levels": "10",
+							"points_per_level": -10,
+							"reference": "B14"
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "ef0e06b6-55a4-4215-98ec-b5526050b051",
+							"name": "Doesn't Breathe (Oxygen Consumption, -50%)",
+							"physical": true,
+							"exotic": true,
+							"base_points": 10,
+							"reference": "B49"
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "9b67d875-ef7b-49e8-ae38-5fc64fe91ec8",
+							"name": "Injury Tolerance (Diffuse)",
+							"physical": true,
+							"exotic": true,
+							"base_points": 100,
+							"reference": "B60"
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "4f6377dd-2a27-4f8f-8b34-2886605955ee",
+							"name": "Innate Attack (Burn, always on, -40%; aura, +80%; melee attack, reach C, -30%)",
+							"physical": true,
+							"exotic": true,
+							"levels": "2",
+							"points_per_level": 6,
+							"reference": "B61"
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "ae56f33b-2458-4889-aecf-b67d909caf94",
+							"name": "No Manipulators",
+							"physical": true,
+							"base_points": -50,
+							"reference": "B145"
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "93841083-a14c-439d-ad38-e7d874b50871",
+							"name": "Secondary Attribute Modifier: HP",
+							"physical": true,
+							"levels": "10",
+							"points_per_level": 2,
+							"reference": "B16",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"amount": 1,
+									"per_level": true,
+									"attribute": "hp"
+								}
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "189b2a65-6016-4c6a-8c8a-f75c1e83dddc",
+							"name": "Damage Resistance",
+							"physical": true,
+							"exotic": true,
+							"levels": "20",
+							"points_per_level": 5,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "69da0937-fedd-41db-a731-396b69ae0859",
+									"disabled": true,
+									"name": "Ablative",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": -80,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "d553f2ef-7040-4dcb-8aee-6a29db647f68",
+									"disabled": true,
+									"name": "Absorption",
+									"reference": "B46",
+									"cost_type": "percentage",
+									"cost": 80,
+									"affects": "total",
+									"notes": "Enhances @Trait@"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "0489665c-7ab1-43c8-b718-d764ebbac5d8",
+									"disabled": true,
+									"name": "Absorption",
+									"reference": "B46",
+									"cost_type": "percentage",
+									"cost": 100,
+									"affects": "total",
+									"notes": "Enhances any trait"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "857ccfc4-42a3-4af2-9bde-87d470fb2a28",
+									"disabled": true,
+									"name": "Absorption",
+									"reference": "B46",
+									"cost_type": "percentage",
+									"cost": 80,
+									"affects": "total",
+									"notes": "Healing only"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "b8fddd94-b754-4686-be4a-60b860ac3fdd",
+									"disabled": true,
+									"name": "Bane",
+									"reference": "H14",
+									"cost_type": "percentage",
+									"cost": -15,
+									"affects": "total",
+									"notes": "@Very Common@"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "6cdc39ed-5b0f-426b-ad32-4ea0f6186fd3",
+									"disabled": true,
+									"name": "Bane",
+									"reference": "H14",
+									"cost_type": "percentage",
+									"cost": -10,
+									"affects": "total",
+									"notes": "@Common@"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "2bfbffd4-d9c8-4afb-a263-266f64c395ad",
+									"disabled": true,
+									"name": "Bane",
+									"reference": "H14",
+									"cost_type": "percentage",
+									"cost": -5,
+									"affects": "total",
+									"notes": "@Occasional@"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "1030cedf-169b-44a3-9c73-20b53fbca0a4",
+									"disabled": true,
+									"name": "Bane",
+									"reference": "H14",
+									"cost_type": "points",
+									"cost": -1,
+									"affects": "total",
+									"notes": "@Rare@"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "d833ccd5-d588-470a-9ec8-bfca447bcb66",
+									"disabled": true,
+									"name": "Can't wear armor",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": -40,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "c7c7bd63-105c-4896-a814-b34de0ffcb5a",
+									"disabled": true,
+									"name": "Directional",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": -40,
+									"affects": "total",
+									"notes": "@Direction: Back, Right, Left, Top or Underside@"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "6b03b3e9-2c8d-4c94-9344-bd81530bd9ec",
+									"disabled": true,
+									"name": "Directional",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": -20,
+									"affects": "total",
+									"notes": "Front"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "040d1d26-4c60-4fd6-a739-40d739c661c0",
+									"disabled": true,
+									"name": "Flexible",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": -20,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "e1e9d841-f181-4960-8a96-8dc4ad66d757",
+									"disabled": true,
+									"name": "Hardened",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": 20,
+									"affects": "total",
+									"levels": 1
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "ee68a3b3-3882-4e44-9845-387796dc2e60",
+									"name": "Limited",
+									"reference": "B46",
+									"cost_type": "percentage",
+									"cost": -40,
+									"affects": "total",
+									"notes": "Heat/Fire"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "9b4bb3b8-931e-46fb-aa94-827d5207aa74",
+									"disabled": true,
+									"name": "Limited",
+									"reference": "B46",
+									"cost_type": "percentage",
+									"cost": -60,
+									"affects": "total",
+									"notes": "@Occasional Attack Form@"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "ba00a011-b16b-4dc9-9c36-4b8e7f226594",
+									"disabled": true,
+									"name": "Limited",
+									"reference": "B46",
+									"cost_type": "percentage",
+									"cost": -80,
+									"affects": "total",
+									"notes": "@Rare Attack Form@"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "071184ea-1d01-4143-8143-1ff9062af471",
+									"disabled": true,
+									"name": "Limited",
+									"reference": "B46",
+									"cost_type": "percentage",
+									"cost": -20,
+									"affects": "total",
+									"notes": "@Very Common Attack Form@"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "d7a50348-4da4-4cc2-9789-5fdff2e24ead",
+									"disabled": true,
+									"name": "Reflection",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": 100,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "f46d3d37-938e-4c40-809c-2015a288a218",
+									"disabled": true,
+									"name": "Semi-Ablative",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": -20,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "277d15e3-a11b-4f6a-bd46-90a3bd3b76ac",
+									"disabled": true,
+									"name": "Force Field",
+									"reference": "B47",
+									"cost_type": "percentage",
+									"cost": 20,
+									"affects": "total"
+								}
+							],
+							"reference": "B47",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"amount": 1,
+									"per_level": true,
+									"location": "full_body"
+								}
+							],
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "a05d5abb-403d-41fb-9f3b-df50a1ef6e60",
+							"name": "Weakness (Water, 1D/Min)",
+							"physical": true,
+							"exotic": true,
+							"base_points": -40,
+							"reference": "B161"
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "2fe3a284-c3d4-4c10-84dd-3959900a09cd",
+							"name": "Reduced Time",
+							"physical": true,
+							"levels": "2",
+							"points_per_level": 9,
+							"notes": "Change takes 3 seconds"
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "a3c34f78-5b6a-4345-b389-77ab694b6dfb",
+					"name": "Innate Attack (Burn)",
+					"physical": true,
+					"exotic": true,
+					"levels": "2",
+					"points_per_level": 5,
+					"weapons": [
+						{
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "burn",
+								"base": "1d"
+							},
+							"accuracy": "3",
+							"range": "100/10",
+							"rate_of_fire": "1",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "Skill",
+									"name": "Innate Attack",
+									"specialization": "Fire"
+								},
+								{
+									"type": "Skill",
+									"name": "Innate Attack",
+									"modifier": -2
+								},
+								{
+									"type": "DX",
+									"modifier": -4
+								}
+							]
+						}
+					],
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b2c19a1b-be4a-47ee-98a7-aeee9adbccfc",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"levels": 1,
+							"notes": "1 sec"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b3ce45bf-c67b-48e3-ad66-f6b63b9aeef4",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"levels": 1,
+							"notes": "10 sec"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e18f0454-e0d1-4298-b420-b4b553d2c1dd",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 40,
+							"affects": "total",
+							"levels": 1,
+							"notes": "1 min"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a3eedd9f-a36d-4267-99f6-1d94e3e4585d",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total",
+							"levels": 1,
+							"notes": "1 hr"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "24c6cc1f-afd4-4e66-b605-333a86e9eeae",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 10,
+							"affects": "total",
+							"levels": 1,
+							"notes": "1 day"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "18a59575-d125-4064-81ec-f31ede64d421",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"levels": 1,
+							"notes": "1 sec; Resistible"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "82f91a59-c23d-4e13-9b3d-7c772d3cb712",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 25,
+							"affects": "total",
+							"levels": 1,
+							"notes": "10 sec; Resistible"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ae2c6f14-3b8b-4338-b603-498b048e73e2",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total",
+							"levels": 1,
+							"notes": "1 min; Resistible"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "929a9780-4270-4bed-ae7d-4694dcca2002",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 10,
+							"affects": "total",
+							"levels": 1,
+							"notes": "1 hr; Resistible"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3b3fe49b-32d3-468a-8cfa-081d89da3b49",
+							"disabled": true,
+							"name": "Cyclic",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 5,
+							"affects": "total",
+							"levels": 1,
+							"notes": "1 day; Resistible"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "29daece8-b1b9-4b3c-9cd5-9cff500355ce",
+							"disabled": true,
+							"name": "Contagious",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total",
+							"notes": "Mildly"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "585e0ce2-ebef-4e1c-8f9b-540dd6a2d63c",
+							"disabled": true,
+							"name": "Contagious",
+							"reference": "B103",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"notes": "Highly"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d2370cc2-77a9-4aec-b14a-c07c8dae837c",
+							"disabled": true,
+							"name": "Double Blunt Trauma",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total",
+							"notes": "1HP per 10 dmg"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9e0756e5-a344-411c-adf6-fac975d4dda2",
+							"name": "Explosion",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "cec39210-1060-4340-b02a-b5790c62b197",
+							"disabled": true,
+							"name": "Fragmentation",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": 15,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a4751b24-ea96-4a9a-8f23-99f4f230b889",
+							"disabled": true,
+							"name": "Fragmentation",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": 15,
+							"affects": "total",
+							"levels": 1,
+							"notes": "Hot"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "38ad606d-cc41-4f9a-b2f1-2bebfc5cc9fb",
+							"disabled": true,
+							"name": "Radiation",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "23025b69-a1d6-42ca-a5ec-19617192ac8a",
+							"disabled": true,
+							"name": "Surge",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "edc99637-a699-434e-a48a-ed7920ee0528",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"notes": "2"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f005b853-3bb9-412a-a574-03dec303923a",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"notes": "3"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b03095c5-a0d8-42db-9827-17592d30c50c",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"cost_type": "percentage",
+							"cost": 150,
+							"affects": "total",
+							"notes": "5"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "faae2703-8d75-4a99-b70c-b0bb3e8cfed7",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"cost_type": "percentage",
+							"cost": 200,
+							"affects": "total",
+							"notes": "10"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d162ce49-a6fd-4da8-8560-744e19634fbe",
+							"disabled": true,
+							"name": "Side Effect",
+							"reference": "B109",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total",
+							"notes": "@Effect@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f99ed606-3d1f-4719-85be-3fc5379e17c2",
+							"disabled": true,
+							"name": "Symptoms",
+							"reference": "B109",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total",
+							"notes": "@Effect@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4a902158-0913-4097-825e-fb35a1d25c72",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total",
+							"notes": "0.5"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e6f329a1-d34e-42fc-a00e-94659308ffb8",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total",
+							"notes": "0.2"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "46b3063b-e4d6-43c0-bd2e-fa2058dc679d",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"cost_type": "percentage",
+							"cost": -70,
+							"affects": "total",
+							"notes": "0.1"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "cf3218cc-e6de-4fdf-b62e-a608d33037a4",
+							"disabled": true,
+							"name": "No Wounding",
+							"reference": "B111",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "329afeea-8174-4dc0-b659-6f2f068c0d5a",
+							"name": "Costs Fatigue",
+							"cost_type": "percentage",
+							"cost": -5,
+							"affects": "total",
+							"levels": 1
+						}
+					],
+					"reference": "B61",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "137325f8-c6df-4b25-8ea1-e9ef8052f8ae",
+					"name": "Accessory (Torch)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "c7566b7b-8ac0-4321-8a9f-fbdfc542930c",
+			"name": "Divine Element: War",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "f89c6f45-4ddf-4efa-94ad-ddf9f0a51c3c",
+					"name": "Combat Reflexes",
+					"mental": true,
+					"base_points": 15,
+					"reference": "B43",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Enhanced Time Sense"
+								}
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "starts_with",
+								"qualifier": "fast-draw"
+							}
+						},
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"attribute": "dodge"
+						},
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"attribute": "parry"
+						},
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"attribute": "block"
+						},
+						{
+							"type": "attribute_bonus",
+							"amount": 2,
+							"attribute": "fright_check"
+						}
+					],
+					"notes": "Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "066b4ad2-ea07-4310-a796-1e1c7338d8e8",
+					"name": "Damage Resistance",
+					"physical": true,
+					"exotic": true,
+					"levels": "2",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "48c08d90-e390-47ee-83a5-d50c917f4aa8",
+							"disabled": true,
+							"name": "Ablative",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ef98888a-3a34-4e41-a4ec-4c2e7f4c3a5a",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 80,
+							"affects": "total",
+							"notes": "Enhances @Trait@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "97642199-cf8a-427c-a3b8-a1e2f683103f",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"notes": "Enhances any trait"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a3e20977-59b0-4c45-a154-4ba27285e682",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 80,
+							"affects": "total",
+							"notes": "Healing only"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "930e2cd9-43f0-4936-8bdc-c1e07aa5ea11",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "percentage",
+							"cost": -15,
+							"affects": "total",
+							"notes": "@Very Common@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4beccef5-d0cb-4e07-b6f9-1d882e370716",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"notes": "@Common@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ed1baf8c-6b64-46f4-ab2d-fbbc6e3ad76d",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "percentage",
+							"cost": -5,
+							"affects": "total",
+							"notes": "@Occasional@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5ad31232-27e8-40cc-a23f-2f668fac4b2b",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "points",
+							"cost": -1,
+							"affects": "total",
+							"notes": "@Rare@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "520315da-15d2-41ef-96fc-cb07f2eca764",
+							"disabled": true,
+							"name": "Can't wear armor",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "63740313-6675-465a-89d5-94e2e847f8c4",
+							"disabled": true,
+							"name": "Directional",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "@Direction: Back, Right, Left, Top or Underside@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "823ff47a-3723-45f3-86cb-58023b871fb3",
+							"disabled": true,
+							"name": "Directional",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "Front"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fc5a0d1a-4c70-48de-92d2-41918bd90a84",
+							"disabled": true,
+							"name": "Flexible",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ca6bb03f-a0a2-41f0-9b72-b6abd0878ff1",
+							"disabled": true,
+							"name": "Hardened",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ea1420e3-4a4d-405b-befb-e6ca99e4f330",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "@Common Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e883388a-57e9-42e0-bd25-d0b206c11789",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total",
+							"notes": "@Occasional Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c6aa44e3-a18a-4777-8615-ce6e7c0e122c",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total",
+							"notes": "@Rare Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7fa96e86-7e38-45e3-a1b3-372e8440a6c6",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "@Very Common Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "70465ed9-7fc9-45e2-ab8c-2c53a0235f1c",
+							"disabled": true,
+							"name": "Reflection",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "94935d43-faae-49d0-9265-e95e046abcd3",
+							"disabled": true,
+							"name": "Semi-Ablative",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "39b33dd2-0c7c-4ad8-95b1-c13d6defd922",
+							"disabled": true,
+							"name": "Force Field",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						}
+					],
+					"reference": "B47",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "full_body"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "346547a5-15d7-4797-82ad-e115ead1e99a",
+					"name": "High Pain Threshold",
+					"physical": true,
+					"base_points": 10,
+					"reference": "B59",
+					"notes": "Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "bb161392-5c20-47e2-9cb1-47b532c63476",
+			"name": "Language: Armindic",
+			"mental": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "37efabe2-6a4c-4b7c-a8be-19e80229bc8c",
+					"disabled": true,
+					"name": "Native",
+					"reference": "B23",
+					"cost_type": "points",
+					"cost": -6,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "713206fc-d398-4e12-af8e-33aad84c8477",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "20f44468-4a4f-4ef1-a62e-39505089d2b0",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d33c7f9a-373e-4510-ae51-cddce0574920",
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ca3188a6-b82c-4c72-affe-542ce6fe1b30",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4d22193e-efef-48e2-abab-d8e908a85a41",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "deca69a4-63da-4ca1-a3de-0d028e8ed445",
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1bfd09f9-60c4-49d7-9d59-8174876dcc11",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2ae2ee0e-64e6-4072-b8ed-58b45b67c2e0",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				}
+			],
+			"reference": "B24",
+			"categories": [
+				"Advantage",
+				"Language"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "60edf493-2310-4ee8-9672-e7e4fff7c507",
+			"name": "Language: The Firespeech",
+			"mental": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ba7737c1-e83d-40bb-953f-a5b84380da2f",
+					"name": "Native",
+					"reference": "B23",
+					"cost_type": "points",
+					"cost": -6,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1fa42d1a-ed79-4533-b2f6-506a03c595be",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3bcc07ce-a635-41a9-8e4d-961b54569efd",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "44b91bc6-7367-4c67-bb5a-82dfd614921e",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "15b0fedf-f83d-4fe4-920a-2023e88029d2",
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c60e9750-c0f9-4923-b1b4-bbe14108cbec",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4bd89dbb-aa06-4e9b-a96a-f35e4fbf1f83",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0c72dfc7-5ea2-4b87-8248-8c31e44904de",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7a637d04-56b6-4f79-9638-966bdb3242b5",
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				}
+			],
+			"reference": "B24",
+			"categories": [
+				"Advantage",
+				"Language"
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "4707c7f7-148b-4b11-82c5-a1771a6ba62d",
+			"name": "Hidden Lore",
+			"reference": "B199",
+			"specialization": "Molmet",
+			"difficulty": "IQ/A",
+			"points": 2,
+			"categories": [
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "e0627309-75e6-4cf8-a6c2-ce46d8ef102b",
+			"name": "Theology",
+			"reference": "B226",
+			"specialization": "Molmet",
+			"difficulty": "IQ/H",
+			"points": 4,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 4,
+				"adjusted_level": 4,
+				"points": -4
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Religious Ritual",
+					"specialization": "God",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "f3643c25-b868-4185-9eaa-665282f53be9",
+			"name": "Innate Attack",
+			"reference": "B201",
+			"specialization": "Projectile",
+			"difficulty": "DX/E",
+			"points": 4,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -4,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Innate Attack",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "9e7ab69a-118d-44e6-bdcf-67474c69328e",
+			"name": "Fast-Draw",
+			"reference": "B194",
+			"specialization": "Sword",
+			"difficulty": "DX/E",
+			"points": 1,
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "6fe04e1b-9576-499d-92aa-23d023b3da86",
+			"name": "Tactics",
+			"reference": "B224",
+			"difficulty": "IQ/H",
+			"points": 2,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 4,
+				"adjusted_level": 4,
+				"points": -4
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Strategy",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Military",
+				"Police"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "aa1d9e45-20d6-4854-a2d9-e2610b2066d4",
+			"name": "Broadsword",
+			"reference": "B208",
+			"difficulty": "DX/A",
+			"points": 8,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"defaults": [
+				{
+					"type": "Skill",
+					"name": "Force Sword",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Rapier",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Saber",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Shortsword",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Two-Handed Sword",
+					"modifier": -4
+				},
+				{
+					"type": "DX",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "1686faba-31d4-40db-a6e1-eef969de4155",
+			"name": "Wrestling",
+			"reference": "B228",
+			"difficulty": "DX/A",
+			"points": 4,
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		}
+	]
+}

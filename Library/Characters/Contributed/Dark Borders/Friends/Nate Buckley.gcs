@@ -1,2526 +1,3806 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<character id="20942bdf-bd80-4e74-89e0-f5882d78f0da" version="2">
-	<created_date>May 19, 2016</created_date>
-	<modified_date>Sep 4, 2016 5:25 PM</modified_date>
-	<profile>
-		<player_name>dwebster</player_name>
-		<campaign>Darnk Borders</campaign>
-		<name>Nathan Buckley</name>
-		<title>Special Agent, FBI</title>
-		<age>37</age>
-		<birthday>April 21</birthday>
-		<eyes>Blue</eyes>
-		<hair>Brown Straight, short</hair>
-		<skin>Light tan</skin>
-		<handedness>Right</handedness>
-		<height>6' 1"</height>
-		<weight>185 lb</weight>
-		<SM>0</SM>
-		<gender>Male</gender>
-		<race>Human</race>
-		<tech_level>8</tech_level>
-		<religion>Lapsed Mormon</religion>
-	</profile>
-	<HP>2</HP>
-	<FP>2</FP>
-	<total_points>250</total_points>
-	<ST>10</ST>
-	<DX>13</DX>
-	<IQ>13</IQ>
-	<HT>12</HT>
-	<will>0</will>
-	<perception>2</perception>
-	<speed>0</speed>
-	<move>0</move>
-	<include_punch>true</include_punch>
-	<include_kick>true</include_kick>
-	<include_kick_with_boots>true</include_kick_with_boots>
-	<advantage_list>
-		<advantage version="2">
-			<name>Patron</name>
-			<type>Social</type>
-			<modifier version="1" enabled="no">
-				<name>@Who: Individual with 150% of PC's starting points@</name>
-				<cost type="points">10</cost>
-				<affects>total</affects>
-				<reference>B72</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Who: Organization with assets of at least 1000 times starting wealth@</name>
-				<cost type="points">10</cost>
-				<affects>total</affects>
-				<reference>B72</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Who: Individual with twice the PC's starting points@</name>
-				<cost type="points">10</cost>
-				<affects>total</affects>
-				<reference>B72</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Who: Organization with assets of at least 10000 times starting wealth@</name>
-				<cost type="points">15</cost>
-				<affects>total</affects>
-				<reference>B72</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Who: An ultra-powerful individual@</name>
-				<cost type="points">20</cost>
-				<affects>total</affects>
-				<reference>B72</reference>
-			</modifier>
-			<modifier version="1">
-				<name>FBI</name>
-				<cost type="points">20</cost>
-				<affects>total</affects>
-				<reference>B72</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Who: Organization with assets of at least 1000000 times starting wealth@</name>
-				<cost type="points">25</cost>
-				<affects>total</affects>
-				<reference>B72</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Who: A national government or giant multi-national organization@</name>
-				<cost type="points">30</cost>
-				<affects>total</affects>
-				<reference>B72</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Who: A diety@</name>
-				<cost type="points">30</cost>
-				<affects>total</affects>
-				<reference>B72</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Appears almost all the time</name>
-				<cost type="multiplier">3</cost>
-				<reference>B36</reference>
-				<notes>15-</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Appears quite often</name>
-				<cost type="multiplier">2</cost>
-				<reference>B36</reference>
-				<notes>12-</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Appears fairly often</name>
-				<cost type="multiplier">1</cost>
-				<reference>B36</reference>
-				<notes>9-</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Appears quite rarely</name>
-				<cost type="multiplier">0.5</cost>
-				<reference>B36</reference>
-				<notes>6-</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Equipment</name>
-				<cost type="percentage">50</cost>
-				<affects>total</affects>
-				<reference>B73</reference>
-				<notes>@Equipment worth no more than average starting wealth@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Equipment</name>
-				<cost type="percentage">100</cost>
-				<affects>total</affects>
-				<reference>B73</reference>
-				<notes>@Equipment worth more than average starting wealth@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Highly Accessible</name>
-				<cost type="percentage">50</cost>
-				<affects>total</affects>
-				<reference>B73</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Special Abilities</name>
-				<cost type="percentage">50</cost>
-				<affects>total</affects>
-				<reference>B73</reference>
-				<notes>@Extensive social or political power@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Special Abilities</name>
-				<cost type="percentage">100</cost>
-				<affects>total</affects>
-				<reference>B73</reference>
-				<notes>@Magical powers in a non-magical world, higher TL equipment, grants special powers or is supernatural@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Minimal Interventions</name>
-				<cost type="percentage">-50</cost>
-				<affects>total</affects>
-				<reference>B73</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Secret</name>
-				<cost type="percentage">-50</cost>
-				<affects>total</affects>
-				<reference>B73</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Unwilling</name>
-				<cost type="percentage">-50</cost>
-				<affects>total</affects>
-				<reference>B74</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Favor</name>
-				<cost type="multiplier">0.2</cost>
-				<reference>B55</reference>
-			</modifier>
-			<reference>B72</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Combat Reflexes</name>
-			<type>Mental</type>
-			<base_points>15</base_points>
-			<reference>B43</reference>
-			<notes>Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)</notes>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-			<skill_bonus>
-				<name compare="starts with">fast-draw</name>
-				<specialization compare="is anything"></specialization>
-				<amount>1</amount>
-			</skill_bonus>
-			<attribute_bonus>
-				<attribute>dodge</attribute>
-				<amount>1</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>parry</attribute>
-				<amount>1</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>block</attribute>
-				<amount>1</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>fright check</attribute>
-				<amount>2</amount>
-			</attribute_bonus>
-			<prereq_list all="yes">
-				<advantage_prereq has="no">
-					<name compare="is">Enhanced Time Sense</name>
-					<notes compare="is anything"></notes>
-				</advantage_prereq>
-			</prereq_list>
-		</advantage>
-		<advantage version="2">
-			<name>Danger Sense</name>
-			<type>Mental</type>
-			<base_points>15</base_points>
-			<reference>B47</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Intuition</name>
-			<type>Mental</type>
-			<base_points>15</base_points>
-			<modifier version="1" enabled="no">
-				<name>Inspired</name>
-				<cost type="percentage">100</cost>
-				<affects>total</affects>
-				<reference>P56</reference>
-			</modifier>
-			<reference>B63</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Legal Enforcement Powers</name>
-			<type>Social</type>
-			<modifier version="1" enabled="no">
-				<name>@Local cop@</name>
-				<cost type="points">5</cost>
-				<affects>total</affects>
-				<reference>B65</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@KGB@</name>
-				<cost type="points">15</cost>
-				<affects>total</affects>
-				<reference>B65</reference>
-			</modifier>
-			<modifier version="1">
-				<name>FBI Agent</name>
-				<cost type="points">10</cost>
-				<affects>total</affects>
-				<reference>B65</reference>
-			</modifier>
-			<reference>B65</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Ally (Special Agent Peter Kim)</name>
-			<type>Social</type>
-			<modifier version="1" enabled="no">
-				<name>Point total</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B37</reference>
-				<notes>25% of your starting points</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Point total</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B37</reference>
-				<notes>50% of your starting points</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Point total</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B37</reference>
-				<notes>75% of your starting points</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Point total</name>
-				<cost type="points">5</cost>
-				<affects>total</affects>
-				<reference>B37</reference>
-				<notes>100% of your starting points</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Point total</name>
-				<cost type="points">10</cost>
-				<affects>total</affects>
-				<reference>B37</reference>
-				<notes>150% of your starting points</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Appears constantly</name>
-				<cost type="multiplier">4</cost>
-				<reference>B36</reference>
-				<notes>No roll required</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Appears almost all the time</name>
-				<cost type="multiplier">3</cost>
-				<reference>B36</reference>
-				<notes>15-</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Appears quite often</name>
-				<cost type="multiplier">2</cost>
-				<reference>B36</reference>
-				<notes>12-</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Appears fairly often</name>
-				<cost type="multiplier">1</cost>
-				<reference>B36</reference>
-				<notes>9-</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Appears quite rarely</name>
-				<cost type="multiplier">0.5</cost>
-				<reference>B36</reference>
-				<notes>6-</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Group of 6-10</name>
-				<cost type="multiplier">6</cost>
-				<reference>B37</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Group of 11-20</name>
-				<cost type="multiplier">8</cost>
-				<reference>B37</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Group of 21-50</name>
-				<cost type="multiplier">10</cost>
-				<reference>B37</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Group of 51-100</name>
-				<cost type="multiplier">12</cost>
-				<reference>B37</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Group of 101-1000</name>
-				<cost type="multiplier">18</cost>
-				<reference>B37</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Group of 1001-10000</name>
-				<cost type="multiplier">24</cost>
-				<reference>B37</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Group of 10001-100000</name>
-				<cost type="multiplier">30</cost>
-				<reference>B37</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Group of 100001-1000000</name>
-				<cost type="multiplier">36</cost>
-				<reference>B37</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Minion</name>
-				<cost type="percentage">50</cost>
-				<affects>total</affects>
-				<reference>B38</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Minion</name>
-				<cost type="percentage">0</cost>
-				<affects>total</affects>
-				<reference>B38</reference>
-				<notes>IQ 0 or Slave Mentality</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Special Abilities</name>
-				<cost type="percentage">50</cost>
-				<affects>total</affects>
-				<reference>B38</reference>
-				<notes>@Abilities@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Summonable</name>
-				<cost type="percentage">100</cost>
-				<affects>total</affects>
-				<reference>B38</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Sympathy</name>
-				<cost type="percentage">-25</cost>
-				<affects>total</affects>
-				<reference>B38</reference>
-				<notes>Death of one party reduces the other to 0 HP</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Sympathy</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-				<reference>B38</reference>
-				<notes>Death of one party reduces the other to 0 HP and wounds affect ally but not you</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Sympathy</name>
-				<cost type="percentage">-50</cost>
-				<affects>total</affects>
-				<reference>B38</reference>
-				<notes>Death of one party kills the other</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Sympathy</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-				<reference>B38</reference>
-				<notes>Death of one party kills the other and wounds affect ally but not you</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Unwilling</name>
-				<cost type="percentage">-50</cost>
-				<affects>total</affects>
-				<reference>B38</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Favor</name>
-				<cost type="multiplier">0.2</cost>
-				<reference>B55</reference>
-			</modifier>
-			<reference>B36</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Fit</name>
-			<type>Physical</type>
-			<base_points>5</base_points>
-			<reference>B55</reference>
-			<notes>+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)</notes>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Rank</name>
-			<type>Physical</type>
-			<levels>1</levels>
-			<points_per_level>5</points_per_level>
-			<modifier version="1" enabled="no">
-				<name>Replaces Status</name>
-				<cost type="points">5</cost>
-				<affects>levels only</affects>
-				<reference>B29</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Courtesy</name>
-				<cost type="points">-4</cost>
-				<affects>levels only</affects>
-				<reference>B29</reference>
-			</modifier>
-			<reference>B29</reference>
-			<notes>Police: Sr. Special Agent</notes>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Appearance</name>
-			<type>Physical</type>
-			<modifier version="1" enabled="no">
-				<name>Universal</name>
-				<cost type="percentage">25</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Off-the-Shelf Looks</name>
-				<cost type="percentage">-50</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Androgynous</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Impressive</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Attractive</name>
-				<cost type="points">4</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Average</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Horrific</name>
-				<cost type="points">-24</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Monstrous</name>
-				<cost type="points">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Hideous</name>
-				<cost type="points">-16</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Ugly</name>
-				<cost type="points">-8</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Unattractive</name>
-				<cost type="points">-4</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Handsome</name>
-				<cost type="points">12</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Beautiful</name>
-				<cost type="points">12</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Very Handsome</name>
-				<cost type="points">16</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Very Beautiful</name>
-				<cost type="points">16</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Transcendent</name>
-				<cost type="points">20</cost>
-				<affects>total</affects>
-			</modifier>
-			<reference>B21</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Language: Spanish</name>
-			<type>Mental</type>
-			<modifier version="1" enabled="no">
-				<name>Native</name>
-				<cost type="points">-6</cost>
-				<affects>total</affects>
-				<reference>B23</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>None</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Broken</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Spoken</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Accented</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Native</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>None</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Broken</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Written</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Accented</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Native</notes>
-			</modifier>
-			<reference>B24</reference>
-			<categories>
-				<category>Advantage</category>
-				<category>Language</category>
-			</categories>
-		</advantage>
-		<advantage version="2" round_down="yes">
-			<name>Reputation</name>
-			<type>Social</type>
-			<levels>3</levels>
-			<points_per_level>5</points_per_level>
-			<modifier version="1" enabled="no">
-				<name>People Affected</name>
-				<cost type="multiplier">1</cost>
-				<reference>B27</reference>
-				<notes>Almost everyone</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>People Affected</name>
-				<cost type="multiplier">0.67</cost>
-				<reference>B27</reference>
-				<notes>Almost everyone except @large class of people@</notes>
-			</modifier>
-			<modifier version="1">
-				<name>People Affected</name>
-				<cost type="multiplier">0.5</cost>
-				<reference>B27</reference>
-				<notes>Law Enforcement</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>People Affected</name>
-				<cost type="multiplier">0.33</cost>
-				<reference>B27</reference>
-				<notes>@Small class of people@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Recognized all the time</name>
-				<cost type="multiplier">1</cost>
-				<reference>B28</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Recognized sometimes</name>
-				<cost type="multiplier">0.5</cost>
-				<reference>B28</reference>
-				<notes>10-</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Recognized occasionally</name>
-				<cost type="multiplier">0.33</cost>
-				<reference>B28</reference>
-				<notes>7-</notes>
-			</modifier>
-			<reference>B26</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Language: Korean</name>
-			<type>Mental</type>
-			<modifier version="1" enabled="no">
-				<name>Native</name>
-				<cost type="points">-6</cost>
-				<affects>total</affects>
-				<reference>B23</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>None</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Spoken</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Broken</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Accented</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Native</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>None</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Written</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Broken</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Accented</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Native</notes>
-			</modifier>
-			<reference>B24</reference>
-			<categories>
-				<category>Advantage</category>
-				<category>Language</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Cultural Familiarity (Western)</name>
-			<type>Mental</type>
-			<base_points>1</base_points>
-			<modifier version="1" enabled="no">
-				<name>Alien</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Native</name>
-				<cost type="points">-1</cost>
-				<affects>total</affects>
-			</modifier>
-			<reference>B23</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Language: English</name>
-			<type>Mental</type>
-			<modifier version="1">
-				<name>Native</name>
-				<cost type="points">-6</cost>
-				<affects>total</affects>
-				<reference>B23</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>None</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Broken</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Accented</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Spoken</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Native</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>None</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Broken</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Accented</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Written</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Native</notes>
-			</modifier>
-			<reference>B24</reference>
-			<categories>
-				<category>Advantage</category>
-				<category>Language</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Broad-Minded</name>
-			<type>Mental</type>
-			<base_points>-1</base_points>
-			<reference>B163</reference>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Habit</name>
-			<type>Mental</type>
-			<levels>0</levels>
-			<base_points>-1</base_points>
-			<reference>B164</reference>
-			<notes>Reflexively Conservative</notes>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Horrible Hangovers</name>
-			<type>Physical</type>
-			<base_points>-1</base_points>
-			<reference>B165</reference>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Nosy</name>
-			<type>Mental</type>
-			<base_points>-1</base_points>
-			<reference>B164</reference>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Obsession</name>
-			<type>Mental</type>
-			<levels>0</levels>
-			<base_points>-1</base_points>
-			<reference>B164</reference>
-			<notes>Trying New Things</notes>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Minor Secret</name>
-			<type>Physical</type>
-			<levels>0</levels>
-			<base_points>-2</base_points>
-			<reference>B165</reference>
-			<notes>Lapsed Mormon</notes>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Curious</name>
-			<type>Mental</type>
-			<base_points>-5</base_points>
-			<cr>12</cr>
-			<reference>B129</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Enemy (Wronged Politicians)</name>
-			<type>Social</type>
-			<modifier version="1" enabled="no">
-				<name>Weak Individual</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B135</reference>
-				<notes>50% of your starting points</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Equal Individual</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B135</reference>
-				<notes>100% of your starting points</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Powerful Individual</name>
-				<cost type="points">-20</cost>
-				<affects>total</affects>
-				<reference>B135</reference>
-				<notes>&gt;150% of your starting points</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Weak Group</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B135</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Medium Group</name>
-				<cost type="points">-20</cost>
-				<affects>total</affects>
-				<reference>B135</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Appears almost all the time</name>
-				<cost type="multiplier">3</cost>
-				<reference>B36</reference>
-				<notes>15-</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Appears quite often</name>
-				<cost type="multiplier">2</cost>
-				<reference>B36</reference>
-				<notes>12-</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Appears fairly often</name>
-				<cost type="multiplier">1</cost>
-				<reference>B36</reference>
-				<notes>9-</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Appears quite rarely</name>
-				<cost type="multiplier">0.5</cost>
-				<reference>B36</reference>
-				<notes>6-</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Large/Powerful Group</name>
-				<cost type="points">-30</cost>
-				<affects>total</affects>
-				<reference>B135</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Utterly Formidable Group</name>
-				<cost type="points">-40</cost>
-				<affects>total</affects>
-				<reference>B135</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Unknown</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B135</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Evil Twin</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B135</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Evil Twin</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B135</reference>
-				<notes>More skilled or extra abilities</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Evil Twin</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B135</reference>
-				<notes>More skilled and extra abilities</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Watcher</name>
-				<cost type="multiplier">0.25</cost>
-				<reference>B135</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Rival</name>
-				<cost type="multiplier">0.5</cost>
-				<reference>B135</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Hunter</name>
-				<cost type="multiplier">1</cost>
-				<reference>B135</reference>
-			</modifier>
-			<reference>B135</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Guilt Complex</name>
-			<type>Mental</type>
-			<base_points>-5</base_points>
-			<reference>B137</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Miserliness</name>
-			<type>Mental</type>
-			<base_points>-10</base_points>
-			<cr>15</cr>
-			<reference>B144</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Nightmares</name>
-			<type>Mental</type>
-			<base_points>-5</base_points>
-			<cr>12</cr>
-			<reference>B144</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Stubbornness</name>
-			<type>Mental</type>
-			<base_points>-5</base_points>
-			<reference>B157</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Duty (FBI Agent)</name>
-			<type>Social</type>
-			<modifier version="1" enabled="no">
-				<name>FR: 6</name>
-				<cost type="points">-2</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>FR: 9</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>FR: 12</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>FR: 15</name>
-				<cost type="points">-15</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Extremely Hazardous</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Involuntary</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Nonhazardous</name>
-				<cost type="points">5</cost>
-				<affects>total</affects>
-			</modifier>
-			<reference>B133</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Sense of Duty</name>
-			<type>Mental</type>
-			<modifier version="1" enabled="no">
-				<name>Friends and Companions</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B153</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Small Group@</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B153</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Individual@</name>
-				<cost type="points">-2</cost>
-				<affects>total</affects>
-				<reference>B153</reference>
-			</modifier>
-			<modifier version="1">
-				<name>US Citizens</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B153</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Entire Race@</name>
-				<cost type="points">-15</cost>
-				<affects>total</affects>
-				<reference>B153</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Every Living Being</name>
-				<cost type="points">-20</cost>
-				<affects>total</affects>
-				<reference>B153</reference>
-			</modifier>
-			<reference>B153</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-	</advantage_list>
-	<skill_list>
-		<skill version="2">
-			<name>Area Knowledge</name>
-			<specialization>DC</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B176</reference>
-			<notes>All important businesses, streets, citizens, leaders, etc.</notes>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Geography</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Area Knowledge</name>
-			<specialization>US</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B176</reference>
-			<notes>Location of its major cities and important sites; awareness of its major customs, ethnic groups, and languages (but not necessarily expertise); names of folk of Status 6+; and a general understanding of the economic and political situation</notes>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Geography</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Computer Operation</name>
-			<tech_level>8</tech_level>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B184</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Scholarly</category>
-				<category>Technical</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Criminology</name>
-			<tech_level>8</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>2</points>
-			<reference>B186</reference>
-			<categories>
-				<category>Police</category>
-				<category>Social Sciences/Humanities</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Psychology</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Detect Lies</name>
-			<difficulty>Per/H</difficulty>
-			<points>2</points>
-			<reference>B187</reference>
-			<categories>
-				<category>Police</category>
-				<category>Social</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Body Language</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Psychology</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Diplomacy</name>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B187</reference>
-			<categories>
-				<category>Business</category>
-				<category>Police</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Politics</name>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Driving</name>
-			<specialization>Automobile</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/A</difficulty>
-			<points>2</points>
-			<reference>B188</reference>
-			<categories>
-				<category>Vehicle</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Driving</name>
-				<specialization>Heavy Wheeled</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Driving</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Fast-Draw</name>
-			<specialization>Pistol</specialization>
-			<difficulty>DX/E</difficulty>
-			<points>2</points>
-			<reference>B194</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Fast-Draw</name>
-			<specialization>Ammo</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B194</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Guns</name>
-			<specialization>Pistol</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>4</points>
-			<reference>B198</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Grenade Launcher</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Gyroc</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Anti-Armor Weapon</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Machine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Musket</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Beam Weapons</name>
-				<specialization>Pistol</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Rifle</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Shotgun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Submachine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Guns</name>
-			<specialization>Rifle</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B198</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Grenade Launcher</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Gyroc</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Anti-Armor Weapon</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Machine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Musket</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Pistol</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Beam Weapons</name>
-				<specialization>Rifle</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Shotgun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Submachine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Guns</name>
-			<specialization>Shotgun</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B198</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Grenade Launcher</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Gyroc</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Anti-Armor Weapon</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Machine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Musket</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Pistol</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Rifle</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Submachine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Guns</name>
-			<specialization>Submachine Gun</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B198</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Grenade Launcher</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Gyroc</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Anti-Armor Weapon</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Machine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Musket</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Pistol</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Rifle</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Shotgun</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Holdout</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B200</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Sleight of Hand</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Intelligence Analysis</name>
-			<tech_level>8</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>4</points>
-			<reference>B201</reference>
-			<categories>
-				<category>Military</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Strategy</name>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Interrogation</name>
-			<difficulty>IQ/A</difficulty>
-			<points>2</points>
-			<reference>B202</reference>
-			<categories>
-				<category>Military</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Intimidation</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Psychology</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Judo</name>
-			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
-			<difficulty>DX/H</difficulty>
-			<points>2</points>
-			<reference>B203</reference>
-			<notes>Allows parrying two different attacks per turn, one with each hand.</notes>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Karate</name>
-			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
-			<difficulty>DX/H</difficulty>
-			<points>2</points>
-			<reference>B203</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<weapon_bonus>
-				<name compare="is">Karate</name>
-				<specialization compare="is anything"></specialization>
-				<level compare="at least">0</level>
-				<amount per_level="yes">1</amount>
-			</weapon_bonus>
-			<weapon_bonus>
-				<name compare="is">Karate</name>
-				<specialization compare="is anything"></specialization>
-				<level compare="at least">1</level>
-				<amount per_level="yes">1</amount>
-			</weapon_bonus>
-		</skill>
-		<skill version="2">
-			<name>Law</name>
-			<specialization>Police</specialization>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B204</reference>
-			<categories>
-				<category>Business</category>
-				<category>Police</category>
-				<category>Social Sciences/Humanities</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Observation</name>
-			<difficulty>Per/A</difficulty>
-			<points>2</points>
-			<reference>B211</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Military</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shadowing</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Research</name>
-			<tech_level>8</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B217</reference>
-			<categories>
-				<category>Scholarly</category>
-				<category>Spy</category>
-			</categories>
-			<prereq_list all="yes">
-				<prereq_list all="yes">
-					<when_tl compare="at least">8</when_tl>
-					<skill_prereq has="yes">
-						<name compare="is">Computer Operation</name>
-						<specialization compare="is anything"></specialization>
-					</skill_prereq>
-				</prereq_list>
-				<prereq_list all="no">
-					<advantage_prereq has="yes">
-						<name compare="starts with">Language</name>
-						<notes compare="contains">Written (Native</notes>
-					</advantage_prereq>
-					<advantage_prereq has="yes">
-						<name compare="starts with">Language</name>
-						<notes compare="contains">Written (Accented)</notes>
-					</advantage_prereq>
-					<advantage_prereq has="yes">
-						<name compare="starts with">Language</name>
-						<notes compare="contains">Written (Broken)</notes>
-					</advantage_prereq>
-				</prereq_list>
-			</prereq_list>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Writing</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Savoir-Faire</name>
-			<specialization>Police</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B218</reference>
-			<categories>
-				<category>Knowledge</category>
-				<category>Police</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Search</name>
-			<difficulty>Per/A</difficulty>
-			<points>1</points>
-			<reference>B219</reference>
-			<categories>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Criminology</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Shadowing</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B219</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Observation</name>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Stealth</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Stealth</name>
-			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
-			<difficulty>DX/A</difficulty>
-			<points>2</points>
-			<reference>B222</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Judo</name>
-			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
-			<difficulty>DX/H</difficulty>
-			<points>1</points>
-			<reference>B203</reference>
-			<notes>Allows parrying two different attacks per turn, one with each hand.</notes>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Karate</name>
-			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
-			<difficulty>DX/H</difficulty>
-			<points>1</points>
-			<reference>B203</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<weapon_bonus>
-				<name compare="is">Karate</name>
-				<specialization compare="is anything"></specialization>
-				<level compare="at least">0</level>
-				<amount per_level="yes">1</amount>
-			</weapon_bonus>
-			<weapon_bonus>
-				<name compare="is">Karate</name>
-				<specialization compare="is anything"></specialization>
-				<level compare="at least">1</level>
-				<amount per_level="yes">1</amount>
-			</weapon_bonus>
-		</skill>
-	</skill_list>
-	<equipment_list>
-		<equipment version="3" state="not carried">
-			<quantity>1</quantity>
-			<description>Assault Carbine, 5.56mm</description>
-			<legality_class>4</legality_class>
-			<value>950</value>
-			<weight>7.3 lb</weight>
-			<reference>ACT1:32</reference>
-			<ranged_weapon>
-				<damage>4d+2 pi</damage>
-				<strength>9&#8224;</strength>
-				<accuracy>4</accuracy>
-				<range>750/2,900</range>
-				<rate_of_fire>15</rate_of_fire>
-				<shots>30+1(3)</shots>
-				<bulk>-4</bulk>
-				<recoil>2</recoil>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Rifle</specialization>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Light Machine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Musket</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Pistol</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Shotgun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Submachine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Grenade Launcher</specialization>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Gyroc</specialization>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Light Anti-Armor Weapon</specialization>
-					<modifier>-4</modifier>
-				</default>
-			</ranged_weapon>
-			<categories>
-				<category>Weapons</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="not carried">
-			<quantity>1</quantity>
-			<description>Auto Shotgun, 12G</description>
-			<legality_class>4</legality_class>
-			<value>1000</value>
-			<weight>7.3 lb</weight>
-			<reference>ACT1:32</reference>
-			<ranged_weapon>
-				<damage>1d+1 pi</damage>
-				<strength>10&#8224;</strength>
-				<accuracy>3</accuracy>
-				<range>40/800</range>
-				<rate_of_fire>3x9</rate_of_fire>
-				<shots>7+1(2i)</shots>
-				<bulk>-5</bulk>
-				<recoil>1/4</recoil>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Shotgun</specialization>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Light Machine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Musket</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Pistol</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Rifle</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Submachine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Grenade Launcher</specialization>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Gyroc</specialization>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Light Anti-Armor Weapon</specialization>
-					<modifier>-4</modifier>
-				</default>
-			</ranged_weapon>
-			<categories>
-				<category>Weapons</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="not carried">
-			<quantity>1</quantity>
-			<description>Compact SMG, 9mm</description>
-			<legality_class>4</legality_class>
-			<value>1200</value>
-			<weight>3.8 lb</weight>
-			<reference>ACT1:32</reference>
-			<ranged_weapon>
-				<damage>2d+2 pi</damage>
-				<strength>8&#8224;</strength>
-				<accuracy>2</accuracy>
-				<range>160/1,800</range>
-				<rate_of_fire>15</rate_of_fire>
-				<shots>30+1(3)</shots>
-				<bulk>-2</bulk>
-				<recoil>2</recoil>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Submachine Gun</specialization>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Light Machine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Musket</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Pistol</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Shotgun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Rifle</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Grenade Launcher</specialization>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Gyroc</specialization>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Light Anti-Armor Weapon</specialization>
-					<modifier>-4</modifier>
-				</default>
-			</ranged_weapon>
-			<categories>
-				<category>Weapons</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="not carried">
-			<quantity>1</quantity>
-			<description>Flashlight, Heavy</description>
-			<legality_class>4</legality_class>
-			<value>20</value>
-			<weight>1 lb</weight>
-			<reference>ACT1:29</reference>
-			<notes>10yd. beam for 50 hours.</notes>
-			<categories>
-				<category>Light</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="not carried">
-			<quantity>1</quantity>
-			<description>Glow Stick</description>
-			<legality_class>4</legality_class>
-			<value>2</value>
-			<weight>0.1 lb</weight>
-			<reference>ACT1:29</reference>
-			<notes>Illuminates 2yd radius for 12hrs.</notes>
-			<categories>
-				<category>Light</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="not carried">
-			<quantity>1</quantity>
-			<description>GPS Receiver</description>
-			<legality_class>4</legality_class>
-			<value>100</value>
-			<weight>0.25 lb</weight>
-			<reference>ACT1:29</reference>
-			<notes>Navigation +3.</notes>
-			<categories>
-				<category>Personal Accessories</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="not carried">
-			<quantity>1</quantity>
-			<description>Notebook Computer</description>
-			<legality_class>4</legality_class>
-			<value>2100</value>
-			<weight>2.5 lb</weight>
-			<reference>ACT1:28</reference>
-			<notes>Complexity 3. Runs for 5 hours.</notes>
-			<categories>
-				<category>Computers</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="not carried">
-			<quantity>1</quantity>
-			<description>Sight, Night</description>
-			<legality_class>4</legality_class>
-			<value>1500</value>
-			<weight>1 lb</weight>
-			<reference>ACT1:28</reference>
-			<notes>Adds Night Vision 7 to another scope or sight. Removes -1 from darkness penalties.  Gives -1 Bulk.</notes>
-			<categories>
-				<category>Combat Accessories</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="not carried">
-			<quantity>1</quantity>
-			<description>Stun Gun</description>
-			<legality_class>4</legality_class>
-			<value>25</value>
-			<weight>0.5 lb</weight>
-			<reference>ACT1:33</reference>
-			<melee_weapon>
-				<damage>HT-3(0.5) aff</damage>
-				<strength>2</strength>
-				<reach>C</reach>
-				<parry>No</parry>
-				<block>No</block>
-				<default>
-					<type>Skill</type>
-					<name>Brawling</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>DX</type>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<notes>Holdout -1.</notes>
-			<categories>
-				<category>Weapons</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="not carried">
-			<quantity>1</quantity>
-			<description>SUV</description>
-			<legality_class>4</legality_class>
-			<value>45000</value>
-			<weight>8000 lb</weight>
-			<reference>ACT1:34</reference>
-			<categories>
-				<category>Vehicles</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="carried">
-			<quantity>1</quantity>
-			<description>Tactical Lights, Small</description>
-			<legality_class>4</legality_class>
-			<value>100</value>
-			<weight>0.25 lb</weight>
-			<reference>ACT1:28</reference>
-			<notes>25-yard beam for 2 hours.</notes>
-			<categories>
-				<category>Combat Accessories</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Auto Backup Pistol, .40</description>
-			<legality_class>4</legality_class>
-			<value>720</value>
-			<weight>1.9 lb</weight>
-			<reference>ACT1:32</reference>
-			<ranged_weapon>
-				<damage>2d+1 pi+</damage>
-				<strength>8</strength>
-				<accuracy>1</accuracy>
-				<range>140/1,600</range>
-				<rate_of_fire>3</rate_of_fire>
-				<shots>6+1(3)</shots>
-				<bulk>-1</bulk>
-				<recoil>2</recoil>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Pistol</specialization>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Light Machine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Musket</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Rifle</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Shotgun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Submachine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<modifier>-4</modifier>
-				</default>
-			</ranged_weapon>
-			<categories>
-				<category>Weapons</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Auto Pistol, 9mm</description>
-			<legality_class>4</legality_class>
-			<value>600</value>
-			<weight>1.9 lb</weight>
-			<reference>ACT1:32</reference>
-			<ranged_weapon>
-				<damage>2d+2 pi</damage>
-				<strength>8</strength>
-				<accuracy>2</accuracy>
-				<range>160/1,800</range>
-				<rate_of_fire>3</rate_of_fire>
-				<shots>17+1(3)</shots>
-				<bulk>-2</bulk>
-				<recoil>2</recoil>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Pistol</specialization>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Light Machine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Musket</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Rifle</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Shotgun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Submachine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<modifier>-4</modifier>
-				</default>
-			</ranged_weapon>
-			<categories>
-				<category>Weapons</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Flashlight, Mini</description>
-			<legality_class>4</legality_class>
-			<value>10</value>
-			<weight>0.25 lb</weight>
-			<reference>ACT1:29</reference>
-			<notes>5yd beam for 10hrs.</notes>
-			<categories>
-				<category>Light</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Flex Cuffs</description>
-			<legality_class>4</legality_class>
-			<value>5</value>
-			<weight>0.25 lb</weight>
-			<reference>ACT1:29</reference>
-			<notes>Pack of ten. DR1. HP2. -1 to Escape.</notes>
-			<categories>
-				<category>Security</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Handcuffs.</description>
-			<legality_class>4</legality_class>
-			<value>50</value>
-			<weight>0.5 lb</weight>
-			<reference>ACT1:29</reference>
-			<notes>DR4. HP6. -5 to Escape.</notes>
-			<categories>
-				<category>Security</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Holster, Shoulder</description>
-			<legality_class>4</legality_class>
-			<value>50</value>
-			<weight>1 lb</weight>
-			<reference>ACT1:28</reference>
-			<notes>For pistols. Enables Holdout, but gives -1 to Fast-Draw.</notes>
-			<categories>
-				<category>Combat Accessories</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Holster, Undercover</description>
-			<legality_class>4</legality_class>
-			<value>125</value>
-			<weight>1 lb</weight>
-			<reference>ACT1:28</reference>
-			<notes>+1 to Holdout. -1 to Fast-Draw.</notes>
-			<categories>
-				<category>Combat Accessories</category>
-			</categories>
-		</equipment>
-		<equipment_container version="3" open="yes" state="equipped">
-			<description>Jacket, Leather</description>
-			<legality_class>4</legality_class>
-			<value>50</value>
-			<weight>4 lb</weight>
-			<reference>ACT1:31</reference>
-			<notes>Flexible.</notes>
-			<categories>
-				<category>Armor</category>
-			</categories>
-			<dr_bonus>
-				<location>arms</location>
-				<amount>1</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
-				<amount>1</amount>
-			</dr_bonus>
-		</equipment_container>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Multi-Tool</description>
-			<legality_class>4</legality_class>
-			<value>50</value>
-			<weight>0.5 lb</weight>
-			<reference>ACT1:29</reference>
-			<notes>Most repairs -5.</notes>
-			<categories>
-				<category>Personal Accessories</category>
-			</categories>
-		</equipment>
-		<equipment_container version="3" open="yes" state="equipped">
-			<description>Phone, Cell (Fine)</description>
-			<legality_class>4</legality_class>
-			<value>2000</value>
-			<weight>0.5 lb</weight>
-			<reference>ACT1:28</reference>
-			<notes>Runs for 6 hours. Up to 19 built-in gadgets.</notes>
-			<categories>
-				<category>Communicators</category>
-			</categories>
-		</equipment_container>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Shoes</description>
-			<legality_class>4</legality_class>
-			<value>40</value>
-			<weight>2 lb</weight>
-			<reference>ACT1:31</reference>
-			<notes>Flexible.</notes>
-			<categories>
-				<category>Armor</category>
-			</categories>
-			<dr_bonus>
-				<location>feet</location>
-				<amount>1</amount>
-			</dr_bonus>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Vest, Concealable</description>
-			<legality_class>4</legality_class>
-			<value>1000</value>
-			<weight>2 lb</weight>
-			<reference>ACT1:31</reference>
-			<notes>Flexible. DR+7 vs. piercing and cutting damage.</notes>
-			<categories>
-				<category>Armor</category>
-			</categories>
-			<dr_bonus>
-				<location>torso</location>
-				<amount>5</amount>
-			</dr_bonus>
-		</equipment>
-	</equipment_list>
-	<print_settings printer="Photosmart C4700 series" units="in">
-		<orientation>portrait</orientation>
-		<width>8.5</width>
-		<height>11</height>
-		<top_margin>0.5</top_margin>
-		<left_margin>0.5</left_margin>
-		<bottom_margin>0.5</bottom_margin>
-		<right_margin>0.5</right_margin>
-		<ink_chromaticity>monochrome</ink_chromaticity>
-		<sides>single</sides>
-		<quality>normal</quality>
-	</print_settings>
-</character>
+{
+	"type": "character",
+	"version": 1,
+	"id": "20942bdf-bd80-4e74-89e0-f5882d78f0da",
+	"settings": {
+		"version": 1,
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_and_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"use_title_in_footer": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "May 19, 2016, 12:00 AM",
+	"modified_date": "Sep 4, 2016, 12:00 AM",
+	"profile": {
+		"player_name": "dwebster",
+		"name": "Nathan Buckley",
+		"title": "Special Agent, FBI",
+		"age": 37,
+		"birthday": "April 21",
+		"eyes": "Blue",
+		"hair": "Brown Straight, short",
+		"skin": "Light tan",
+		"handedness": "Right",
+		"height": "6' 1\"",
+		"weight": "185 lb",
+		"gender": "Male",
+		"body_type": "humanoid",
+		"tech_level": "8",
+		"religion": "Lapsed Mormon"
+	},
+	"HP_adj": 2,
+	"FP_adj": 2,
+	"total_points": 250,
+	"ST": 10,
+	"DX": 13,
+	"IQ": 13,
+	"HT": 12,
+	"per_adj": 2,
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "469357f1-573b-4d47-9a85-305a4825d71c",
+			"name": "Patron",
+			"social": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "461afed7-bead-493c-a533-32519b02cf95",
+					"disabled": true,
+					"name": "@Who: Individual with 150% of PC's starting points@",
+					"reference": "B72",
+					"cost_type": "points",
+					"cost": 10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "eebb5372-fa12-4b1b-ad11-5d4808a24212",
+					"disabled": true,
+					"name": "@Who: Organization with assets of at least 1000 times starting wealth@",
+					"reference": "B72",
+					"cost_type": "points",
+					"cost": 10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "aef73c23-166c-4b45-929a-0e2159453c3b",
+					"disabled": true,
+					"name": "@Who: Individual with twice the PC's starting points@",
+					"reference": "B72",
+					"cost_type": "points",
+					"cost": 10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "538ed7be-929a-4b50-a691-45e137b28c40",
+					"disabled": true,
+					"name": "@Who: Organization with assets of at least 10000 times starting wealth@",
+					"reference": "B72",
+					"cost_type": "points",
+					"cost": 15,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7fc9177b-6d0e-4872-a4be-64917bbeb97b",
+					"disabled": true,
+					"name": "@Who: An ultra-powerful individual@",
+					"reference": "B72",
+					"cost_type": "points",
+					"cost": 20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e1773ca1-e175-4e4a-86ff-186abbc9c187",
+					"name": "FBI",
+					"reference": "B72",
+					"cost_type": "points",
+					"cost": 20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2a5439f1-266f-4a0d-ae2f-d2b14301ed0f",
+					"disabled": true,
+					"name": "@Who: Organization with assets of at least 1000000 times starting wealth@",
+					"reference": "B72",
+					"cost_type": "points",
+					"cost": 25,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ac5e7b35-1b42-4bec-b1f3-ee50b1047bfe",
+					"disabled": true,
+					"name": "@Who: A national government or giant multi-national organization@",
+					"reference": "B72",
+					"cost_type": "points",
+					"cost": 30,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "593ba00e-7adb-460f-8d1b-047c595f20c0",
+					"disabled": true,
+					"name": "@Who: A diety@",
+					"reference": "B72",
+					"cost_type": "points",
+					"cost": 30,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "76eafa7e-8c80-49af-9786-0778346d013b",
+					"disabled": true,
+					"name": "Appears almost all the time",
+					"reference": "B36",
+					"cost_type": "multiplier",
+					"cost": 3,
+					"notes": "15-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "11641a98-d9b3-4804-b9ac-ab158772c336",
+					"disabled": true,
+					"name": "Appears quite often",
+					"reference": "B36",
+					"cost_type": "multiplier",
+					"cost": 2,
+					"notes": "12-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c326a814-fb29-4583-b26e-4b0581387720",
+					"name": "Appears fairly often",
+					"reference": "B36",
+					"cost_type": "multiplier",
+					"cost": 1,
+					"notes": "9-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2f10068d-b81f-444b-a7fb-f4385a45005b",
+					"disabled": true,
+					"name": "Appears quite rarely",
+					"reference": "B36",
+					"cost_type": "multiplier",
+					"cost": 0.5,
+					"notes": "6-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "020f1eb0-a1d8-4763-aeca-4ca109e8d7ef",
+					"disabled": true,
+					"name": "Equipment",
+					"reference": "B73",
+					"cost_type": "percentage",
+					"cost": 50,
+					"affects": "total",
+					"notes": "@Equipment worth no more than average starting wealth@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f15f4ee7-c70a-4b21-8692-55e067ac17d2",
+					"disabled": true,
+					"name": "Equipment",
+					"reference": "B73",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total",
+					"notes": "@Equipment worth more than average starting wealth@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c4363c6a-de9a-45be-b010-5b78f7c95cc7",
+					"disabled": true,
+					"name": "Highly Accessible",
+					"reference": "B73",
+					"cost_type": "percentage",
+					"cost": 50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "798deb7e-80b3-4322-8871-7925487a3729",
+					"disabled": true,
+					"name": "Special Abilities",
+					"reference": "B73",
+					"cost_type": "percentage",
+					"cost": 50,
+					"affects": "total",
+					"notes": "@Extensive social or political power@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a6a72c43-7d43-4a9b-8127-0c3b44cc09cf",
+					"disabled": true,
+					"name": "Special Abilities",
+					"reference": "B73",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total",
+					"notes": "@Magical powers in a non-magical world, higher TL equipment, grants special powers or is supernatural@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a34cad9c-e90d-4826-b919-a7415623555c",
+					"disabled": true,
+					"name": "Minimal Interventions",
+					"reference": "B73",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6a3f8ac2-f4f0-415a-9fbd-49e8482d7264",
+					"disabled": true,
+					"name": "Secret",
+					"reference": "B73",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ad186d61-062d-44db-9190-3f5d720c171b",
+					"disabled": true,
+					"name": "Unwilling",
+					"reference": "B74",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "29702560-7194-4fc7-b372-47c04bde896e",
+					"disabled": true,
+					"name": "Favor",
+					"reference": "B55",
+					"cost_type": "multiplier",
+					"cost": 0.2
+				}
+			],
+			"reference": "B72",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "acc3b240-e853-460b-8382-9f0721cc6d6c",
+			"name": "Combat Reflexes",
+			"mental": true,
+			"base_points": 15,
+			"reference": "B43",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "Enhanced Time Sense"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "starts_with",
+						"qualifier": "fast-draw"
+					}
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "dodge"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "parry"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "block"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "fright_check"
+				}
+			],
+			"notes": "Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "c4a8fc6a-63cb-47e9-8cfb-f7c433d694d9",
+			"name": "Danger Sense",
+			"mental": true,
+			"base_points": 15,
+			"reference": "B47",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "209818d6-8503-4e20-a01e-241a739aba50",
+			"name": "Intuition",
+			"mental": true,
+			"base_points": 15,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "690d342c-1c6d-4af4-b394-d7b40a326f3a",
+					"disabled": true,
+					"name": "Inspired",
+					"reference": "P56",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total"
+				}
+			],
+			"reference": "B63",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "08e7fce3-9024-4223-92bf-6112348a6c68",
+			"name": "Legal Enforcement Powers",
+			"social": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1a928149-c0dd-4a92-9b84-36a001ba3683",
+					"disabled": true,
+					"name": "@Local cop@",
+					"reference": "B65",
+					"cost_type": "points",
+					"cost": 5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a1daad0e-2e35-4b44-b5f2-49b055c235e4",
+					"disabled": true,
+					"name": "@KGB@",
+					"reference": "B65",
+					"cost_type": "points",
+					"cost": 15,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "82c25cad-3209-42a6-93ac-a2b6a755ef9c",
+					"name": "FBI Agent",
+					"reference": "B65",
+					"cost_type": "points",
+					"cost": 10,
+					"affects": "total"
+				}
+			],
+			"reference": "B65",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "df073b73-afc5-4750-be69-063d7d8f5ba5",
+			"name": "Ally (Special Agent Peter Kim)",
+			"social": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2321aa15-5ffe-4ac1-9570-1509307f3913",
+					"disabled": true,
+					"name": "Point total",
+					"reference": "B37",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "25% of your starting points"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c522bc41-dc07-471a-afb0-068419cfbe00",
+					"disabled": true,
+					"name": "Point total",
+					"reference": "B37",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "50% of your starting points"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ff1d4513-6c7c-46fc-9445-b0c2822c02db",
+					"name": "Point total",
+					"reference": "B37",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "75% of your starting points"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f8ef3ba1-6beb-43ec-a51a-8aeeddd382a5",
+					"disabled": true,
+					"name": "Point total",
+					"reference": "B37",
+					"cost_type": "points",
+					"cost": 5,
+					"affects": "total",
+					"notes": "100% of your starting points"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b0a40027-a589-4870-a34a-8b744c74a732",
+					"disabled": true,
+					"name": "Point total",
+					"reference": "B37",
+					"cost_type": "points",
+					"cost": 10,
+					"affects": "total",
+					"notes": "150% of your starting points"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1c9164ae-3794-4f6e-bd47-7149bc38d26b",
+					"disabled": true,
+					"name": "Appears constantly",
+					"reference": "B36",
+					"cost_type": "multiplier",
+					"cost": 4,
+					"notes": "No roll required"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1c184628-2d0c-47cc-a187-d0cf97306477",
+					"disabled": true,
+					"name": "Appears almost all the time",
+					"reference": "B36",
+					"cost_type": "multiplier",
+					"cost": 3,
+					"notes": "15-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f1ce3b11-1462-4c31-b822-4d03443e9576",
+					"name": "Appears quite often",
+					"reference": "B36",
+					"cost_type": "multiplier",
+					"cost": 2,
+					"notes": "12-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d7f6a58e-8f0f-4ca7-ac0e-98ef0396070d",
+					"disabled": true,
+					"name": "Appears fairly often",
+					"reference": "B36",
+					"cost_type": "multiplier",
+					"cost": 1,
+					"notes": "9-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "31abdbe0-6a63-4910-bafc-3e2f87dec382",
+					"disabled": true,
+					"name": "Appears quite rarely",
+					"reference": "B36",
+					"cost_type": "multiplier",
+					"cost": 0.5,
+					"notes": "6-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0009c9ca-e923-490f-8707-387c367a4008",
+					"disabled": true,
+					"name": "Group of 6-10",
+					"reference": "B37",
+					"cost_type": "multiplier",
+					"cost": 6
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d0adcbf2-2ff3-4b4e-a929-13a00bf00ce5",
+					"disabled": true,
+					"name": "Group of 11-20",
+					"reference": "B37",
+					"cost_type": "multiplier",
+					"cost": 8
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "82cc83f8-1a06-4e3c-b28b-d183a228ef3c",
+					"disabled": true,
+					"name": "Group of 21-50",
+					"reference": "B37",
+					"cost_type": "multiplier",
+					"cost": 10
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e2566e28-ca31-47fc-a079-1fae9102847a",
+					"disabled": true,
+					"name": "Group of 51-100",
+					"reference": "B37",
+					"cost_type": "multiplier",
+					"cost": 12
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "30074eaf-d406-4bb7-b7ca-e3dfd08db058",
+					"disabled": true,
+					"name": "Group of 101-1000",
+					"reference": "B37",
+					"cost_type": "multiplier",
+					"cost": 18
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6121b11a-269e-48d5-af20-70e05a915183",
+					"disabled": true,
+					"name": "Group of 1001-10000",
+					"reference": "B37",
+					"cost_type": "multiplier",
+					"cost": 24
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3957a496-45af-4724-bff7-e404d8d9deaa",
+					"disabled": true,
+					"name": "Group of 10001-100000",
+					"reference": "B37",
+					"cost_type": "multiplier",
+					"cost": 30
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6a28eaf0-c726-47e0-b379-90d3006660d4",
+					"disabled": true,
+					"name": "Group of 100001-1000000",
+					"reference": "B37",
+					"cost_type": "multiplier",
+					"cost": 36
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "dff275eb-1b16-4fa2-86f3-bebac733172d",
+					"disabled": true,
+					"name": "Minion",
+					"reference": "B38",
+					"cost_type": "percentage",
+					"cost": 50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "de1ced94-f49c-4e42-831a-2ea712baa6eb",
+					"disabled": true,
+					"name": "Minion",
+					"reference": "B38",
+					"cost_type": "percentage",
+					"cost": 0,
+					"affects": "total",
+					"notes": "IQ 0 or Slave Mentality"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "353b4ab3-5b14-4305-b079-6610599f47ca",
+					"disabled": true,
+					"name": "Special Abilities",
+					"reference": "B38",
+					"cost_type": "percentage",
+					"cost": 50,
+					"affects": "total",
+					"notes": "@Abilities@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6e3d6c56-36d1-4c95-a44c-2bf05277715d",
+					"disabled": true,
+					"name": "Summonable",
+					"reference": "B38",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a4058b8b-6350-4422-80b1-74b77bc1d7cf",
+					"disabled": true,
+					"name": "Sympathy",
+					"reference": "B38",
+					"cost_type": "percentage",
+					"cost": -25,
+					"affects": "total",
+					"notes": "Death of one party reduces the other to 0 HP"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "72b852f5-4998-433a-a04f-b0234ff921e1",
+					"disabled": true,
+					"name": "Sympathy",
+					"reference": "B38",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total",
+					"notes": "Death of one party reduces the other to 0 HP and wounds affect ally but not you"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "52a573f7-1f12-45a9-a543-6d4b2005dfdf",
+					"disabled": true,
+					"name": "Sympathy",
+					"reference": "B38",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total",
+					"notes": "Death of one party kills the other"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c6b48264-6fea-415d-aea4-39fbf3a8f120",
+					"disabled": true,
+					"name": "Sympathy",
+					"reference": "B38",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total",
+					"notes": "Death of one party kills the other and wounds affect ally but not you"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "23395d1b-2a4c-4fcb-ab5c-057afed4c371",
+					"disabled": true,
+					"name": "Unwilling",
+					"reference": "B38",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4ca5411e-2a74-473b-b68e-95bb782639a7",
+					"disabled": true,
+					"name": "Favor",
+					"reference": "B55",
+					"cost_type": "multiplier",
+					"cost": 0.2
+				}
+			],
+			"reference": "B36",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "e8a351ac-a533-480c-9bfe-c06573a6bdbc",
+			"name": "Fit",
+			"physical": true,
+			"base_points": 5,
+			"reference": "B55",
+			"notes": "+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "fa950747-55d9-4ae4-bfc6-6bbb43fa071f",
+			"name": "Rank",
+			"physical": true,
+			"levels": "1",
+			"points_per_level": 5,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "606d3a56-4f4a-441e-a0cd-f7ab29508fac",
+					"disabled": true,
+					"name": "Replaces Status",
+					"reference": "B29",
+					"cost_type": "points",
+					"cost": 5,
+					"affects": "levels_only"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "61dd3834-2d86-4bf2-913b-45719931f080",
+					"disabled": true,
+					"name": "Courtesy",
+					"reference": "B29",
+					"cost_type": "points",
+					"cost": -4,
+					"affects": "levels_only"
+				}
+			],
+			"reference": "B29",
+			"notes": "Police: Sr. Special Agent",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "7e57e76f-49e3-414e-936c-69d979bfaa48",
+			"name": "Appearance",
+			"physical": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0d2b8071-5dde-4430-9314-09c5b82d744c",
+					"disabled": true,
+					"name": "Universal",
+					"cost_type": "percentage",
+					"cost": 25,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "213604a8-e84f-4859-8eba-9dde461c7682",
+					"disabled": true,
+					"name": "Off-the-Shelf Looks",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "40551bdd-9e19-498c-8a55-cb6b8a9b68b9",
+					"disabled": true,
+					"name": "Androgynous",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "62b41671-06a9-40e2-9621-a0eb28fb70e5",
+					"disabled": true,
+					"name": "Impressive",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e4bb3741-2583-4084-9fef-64de969f91da",
+					"name": "Attractive",
+					"cost_type": "points",
+					"cost": 4,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "78d332c1-c6ec-429e-855d-855316ae84c9",
+					"disabled": true,
+					"name": "Average",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7203ec69-8b47-4a2c-a4cc-ec837ce53565",
+					"disabled": true,
+					"name": "Horrific",
+					"cost_type": "points",
+					"cost": -24,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "30295ce5-8e32-4101-be18-265e035714eb",
+					"disabled": true,
+					"name": "Monstrous",
+					"cost_type": "points",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7ebdae41-767e-4c04-80a2-630085f2c46b",
+					"disabled": true,
+					"name": "Hideous",
+					"cost_type": "points",
+					"cost": -16,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "40c04730-0e60-4ddc-b3aa-ac005cf4ebba",
+					"disabled": true,
+					"name": "Ugly",
+					"cost_type": "points",
+					"cost": -8,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "baa5b804-8ea4-4914-aae0-fd0715eb08db",
+					"disabled": true,
+					"name": "Unattractive",
+					"cost_type": "points",
+					"cost": -4,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7b70a570-4967-40e0-8230-3a9720b85bed",
+					"disabled": true,
+					"name": "Handsome",
+					"cost_type": "points",
+					"cost": 12,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "60432842-88be-4ab9-befd-4a5b1f9f6990",
+					"disabled": true,
+					"name": "Beautiful",
+					"cost_type": "points",
+					"cost": 12,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0f07bd55-9402-42c0-9ac2-26d484c4fc01",
+					"disabled": true,
+					"name": "Very Handsome",
+					"cost_type": "points",
+					"cost": 16,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d5c8abd3-0140-4b57-9621-05ace7f60db0",
+					"disabled": true,
+					"name": "Very Beautiful",
+					"cost_type": "points",
+					"cost": 16,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "73d1034e-8d6b-4e15-8824-de4ed82d0799",
+					"disabled": true,
+					"name": "Transcendent",
+					"cost_type": "points",
+					"cost": 20,
+					"affects": "total"
+				}
+			],
+			"reference": "B21",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "0409553e-83fd-4961-8125-b818c7164ec4",
+			"name": "Language: Spanish",
+			"mental": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d8905646-a1fb-425c-bd5c-26bacd5efb3c",
+					"disabled": true,
+					"name": "Native",
+					"reference": "B23",
+					"cost_type": "points",
+					"cost": -6,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0a7b7f3f-d0cb-4bca-be64-96fa4deea870",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "bf663738-a4d5-45a9-947d-d5db39a824cf",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4b286723-d12f-414f-a8bf-89cd6dc0ee1c",
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "8d166f7b-3fbf-4e9f-8fcc-1e12180e80c6",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7d59e6a1-be7a-4d1d-bec4-8bac04292de4",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6751ad72-3647-4a75-9f0b-2c2b25a3484d",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "bf312a02-4ea5-4d69-8e9a-e8f6e69c4df9",
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ce671bd7-a467-4de5-903c-a37d77699acf",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				}
+			],
+			"reference": "B24",
+			"categories": [
+				"Advantage",
+				"Language"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "024de70e-14ee-406a-b23a-6454026897c4",
+			"round_down": true,
+			"name": "Reputation",
+			"social": true,
+			"levels": "3",
+			"points_per_level": 5,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3a03627c-6b72-41fd-81b0-a0f185d16467",
+					"disabled": true,
+					"name": "People Affected",
+					"reference": "B27",
+					"cost_type": "multiplier",
+					"cost": 1,
+					"notes": "Almost everyone"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d263b11f-7c3e-4f3c-b61a-546a01aac385",
+					"disabled": true,
+					"name": "People Affected",
+					"reference": "B27",
+					"cost_type": "multiplier",
+					"cost": 0.67,
+					"notes": "Almost everyone except @large class of people@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b43c4977-071f-40df-8aed-33595ce0d465",
+					"name": "People Affected",
+					"reference": "B27",
+					"cost_type": "multiplier",
+					"cost": 0.5,
+					"notes": "Law Enforcement"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a542f9cb-62d5-47ea-afdc-01c2777a9b88",
+					"disabled": true,
+					"name": "People Affected",
+					"reference": "B27",
+					"cost_type": "multiplier",
+					"cost": 0.33,
+					"notes": "@Small class of people@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a994165f-f926-4446-9109-abca4ccbc3dd",
+					"disabled": true,
+					"name": "Recognized all the time",
+					"reference": "B28",
+					"cost_type": "multiplier",
+					"cost": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2867127a-a38a-4215-8502-1bf8e13acb23",
+					"name": "Recognized sometimes",
+					"reference": "B28",
+					"cost_type": "multiplier",
+					"cost": 0.5,
+					"notes": "10-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1ea82955-8fa4-4739-b12b-e0c4e372fc4c",
+					"disabled": true,
+					"name": "Recognized occasionally",
+					"reference": "B28",
+					"cost_type": "multiplier",
+					"cost": 0.33,
+					"notes": "7-"
+				}
+			],
+			"reference": "B26",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "db21fa74-0b35-4cd2-b884-4cd478d05ac3",
+			"name": "Language: Korean",
+			"mental": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2470a287-8160-41eb-980c-d769296d58a3",
+					"disabled": true,
+					"name": "Native",
+					"reference": "B23",
+					"cost_type": "points",
+					"cost": -6,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "107091be-68f4-4b24-a333-477ba1547be1",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b89e0a43-5f69-4a03-8b1a-b45e4d9f3a78",
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a9cba57f-ebb7-46de-aa73-48ae0f366c34",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c7a3611e-e860-4a86-9e3c-c6fb24466289",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b2a0f926-5fdd-43f1-b865-bb1d04847c91",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ec693b9e-6ef3-4afb-ba3c-1c13218ad92f",
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6c7d3c31-fe96-4a44-ab74-b659bc29509c",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "831f306d-8cfe-4321-8aa7-4cdc3fcce600",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				}
+			],
+			"reference": "B24",
+			"categories": [
+				"Advantage",
+				"Language"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "fbbb3cb5-543c-4e16-b89a-c5362c99a851",
+			"name": "Cultural Familiarity (Western)",
+			"mental": true,
+			"base_points": 1,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b5f1164c-ecb4-4ccb-b32a-51665cebd254",
+					"disabled": true,
+					"name": "Alien",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e5b91c62-fd34-45fe-861b-42506f93a7f4",
+					"disabled": true,
+					"name": "Native",
+					"cost_type": "points",
+					"cost": -1,
+					"affects": "total"
+				}
+			],
+			"reference": "B23",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "2170d60f-c572-442e-aad3-455f81a47de9",
+			"name": "Language: English",
+			"mental": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3cc91976-65ca-4662-9162-a262cfccaf3b",
+					"name": "Native",
+					"reference": "B23",
+					"cost_type": "points",
+					"cost": -6,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "563972dc-367e-41ff-ae44-50cbe915c6b3",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3634a2f0-b9d6-4616-a98e-6f77bf04c80a",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "95c79f84-e59e-4ef1-aead-74b824f33aa1",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "da5c439d-4d97-4cdc-8fe2-ac2583db5f6e",
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f13e5405-d6cc-403b-85e6-170f0099aaed",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "076cc871-3b88-49cd-8bd2-a3566155cb0e",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2dca55ed-caf1-452a-b919-2cc95bc92dca",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e0ecb012-bfbd-496b-8dc5-eaecf4c1b9fd",
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				}
+			],
+			"reference": "B24",
+			"categories": [
+				"Advantage",
+				"Language"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "216d7829-b743-4978-a8b9-4a7fede859c3",
+			"name": "Broad-Minded",
+			"mental": true,
+			"base_points": -1,
+			"reference": "B163",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "9735fd48-d87a-48e5-81ed-4b497844ae3d",
+			"name": "Habit",
+			"mental": true,
+			"levels": "0",
+			"base_points": -1,
+			"reference": "B164",
+			"notes": "Reflexively Conservative",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "cf490c99-6770-4036-9376-053799d04c50",
+			"name": "Horrible Hangovers",
+			"physical": true,
+			"base_points": -1,
+			"reference": "B165",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "e93e4cd6-276f-4363-b9eb-a9ee9c09dcb5",
+			"name": "Nosy",
+			"mental": true,
+			"base_points": -1,
+			"reference": "B164",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "4b48cde4-f15e-4fdd-b375-d5d79ec31ea2",
+			"name": "Obsession",
+			"mental": true,
+			"levels": "0",
+			"base_points": -1,
+			"reference": "B164",
+			"notes": "Trying New Things",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "522a9e5f-e67f-4147-a0a2-dc36c435e86f",
+			"name": "Minor Secret",
+			"physical": true,
+			"levels": "0",
+			"base_points": -2,
+			"reference": "B165",
+			"notes": "Lapsed Mormon",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "5408d3ba-1dd7-4646-9b8f-1099d298cfeb",
+			"name": "Curious",
+			"mental": true,
+			"base_points": -5,
+			"cr": 12,
+			"reference": "B129",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "16bc2cb8-3948-464a-bd12-6120abbed4a6",
+			"name": "Enemy (Wronged Politicians)",
+			"social": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f69f6ac7-f24c-41c7-9cd8-87b47d5a76c1",
+					"disabled": true,
+					"name": "Weak Individual",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total",
+					"notes": "50% of your starting points"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9b31e5b2-c61b-49ca-8959-c4a512f82fe8",
+					"disabled": true,
+					"name": "Equal Individual",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total",
+					"notes": "100% of your starting points"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a9a99ea4-d5ea-49f4-b8c5-a3f8b78f67df",
+					"disabled": true,
+					"name": "Powerful Individual",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -20,
+					"affects": "total",
+					"notes": ">150% of your starting points"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "66a75b66-248d-4ca4-892e-138de62b57e9",
+					"disabled": true,
+					"name": "Weak Group",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "28b0687d-7ab2-4e21-bd33-13a41f64bed0",
+					"name": "Medium Group",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6ed183b4-2204-4458-a4b4-92458086c0af",
+					"disabled": true,
+					"name": "Appears almost all the time",
+					"reference": "B36",
+					"cost_type": "multiplier",
+					"cost": 3,
+					"notes": "15-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "070d56a8-5462-4893-831b-c27e38c25c95",
+					"disabled": true,
+					"name": "Appears quite often",
+					"reference": "B36",
+					"cost_type": "multiplier",
+					"cost": 2,
+					"notes": "12-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9ff3d3dc-2bf9-40e0-adc6-b3d83cb6e235",
+					"disabled": true,
+					"name": "Appears fairly often",
+					"reference": "B36",
+					"cost_type": "multiplier",
+					"cost": 1,
+					"notes": "9-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "aae333eb-7b20-418d-b2fb-b01be2e5136b",
+					"name": "Appears quite rarely",
+					"reference": "B36",
+					"cost_type": "multiplier",
+					"cost": 0.5,
+					"notes": "6-"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "77edf026-a7c7-4d7e-a229-33f1c6d12bc8",
+					"disabled": true,
+					"name": "Large/Powerful Group",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -30,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "75b8eec3-5ffd-4018-88c5-21818c0d4505",
+					"disabled": true,
+					"name": "Utterly Formidable Group",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -40,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ccb6d299-206c-485f-8118-eff7f106ab98",
+					"disabled": true,
+					"name": "Unknown",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "adae5592-14d5-4da8-99cd-2a67f2b344b9",
+					"disabled": true,
+					"name": "Evil Twin",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3514c67e-f14a-4de9-bd1a-28682a280743",
+					"disabled": true,
+					"name": "Evil Twin",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total",
+					"notes": "More skilled or extra abilities"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d5c17302-2775-4046-be95-63e5a7e43b3e",
+					"disabled": true,
+					"name": "Evil Twin",
+					"reference": "B135",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total",
+					"notes": "More skilled and extra abilities"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2eaf2fa2-3027-4aae-a5b7-afb425022aba",
+					"disabled": true,
+					"name": "Watcher",
+					"reference": "B135",
+					"cost_type": "multiplier",
+					"cost": 0.25
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "abf9ae9c-b621-430e-a748-2bb745c06cb9",
+					"name": "Rival",
+					"reference": "B135",
+					"cost_type": "multiplier",
+					"cost": 0.5
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "26a6bb8a-9605-4366-8de9-3e2a2fa55b0e",
+					"disabled": true,
+					"name": "Hunter",
+					"reference": "B135",
+					"cost_type": "multiplier",
+					"cost": 1
+				}
+			],
+			"reference": "B135",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "8a9a0b8e-10b4-4754-b829-43d916331b93",
+			"name": "Guilt Complex",
+			"mental": true,
+			"base_points": -5,
+			"reference": "B137",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "9a93d060-352c-4fa2-bd22-2ca2c8a00986",
+			"name": "Miserliness",
+			"mental": true,
+			"base_points": -10,
+			"cr": 15,
+			"reference": "B144",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "9757eb53-5011-49ec-9042-5e8f4157b3fc",
+			"name": "Nightmares",
+			"mental": true,
+			"base_points": -5,
+			"cr": 12,
+			"reference": "B144",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "fa3a9b4e-15ef-43ce-b4c9-2a715e960efc",
+			"name": "Stubbornness",
+			"mental": true,
+			"base_points": -5,
+			"reference": "B157",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "ff921513-4b26-42f1-bb40-0e1c07ba4f8d",
+			"name": "Duty (FBI Agent)",
+			"social": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "64be1dc6-73d0-4ebe-aa5e-9f8f8e0576f8",
+					"disabled": true,
+					"name": "FR: 6",
+					"cost_type": "points",
+					"cost": -2,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "bd262f3b-92c6-4c8e-af7e-1586caed20cc",
+					"disabled": true,
+					"name": "FR: 9",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5272f372-7c6b-4aa7-88af-0d7dd55b1213",
+					"name": "FR: 12",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "73236b94-367f-4157-9d94-9a834a68795b",
+					"disabled": true,
+					"name": "FR: 15",
+					"cost_type": "points",
+					"cost": -15,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2de09ae6-2841-4e1c-862c-cd2769f4cc4d",
+					"disabled": true,
+					"name": "Extremely Hazardous",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "37b894ee-3b20-4461-9581-f24ed6ae9630",
+					"disabled": true,
+					"name": "Involuntary",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "30a37e2e-8130-46c7-847b-140e92d07c64",
+					"disabled": true,
+					"name": "Nonhazardous",
+					"cost_type": "points",
+					"cost": 5,
+					"affects": "total"
+				}
+			],
+			"reference": "B133",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "1411a2fb-244b-45a9-ad86-701bd2bfb104",
+			"name": "Sense of Duty",
+			"mental": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d6aed87a-1a48-4ddb-81e0-8dab4e03ca54",
+					"disabled": true,
+					"name": "Friends and Companions",
+					"reference": "B153",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "624a1dc9-abdd-4456-a36a-d59d8edf64c2",
+					"disabled": true,
+					"name": "@Small Group@",
+					"reference": "B153",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "37b8e7b9-c0fb-45d8-93a2-5190704b99fe",
+					"disabled": true,
+					"name": "@Individual@",
+					"reference": "B153",
+					"cost_type": "points",
+					"cost": -2,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2d748e9b-0f7e-48e1-9fb4-af8242c753d4",
+					"name": "US Citizens",
+					"reference": "B153",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a3972de7-1a69-44df-9960-e23c1c82ddbd",
+					"disabled": true,
+					"name": "@Entire Race@",
+					"reference": "B153",
+					"cost_type": "points",
+					"cost": -15,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "32a2cde3-5121-4436-b6ef-7b0ade9c509b",
+					"disabled": true,
+					"name": "Every Living Being",
+					"reference": "B153",
+					"cost_type": "points",
+					"cost": -20,
+					"affects": "total"
+				}
+			],
+			"reference": "B153",
+			"categories": [
+				"Disadvantage"
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "65221390-765d-4e3c-8f30-73de2439e415",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "DC",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "Skill",
+					"name": "Geography",
+					"modifier": -3
+				}
+			],
+			"notes": "All important businesses, streets, citizens, leaders, etc.",
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "50264aec-0442-4b8d-bb57-2ac030550293",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "US",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "Skill",
+					"name": "Geography",
+					"modifier": -3
+				}
+			],
+			"notes": "Location of its major cities and important sites; awareness of its major customs, ethnic groups, and languages (but not necessarily expertise); names of folk of Status 6+; and a general understanding of the economic and political situation",
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "f4527f1d-f29f-491a-a65a-2212d1a1ff44",
+			"name": "Computer Operation",
+			"reference": "B184",
+			"tech_level": "8",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -4,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Everyman",
+				"Scholarly",
+				"Technical"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "6c5872e8-fa8b-4758-aa87-cfa3839a5917",
+			"name": "Criminology",
+			"reference": "B186",
+			"tech_level": "8",
+			"difficulty": "IQ/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Psychology",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Police",
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "366734cb-faaa-47fa-8b6f-9e5cae8eb7e9",
+			"name": "Detect Lies",
+			"reference": "B187",
+			"difficulty": "Per/H",
+			"points": 2,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -6,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Body Language",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Psychology",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Police",
+				"Social",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "466309ef-32b8-4102-9e3c-b22fd348f619",
+			"name": "Diplomacy",
+			"reference": "B187",
+			"difficulty": "IQ/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Politics",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Business",
+				"Police",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "dacfa1bb-1d41-4b97-adb4-baac47c9b74d",
+			"name": "Driving",
+			"reference": "B188",
+			"specialization": "Automobile",
+			"tech_level": "8",
+			"difficulty": "DX/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -5,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -5
+				},
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Driving",
+					"specialization": "Heavy Wheeled",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Driving",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Vehicle"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "47f92ac6-9269-4404-a9a9-9905ae65f749",
+			"name": "Fast-Draw",
+			"reference": "B194",
+			"specialization": "Pistol",
+			"difficulty": "DX/E",
+			"points": 2,
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "ee97a2e1-cb25-4701-9388-4752f6345287",
+			"name": "Fast-Draw",
+			"reference": "B194",
+			"specialization": "Ammo",
+			"tech_level": "8",
+			"difficulty": "DX/E",
+			"points": 1,
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "f25f1466-f045-4ee8-8e6e-5d04bd5cd9ab",
+			"name": "Guns",
+			"reference": "B198",
+			"specialization": "Pistol",
+			"tech_level": "8",
+			"difficulty": "DX/E",
+			"points": 4,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Guns",
+				"specialization": "Rifle",
+				"modifier": -2,
+				"level": 11,
+				"adjusted_level": 11,
+				"points": -11
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Grenade Launcher",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Gyroc",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Anti-Armor Weapon",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Machine Gun",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Musket",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Beam Weapons",
+					"specialization": "Pistol",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Rifle",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Shotgun",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Submachine Gun",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "ecbdb43d-3478-4127-8058-d8577ea748d8",
+			"name": "Guns",
+			"reference": "B198",
+			"specialization": "Rifle",
+			"tech_level": "8",
+			"difficulty": "DX/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Guns",
+				"specialization": "Shotgun",
+				"modifier": -2,
+				"level": 11,
+				"adjusted_level": 11,
+				"points": -11
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Grenade Launcher",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Gyroc",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Anti-Armor Weapon",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Machine Gun",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Musket",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Pistol",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Beam Weapons",
+					"specialization": "Rifle",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Shotgun",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Submachine Gun",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "2dbe104f-13d9-41bb-b74f-300d6a8b526c",
+			"name": "Guns",
+			"reference": "B198",
+			"specialization": "Shotgun",
+			"tech_level": "8",
+			"difficulty": "DX/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Guns",
+				"specialization": "Submachine Gun",
+				"modifier": -2,
+				"level": 11,
+				"adjusted_level": 11,
+				"points": -11
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Grenade Launcher",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Gyroc",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Anti-Armor Weapon",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Machine Gun",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Musket",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Pistol",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Rifle",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Submachine Gun",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "a6737185-bc43-45c5-9445-b0063e7baf83",
+			"name": "Guns",
+			"reference": "B198",
+			"specialization": "Submachine Gun",
+			"tech_level": "8",
+			"difficulty": "DX/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -4,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Grenade Launcher",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Gyroc",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Anti-Armor Weapon",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Machine Gun",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Musket",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Pistol",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Rifle",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Shotgun",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "fc3d11fc-c15f-4dde-b174-e8f5051747da",
+			"name": "Holdout",
+			"reference": "B200",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Sleight of Hand",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "8a261f32-cacd-4a4f-98f1-355a84978bba",
+			"name": "Intelligence Analysis",
+			"reference": "B201",
+			"tech_level": "8",
+			"difficulty": "IQ/H",
+			"points": 4,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Strategy",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Military",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "d07a6083-9944-45dc-98fc-218a31b231a3",
+			"name": "Interrogation",
+			"reference": "B202",
+			"difficulty": "IQ/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Intimidation",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Psychology",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Military",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "6046b9c4-f719-4264-865b-43fca79838c9",
+			"name": "Judo",
+			"reference": "B203",
+			"encumbrance_penalty_multiplier": 1,
+			"difficulty": "DX/H",
+			"points": 2,
+			"notes": "Allows parrying two different attacks per turn, one with each hand.",
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "8c6d40c3-06d3-4e8d-bdd2-f93233e57306",
+			"name": "Karate",
+			"reference": "B203",
+			"encumbrance_penalty_multiplier": 1,
+			"difficulty": "DX/H",
+			"points": 2,
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Karate"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 0
+					}
+				},
+				{
+					"type": "weapon_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Karate"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 1
+					}
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "d336d44b-ff80-4f82-b8c7-d635e3951dc1",
+			"name": "Law",
+			"reference": "B204",
+			"specialization": "Police",
+			"difficulty": "IQ/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Business",
+				"Police",
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "706ecae9-c4cf-4b9b-b48f-dcd69bb1c300",
+			"name": "Observation",
+			"reference": "B211",
+			"difficulty": "Per/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Shadowing",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Military",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "975e9b4f-1617-4061-abd7-45ca9f092573",
+			"name": "Research",
+			"reference": "B217",
+			"tech_level": "8",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": true,
+						"when_tl": {
+							"compare": "at_least",
+							"qualifier": 8
+						},
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Computer Operation"
+								}
+							}
+						]
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "Language"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Written (Native"
+								}
+							},
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "Language"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Written (Accented)"
+								}
+							},
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "Language"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Written (Broken)"
+								}
+							}
+						]
+					}
+				]
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Writing",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Scholarly",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "4d39d8b8-f311-47e1-86f5-ffc725782b3f",
+			"name": "Savoir-Faire",
+			"reference": "B218",
+			"specialization": "Police",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -4,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Knowledge",
+				"Police",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "2b358971-b9c6-4044-87a4-214272cf01d2",
+			"name": "Search",
+			"reference": "B219",
+			"difficulty": "Per/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Criminology",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "a4ca8fd7-30f8-4448-a22b-4dc1dfbccef0",
+			"name": "Shadowing",
+			"reference": "B219",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Observation",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Observation",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Stealth",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "24fd9eb7-77fa-4d04-9861-8c0c9142568a",
+			"name": "Stealth",
+			"reference": "B222",
+			"encumbrance_penalty_multiplier": 1,
+			"difficulty": "DX/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "DX",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "e3deb1d7-7545-4a62-9cd8-ed7ef23ae753",
+			"name": "Judo",
+			"reference": "B203",
+			"encumbrance_penalty_multiplier": 1,
+			"difficulty": "DX/H",
+			"points": 1,
+			"notes": "Allows parrying two different attacks per turn, one with each hand.",
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "5c462df4-15dc-467c-bd7b-82ac4d4e964d",
+			"name": "Karate",
+			"reference": "B203",
+			"encumbrance_penalty_multiplier": 1,
+			"difficulty": "DX/H",
+			"points": 1,
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Karate"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 0
+					}
+				},
+				{
+					"type": "weapon_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Karate"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 1
+					}
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		}
+	],
+	"equipment": [
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "58a03128-18c3-4e20-8977-6998ca637fb1",
+			"equipped": false,
+			"quantity": 1,
+			"description": "Tactical Lights, Small",
+			"value": "100",
+			"weight": "0.25 lb",
+			"reference": "ACT1:28",
+			"notes": "25-yard beam for 2 hours.",
+			"categories": [
+				"Combat Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "8db967f1-2681-4c89-a3df-253af463bdb2",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Auto Backup Pistol, .40",
+			"value": "720",
+			"weight": "1.9 lb",
+			"reference": "ACT1:32",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d+1"
+					},
+					"strength": "8",
+					"accuracy": "1",
+					"range": "140/1,600",
+					"rate_of_fire": "3",
+					"shots": "6+1(3)",
+					"bulk": "-1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Weapons"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "9c28cee5-a33b-49ff-a413-92228c2b156f",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Auto Pistol, 9mm",
+			"value": "600",
+			"weight": "1.9 lb",
+			"reference": "ACT1:32",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "17+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Weapons"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "47d1708e-a8da-4e88-9f39-7cf7ec06a978",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Flashlight, Mini",
+			"value": "10",
+			"weight": "0.25 lb",
+			"reference": "ACT1:29",
+			"notes": "5yd beam for 10hrs.",
+			"categories": [
+				"Light"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "a30ef917-d594-4bf4-bdf0-203a9783a661",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Flex Cuffs",
+			"value": "5",
+			"weight": "0.25 lb",
+			"reference": "ACT1:29",
+			"notes": "Pack of ten. DR1. HP2. -1 to Escape.",
+			"categories": [
+				"Security"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e2db8af8-11c7-4e1c-ab5d-0faad43827ca",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Handcuffs.",
+			"value": "50",
+			"weight": "0.5 lb",
+			"reference": "ACT1:29",
+			"notes": "DR4. HP6. -5 to Escape.",
+			"categories": [
+				"Security"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "d8c72ce6-5eb3-4e1e-81f8-a5d3a570e509",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Holster, Shoulder",
+			"value": "50",
+			"weight": "1 lb",
+			"reference": "ACT1:28",
+			"notes": "For pistols. Enables Holdout, but gives -1 to Fast-Draw.",
+			"categories": [
+				"Combat Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e744c591-843b-4db1-a02c-1e398b2aa8a9",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Holster, Undercover",
+			"value": "125",
+			"weight": "1 lb",
+			"reference": "ACT1:28",
+			"notes": "+1 to Holdout. -1 to Fast-Draw.",
+			"categories": [
+				"Combat Accessories"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "deaf8341-d4e2-46fb-af0d-b1d25f72ca16",
+			"equipped": true,
+			"description": "Jacket, Leather",
+			"value": "50",
+			"weight": "4 lb",
+			"reference": "ACT1:31",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "arms"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "torso"
+				}
+			],
+			"notes": "Flexible.",
+			"categories": [
+				"Armor"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "c618f3d2-1838-40e6-8dc9-f7c51873ee87",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Multi-Tool",
+			"value": "50",
+			"weight": "0.5 lb",
+			"reference": "ACT1:29",
+			"notes": "Most repairs -5.",
+			"categories": [
+				"Personal Accessories"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "70abe8fb-125e-44bd-ad9e-baafad4a91ee",
+			"equipped": true,
+			"description": "Phone, Cell (Fine)",
+			"value": "2000",
+			"weight": "0.5 lb",
+			"reference": "ACT1:28",
+			"notes": "Runs for 6 hours. Up to 19 built-in gadgets.",
+			"categories": [
+				"Communicators"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "c1af39f4-dedc-4468-a938-b537ee2d74bf",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Shoes",
+			"value": "40",
+			"weight": "2 lb",
+			"reference": "ACT1:31",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "feet"
+				}
+			],
+			"notes": "Flexible.",
+			"categories": [
+				"Armor"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "3f3019d5-fcd3-4d51-b0f1-56d96e02f3f5",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Vest, Concealable",
+			"value": "1000",
+			"weight": "2 lb",
+			"reference": "ACT1:31",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "torso"
+				}
+			],
+			"notes": "Flexible. DR+7 vs. piercing and cutting damage.",
+			"categories": [
+				"Armor"
+			]
+		}
+	],
+	"other_equipment": [
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "50cd2008-ce20-42ad-889d-b15e24cb95a8",
+			"equipped": false,
+			"quantity": 1,
+			"description": "Assault Carbine, 5.56mm",
+			"value": "950",
+			"weight": "7.3 lb",
+			"reference": "ACT1:32",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "4d+2"
+					},
+					"strength": "9†",
+					"accuracy": "4",
+					"range": "750/2,900",
+					"rate_of_fire": "15",
+					"shots": "30+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Weapons"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e8ea099b-2e7d-4c93-b256-b56f61f3e6a0",
+			"equipped": false,
+			"quantity": 1,
+			"description": "Auto Shotgun, 12G",
+			"value": "1000",
+			"weight": "7.3 lb",
+			"reference": "ACT1:32",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "10†",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "3x9",
+					"shots": "7+1(2i)",
+					"bulk": "-5",
+					"recoil": "1/4",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Weapons"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "77cb0ffe-a499-4467-bb0f-fb1bb1b31ae3",
+			"equipped": false,
+			"quantity": 1,
+			"description": "Compact SMG, 9mm",
+			"value": "1200",
+			"weight": "3.8 lb",
+			"reference": "ACT1:32",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "8†",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "15",
+					"shots": "30+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Weapons"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "de41124c-ab24-4139-95ca-8991d3ae2af1",
+			"equipped": false,
+			"quantity": 1,
+			"description": "Flashlight, Heavy",
+			"value": "20",
+			"weight": "1 lb",
+			"reference": "ACT1:29",
+			"notes": "10yd. beam for 50 hours.",
+			"categories": [
+				"Light"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "aa18f6ac-2206-4ad0-ab5d-0b65b773e9cf",
+			"equipped": false,
+			"quantity": 1,
+			"description": "Glow Stick",
+			"value": "2",
+			"weight": "0.1 lb",
+			"reference": "ACT1:29",
+			"notes": "Illuminates 2yd radius for 12hrs.",
+			"categories": [
+				"Light"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "013bcb0d-88f0-4bb5-9a40-2925c490bf78",
+			"equipped": false,
+			"quantity": 1,
+			"description": "GPS Receiver",
+			"value": "100",
+			"weight": "0.25 lb",
+			"reference": "ACT1:29",
+			"notes": "Navigation +3.",
+			"categories": [
+				"Personal Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "58697eaa-2866-4897-8109-cd055e02450f",
+			"equipped": false,
+			"quantity": 1,
+			"description": "Notebook Computer",
+			"value": "2100",
+			"weight": "2.5 lb",
+			"reference": "ACT1:28",
+			"notes": "Complexity 3. Runs for 5 hours.",
+			"categories": [
+				"Computers"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "c1648e5c-efbf-4a90-9f66-0116ee49ab2e",
+			"equipped": false,
+			"quantity": 1,
+			"description": "Sight, Night",
+			"value": "1500",
+			"weight": "1 lb",
+			"reference": "ACT1:28",
+			"notes": "Adds Night Vision 7 to another scope or sight. Removes -1 from darkness penalties.  Gives -1 Bulk.",
+			"categories": [
+				"Combat Accessories"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "688de48f-501b-4384-9b6a-8555dee57cab",
+			"equipped": false,
+			"quantity": 1,
+			"description": "Stun Gun",
+			"value": "25",
+			"weight": "0.5 lb",
+			"reference": "ACT1:33",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "HT-3(0.5) aff"
+					},
+					"strength": "2",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "DX"
+						}
+					]
+				}
+			],
+			"notes": "Holdout -1.",
+			"categories": [
+				"Weapons"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e03cb792-4d5b-4f8c-864f-1cc7fa325468",
+			"equipped": false,
+			"quantity": 1,
+			"description": "SUV",
+			"value": "45000",
+			"weight": "8000 lb",
+			"reference": "ACT1:34",
+			"categories": [
+				"Vehicles"
+			]
+		}
+	]
+}

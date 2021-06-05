@@ -1,1701 +1,2702 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<character id="e82c3410-e9f4-45e8-b8a4-635e2c75cf48" version="2">
-	<created_date>May 22, 2016</created_date>
-	<modified_date>May 22, 2016 3:13 PM</modified_date>
-	<profile>
-		<player_name>dwebster</player_name>
-		<campaign>Quadarc</campaign>
-		<name>Roksana Stepanovna</name>
-		<age>28</age>
-		<birthday>February 5</birthday>
-		<eyes>Grey</eyes>
-		<hair>Black, Wavy, Long</hair>
-		<skin>Dark Tan</skin>
-		<handedness>Right</handedness>
-		<height>5' 9"</height>
-		<weight>123 lb</weight>
-		<SM>0</SM>
-		<gender>Female</gender>
-		<race>Human</race>
-		<tech_level>3</tech_level>
-	</profile>
-	<HP>0</HP>
-	<FP>0</FP>
-	<total_points>150</total_points>
-	<ST>9</ST>
-	<DX>10</DX>
-	<IQ>15</IQ>
-	<HT>9</HT>
-	<will>0</will>
-	<perception>0</perception>
-	<speed>0</speed>
-	<move>0</move>
-	<include_punch>true</include_punch>
-	<include_kick>true</include_kick>
-	<include_kick_with_boots>true</include_kick_with_boots>
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Quirks</name>
-			<advantage version="2">
-				<name>Proud</name>
-				<type>Mental</type>
-				<base_points>-1</base_points>
-				<reference>B164</reference>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Code of Honor</name>
-				<type>Mental</type>
-				<levels>0</levels>
-				<base_points>-1</base_points>
-				<reference>B163</reference>
-				<notes>Hacker's</notes>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Minor Addiction</name>
-				<type>Physical</type>
-				<levels>0</levels>
-				<base_points>-1</base_points>
-				<reference>B165</reference>
-				<notes>Vaping</notes>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Distinctive Features</name>
-				<type>Physical</type>
-				<base_points>-1</base_points>
-				<reference>B165</reference>
-				<notes>Emo Holotype</notes>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-				<skill_bonus>
-					<name compare="is">disguise</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">shadowing</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-1</amount>
-				</skill_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Delusions</name>
-				<type>Mental</type>
-				<levels>0</levels>
-				<base_points>-1</base_points>
-				<reference>B164</reference>
-				<notes>Lisbeth Salander is based on Me</notes>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-		<advantage_container version="2" open="yes">
-			<name>Advantages</name>
-			<advantage version="2">
-				<name>Talent (Mathematical Ability)</name>
-				<type>Mental</type>
-				<levels>2</levels>
-				<points_per_level>10</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Reaction Bonus</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-					<notes>Engineers and scientists</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Alternate Benefit</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-					<notes>Bonus to resist deception involving numbers</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Alternative Cost</name>
-					<cost type="points">-2</cost>
-					<affects>levels only</affects>
-				</modifier>
-				<reference>B90,PU3:12</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Talent</category>
-				</categories>
-				<skill_bonus>
-					<name compare="is">Accounting</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Astronomy</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Cryptography</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Engineer</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Finance</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Market Analysis</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Mathematics</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Physics</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Talent (Circuit Sense)</name>
-				<type>Mental</type>
-				<levels>4</levels>
-				<points_per_level>5</points_per_level>
-				<reference>ACT1:19</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<skill_bonus>
-					<name compare="is">Electrician</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Electronics Operation</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Electronics Repair</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Engineer</name>
-					<specialization compare="is">Electrical</specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Engineer</name>
-					<specialization compare="is">Electronics</specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Talent (Born to be Wired)</name>
-				<type>Mental</type>
-				<levels>4</levels>
-				<points_per_level>5</points_per_level>
-				<reference>ACT1:19</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<skill_bonus>
-					<name compare="is">Computer Hacking</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Computer Operation</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Computer Programming</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Cryptography</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Electronics Repair</name>
-					<specialization compare="is">Computers</specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Expert Skill</name>
-					<specialization compare="is anything">Computer Security</specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Area Knowledge</name>
-					<specialization compare="is">Dark Web</specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Area Knowledge</name>
-					<specialization compare="is">Deep Web</specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Area Knowledge</name>
-					<specialization compare="is">Internet</specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-			</advantage>
-		</advantage_container>
-		<advantage_container version="2" open="yes">
-			<name>Culture</name>
-			<advantage version="2">
-				<name>Language: English</name>
-				<type>Mental</type>
-				<modifier version="1" enabled="no">
-					<name>Native</name>
-					<cost type="points">-6</cost>
-					<affects>total</affects>
-					<reference>B23</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Spoken</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>None</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Spoken</name>
-					<cost type="points">1</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Broken</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Spoken</name>
-					<cost type="points">2</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Accented</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Spoken</name>
-					<cost type="points">3</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Native</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>None</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">1</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Broken</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">2</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Accented</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Written</name>
-					<cost type="points">3</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Native</notes>
-				</modifier>
-				<reference>B24</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Language</category>
-				</categories>
-				<prereq_list all="yes">
-					<advantage_prereq has="no">
-						<name compare="is">Language Talent</name>
-						<notes compare="is anything"></notes>
-					</advantage_prereq>
-				</prereq_list>
-			</advantage>
-			<advantage version="2">
-				<name>Cultural Familiarity (Orthodox)</name>
-				<type>Mental</type>
-				<base_points>1</base_points>
-				<modifier version="1" enabled="no">
-					<name>Alien</name>
-					<cost type="points">1</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1">
-					<name>Native</name>
-					<cost type="points">-1</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B23</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Cultural Familiarity (Western)</name>
-				<type>Mental</type>
-				<base_points>1</base_points>
-				<modifier version="1" enabled="no">
-					<name>Alien</name>
-					<cost type="points">1</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Native</name>
-					<cost type="points">-1</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B23</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Language: Russian</name>
-				<type>Mental</type>
-				<modifier version="1">
-					<name>Native</name>
-					<cost type="points">-6</cost>
-					<affects>total</affects>
-					<reference>B23</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Spoken</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>None</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Spoken</name>
-					<cost type="points">1</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Broken</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Spoken</name>
-					<cost type="points">2</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Accented</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Spoken</name>
-					<cost type="points">3</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Native</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>None</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">1</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Broken</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">2</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Accented</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Written</name>
-					<cost type="points">3</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Native</notes>
-				</modifier>
-				<reference>B24</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Language</category>
-				</categories>
-				<prereq_list all="yes">
-					<advantage_prereq has="no">
-						<name compare="is">Language Talent</name>
-						<notes compare="is anything"></notes>
-					</advantage_prereq>
-				</prereq_list>
-			</advantage>
-		</advantage_container>
-		<advantage_container version="2" open="yes">
-			<name>Disadvantages</name>
-			<advantage version="2">
-				<name>Paranoia</name>
-				<type>Mental</type>
-				<base_points>-10</base_points>
-				<reference>B148</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Unfit</name>
-				<type>Physical</type>
-				<base_points>-5</base_points>
-				<reference>B160</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Obsession</name>
-				<type>Physical</type>
-				<modifier version="1" enabled="no">
-					<name>Short term</name>
-					<cost type="points">-5</cost>
-					<affects>total</affects>
-					<reference>B146</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Long term</name>
-					<cost type="points">-10</cost>
-					<affects>total</affects>
-					<reference>B146</reference>
-				</modifier>
-				<reference>B146</reference>
-				<notes>Prove she's the best</notes>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Impulsiveness</name>
-				<type>Mental</type>
-				<base_points>-10</base_points>
-				<cr>12</cr>
-				<reference>B139</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Intolerance (Male Programmers)</name>
-				<type>Mental</type>
-				<modifier version="1">
-					<name>Scope: Common</name>
-					<cost type="points">-5</cost>
-					<affects>total</affects>
-					<reference>B140</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Scope: Occasional</name>
-					<cost type="points">-2</cost>
-					<affects>total</affects>
-					<reference>B140</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Scope: Rare</name>
-					<cost type="points">-1</cost>
-					<affects>total</affects>
-					<reference>B140</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Scope: Anyone unlike you</name>
-					<cost type="points">-10</cost>
-					<affects>total</affects>
-					<reference>B140</reference>
-				</modifier>
-				<reference>B140</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Social Stigma (Criminal Record)</name>
-				<type>Social</type>
-				<base_points>-5</base_points>
-				<reference>B155</reference>
-				<notes>-1 Reaction, -2 for cops &amp; judges</notes>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<skill_list>
-		<skill version="2">
-			<name>Accounting</name>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B174</reference>
-			<categories>
-				<category>Business</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Finance</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Mathematics</name>
-				<specialization>Statistics</specialization>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Merchant</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Acting</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B174</reference>
-			<categories>
-				<category>Social</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Performance</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Public Speaking</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Administration</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B174</reference>
-			<categories>
-				<category>Business</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Merchant</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Area Knowledge</name>
-			<specialization>Dark Web</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B176</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Geography</name>
-				<specialization>Dark Web</specialization>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Area Knowledge</name>
-			<specialization>Deep Web</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B176</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Geography</name>
-				<specialization>Deep Web</specialization>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Area Knowledge</name>
-			<specialization>Internet</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B176</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Geography</name>
-				<specialization>Internet</specialization>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Area Knowledge</name>
-			<specialization>Russia</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B176</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Geography</name>
-				<specialization>Russia</specialization>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Computer Hacking</name>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/VH</difficulty>
-			<points>4</points>
-			<reference>B184</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Spy</category>
-			</categories>
-			<prereq_list all="yes">
-				<skill_prereq has="yes">
-					<name compare="is">computer programming</name>
-					<specialization compare="is"></specialization>
-				</skill_prereq>
-			</prereq_list>
-		</skill>
-		<skill version="2">
-			<name>Computer Operation</name>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B184</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Scholarly</category>
-				<category>Technical</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Computer Programming</name>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B184</reference>
-			<categories>
-				<category>Design/Invention</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Connoisseur</name>
-			<specialization>Music</specialization>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B185</reference>
-			<categories>
-				<category>Arts/Entertainment</category>
-				<category>Knowledge</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Group Performance</name>
-				<specialization>Conducting</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Musical Composition</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Musical Instrument</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Crossbow</name>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B186</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Cryptography</name>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B186</reference>
-			<categories>
-				<category>Military</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Mathematics</name>
-				<specialization>Cryptology</specialization>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Current Affairs</name>
-			<specialization>People</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B186</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Research</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Current Affairs</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Current Affairs</name>
-			<specialization>Science &amp; Technology</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B186</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Research</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Current Affairs</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Detect Lies</name>
-			<difficulty>Per/H</difficulty>
-			<points>1</points>
-			<reference>B187</reference>
-			<categories>
-				<category>Police</category>
-				<category>Social</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Body Language</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Psychology</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Disguise</name>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B187</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Makeup</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Driving</name>
-			<specialization>Automobile</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>DX/A</difficulty>
-			<points>1</points>
-			<reference>B188</reference>
-			<categories>
-				<category>Vehicle</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Driving</name>
-				<specialization>Heavy Wheeled</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Driving</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Driving</name>
-			<specialization>Motorcycle</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>DX/A</difficulty>
-			<points>1</points>
-			<reference>B188</reference>
-			<categories>
-				<category>Vehicle</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Bicycling</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Electrician</name>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B189</reference>
-			<categories>
-				<category>Repair/Maintainance</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Electrical</specialization>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Electronics Operation</name>
-			<specialization>Communications</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B189</reference>
-			<categories>
-				<category>Technical</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Operation</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Repair</name>
-				<specialization>Communications</specialization>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Electronics</specialization>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Electronics Operation</name>
-			<specialization>Security</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B189</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Spy</category>
-				<category>Technical</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Operation</name>
-				<specialization>Security</specialization>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Electronics</specialization>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Operation</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Electronics Operation</name>
-			<specialization>Sensors</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B189</reference>
-			<categories>
-				<category>Technical</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Repair</name>
-				<specialization>Sensors</specialization>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Electronics</specialization>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Operation</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Electronics Operation</name>
-			<specialization>Surveillance</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B189</reference>
-			<categories>
-				<category>Police</category>
-				<category>Spy</category>
-				<category>Technical</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Repair</name>
-				<specialization>Surveillance</specialization>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Electronics</specialization>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Operation</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Electronics Repair</name>
-			<specialization>Communications</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B190</reference>
-			<categories>
-				<category>Repair/Maintainance</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Operation</name>
-				<specialization>Communications</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Electronics</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Repair</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Electronics Repair</name>
-			<specialization>Computer</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B190</reference>
-			<categories>
-				<category>Repair/Maintainance</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Computer Operation</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Electronics</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Repair</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Electronics Repair</name>
-			<specialization>Scientific</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B190</reference>
-			<categories>
-				<category>Repair/Maintainance</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Operation</name>
-				<specialization>Scientific</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Electronics</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Repair</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Electronics Repair</name>
-			<specialization>Security</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B190</reference>
-			<categories>
-				<category>Repair/Maintainance</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Operation</name>
-				<specialization>Security</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Electronics</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Repair</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Electronics Repair</name>
-			<specialization>Sensors</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B190</reference>
-			<categories>
-				<category>Repair/Maintainance</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Operation</name>
-				<specialization>Sensors</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Electronics</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Repair</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Electronics Repair</name>
-			<specialization>Surveillance</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B190</reference>
-			<categories>
-				<category>Repair/Maintainance</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Operation</name>
-				<specialization>Surveillance</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Electronics</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Repair</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Fast-Talk</name>
-			<difficulty>IQ/A</difficulty>
-			<points>4</points>
-			<reference>B195</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Social</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Acting</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Guns</name>
-			<specialization>Pistol</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>2</points>
-			<reference>B198</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Grenade Launcher</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Gyroc</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Anti-Armor Weapon</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Machine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Musket</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Beam Weapons</name>
-				<specialization>Pistol</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Rifle</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Shotgun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Submachine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Mathematics</name>
-			<specialization>Computer Science</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B207</reference>
-			<categories>
-				<category>Natural Science</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Computer Programming</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Mathematics</name>
-			<specialization>Cryptology</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B207</reference>
-			<categories>
-				<category>Natural Science</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Cryptography</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Mathematics</name>
-			<specialization>Statistics</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B207</reference>
-			<categories>
-				<category>Natural Science</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Engineer</name>
-			<specialization>Electrical</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B190</reference>
-			<categories>
-				<category>Design/Invention</category>
-				<category>Engineer</category>
-			</categories>
-			<prereq_list all="yes">
-				<when_tl compare="at least">5</when_tl>
-				<skill_prereq has="yes">
-					<name compare="is">mathematics</name>
-					<specialization compare="is">applied</specialization>
-				</skill_prereq>
-			</prereq_list>
-			<default>
-				<type>Skill</type>
-				<name>Electrician</name>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Engineer</name>
-			<specialization>Electronics</specialization>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B190</reference>
-			<categories>
-				<category>Design/Invention</category>
-				<category>Engineer</category>
-			</categories>
-			<prereq_list all="yes">
-				<when_tl compare="at least">5</when_tl>
-				<skill_prereq has="yes">
-					<name compare="is">mathematics</name>
-					<specialization compare="is">applied</specialization>
-				</skill_prereq>
-			</prereq_list>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Repair</name>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Expert Skill</name>
-			<specialization>Computer Security</specialization>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B193</reference>
-			<categories>
-				<category>Knowledge</category>
-				<category>Scholarly</category>
-				<category>Spy</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Filch</name>
-			<difficulty>DX/A</difficulty>
-			<points>1</points>
-			<reference>B195</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Pickpocket</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Sleight of Hand</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Forgery</name>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B196</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Counterfeiting</name>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Intelligence Analysis</name>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B201</reference>
-			<categories>
-				<category>Military</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Strategy</name>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Streetwise</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B223</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Observation</name>
-			<difficulty>Per/A</difficulty>
-			<points>1</points>
-			<reference>B211</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Military</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shadowing</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Pickpocket</name>
-			<difficulty>DX/H</difficulty>
-			<points>1</points>
-			<reference>B213</reference>
-			<categories>
-				<category>Criminal/Street</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Filch</name>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Sleight of Hand</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Scrounging</name>
-			<difficulty>Per/E</difficulty>
-			<points>1</points>
-			<reference>B218</reference>
-			<categories>
-				<category>Criminal/Street</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Stealth</name>
-			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
-			<difficulty>DX/A</difficulty>
-			<points>1</points>
-			<reference>B222</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Urban Survival</name>
-			<difficulty>Per/A</difficulty>
-			<points>1</points>
-			<reference>B228</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-	</skill_list>
-	<print_settings printer="Photosmart C4700 series" units="in">
-		<orientation>portrait</orientation>
-		<width>8.5</width>
-		<height>11</height>
-		<top_margin>0.5</top_margin>
-		<left_margin>0.5</left_margin>
-		<bottom_margin>0.5</bottom_margin>
-		<right_margin>0.5</right_margin>
-		<ink_chromaticity>monochrome</ink_chromaticity>
-		<sides>single</sides>
-		<quality>normal</quality>
-	</print_settings>
-</character>
+{
+	"type": "character",
+	"version": 1,
+	"id": "e82c3410-e9f4-45e8-b8a4-635e2c75cf48",
+	"settings": {
+		"version": 1,
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_and_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"use_title_in_footer": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "May 22, 2016, 12:00 AM",
+	"modified_date": "May 22, 2016, 12:00 AM",
+	"profile": {
+		"player_name": "dwebster",
+		"name": "Roksana Stepanovna",
+		"age": 28,
+		"birthday": "February 5",
+		"eyes": "Grey",
+		"hair": "Black, Wavy, Long",
+		"skin": "Dark Tan",
+		"handedness": "Right",
+		"height": "5' 9\"",
+		"weight": "123 lb",
+		"gender": "Female",
+		"body_type": "humanoid",
+		"tech_level": "3"
+	},
+	"total_points": 150,
+	"ST": 9,
+	"DX": 10,
+	"IQ": 15,
+	"HT": 9,
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "7cf1e2fa-5d69-4742-8844-6ffc2945a2a2",
+			"name": "Quirks",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "ae586a6c-b27a-4787-ac77-6aa900c36da8",
+					"name": "Proud",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B164",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "133a5004-d0ea-4c78-b92f-462e7e2d2592",
+					"name": "Code of Honor",
+					"mental": true,
+					"levels": "0",
+					"base_points": -1,
+					"reference": "B163",
+					"notes": "Hacker's",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "02a32065-1617-465f-be36-ec14f26080c8",
+					"name": "Minor Addiction",
+					"physical": true,
+					"levels": "0",
+					"base_points": -1,
+					"reference": "B165",
+					"notes": "Vaping",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "4ac66b75-e807-4f44-b33f-e6d7553ec7a8",
+					"name": "Distinctive Features",
+					"physical": true,
+					"base_points": -1,
+					"reference": "B165",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "shadowing"
+							}
+						}
+					],
+					"notes": "Emo Holotype",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "db155537-b168-408d-ae20-2983a2a110b9",
+					"name": "Delusions",
+					"mental": true,
+					"levels": "0",
+					"base_points": -1,
+					"reference": "B164",
+					"notes": "Lisbeth Salander is based on Me",
+					"categories": [
+						"Quirk"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "974a234b-1816-4cf1-b25f-70af90f7cdb1",
+			"name": "Advantages",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "8c635788-1f3e-4929-b49d-c6c51782d4d4",
+					"name": "Talent (Mathematical Ability)",
+					"mental": true,
+					"levels": "2",
+					"points_per_level": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8588f41a-a507-4494-9fb3-b2dc1f4e460f",
+							"disabled": true,
+							"name": "Reaction Bonus",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total",
+							"notes": "Engineers and scientists"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "bde953be-1d8d-4715-ac45-832e857589f2",
+							"name": "Alternate Benefit",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total",
+							"notes": "Bonus to resist deception involving numbers"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "04b26476-77ad-403b-90c4-628cddc73342",
+							"disabled": true,
+							"name": "Alternative Cost",
+							"cost_type": "points",
+							"cost": -2,
+							"affects": "levels_only"
+						}
+					],
+					"reference": "B90,PU3:12",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Accounting"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Astronomy"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Cryptography"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Engineer"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Finance"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Market Analysis"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Mathematics"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Physics"
+							}
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Talent"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "c827bf02-1ad0-4a86-9926-a9d3947fada4",
+					"name": "Talent (Circuit Sense)",
+					"mental": true,
+					"levels": "4",
+					"points_per_level": 5,
+					"reference": "ACT1:19",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Electrician"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Electronics Operation"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Electronics Repair"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Engineer"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Electrical"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Engineer"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Electronics"
+							}
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "a0743e71-3bad-4267-bd57-dc19f1465393",
+					"name": "Talent (Born to be Wired)",
+					"mental": true,
+					"levels": "4",
+					"points_per_level": 5,
+					"reference": "ACT1:19",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Computer Hacking"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Computer Operation"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Computer Programming"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Cryptography"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Electronics Repair"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Computers"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Expert Skill"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Area Knowledge"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Dark Web"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Area Knowledge"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Deep Web"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Area Knowledge"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Internet"
+							}
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "6c93857e-8b7b-41b1-b331-dc6f3fc2da36",
+			"name": "Culture",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "713d7107-7f8d-494b-97dd-8003d2f34b0c",
+					"name": "Language: English",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3f763687-764a-4f7d-8bc7-bbda4aba8db6",
+							"disabled": true,
+							"name": "Native",
+							"reference": "B23",
+							"cost_type": "points",
+							"cost": -6,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "65246c27-e6ce-478d-b6d1-c5cd7c6043f5",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3cb1b998-8225-44ee-be56-811088c1c842",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9a22d6be-4585-4ff5-a7ef-3b7c5c0489d1",
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9c135107-a7ef-4683-be1f-f4d36d0d40b3",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "87ff21f1-1a7a-44b4-b6f4-99459ed194f9",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "376175e3-23e5-4942-8ece-f61d3e924ae1",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c9a77e81-29aa-492e-b095-84151a4e151f",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "006e1a8e-e738-4f4a-9647-57cc76f2d5fe",
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						}
+					],
+					"reference": "B24",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"categories": [
+						"Advantage",
+						"Language"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "ed1b18db-4187-4184-b122-407ae35d7048",
+					"name": "Cultural Familiarity (Orthodox)",
+					"mental": true,
+					"base_points": 1,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "437f0530-0da0-4476-b6df-cd2428585c9f",
+							"disabled": true,
+							"name": "Alien",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "74ba7baf-ccc7-4c99-b7e7-c1bea7cd9d19",
+							"name": "Native",
+							"cost_type": "points",
+							"cost": -1,
+							"affects": "total"
+						}
+					],
+					"reference": "B23",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "35a686fa-d2d4-4c8e-85bc-f82407ab1484",
+					"name": "Cultural Familiarity (Western)",
+					"mental": true,
+					"base_points": 1,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ea7fc0ea-de60-4bdd-ac03-2b49d205d894",
+							"disabled": true,
+							"name": "Alien",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c3a68459-0601-4ce2-a3d4-bcee678b6d84",
+							"disabled": true,
+							"name": "Native",
+							"cost_type": "points",
+							"cost": -1,
+							"affects": "total"
+						}
+					],
+					"reference": "B23",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "cea59157-3a56-4a2b-be14-dbecfdac67b0",
+					"name": "Language: Russian",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4d22a3fa-0baf-4323-9acb-894624ecfea8",
+							"name": "Native",
+							"reference": "B23",
+							"cost_type": "points",
+							"cost": -6,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "190e2d1d-88eb-4754-994b-0f80a9b9c50e",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "56270cc3-d239-4eda-ba19-ac1922765da8",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9acd066f-3ee9-4c7e-a0df-7e6d5fa7bbfa",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6ca55013-0411-4a3c-944b-121e7d4190a2",
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "eae67b6a-3b6e-4124-ba40-5039d3d0477b",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e0e9a54e-6bdb-4df2-8514-df23861bffc9",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "52d5fafd-6572-48ca-b794-ae9790525fea",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c41ae16e-aeb7-42e7-b471-4395e1bc2014",
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						}
+					],
+					"reference": "B24",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"categories": [
+						"Advantage",
+						"Language"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "f6ef204c-27f0-4250-9415-05aa3428701e",
+			"name": "Disadvantages",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "f01ea215-7e41-47ce-ba04-243d4c0c1922",
+					"name": "Paranoia",
+					"mental": true,
+					"base_points": -10,
+					"reference": "B148",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "0a8552ae-b3db-4f74-8b80-d301f1c5ff50",
+					"name": "Unfit",
+					"physical": true,
+					"base_points": -5,
+					"reference": "B160",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "47d5fd37-90d2-4e73-950b-b76ab0cfde5d",
+					"name": "Obsession",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4f2ef5c9-2e93-4b21-bd4a-c38692a985e4",
+							"disabled": true,
+							"name": "Short term",
+							"reference": "B146",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c7c1f9d4-6921-42f0-87aa-134a610b3fb1",
+							"name": "Long term",
+							"reference": "B146",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						}
+					],
+					"reference": "B146",
+					"notes": "Prove she's the best",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "56a11edf-8622-4931-8373-bdfa176f8a8f",
+					"name": "Impulsiveness",
+					"mental": true,
+					"base_points": -10,
+					"cr": 12,
+					"reference": "B139",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "ee7e5e5e-4598-4221-bae4-012d44bec640",
+					"name": "Intolerance (Male Programmers)",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a52984a0-4a96-4509-83f6-04b95a433ca1",
+							"name": "Scope: Common",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e6a6f56f-7c66-48a3-8cfa-924605e11648",
+							"disabled": true,
+							"name": "Scope: Occasional",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -2,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "153d5d7f-f4ab-4b1f-9976-aab2281284ae",
+							"disabled": true,
+							"name": "Scope: Rare",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -1,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b084e267-8a70-4c03-9009-7f8e4340b356",
+							"disabled": true,
+							"name": "Scope: Anyone unlike you",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						}
+					],
+					"reference": "B140",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "5c4fa987-db08-4555-bd9b-97f59da2a675",
+					"name": "Social Stigma (Criminal Record)",
+					"social": true,
+					"base_points": -5,
+					"reference": "B155",
+					"notes": "-1 Reaction, -2 for cops & judges",
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "4fc378b6-d56b-4812-beca-65e7d05fdc71",
+			"name": "Accounting",
+			"reference": "B174",
+			"difficulty": "IQ/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Finance",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Mathematics",
+					"specialization": "Statistics",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Merchant",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Business"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "0db36d0b-7aad-4e3f-8ef9-5d3c792683c6",
+			"name": "Acting",
+			"reference": "B174",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Performance",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Public Speaking",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Social",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "200f9602-2628-4b87-a864-d8c4aae22e01",
+			"name": "Administration",
+			"reference": "B174",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "Skill",
+					"name": "Merchant",
+					"modifier": -3
+				},
+				{
+					"type": "IQ",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Business",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "57cc5c23-13fc-42da-82b6-eb35770ffdf7",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "Dark Web",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -4,
+				"level": 11,
+				"adjusted_level": 11,
+				"points": -11
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Geography",
+					"specialization": "Dark Web",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "48512593-772a-4669-a989-36b55f3738a9",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "Deep Web",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -4,
+				"level": 11,
+				"adjusted_level": 11,
+				"points": -11
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Geography",
+					"specialization": "Deep Web",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "ec031b29-78a4-4b89-9084-cbc00e74ab72",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "Internet",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -4,
+				"level": 11,
+				"adjusted_level": 11,
+				"points": -11
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Geography",
+					"specialization": "Internet",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "63f75947-fc07-4991-b9d3-96a9d1127b66",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "Russia",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -4,
+				"level": 11,
+				"adjusted_level": 11,
+				"points": -11
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Geography",
+					"specialization": "Russia",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "ab1a498a-6c02-4072-bb47-bfeef75a5604",
+			"name": "Computer Hacking",
+			"reference": "B184",
+			"tech_level": "3",
+			"difficulty": "IQ/VH",
+			"points": 4,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "computer programming"
+						},
+						"specialization": {
+							"compare": "is"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Criminal/Street",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "6a8ceef6-a59d-4f55-9194-999df63ad398",
+			"name": "Computer Operation",
+			"reference": "B184",
+			"tech_level": "3",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -4,
+				"level": 11,
+				"adjusted_level": 11,
+				"points": -11
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Everyman",
+				"Scholarly",
+				"Technical"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "6a3e62b9-ce22-42ab-a5c1-82a8dab67eab",
+			"name": "Computer Programming",
+			"reference": "B184",
+			"tech_level": "3",
+			"difficulty": "IQ/H",
+			"points": 1,
+			"categories": [
+				"Design/Invention"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "070b2a95-07f8-4148-a7d4-fc96f0bc7a86",
+			"name": "Connoisseur",
+			"reference": "B185",
+			"specialization": "Music",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "Skill",
+					"name": "Group Performance",
+					"specialization": "Conducting",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Musical Composition",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Musical Instrument",
+					"modifier": -3
+				},
+				{
+					"type": "IQ",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Arts/Entertainment",
+				"Knowledge",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "030f565d-cd94-4681-8153-ea170cb25957",
+			"name": "Crossbow",
+			"reference": "B186",
+			"difficulty": "DX/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -4,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "739f6818-6c1d-429c-a9a9-7521be286b5c",
+			"name": "Cryptography",
+			"reference": "B186",
+			"tech_level": "3",
+			"difficulty": "IQ/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Mathematics",
+				"specialization": "Cryptology",
+				"modifier": -5,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "Skill",
+					"name": "Mathematics",
+					"specialization": "Cryptology",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Military",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "691e77e5-ef4d-4311-9e7a-8e744d3589ee",
+			"name": "Current Affairs",
+			"reference": "B186",
+			"specialization": "People",
+			"tech_level": "3",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -4,
+				"level": 11,
+				"adjusted_level": 11,
+				"points": -11
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Research",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Current Affairs",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Everyman",
+				"Knowledge",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "f930e730-3302-4721-9a62-8415082c2f9b",
+			"name": "Current Affairs",
+			"reference": "B186",
+			"specialization": "Science & Technology",
+			"tech_level": "3",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -4,
+				"level": 11,
+				"adjusted_level": 11,
+				"points": -11
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Research",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Current Affairs",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Everyman",
+				"Knowledge",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "c336b997-6618-4d1d-987a-526153467da9",
+			"name": "Detect Lies",
+			"reference": "B187",
+			"difficulty": "Per/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -6,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Body Language",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Psychology",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Police",
+				"Social",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "62507ea2-367d-4185-a3d7-9414b1e757fd",
+			"name": "Disguise",
+			"reference": "B187",
+			"tech_level": "3",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Makeup",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "43b4a8c5-0924-43d7-b8ae-44b40072bb53",
+			"name": "Driving",
+			"reference": "B188",
+			"specialization": "Automobile",
+			"tech_level": "3",
+			"difficulty": "DX/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": 2
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -5
+				},
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Driving",
+					"specialization": "Heavy Wheeled",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Driving",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Vehicle"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "2cbe8a72-ba1a-4971-afb2-44ca0c194823",
+			"name": "Driving",
+			"reference": "B188",
+			"specialization": "Motorcycle",
+			"tech_level": "3",
+			"difficulty": "DX/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": 2
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -5
+				},
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Bicycling",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Vehicle"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "418e56fe-8979-4825-9b49-2f9c99ded0f8",
+			"name": "Electrician",
+			"reference": "B189",
+			"tech_level": "3",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Engineer",
+					"specialization": "Electrical",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Repair/Maintainance"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "cfd446e4-2f77-417d-a646-a2308f1f093a",
+			"name": "Electronics Operation",
+			"reference": "B189",
+			"specialization": "Communications",
+			"tech_level": "3",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Operation",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Repair",
+					"specialization": "Communications",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Technical"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "6c1233ed-cace-49d9-8b62-2cd9e19cc241",
+			"name": "Electronics Operation",
+			"reference": "B189",
+			"specialization": "Security",
+			"tech_level": "3",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Operation",
+					"specialization": "Security",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Operation",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Spy",
+				"Technical"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "bc794f71-4c0c-4626-a8d2-729e7ff2c61e",
+			"name": "Electronics Operation",
+			"reference": "B189",
+			"specialization": "Sensors",
+			"tech_level": "3",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Repair",
+					"specialization": "Sensors",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Operation",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Technical"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "33ac6e4b-a8ab-4587-831a-c38d90962db3",
+			"name": "Electronics Operation",
+			"reference": "B189",
+			"specialization": "Surveillance",
+			"tech_level": "3",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Repair",
+					"specialization": "Surveillance",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Operation",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Police",
+				"Spy",
+				"Technical"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "e2e75dad-0d3b-494c-8e3e-2f6576e0cdad",
+			"name": "Electronics Repair",
+			"reference": "B190",
+			"specialization": "Communications",
+			"tech_level": "3",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Electronics Operation",
+				"specialization": "Communications",
+				"modifier": -3,
+				"level": 11,
+				"adjusted_level": 11,
+				"points": -11
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Operation",
+					"specialization": "Communications",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Repair",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Repair/Maintainance"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "e61d59ab-0639-4d44-89b5-b998c2d00f6f",
+			"name": "Electronics Repair",
+			"reference": "B190",
+			"specialization": "Computer",
+			"tech_level": "3",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Computer Operation",
+				"modifier": -3,
+				"level": 12,
+				"adjusted_level": 12,
+				"points": -12
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Computer Operation",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Repair",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Repair/Maintainance"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "561571c4-443d-4d11-a347-4104921d0563",
+			"name": "Electronics Repair",
+			"reference": "B190",
+			"specialization": "Scientific",
+			"tech_level": "3",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Operation",
+					"specialization": "Scientific",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Repair",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Repair/Maintainance"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "ab36d3b6-7b0e-43df-92b0-17c7f11a80cb",
+			"name": "Electronics Repair",
+			"reference": "B190",
+			"specialization": "Security",
+			"tech_level": "3",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Electronics Operation",
+				"specialization": "Security",
+				"modifier": -3,
+				"level": 11,
+				"adjusted_level": 11,
+				"points": -11
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Operation",
+					"specialization": "Security",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Repair",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Repair/Maintainance"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "650a46e0-64cf-4729-ad55-0e409a75a9d2",
+			"name": "Electronics Repair",
+			"reference": "B190",
+			"specialization": "Sensors",
+			"tech_level": "3",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Electronics Operation",
+				"specialization": "Sensors",
+				"modifier": -3,
+				"level": 11,
+				"adjusted_level": 11,
+				"points": -11
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Operation",
+					"specialization": "Sensors",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Repair",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Repair/Maintainance"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "ea461491-b593-4134-84b8-36f9542c38e9",
+			"name": "Electronics Repair",
+			"reference": "B190",
+			"specialization": "Surveillance",
+			"tech_level": "3",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Electronics Operation",
+				"specialization": "Surveillance",
+				"modifier": -3,
+				"level": 11,
+				"adjusted_level": 11,
+				"points": -11
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Operation",
+					"specialization": "Surveillance",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Repair",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Repair/Maintainance"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "3dce62c3-6bea-4cd2-bf50-032227bdf132",
+			"name": "Fast-Talk",
+			"reference": "B195",
+			"difficulty": "IQ/A",
+			"points": 4,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Acting",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Social",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "bb3ce84e-27e3-46c1-97db-cd3c32d5aa54",
+			"name": "Guns",
+			"reference": "B198",
+			"specialization": "Pistol",
+			"tech_level": "3",
+			"difficulty": "DX/E",
+			"points": 2,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -4,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Grenade Launcher",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Gyroc",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Anti-Armor Weapon",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Machine Gun",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Musket",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Beam Weapons",
+					"specialization": "Pistol",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Rifle",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Shotgun",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Submachine Gun",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "4e45979a-dd52-4586-bc81-223c2dbf82cb",
+			"name": "Mathematics",
+			"reference": "B207",
+			"specialization": "Computer Science",
+			"tech_level": "3",
+			"difficulty": "IQ/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Computer Programming",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Natural Science"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "3d531616-6d9b-4179-913d-20982388c735",
+			"name": "Mathematics",
+			"reference": "B207",
+			"specialization": "Cryptology",
+			"tech_level": "3",
+			"difficulty": "IQ/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Cryptography",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Natural Science"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "810648ba-2523-4647-a795-aa57ff19e2b2",
+			"name": "Mathematics",
+			"reference": "B207",
+			"specialization": "Statistics",
+			"tech_level": "3",
+			"difficulty": "IQ/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Natural Science"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "5f72443f-e6de-4f64-990d-6ddb701ab152",
+			"name": "Engineer",
+			"reference": "B190",
+			"specialization": "Electrical",
+			"tech_level": "3",
+			"difficulty": "IQ/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Electrician",
+				"modifier": -6,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "applied"
+						}
+					}
+				]
+			},
+			"defaults": [
+				{
+					"type": "Skill",
+					"name": "Electrician",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Design/Invention",
+				"Engineer"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "b63f1d9b-c091-4a28-956c-2c98214c790b",
+			"name": "Engineer",
+			"reference": "B190",
+			"specialization": "Electronics",
+			"tech_level": "3",
+			"difficulty": "IQ/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Electronics Repair",
+				"modifier": -6,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "applied"
+						}
+					}
+				]
+			},
+			"defaults": [
+				{
+					"type": "Skill",
+					"name": "Electronics Repair",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Design/Invention",
+				"Engineer"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "273e8305-8548-4018-a791-5575d1a83f77",
+			"name": "Expert Skill",
+			"reference": "B193",
+			"specialization": "Computer Security",
+			"difficulty": "IQ/H",
+			"points": 1,
+			"categories": [
+				"Knowledge",
+				"Scholarly",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "c833343c-b026-4b1c-9034-188d620c573e",
+			"name": "Filch",
+			"reference": "B195",
+			"difficulty": "DX/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -5,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Pickpocket",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Sleight of Hand",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "7502e6d7-7f11-4a47-8fd5-083c5848c4eb",
+			"name": "Forgery",
+			"reference": "B196",
+			"tech_level": "3",
+			"difficulty": "IQ/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Counterfeiting",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "b0c8690f-c113-42a7-becc-9d5fe9438492",
+			"name": "Intelligence Analysis",
+			"reference": "B201",
+			"tech_level": "3",
+			"difficulty": "IQ/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Strategy",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Military",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "b32f0414-d12c-421d-a558-e4595324d921",
+			"name": "Streetwise",
+			"reference": "B223",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "59dee28c-9390-4309-a00b-2d1916971501",
+			"name": "Observation",
+			"reference": "B211",
+			"difficulty": "Per/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Shadowing",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Military",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "7f430018-0040-4e2d-aee9-aa0290a71b6f",
+			"name": "Pickpocket",
+			"reference": "B213",
+			"difficulty": "DX/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -6,
+				"level": 4,
+				"adjusted_level": 4,
+				"points": -4
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Filch",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Sleight of Hand",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Criminal/Street"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "7d2d60fa-baca-46f3-9518-b005f7e808d9",
+			"name": "Scrounging",
+			"reference": "B218",
+			"difficulty": "Per/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -4,
+				"level": 11,
+				"adjusted_level": 11,
+				"points": -11
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Criminal/Street"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "5e641e78-08f8-4316-b6d7-0deb1cfe28b2",
+			"name": "Stealth",
+			"reference": "B222",
+			"encumbrance_penalty_multiplier": 1,
+			"difficulty": "DX/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": 2
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "DX",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "8be453bc-0eb6-4457-bed7-d13400847d4c",
+			"name": "Urban Survival",
+			"reference": "B228",
+			"difficulty": "Per/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police"
+			]
+		}
+	]
+}

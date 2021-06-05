@@ -1,406 +1,660 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="icmw4xn1:-z7d1kgj6fuy9" version="1">
-	<advantage_list>
-		<advantage version="2">
-			<name>Increased Dexterity</name>
-			<type>Physical</type>
-			<levels>2</levels>
-			<points_per_level>20</points_per_level>
-			<modifier version="1" enabled="no">
-				<name>No Fine Manipulators</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-			</modifier>
-			<reference>B15</reference>
-			<categories>
-				<category>Advantage</category>
-				<category>Attribute</category>
-			</categories>
-			<attribute_bonus>
-				<attribute>dx</attribute>
-				<amount per_level="yes">1</amount>
-			</attribute_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Increased Health</name>
-			<type>Physical</type>
-			<levels>2</levels>
-			<points_per_level>10</points_per_level>
-			<reference>B14</reference>
-			<categories>
-				<category>Advantage</category>
-				<category>Attribute</category>
-			</categories>
-			<attribute_bonus>
-				<attribute>ht</attribute>
-				<amount per_level="yes">1</amount>
-			</attribute_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Increased Intelligence</name>
-			<type>Mental</type>
-			<levels>2</levels>
-			<points_per_level>20</points_per_level>
-			<reference>B15</reference>
-			<categories>
-				<category>Advantage</category>
-				<category>Attribute</category>
-			</categories>
-			<attribute_bonus>
-				<attribute>iq</attribute>
-				<amount per_level="yes">1</amount>
-			</attribute_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Increased Strength</name>
-			<type>Physical</type>
-			<levels>2</levels>
-			<points_per_level>10</points_per_level>
-			<modifier version="1" enabled="no">
-				<name>No Fine Manipulators</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-				<reference>B15</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Size</name>
-				<cost type="percentage">-10</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B15</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Super-Effort</name>
-				<cost type="percentage">300</cost>
-				<affects>total</affects>
-				<reference>Sup24</reference>
-			</modifier>
-			<reference>B14</reference>
-			<categories>
-				<category>Advantage</category>
-				<category>Attribute</category>
-			</categories>
-			<attribute_bonus>
-				<attribute>st</attribute>
-				<amount per_level="yes">1</amount>
-			</attribute_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Blessed</name>
-			<type>Mental, Supernatural</type>
-			<base_points>10</base_points>
-			<modifier version="1" enabled="no">
-				<name>Very</name>
-				<cost type="points">10</cost>
-				<affects>total</affects>
-				<reference>B40</reference>
-			</modifier>
-			<reference>B40</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Resistant</name>
-			<type>Physical</type>
-			<modifier version="1">
-				<name>Metabolic Hazards</name>
-				<cost type="points">30</cost>
-				<affects>total</affects>
-				<reference>B80</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Common: Poison, Sickness, etc.@</name>
-				<cost type="points">15</cost>
-				<affects>total</affects>
-				<reference>B81</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Occasional: Disease, Ingested Poison, etc.@</name>
-				<cost type="points">10</cost>
-				<affects>total</affects>
-				<reference>B81</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@</name>
-				<cost type="points">5</cost>
-				<affects>total</affects>
-				<reference>B81</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Immunity</name>
-				<cost type="multiplier">1</cost>
-				<reference>B81</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>+8 to all HT rolls to resist</name>
-				<cost type="multiplier">0.5</cost>
-				<reference>B81</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>+3 to all HT rolls to resist</name>
-				<cost type="multiplier">0.33</cost>
-				<reference>B81</reference>
-			</modifier>
-			<reference>B81</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Dependency (Sanctity)</name>
-			<type>Physical, Exotic</type>
-			<modifier version="1" enabled="no">
-				<name>Rarity: Rare</name>
-				<cost type="points">-30</cost>
-				<affects>total</affects>
-				<reference>B130</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Rarity: Occasional</name>
-				<cost type="points">-20</cost>
-				<affects>total</affects>
-				<reference>B130</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Rarity: Common</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B130</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Rarity: Very Common</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B130</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Illegal</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B130</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Frequency: Constantly</name>
-				<cost type="multiplier">5</cost>
-				<reference>B130</reference>
-				<notes>Lose 1 HP per minute without it</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Frequency: Hourly</name>
-				<cost type="multiplier">4</cost>
-				<reference>B130</reference>
-				<notes>Lose 1 HP per 10 minutes after missing a hourly dose</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Frequency: Daily</name>
-				<cost type="multiplier">3</cost>
-				<reference>B130</reference>
-				<notes>Lose 1 HP per hour after missing a daily dose</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Frequency: Weekly</name>
-				<cost type="multiplier">2</cost>
-				<reference>B130</reference>
-				<notes>Lose 1 HP per six hours after missing a weekly dose</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Frequency: Monthly</name>
-				<cost type="multiplier">1</cost>
-				<reference>B130</reference>
-				<notes>Lose 1 HP per day after missing a monthly dose</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Frequency: Seasonally</name>
-				<cost type="multiplier">0.33333</cost>
-				<reference>B130</reference>
-				<notes>Lose 1 HP per 3 days after missing a seasonal dose</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Frequency: Yearly</name>
-				<cost type="multiplier">0.1</cost>
-				<reference>B130</reference>
-				<notes>Lose 1 HP per 2 weeks after missing a yearly dose</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Aging</name>
-				<cost type="percentage">30</cost>
-				<affects>total</affects>
-				<reference>B130</reference>
-				<notes>Age 2 years for each HP lost due to this dependency</notes>
-			</modifier>
-			<reference>B130</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Unnatural Features</name>
-			<type>Physical</type>
-			<levels>1</levels>
-			<points_per_level>-1</points_per_level>
-			<reference>B22</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-			<skill_bonus>
-				<name compare="is">disguise</name>
-				<specialization compare="is anything"></specialization>
-				<amount per_level="yes">-1</amount>
-			</skill_bonus>
-			<skill_bonus>
-				<name compare="is">shadowing</name>
-				<specialization compare="is anything"></specialization>
-				<amount per_level="yes">-1</amount>
-			</skill_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Wealth</name>
-			<type>Social</type>
-			<modifier version="1">
-				<name>Dead Broke</name>
-				<cost type="points">-25</cost>
-				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is $0</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Poor</name>
-				<cost type="points">-15</cost>
-				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is 1/5 average</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Struggling</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is 1/2 average</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Average</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B25</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Comfortable</name>
-				<cost type="points">10</cost>
-				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is 2x average</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Wealthy</name>
-				<cost type="points">20</cost>
-				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is 5x average</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Very Wealthy</name>
-				<cost type="points">30</cost>
-				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is 20x average</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Filthy Rich</name>
-				<cost type="points">50</cost>
-				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is 100x average</notes>
-			</modifier>
-			<reference>B25</reference>
-			<categories>
-				<category>Advantage</category>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Sexless</name>
-			<type>Physical</type>
-			<base_points>-1</base_points>
-			<reference>B165</reference>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Trademark</name>
-			<type>Mental</type>
-			<levels>0</levels>
-			<base_points>-1</base_points>
-			<reference>B164</reference>
-			<notes>Quirk</notes>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Code of Honor</name>
-			<type>Mental</type>
-			<levels>0</levels>
-			<base_points>-1</base_points>
-			<reference>B163</reference>
-			<notes>Quirk</notes>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Dislikes Quirk</name>
-			<type>Mental</type>
-			<levels>0</levels>
-			<base_points>-1</base_points>
-			<reference>B164</reference>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Chauvinistic</name>
-			<type>Mental</type>
-			<levels>0</levels>
-			<base_points>-1</base_points>
-			<reference>B163</reference>
-			<notes>God</notes>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-	</advantage_list>
-	<skill_list>
-		<skill version="2">
-			<name>Hidden Lore</name>
-			<specialization>God</specialization>
-			<difficulty>IQ/A</difficulty>
-			<points>2</points>
-			<reference>B199</reference>
-			<categories>
-				<category>Knowledge</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Theology</name>
-			<specialization>God</specialization>
-			<difficulty>IQ/H</difficulty>
-			<points>4</points>
-			<reference>B226</reference>
-			<categories>
-				<category>Social Sciences/Humanities</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Religious Ritual</name>
-				<specialization>God</specialization>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-	</skill_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "b21fd9a8-d62b-45c7-925d-24d9c2db7d3d",
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "53a4f6f7-7a25-4a1a-808b-db139638055a",
+			"name": "Increased Dexterity",
+			"physical": true,
+			"levels": "2",
+			"points_per_level": 20,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "105ffcfd-2530-434a-879f-ae2761aa2935",
+					"disabled": true,
+					"name": "No Fine Manipulators",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total"
+				}
+			],
+			"reference": "B15",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"per_level": true,
+					"attribute": "dx"
+				}
+			],
+			"categories": [
+				"Advantage",
+				"Attribute"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "f6d5d0d3-eac3-4d28-b57b-22bc0e1798c7",
+			"name": "Increased Health",
+			"physical": true,
+			"levels": "2",
+			"points_per_level": 10,
+			"reference": "B14",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"per_level": true,
+					"attribute": "ht"
+				}
+			],
+			"categories": [
+				"Advantage",
+				"Attribute"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "8bcc1f93-7e6a-496a-86e4-9c12f1076294",
+			"name": "Increased Intelligence",
+			"mental": true,
+			"levels": "2",
+			"points_per_level": 20,
+			"reference": "B15",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"per_level": true,
+					"attribute": "iq"
+				}
+			],
+			"categories": [
+				"Advantage",
+				"Attribute"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "b46bf603-54ad-4961-9c1f-9ee8aa7bf304",
+			"name": "Increased Strength",
+			"physical": true,
+			"levels": "2",
+			"points_per_level": 10,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0c21b437-8f94-4d16-8889-debb828e57f9",
+					"disabled": true,
+					"name": "No Fine Manipulators",
+					"reference": "B15",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2453f68a-fb6b-49e8-bcc9-fa257d6acd8f",
+					"disabled": true,
+					"name": "Size",
+					"reference": "B15",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total",
+					"levels": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4dae62be-f36f-4650-ba58-efc1a7ca56fc",
+					"disabled": true,
+					"name": "Super-Effort",
+					"reference": "Sup24",
+					"cost_type": "percentage",
+					"cost": 300,
+					"affects": "total"
+				}
+			],
+			"reference": "B14",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"per_level": true,
+					"attribute": "st"
+				}
+			],
+			"categories": [
+				"Advantage",
+				"Attribute"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "49c8c345-ebcd-4d6e-be5b-a5d1cd8d52c6",
+			"name": "Blessed",
+			"mental": true,
+			"supernatural": true,
+			"base_points": 10,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d0c7b8ac-5b2b-4baf-ba1a-4a6b11002ff8",
+					"disabled": true,
+					"name": "Very",
+					"reference": "B40",
+					"cost_type": "points",
+					"cost": 10,
+					"affects": "total"
+				}
+			],
+			"reference": "B40",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "cabfee75-0576-4f47-a1c5-87a08e6917a5",
+			"name": "Resistant",
+			"physical": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1683b9bb-addf-42cf-8967-a4e43d89b47c",
+					"name": "Metabolic Hazards",
+					"reference": "B80",
+					"cost_type": "points",
+					"cost": 30,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "805ff5e0-78d0-4d03-a220-1064681c3029",
+					"disabled": true,
+					"name": "@Common: Poison, Sickness, etc.@",
+					"reference": "B81",
+					"cost_type": "points",
+					"cost": 15,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9e62d5a9-1526-43ac-af3e-72a04a95a1ce",
+					"disabled": true,
+					"name": "@Occasional: Disease, Ingested Poison, etc.@",
+					"reference": "B81",
+					"cost_type": "points",
+					"cost": 10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "fc350948-b6f4-43ae-8e0c-1b147cb77b23",
+					"disabled": true,
+					"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
+					"reference": "B81",
+					"cost_type": "points",
+					"cost": 5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "88b6c5a1-3f9f-4f6d-afa4-96ceda8ccba9",
+					"name": "Immunity",
+					"reference": "B81",
+					"cost_type": "multiplier",
+					"cost": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0819e535-8138-4b2d-b21a-8e6df2826fc7",
+					"disabled": true,
+					"name": "+8 to all HT rolls to resist",
+					"reference": "B81",
+					"cost_type": "multiplier",
+					"cost": 0.5
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a3f60323-1fce-4a74-848b-585c301de013",
+					"disabled": true,
+					"name": "+3 to all HT rolls to resist",
+					"reference": "B81",
+					"cost_type": "multiplier",
+					"cost": 0.33
+				}
+			],
+			"reference": "B81",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "a04e01bb-7f40-45cd-a8bf-45054914257e",
+			"name": "Dependency (Sanctity)",
+			"physical": true,
+			"exotic": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b3d1e950-1a39-4e5e-81f9-246f2ba3ca11",
+					"disabled": true,
+					"name": "Rarity: Rare",
+					"reference": "B130",
+					"cost_type": "points",
+					"cost": -30,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "801d0b79-0f72-4a7f-b0c3-999378f94de5",
+					"disabled": true,
+					"name": "Rarity: Occasional",
+					"reference": "B130",
+					"cost_type": "points",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e5b4caa1-61b4-4e19-8228-055ce45a3ed7",
+					"disabled": true,
+					"name": "Rarity: Common",
+					"reference": "B130",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1273ee19-27c2-4651-8da4-bda1a887cd0d",
+					"name": "Rarity: Very Common",
+					"reference": "B130",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e38d31bb-f7f5-40c8-beb9-cfa913f56b89",
+					"disabled": true,
+					"name": "Illegal",
+					"reference": "B130",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "707d495a-7971-44e3-b907-6da739f0fc04",
+					"name": "Frequency: Constantly",
+					"reference": "B130",
+					"cost_type": "multiplier",
+					"cost": 5,
+					"notes": "Lose 1 HP per minute without it"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1e6731a0-a091-441d-ba5b-5b5d105d1430",
+					"disabled": true,
+					"name": "Frequency: Hourly",
+					"reference": "B130",
+					"cost_type": "multiplier",
+					"cost": 4,
+					"notes": "Lose 1 HP per 10 minutes after missing a hourly dose"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4bac60d0-fc47-4114-9b01-a5ad319f9a02",
+					"disabled": true,
+					"name": "Frequency: Daily",
+					"reference": "B130",
+					"cost_type": "multiplier",
+					"cost": 3,
+					"notes": "Lose 1 HP per hour after missing a daily dose"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "95ecc6a4-5266-402b-89c9-8195f339e07d",
+					"disabled": true,
+					"name": "Frequency: Weekly",
+					"reference": "B130",
+					"cost_type": "multiplier",
+					"cost": 2,
+					"notes": "Lose 1 HP per six hours after missing a weekly dose"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "19600e38-bf2b-4f63-b2bb-cf0274199aa7",
+					"disabled": true,
+					"name": "Frequency: Monthly",
+					"reference": "B130",
+					"cost_type": "multiplier",
+					"cost": 1,
+					"notes": "Lose 1 HP per day after missing a monthly dose"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5acdfdd0-6ec5-4fc0-b40d-714314820993",
+					"disabled": true,
+					"name": "Frequency: Seasonally",
+					"reference": "B130",
+					"cost_type": "multiplier",
+					"cost": 0.33333,
+					"notes": "Lose 1 HP per 3 days after missing a seasonal dose"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "548e80b0-4189-44fa-b1fe-6dee0717a1d5",
+					"disabled": true,
+					"name": "Frequency: Yearly",
+					"reference": "B130",
+					"cost_type": "multiplier",
+					"cost": 0.1,
+					"notes": "Lose 1 HP per 2 weeks after missing a yearly dose"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7337e3fc-525b-43c7-a9d3-cb0e0d42ace9",
+					"disabled": true,
+					"name": "Aging",
+					"reference": "B130",
+					"cost_type": "percentage",
+					"cost": 30,
+					"affects": "total",
+					"notes": "Age 2 years for each HP lost due to this dependency"
+				}
+			],
+			"reference": "B130",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "e180b2f3-f7f1-434f-97b3-01de1a9b4fe2",
+			"name": "Unnatural Features",
+			"physical": true,
+			"levels": "1",
+			"points_per_level": -1,
+			"reference": "B22",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": -1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "disguise"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "shadowing"
+					}
+				}
+			],
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "6addf4a2-d346-4a8a-851b-8ad98ae3d023",
+			"name": "Wealth",
+			"social": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e85d9f19-cf5b-483f-876e-f5ef6d0e4977",
+					"name": "Dead Broke",
+					"reference": "B25",
+					"cost_type": "points",
+					"cost": -25,
+					"affects": "total",
+					"notes": "Starting wealth is $0"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0d14f6ca-84d5-4233-a494-df48c29b6935",
+					"disabled": true,
+					"name": "Poor",
+					"reference": "B25",
+					"cost_type": "points",
+					"cost": -15,
+					"affects": "total",
+					"notes": "Starting wealth is 1/5 average"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9bd485e2-45e2-4d52-a3e7-d0b6cfab022d",
+					"disabled": true,
+					"name": "Struggling",
+					"reference": "B25",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total",
+					"notes": "Starting wealth is 1/2 average"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c4db1da5-bd26-4087-80a3-3a19cc3b304b",
+					"disabled": true,
+					"name": "Average",
+					"reference": "B25",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d5608fe7-0408-4625-8005-c9c6ed7a4667",
+					"disabled": true,
+					"name": "Comfortable",
+					"reference": "B25",
+					"cost_type": "points",
+					"cost": 10,
+					"affects": "total",
+					"notes": "Starting wealth is 2x average"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e0cf9b55-5e44-4587-86fe-c3b36b76889d",
+					"disabled": true,
+					"name": "Wealthy",
+					"reference": "B25",
+					"cost_type": "points",
+					"cost": 20,
+					"affects": "total",
+					"notes": "Starting wealth is 5x average"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c2e8b01c-e3c2-4068-8fff-203602bcef26",
+					"disabled": true,
+					"name": "Very Wealthy",
+					"reference": "B25",
+					"cost_type": "points",
+					"cost": 30,
+					"affects": "total",
+					"notes": "Starting wealth is 20x average"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "eb47c102-db19-490f-877f-019c96a7384b",
+					"disabled": true,
+					"name": "Filthy Rich",
+					"reference": "B25",
+					"cost_type": "points",
+					"cost": 50,
+					"affects": "total",
+					"notes": "Starting wealth is 100x average"
+				}
+			],
+			"reference": "B25",
+			"categories": [
+				"Advantage",
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "66b5b8b0-b6b2-4c73-862c-06c062c06a5b",
+			"name": "Sexless",
+			"physical": true,
+			"base_points": -1,
+			"reference": "B165",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "12dd05ce-88f7-49e4-b3dc-d031ee79812c",
+			"name": "Trademark",
+			"mental": true,
+			"levels": "0",
+			"base_points": -1,
+			"reference": "B164",
+			"notes": "Quirk",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "2811aa08-d5f7-4913-9724-96cd62ca2eb8",
+			"name": "Code of Honor",
+			"mental": true,
+			"levels": "0",
+			"base_points": -1,
+			"reference": "B163",
+			"notes": "Quirk",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "8a24d896-4fc6-421a-9148-5d2353e71a1c",
+			"name": "Dislikes Quirk",
+			"mental": true,
+			"levels": "0",
+			"base_points": -1,
+			"reference": "B164",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "b13224c8-61a3-4b70-84b1-6a4ed114674f",
+			"name": "Chauvinistic",
+			"mental": true,
+			"levels": "0",
+			"base_points": -1,
+			"reference": "B163",
+			"notes": "God",
+			"categories": [
+				"Quirk"
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "140ad1b0-d08e-4eac-8e55-52282cdaa4c7",
+			"name": "Hidden Lore",
+			"reference": "B199",
+			"specialization": "God",
+			"difficulty": "IQ/A",
+			"points": 2,
+			"categories": [
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "362ee3fb-84fb-4d66-862f-114004bd11bb",
+			"name": "Theology",
+			"reference": "B226",
+			"specialization": "God",
+			"difficulty": "IQ/H",
+			"points": 4,
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Religious Ritual",
+					"specialization": "God",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Social Sciences/Humanities"
+			]
+		}
+	]
+}

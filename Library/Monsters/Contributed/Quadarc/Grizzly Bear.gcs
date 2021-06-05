@@ -1,357 +1,560 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="ijs18q0w:1hcfwe9br6duo" version="2">
-	<created_date>Jan 23, 2016</created_date>
-	<modified_date>Jan 23, 2016 8:27 PM</modified_date>
-	<profile>
-		<player_name>dwebster</player_name>
-		<campaign>Quadarc</campaign>
-		<name>Grizzly Bear</name>
-		<age>18</age>
-		<birthday>July 23</birthday>
-		<eyes>Brown</eyes>
-		<hair>Blond, Straight, Long</hair>
-		<skin>Dark Brown</skin>
-		<handedness>Right</handedness>
-		<height>10'</height>
-		<weight>800 lb</weight>
-		<SM>1</SM>
-		<gender>Male</gender>
-		<race>Human</race>
-		<tech_level>3</tech_level>
-	</profile>
-	<HP>0</HP>
-	<FP>0</FP>
-	<total_points>-109</total_points>
-	<ST>19</ST>
-	<DX>11</DX>
-	<IQ>4</IQ>
-	<HT>13</HT>
-	<will>7</will>
-	<perception>6</perception>
-	<speed>0</speed>
-	<move>2</move>
-	<include_punch>true</include_punch>
-	<include_kick>true</include_kick>
-	<include_kick_with_boots>true</include_kick_with_boots>
-	<advantage_list>
-		<advantage version="2">
-			<name>Claws, Blunt (Feet)</name>
-			<type>Physical</type>
-			<base_points>3</base_points>
-			<melee_weapon>
-				<damage>thr:+1 cr</damage>
-				<usage>Kick</usage>
-				<reach>C,1</reach>
-				<parry>No</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Brawling</name>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Karate</name>
-					<modifier>-2</modifier>
-				</default>
-			</melee_weapon>
-			<reference>B42</reference>
-			<notes>Only pay for hands or feet, not both</notes>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>No Fine Manipulators</name>
-			<type>Physical</type>
-			<base_points>-30</base_points>
-			<reference>B145</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-			<cost_reduction>
-				<attribute>st</attribute>
-				<percentage>40</percentage>
-			</cost_reduction>
-			<cost_reduction>
-				<attribute>dx</attribute>
-				<percentage>40</percentage>
-			</cost_reduction>
-		</advantage>
-		<advantage version="2">
-			<name>Semi-Upright</name>
-			<type>Physical, Exotic</type>
-			<base_points>-5</base_points>
-			<reference>B153</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Teeth, Sharp</name>
-			<type>Physical, Exotic</type>
-			<base_points>1</base_points>
-			<melee_weapon>
-				<damage>thr-1 cut</damage>
-				<usage>Bite</usage>
-				<reach>C</reach>
-				<parry>No</parry>
-				<block>No</block>
-				<default>
-					<type>Skill</type>
-					<name>Brawling</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>DX</type>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<reference>B91</reference>
-			<categories>
-				<category>Perk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Temperature Tolerance</name>
-			<type>Physical</type>
-			<levels>2</levels>
-			<points_per_level>1</points_per_level>
-			<reference>B93</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage_container version="2" open="yes" type="meta trait">
-			<name>Meta-Trait: Wild Animal</name>
-			<reference>B263</reference>
-			<advantage version="2">
-				<name>Bestial</name>
-				<type>Mental, Exotic</type>
-				<base_points>-10</base_points>
-				<reference>B124</reference>
-			</advantage>
-			<advantage version="2">
-				<name>Cannot Speak</name>
-				<type>Physical</type>
-				<base_points>-15</base_points>
-				<reference>B125</reference>
-			</advantage>
-			<advantage version="2">
-				<name>Hidebound</name>
-				<type>Physical</type>
-				<base_points>-5</base_points>
-				<reference>B138</reference>
-			</advantage>
-			<advantage version="2">
-				<name>Taboo Trait (Fixed IQ)</name>
-				<type>Physical</type>
-				<reference>B263</reference>
-			</advantage>
-		</advantage_container>
-		<advantage version="2">
-			<name>Damage Resistance</name>
-			<type>Physical, Exotic</type>
-			<levels>2</levels>
-			<points_per_level>5</points_per_level>
-			<modifier version="1" enabled="no">
-				<name>Force Field</name>
-				<cost type="percentage">20</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Hardened</name>
-				<cost type="percentage">20</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Absorption</name>
-				<cost type="percentage">80</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>Enhances @Trait@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Absorption</name>
-				<cost type="percentage">80</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>Healing only</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Absorption</name>
-				<cost type="percentage">100</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>Enhances any trait</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Reflection</name>
-				<cost type="percentage">100</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Bane</name>
-				<cost type="points">-1</cost>
-				<affects>total</affects>
-				<reference>H14</reference>
-				<notes>@Rare@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Bane</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-				<reference>H14</reference>
-				<notes>@Occasional@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Bane</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-				<reference>H14</reference>
-				<notes>@Common@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Bane</name>
-				<cost type="percentage">-15</cost>
-				<affects>total</affects>
-				<reference>H14</reference>
-				<notes>@Very Common@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Directional</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-				<notes>Front</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Flexible</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Limited</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>@Very Common Attack Form@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Semi-Ablative</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Can't wear armor</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Directional</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-				<notes>@Direction: Back, Right, Left, Top or Underside@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Limited</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>@Common Attack Form@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Tough Skin</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-				<notes>Effects that just require skin contact or a scratch ignore this DR</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Limited</name>
-				<cost type="percentage">-60</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>@Occasional Attack Form@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Ablative</name>
-				<cost type="percentage">-80</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Limited</name>
-				<cost type="percentage">-80</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>@Rare Attack Form@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Laminate</name>
-				<cost type="percentage">10</cost>
-				<affects>total</affects>
-				<reference>RSWL18</reference>
-			</modifier>
-			<reference>B47</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-			<dr_bonus>
-				<location>full body</location>
-				<amount per_level="yes">1</amount>
-			</dr_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Bad Temper</name>
-			<type>Mental</type>
-			<base_points>-10</base_points>
-			<cr>12</cr>
-			<reference>B124</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-	</advantage_list>
-	<skill_list>
-		<skill version="2">
-			<name>Brawling</name>
-			<difficulty>DX/E</difficulty>
-			<points>4</points>
-			<reference>B182</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<weapon_bonus>
-				<name compare="is">Brawling</name>
-				<specialization compare="is anything"></specialization>
-				<level compare="at least">2</level>
-				<amount per_level="yes">1</amount>
-			</weapon_bonus>
-		</skill>
-	</skill_list>
-	<print_settings printer="Photosmart C4700 series" units="in">
-		<orientation>portrait</orientation>
-		<width>8.5</width>
-		<height>11</height>
-		<top_margin>0.5</top_margin>
-		<left_margin>0.5</left_margin>
-		<bottom_margin>0.5</bottom_margin>
-		<right_margin>0.5</right_margin>
-		<ink_chromaticity>monochrome</ink_chromaticity>
-		<sides>single</sides>
-		<quality>normal</quality>
-	</print_settings>
-</character>
+{
+	"type": "character",
+	"version": 1,
+	"id": "b8699b1c-ed85-4ef6-b2bc-ad656c15f9c7",
+	"settings": {
+		"version": 1,
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_and_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"use_title_in_footer": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "Jan 23, 2016, 12:00 AM",
+	"modified_date": "Jan 23, 2016, 12:00 AM",
+	"profile": {
+		"player_name": "dwebster",
+		"name": "Grizzly Bear",
+		"age": 18,
+		"birthday": "July 23",
+		"eyes": "Brown",
+		"hair": "Blond, Straight, Long",
+		"skin": "Dark Brown",
+		"handedness": "Right",
+		"height": "10'",
+		"weight": "800 lb",
+		"SM": 1,
+		"gender": "Male",
+		"body_type": "humanoid",
+		"tech_level": "3"
+	},
+	"total_points": -109,
+	"ST": 19,
+	"DX": 11,
+	"IQ": 4,
+	"HT": 13,
+	"will_adj": 7,
+	"per_adj": 6,
+	"move_adj": 2,
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "8e792dbe-5ec8-45ea-86f5-2ff7c70170dd",
+			"name": "Claws, Blunt (Feet)",
+			"physical": true,
+			"base_points": 3,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"modifier_per_die": 1
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"parry": "No",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Karate",
+							"modifier": -2
+						}
+					]
+				}
+			],
+			"reference": "B42",
+			"notes": "Only pay for hands or feet, not both",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "828d5cae-f001-4be2-b532-c407f7a7824d",
+			"name": "No Fine Manipulators",
+			"physical": true,
+			"base_points": -30,
+			"reference": "B145",
+			"features": [
+				{
+					"type": "cost_reduction",
+					"attribute": "st",
+					"percentage": 40
+				},
+				{
+					"type": "cost_reduction",
+					"attribute": "dx",
+					"percentage": 40
+				}
+			],
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "8a8acb24-3b9c-43c7-af92-3d6081b9672e",
+			"name": "Semi-Upright",
+			"physical": true,
+			"exotic": true,
+			"base_points": -5,
+			"reference": "B153",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "4b71a3ff-6c9c-4008-a87b-bcb55bcaf0cf",
+			"name": "Teeth, Sharp",
+			"physical": true,
+			"exotic": true,
+			"base_points": 1,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "DX"
+						}
+					]
+				}
+			],
+			"reference": "B91",
+			"categories": [
+				"Perk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "153245ab-bbe9-492f-83d1-edd891af5b0f",
+			"name": "Temperature Tolerance",
+			"physical": true,
+			"levels": "2",
+			"points_per_level": 1,
+			"reference": "B93",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "8d2c9b53-fc36-4318-a8af-5d81b8d1593d",
+			"container_type": "meta_trait",
+			"name": "Meta-Trait: Wild Animal",
+			"reference": "B263",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "8de96ef0-7135-45a3-b52a-8b74ecc7b475",
+					"name": "Bestial",
+					"mental": true,
+					"exotic": true,
+					"base_points": -10,
+					"reference": "B124"
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "30acc8d7-7249-4481-a24a-3b4c717cb5b5",
+					"name": "Cannot Speak",
+					"physical": true,
+					"base_points": -15,
+					"reference": "B125"
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "025b40d9-f03a-4d12-b283-dab82c2781fd",
+					"name": "Hidebound",
+					"physical": true,
+					"base_points": -5,
+					"reference": "B138"
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "438cb7aa-d16a-44b0-b03f-cbb86cf2c830",
+					"name": "Taboo Trait (Fixed IQ)",
+					"physical": true,
+					"reference": "B263"
+				}
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "ae22d752-b615-4764-afc9-604f4f5cc5cd",
+			"name": "Damage Resistance",
+			"physical": true,
+			"exotic": true,
+			"levels": "2",
+			"points_per_level": 5,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "200b51a9-d4b6-4930-b53d-cd8ffe75ef76",
+					"disabled": true,
+					"name": "Force Field",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3931adfc-cd8d-4cc2-8827-250f8d1b007f",
+					"disabled": true,
+					"name": "Hardened",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total",
+					"levels": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d9b673f6-f343-4cc6-b95d-48c724b2896b",
+					"disabled": true,
+					"name": "Absorption",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": 80,
+					"affects": "total",
+					"notes": "Enhances @Trait@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ce251037-c029-4e7e-bd53-a4f8555d3262",
+					"disabled": true,
+					"name": "Absorption",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": 80,
+					"affects": "total",
+					"notes": "Healing only"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5ab4f3ce-36b9-4fb5-815d-3842c48d8e77",
+					"disabled": true,
+					"name": "Absorption",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total",
+					"notes": "Enhances any trait"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c9f1980f-8756-4f5a-b87f-225948da7fec",
+					"disabled": true,
+					"name": "Reflection",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b238d933-2d58-4c3d-871b-65c0ec0e186b",
+					"disabled": true,
+					"name": "Bane",
+					"reference": "H14",
+					"cost_type": "points",
+					"cost": -1,
+					"affects": "total",
+					"notes": "@Rare@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "496928c3-9e66-46ab-8839-7cc78246e000",
+					"disabled": true,
+					"name": "Bane",
+					"reference": "H14",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total",
+					"notes": "@Occasional@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9c0be59c-87bc-4d44-9dfa-7683763e8149",
+					"disabled": true,
+					"name": "Bane",
+					"reference": "H14",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total",
+					"notes": "@Common@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "fc80b529-db39-424a-b9fc-146cabdce640",
+					"disabled": true,
+					"name": "Bane",
+					"reference": "H14",
+					"cost_type": "percentage",
+					"cost": -15,
+					"affects": "total",
+					"notes": "@Very Common@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "68b0ce24-b50d-4257-a1e2-7440d7fa9bc4",
+					"disabled": true,
+					"name": "Directional",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "Front"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e517d91a-6136-4f51-bcb0-a17ebfee6122",
+					"disabled": true,
+					"name": "Flexible",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2930858d-b67d-4a09-9b85-55b940ded324",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "@Very Common Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "51a93619-9544-4d2d-b98f-30175f8cc944",
+					"disabled": true,
+					"name": "Semi-Ablative",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "46e6256b-5a12-470e-8b84-5ec8d15070dc",
+					"disabled": true,
+					"name": "Can't wear armor",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5abce09d-f173-41ce-9013-f76d172af10b",
+					"disabled": true,
+					"name": "Directional",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total",
+					"notes": "@Direction: Back, Right, Left, Top or Underside@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ff1c4f57-dfb2-422a-8f69-8b9bb798373a",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total",
+					"notes": "@Common Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "fb929726-e97e-4508-a039-1d2292351a71",
+					"disabled": true,
+					"name": "Tough Skin",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total",
+					"notes": "Effects that just require skin contact or a scratch ignore this DR"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "48fe19f6-decb-4c52-baac-52d65ba81726",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -60,
+					"affects": "total",
+					"notes": "@Occasional Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3b715b40-254b-4a8c-b323-ade5113193c4",
+					"disabled": true,
+					"name": "Ablative",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -80,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f5bfe177-0a04-4449-8dd1-6901fcd9af46",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -80,
+					"affects": "total",
+					"notes": "@Rare Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b6bc4870-dbcf-4347-8fca-8d9ef3607ffe",
+					"disabled": true,
+					"name": "Laminate",
+					"reference": "RSWL18",
+					"cost_type": "percentage",
+					"cost": 10,
+					"affects": "total"
+				}
+			],
+			"reference": "B47",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"per_level": true,
+					"location": "full_body"
+				}
+			],
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "7816ccff-30e9-46e5-8a8b-7de09521fcc6",
+			"name": "Bad Temper",
+			"mental": true,
+			"base_points": -10,
+			"cr": 12,
+			"reference": "B124",
+			"categories": [
+				"Disadvantage"
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "b4e72059-8f59-4326-ae19-c1b212ecc3d0",
+			"name": "Brawling",
+			"reference": "B182",
+			"difficulty": "DX/E",
+			"points": 4,
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Brawling"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					}
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		}
+	]
+}

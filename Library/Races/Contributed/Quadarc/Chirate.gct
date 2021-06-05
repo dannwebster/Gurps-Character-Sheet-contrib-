@@ -1,524 +1,900 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="igfxfrcw:8czhewqcjzrd" version="1">
-	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
-			<name>Race: Chirate</name>
-			<advantage version="2">
-				<name>Bad Sight (Nearsighted)</name>
-				<type>Physical</type>
-				<base_points>-25</base_points>
-				<modifier version="1" enabled="no">
-					<name>Mitigator</name>
-					<cost type="percentage">-60</cost>
-					<affects>total</affects>
-					<notes>Glasses</notes>
-				</modifier>
-				<reference>B123</reference>
-				<notes> -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks</notes>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Decreased Strength</name>
-				<type>Physical</type>
-				<levels>3</levels>
-				<points_per_level>-10</points_per_level>
-				<reference>B14</reference>
-				<categories>
-					<category>Attribute</category>
-					<category>Disadvantage</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>st</attribute>
-					<amount per_level="yes">-1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Discriminatory Hearing</name>
-				<type>Physical, Exotic</type>
-				<base_points>15</base_points>
-				<modifier version="1" enabled="no">
-					<name>Only underwater</name>
-					<cost type="percentage">-30</cost>
-					<affects>total</affects>
-					<reference>B49</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Profiling</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>P47</reference>
-				</modifier>
-				<reference>B49</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Distractible</name>
-				<type>Mental</type>
-				<base_points>-1</base_points>
-				<reference>B164</reference>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Disturbing Voice</name>
-				<type>Physical</type>
-				<base_points>-10</base_points>
-				<reference>B132</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-				<prereq_list all="yes">
-					<advantage_prereq has="no">
-						<name compare="is">voice</name>
-						<notes compare="is anything"></notes>
-					</advantage_prereq>
-				</prereq_list>
-			</advantage>
-			<advantage version="2">
-				<name>Enhanced Move (Air: Flight)</name>
-				<type>Physical, Exotic</type>
-				<levels>2</levels>
-				<points_per_level>20</points_per_level>
-				<modifier version="1">
-					<name>Handling Bonus</name>
-					<cost type="percentage">5</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B52</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Handling Penalty</name>
-					<cost type="percentage">-5</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B52</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Newtonian</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B52</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Road-Bound</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B52</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>All-Out</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>P49</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cosmic</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>Sup26</reference>
-					<notes>Instantaneous Acceleration</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cosmic</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>Sup27</reference>
-					<notes>Complete Maneuverability</notes>
-				</modifier>
-				<reference>B52</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Flight</name>
-				<type>Physical, Exotic</type>
-				<base_points>40</base_points>
-				<modifier version="1" enabled="no">
-					<name>Newtonian Space Flight</name>
-					<cost type="percentage">25</cost>
-					<affects>total</affects>
-					<reference>B56</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Space Flight</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B56</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Cannot Hover</name>
-					<cost type="percentage">-15</cost>
-					<affects>total</affects>
-					<reference>B56</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Controlled Gliding</name>
-					<cost type="percentage">-45</cost>
-					<affects>total</affects>
-					<reference>B56</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Gliding</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B56</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Lighter Than Air</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>B56</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Low Ceiling</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>B56</reference>
-					<notes>30'</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Low Ceiling</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B56</reference>
-					<notes>10'</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Low Ceiling</name>
-					<cost type="percentage">-25</cost>
-					<affects>total</affects>
-					<reference>B56</reference>
-					<notes>5'</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Small Wings</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>B56</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Space Flight Only</name>
-					<cost type="percentage">-75</cost>
-					<affects>total</affects>
-					<reference>B56</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Winged</name>
-					<cost type="percentage">-25</cost>
-					<affects>total</affects>
-					<reference>B56</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Planetary</name>
-					<cost type="percentage">-5</cost>
-					<affects>total</affects>
-					<reference>P50</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Requires Surface</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>P50</reference>
-				</modifier>
-				<reference>B56</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Ham-Fisted</name>
-				<type>Physical</type>
-				<base_points>-5</base_points>
-				<reference>B138</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-				<skill_bonus>
-					<name compare="contains">artist</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-3</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">jeweler</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-3</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">knot-tying</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-3</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">leatherworking</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-3</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">lockpicking</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-3</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">pickpocket</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-3</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">sewing</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-3</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">sleight of hand</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-3</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">surgery</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-3</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">machinist</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-3</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="contains">mechanic</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-3</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="contains">fast-draw</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-3</amount>
-				</skill_bonus>
-				<prereq_list all="yes">
-					<advantage_prereq has="no">
-						<name compare="is">high manual dexterity</name>
-						<notes compare="is anything"></notes>
-					</advantage_prereq>
-				</prereq_list>
-			</advantage>
-			<advantage version="2">
-				<name>Increased Basic Move</name>
-				<type>Physical</type>
-				<levels>1</levels>
-				<points_per_level>5</points_per_level>
-				<reference>B17</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Attribute</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>move</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Nocturnal</name>
-				<type>Physical, Exotic</type>
-				<base_points>-20</base_points>
-				<modifier version="1" enabled="no">
-					<name>Permanent Paralysis</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B146</reference>
-				</modifier>
-				<reference>B146</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Scanning Sense</name>
-				<type>Physical, Exotic</type>
-				<modifier version="1" enabled="no">
-					<name>Imaging Radar</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Radar</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Ladar</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Para-Radar</name>
-					<cost type="points">40</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Sonar</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Extended Arc</name>
-					<cost type="percentage">75</cost>
-					<affects>total</affects>
-					<reference>B82</reference>
-					<notes>240&#176;</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Extended Arc</name>
-					<cost type="percentage">125</cost>
-					<affects>total</affects>
-					<reference>B82</reference>
-					<notes>360&#176;</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Low-Probability Intercept</name>
-					<cost type="percentage">10</cost>
-					<affects>total</affects>
-					<reference>B82</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Multi-Mode</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B82</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Penetrating</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B82</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Targeting</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B82</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Targeting Only</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B82</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Active IR</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>P72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>T-Ray Vision</name>
-					<cost type="points">25</cost>
-					<affects>total</affects>
-					<reference>P72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bio-Scan</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>P72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>No Intercept</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>P72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Scanner</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>P72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Field Sense</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>Sup27</reference>
-				</modifier>
-				<reference>B81</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Ultrahearing</name>
-				<type>Physical, Exotic</type>
-				<base_points>5</base_points>
-				<modifier version="1" enabled="no">
-					<name>No normal hearing</name>
-					<cost type="points">-5</cost>
-					<affects>total</affects>
-					<reference>B94</reference>
-				</modifier>
-				<reference>B94</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Ultrasonic Speech</name>
-				<type>Physical, Exotic</type>
-				<base_points>10</base_points>
-				<modifier version="1" enabled="no">
-					<name>No normal speech</name>
-					<cost type="points">-10</cost>
-					<affects>total</affects>
-					<reference>B94</reference>
-				</modifier>
-				<reference>B94</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<skill_list>
-		<skill version="2">
-			<name>Aerobatics</name>
-			<difficulty>DX/H</difficulty>
-			<points>4</points>
-			<reference>B174</reference>
-			<categories>
-				<category>Athletic</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Stealth</name>
-			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
-			<difficulty>DX/A</difficulty>
-			<points>1</points>
-			<reference>B222</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-	</skill_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "16b2b6e5-294c-4124-a88a-36129771cb2d",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "c5e71908-f356-468f-b2b0-d49d52017516",
+			"container_type": "race",
+			"name": "Race: Chirate",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "b83ac230-767b-4e3f-9212-d31607b23c6d",
+					"name": "Bad Sight (Nearsighted)",
+					"physical": true,
+					"base_points": -25,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "bec896ce-ac38-40c2-8ebc-cd3e0c281577",
+							"disabled": true,
+							"name": "Mitigator",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total",
+							"notes": "Glasses"
+						}
+					],
+					"reference": "B123",
+					"notes": " -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "3630b9e9-94dd-4fc1-b379-16744fbb2efd",
+					"name": "Decreased Strength",
+					"physical": true,
+					"levels": "3",
+					"points_per_level": -10,
+					"reference": "B14",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": -1,
+							"per_level": true,
+							"attribute": "st"
+						}
+					],
+					"categories": [
+						"Attribute",
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "eb5d561d-1325-4543-832d-9690a6ca4787",
+					"name": "Discriminatory Hearing",
+					"physical": true,
+					"exotic": true,
+					"base_points": 15,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "cc115006-afab-4e6c-bf17-3228a35515d1",
+							"disabled": true,
+							"name": "Only underwater",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e056a74f-2ee6-4c41-8952-bf061c394b3f",
+							"disabled": true,
+							"name": "Profiling",
+							"reference": "P47",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						}
+					],
+					"reference": "B49",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "fd074931-07a0-481f-9016-5c75bcaf01f3",
+					"name": "Distractible",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B164",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "2e1c0403-0ecf-4e9b-809e-0c70cc018ef1",
+					"name": "Disturbing Voice",
+					"physical": true,
+					"base_points": -10,
+					"reference": "B132",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "voice"
+								}
+							}
+						]
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "97dd4cab-44ec-49e5-b338-07e25dffc9e2",
+					"name": "Enhanced Move (Air: Flight)",
+					"physical": true,
+					"exotic": true,
+					"levels": "2",
+					"points_per_level": 20,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8dec3a9d-a446-4b7c-9ae4-e25e9972f1aa",
+							"name": "Handling Bonus",
+							"reference": "B52",
+							"cost_type": "percentage",
+							"cost": 5,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d69da41b-9ddd-4e33-b9d6-96efd013b98c",
+							"disabled": true,
+							"name": "Handling Penalty",
+							"reference": "B52",
+							"cost_type": "percentage",
+							"cost": -5,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9953d50f-d3de-486d-b2df-1576a1ff538d",
+							"disabled": true,
+							"name": "Newtonian",
+							"reference": "B52",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "31555385-73ee-4877-881c-db28e7dfd4c5",
+							"disabled": true,
+							"name": "Road-Bound",
+							"reference": "B52",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ad7cb17e-37ad-4420-8ecb-fae74d40f769",
+							"disabled": true,
+							"name": "All-Out",
+							"reference": "P49",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0250a62f-c157-4c0a-bf3d-98c1e7f9a660",
+							"disabled": true,
+							"name": "Cosmic",
+							"reference": "Sup26",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"notes": "Instantaneous Acceleration"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "804e5e00-c80a-4417-a9a4-22bb606d7c46",
+							"disabled": true,
+							"name": "Cosmic",
+							"reference": "Sup27",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"notes": "Complete Maneuverability"
+						}
+					],
+					"reference": "B52",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "67271c0f-43ad-4748-bb39-47f12a1d4ac3",
+					"name": "Flight",
+					"physical": true,
+					"exotic": true,
+					"base_points": 40,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0a86d944-f166-4870-b324-8ca9da084dd4",
+							"disabled": true,
+							"name": "Newtonian Space Flight",
+							"reference": "B56",
+							"cost_type": "percentage",
+							"cost": 25,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a9d0ffe4-69a0-4b4b-af46-c87a0ded582b",
+							"disabled": true,
+							"name": "Space Flight",
+							"reference": "B56",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ad369ad1-3b2c-46ca-b698-61adc7fb5563",
+							"name": "Cannot Hover",
+							"reference": "B56",
+							"cost_type": "percentage",
+							"cost": -15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e1a75ddf-0723-4134-a477-3af6ab954146",
+							"disabled": true,
+							"name": "Controlled Gliding",
+							"reference": "B56",
+							"cost_type": "percentage",
+							"cost": -45,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "be46031d-3c2f-4aa3-b1f4-c40efce65498",
+							"disabled": true,
+							"name": "Gliding",
+							"reference": "B56",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "78ad52d5-1f93-48a5-9675-00f577100f89",
+							"disabled": true,
+							"name": "Lighter Than Air",
+							"reference": "B56",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fe69e049-59cf-46f1-85f8-8134b1b5253c",
+							"disabled": true,
+							"name": "Low Ceiling",
+							"reference": "B56",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"notes": "30'"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "36bea74b-e9d8-479b-ae01-48bbda415098",
+							"disabled": true,
+							"name": "Low Ceiling",
+							"reference": "B56",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "10'"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "85c8edac-d54a-46da-8447-48d94e5ea905",
+							"disabled": true,
+							"name": "Low Ceiling",
+							"reference": "B56",
+							"cost_type": "percentage",
+							"cost": -25,
+							"affects": "total",
+							"notes": "5'"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6144bdf8-6b8d-4a04-958c-9d0476d324b9",
+							"disabled": true,
+							"name": "Small Wings",
+							"reference": "B56",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "cb6cf891-c0a0-45a7-a825-5d05188724e7",
+							"disabled": true,
+							"name": "Space Flight Only",
+							"reference": "B56",
+							"cost_type": "percentage",
+							"cost": -75,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "68a06e9a-d323-4849-8ddf-a8e6dcb765d3",
+							"name": "Winged",
+							"reference": "B56",
+							"cost_type": "percentage",
+							"cost": -25,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "cf62b732-df8f-42c1-a309-370f283a7f8c",
+							"disabled": true,
+							"name": "Planetary",
+							"reference": "P50",
+							"cost_type": "percentage",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ca66416f-1717-4ab0-8297-71be8cd1e142",
+							"disabled": true,
+							"name": "Requires Surface",
+							"reference": "P50",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						}
+					],
+					"reference": "B56",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "c846e2e0-e91e-4b00-9edb-019b794bc44c",
+					"name": "Ham-Fisted",
+					"physical": true,
+					"base_points": -5,
+					"reference": "B138",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "high manual dexterity"
+								}
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "artist"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "jeweler"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "knot-tying"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "leatherworking"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "lockpicking"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "pickpocket"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sewing"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sleight of hand"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "surgery"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "machinist"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "mechanic"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "fast-draw"
+							}
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "0886b871-15e2-4d71-bbe0-c1e7040e5913",
+					"name": "Increased Basic Move",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": 5,
+					"reference": "B17",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "move"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "572b81a5-adf3-4248-8377-ae572a916779",
+					"name": "Nocturnal",
+					"physical": true,
+					"exotic": true,
+					"base_points": -20,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b0ba031a-0f4c-47ec-a922-7166295a4f8a",
+							"disabled": true,
+							"name": "Permanent Paralysis",
+							"reference": "B146",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						}
+					],
+					"reference": "B146",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "b1e52aab-6eba-4cc0-ba3a-a195455476bf",
+					"name": "Scanning Sense",
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "bdc46736-24ee-443f-8bf7-d4f45d80e0f7",
+							"disabled": true,
+							"name": "Imaging Radar",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fa99ebb1-2721-4943-a420-7f6718387884",
+							"disabled": true,
+							"name": "Radar",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b39cce45-615f-422c-84d8-a9d3c33bd712",
+							"disabled": true,
+							"name": "Ladar",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "37195dfe-f2cd-4afa-8672-4a3968ba7bc9",
+							"disabled": true,
+							"name": "Para-Radar",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "07902f4b-9855-46ad-a079-4d3d71834e74",
+							"name": "Sonar",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "963dbd96-5a6b-471f-9648-d2618945907d",
+							"disabled": true,
+							"name": "Extended Arc",
+							"reference": "B82",
+							"cost_type": "percentage",
+							"cost": 75,
+							"affects": "total",
+							"notes": "240°"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "51495ae7-9d12-4030-9641-47c6cbb5025d",
+							"disabled": true,
+							"name": "Extended Arc",
+							"reference": "B82",
+							"cost_type": "percentage",
+							"cost": 125,
+							"affects": "total",
+							"notes": "360°"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8ff4130c-15b8-4a75-85b3-1c0de2b8458e",
+							"disabled": true,
+							"name": "Low-Probability Intercept",
+							"reference": "B82",
+							"cost_type": "percentage",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7e1dae4d-767a-4fe6-aab6-0dc137a95494",
+							"disabled": true,
+							"name": "Multi-Mode",
+							"reference": "B82",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f54b725f-bab8-4b3f-8eb1-0372aa1e1bbd",
+							"disabled": true,
+							"name": "Penetrating",
+							"reference": "B82",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fc145116-a836-405e-a15d-590480194160",
+							"disabled": true,
+							"name": "Targeting",
+							"reference": "B82",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "241e5c0a-2485-4b1c-9aa5-b665990fba07",
+							"disabled": true,
+							"name": "Targeting Only",
+							"reference": "B82",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "573af525-83d8-4468-826e-5a00f5d94b07",
+							"disabled": true,
+							"name": "Active IR",
+							"reference": "P72",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "816922b6-a012-40c6-b09d-f4fc49fb217f",
+							"disabled": true,
+							"name": "T-Ray Vision",
+							"reference": "P72",
+							"cost_type": "points",
+							"cost": 25,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "83e4c18d-e226-4be4-b0ef-4c4b856ee3d5",
+							"disabled": true,
+							"name": "Bio-Scan",
+							"reference": "P72",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "990a87d9-9726-46b0-a22f-2dac625337dd",
+							"disabled": true,
+							"name": "No Intercept",
+							"reference": "P72",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "172b6e1c-943e-4077-b886-12223dcb2536",
+							"disabled": true,
+							"name": "Scanner",
+							"reference": "P72",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1c5c90a2-1042-46b2-8732-7f9747000a14",
+							"disabled": true,
+							"name": "Field Sense",
+							"reference": "Sup27",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						}
+					],
+					"reference": "B81",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "36683a7c-d496-409a-9b9e-4fcd6f6bcf5f",
+					"name": "Ultrahearing",
+					"physical": true,
+					"exotic": true,
+					"base_points": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d9020dbc-1d7b-4fa6-b138-06f7e59a9e4a",
+							"disabled": true,
+							"name": "No normal hearing",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						}
+					],
+					"reference": "B94",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "8c442f01-d459-4195-abe5-69daba1a7aa8",
+					"name": "Ultrasonic Speech",
+					"physical": true,
+					"exotic": true,
+					"base_points": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4c40d33b-7d3c-456a-8458-a23db5fb2b33",
+							"disabled": true,
+							"name": "No normal speech",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						}
+					],
+					"reference": "B94",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "7cdbcb21-0dbc-48af-8653-29058a93f9c0",
+			"name": "Aerobatics",
+			"reference": "B174",
+			"difficulty": "DX/H",
+			"points": 4,
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "c9d1dbba-41d4-4c71-a722-95136d6b47f5",
+			"name": "Stealth",
+			"reference": "B222",
+			"encumbrance_penalty_multiplier": 1,
+			"difficulty": "DX/A",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "DX",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Spy"
+			]
+		}
+	]
+}

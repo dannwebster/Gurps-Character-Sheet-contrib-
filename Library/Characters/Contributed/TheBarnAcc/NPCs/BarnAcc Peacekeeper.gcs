@@ -1,694 +1,929 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<character id="4cd42620-9914-4099-97e0-ca66d326ce10" version="2">
-	<created_date>Aug 28, 2016</created_date>
-	<modified_date>Aug 28, 2016 1:29 PM</modified_date>
-	<profile>
-		<player_name>dwebster</player_name>
-		<campaign>The BarnAcc</campaign>
-		<name>BarnAcc Cop</name>
-		<title>Peacekeeper</title>
-		<age>20</age>
-		<birthday>January 21</birthday>
-		<eyes>Blue</eyes>
-		<hair>Black, Wavy, Short</hair>
-		<skin>Pale</skin>
-		<handedness>Left</handedness>
-		<height>5' 3"</height>
-		<weight>154 lb</weight>
-		<SM>0</SM>
-		<gender>Male</gender>
-		<race>Human</race>
-		<tech_level>8</tech_level>
-		<notes>NAMES:
-Xin Ayulwe - man
-Chel Vazquez - woman
-
-Barry Jenkins
-Fatima Chen
-Gizelle Irokawa
-Morimer Preseton
-Ganymede ibn Faud</notes>
-	</profile>
-	<HP>0</HP>
-	<FP>0</FP>
-	<total_points>115</total_points>
-	<ST>12</ST>
-	<DX>12</DX>
-	<IQ>11</IQ>
-	<HT>11</HT>
-	<will>0</will>
-	<perception>0</perception>
-	<speed>0</speed>
-	<move>0</move>
-	<include_punch>true</include_punch>
-	<include_kick>true</include_kick>
-	<include_kick_with_boots>true</include_kick_with_boots>
-	<advantage_list>
-		<advantage version="2">
-			<name>Legal Enforcement Powers</name>
-			<type>Social</type>
-			<modifier version="1">
-				<name>Peacekeeper</name>
-				<cost type="points">5</cost>
-				<affects>total</affects>
-				<reference>B65</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@KGB@</name>
-				<cost type="points">15</cost>
-				<affects>total</affects>
-				<reference>B65</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@FBI agent@</name>
-				<cost type="points">10</cost>
-				<affects>total</affects>
-				<reference>B65</reference>
-			</modifier>
-			<reference>B65</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Duty (Peacekeeper)</name>
-			<type>Social</type>
-			<modifier version="1" enabled="no">
-				<name>FR: 6</name>
-				<cost type="points">-2</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>FR: 9</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>FR: 12</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>FR: 15</name>
-				<cost type="points">-15</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Extremely Hazardous</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Involuntary</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Nonhazardous</name>
-				<cost type="points">5</cost>
-				<affects>total</affects>
-			</modifier>
-			<reference>B133</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Combat Reflexes</name>
-			<type>Mental</type>
-			<base_points>15</base_points>
-			<reference>B43</reference>
-			<notes>Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)</notes>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-			<skill_bonus>
-				<name compare="starts with">fast-draw</name>
-				<specialization compare="is anything"></specialization>
-				<amount>1</amount>
-			</skill_bonus>
-			<attribute_bonus>
-				<attribute>dodge</attribute>
-				<amount>1</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>parry</attribute>
-				<amount>1</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>block</attribute>
-				<amount>1</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>fright check</attribute>
-				<amount>2</amount>
-			</attribute_bonus>
-			<prereq_list all="yes">
-				<advantage_prereq has="no">
-					<name compare="is">Enhanced Time Sense</name>
-					<notes compare="is anything"></notes>
-				</advantage_prereq>
-			</prereq_list>
-		</advantage>
-	</advantage_list>
-	<skill_list>
-		<skill version="2">
-			<name>Professional Skill</name>
-			<specialization>Law Enforcement</specialization>
-			<difficulty>IQ/A</difficulty>
-			<points>4</points>
-			<reference>B215</reference>
-			<categories>
-				<category>Knowledge</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Brawling</name>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B182</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<weapon_bonus>
-				<name compare="is">Brawling</name>
-				<specialization compare="is anything"></specialization>
-				<level compare="at least">2</level>
-				<amount per_level="yes">1</amount>
-			</weapon_bonus>
-		</skill>
-		<skill version="2">
-			<name>Wrestling</name>
-			<difficulty>DX/A</difficulty>
-			<points>2</points>
-			<reference>B228</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Streetwise</name>
-			<difficulty>IQ/A</difficulty>
-			<points>2</points>
-			<reference>B223</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Shortsword</name>
-			<difficulty>DX/A</difficulty>
-			<points>2</points>
-			<reference>B209</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Knife</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Tonfa</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Electronics Operation</name>
-			<specialization>Communications</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B189</reference>
-			<categories>
-				<category>Technical</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Operation</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Repair</name>
-				<specialization>Communications</specialization>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Electronics</specialization>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Area Knowledge</name>
-			<specialization>BarnAcc</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>2</points>
-			<reference>B176</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Geography</name>
-				<specialization>BarnAcc</specialization>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Guns</name>
-			<specialization>Pistol</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B198</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Grenade Launcher</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Gyroc</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Anti-Armor Weapon</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Machine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Musket</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Beam Weapons</name>
-				<specialization>Pistol</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Rifle</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Shotgun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Submachine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-	</skill_list>
-	<equipment_list>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Armored Shades</description>
-			<tech_level>9</tech_level>
-			<legality_class>4</legality_class>
-			<value>100</value>
-			<weight>0.1 lb</weight>
-			<reference>UT176</reference>
-			<categories>
-				<category>Armor</category>
-				<category>Defenses</category>
-			</categories>
-			<dr_bonus>
-				<location>eyes</location>
-				<amount>10</amount>
-			</dr_bonus>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Stun Gun</description>
-			<tech_level>7</tech_level>
-			<legality_class>4</legality_class>
-			<value>25</value>
-			<weight>0.5 lb</weight>
-			<reference>HT200</reference>
-			<melee_weapon>
-				<damage>HT-3(0.5) aff</damage>
-				<strength>2</strength>
-				<usage>(stun)</usage>
-				<reach>C</reach>
-				<parry>No</parry>
-				<default>
-					<type>Skill</type>
-					<name>Brawling</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>DX</type>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<categories>
-				<category>Melee Weapons</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Stun Baton</description>
-			<tech_level>8</tech_level>
-			<legality_class>4</legality_class>
-			<value>60</value>
-			<weight>1.5 lb</weight>
-			<reference>HT200</reference>
-			<melee_weapon>
-				<damage>sw-1 cr</damage>
-				<strength>6</strength>
-				<reach>C,1</reach>
-				<parry>0</parry>
-				<default>
-					<type>Skill</type>
-					<name>Shortsword</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Broadsword</name>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Force Sword</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Jitte/Sai</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Knife</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Saber</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Smallsword</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Tonfa</name>
-					<modifier>-3</modifier>
-				</default>
-			</melee_weapon>
-			<melee_weapon>
-				<damage>thr-1 cr</damage>
-				<strength>6</strength>
-				<reach>C,1</reach>
-				<parry>0</parry>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shortsword</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Broadsword</name>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Force Sword</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Jitte/Sai</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Knife</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Saber</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Smallsword</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Tonfa</name>
-					<modifier>-3</modifier>
-				</default>
-			</melee_weapon>
-			<melee_weapon>
-				<damage>HT-3(0.5) aff</damage>
-				<usage>Linked (stun)</usage>
-			</melee_weapon>
-			<categories>
-				<category>Melee Weapons</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Concealable Vest</description>
-			<tech_level>8</tech_level>
-			<legality_class>3</legality_class>
-			<value>1000</value>
-			<weight>2 lb</weight>
-			<reference>HT66</reference>
-			<notes>Flexible. DR12 vs. pi, cut.</notes>
-			<categories>
-				<category>Defenses</category>
-			</categories>
-			<dr_bonus>
-				<location>torso</location>
-				<amount>5</amount>
-			</dr_bonus>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Auto Pistol, 9mm</description>
-			<tech_level>8</tech_level>
-			<legality_class>3</legality_class>
-			<value>800</value>
-			<weight>2 lb</weight>
-			<reference>B278</reference>
-			<ranged_weapon>
-				<damage>2d+2 cr (0.5)</damage>
-				<strength>9</strength>
-				<accuracy>2</accuracy>
-				<range>150/1900</range>
-				<rate_of_fire>3</rate_of_fire>
-				<shots>18+1(3)</shots>
-				<bulk>-2</bulk>
-				<recoil>2</recoil>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Pistol</specialization>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Rifle</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Shotgun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Light Machine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Submachine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Musket</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Grenade Launcher</specialization>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Gyroc</specialization>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Light Anti-Armor Weapon</specialization>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Gun!</name>
-					<modifier>0</modifier>
-				</default>
-			</ranged_weapon>
-			<categories>
-				<category>Missile Weapon</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Boots, Jungle</description>
-			<tech_level>7</tech_level>
-			<legality_class>4</legality_class>
-			<value>75</value>
-			<weight>3 lb</weight>
-			<reference>HT68</reference>
-			<notes>DR+1 to sole.</notes>
-			<categories>
-				<category>Defenses</category>
-			</categories>
-			<dr_bonus>
-				<location>feet</location>
-				<amount>2</amount>
-			</dr_bonus>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Sharp-Protective Gloves</description>
-			<tech_level>8</tech_level>
-			<legality_class>4</legality_class>
-			<value>30</value>
-			<weight>1 lb</weight>
-			<reference>HT69</reference>
-			<notes>Flexible. DR+2 vs. imp, cut.</notes>
-			<categories>
-				<category>Defenses</category>
-			</categories>
-			<dr_bonus>
-				<location>hands</location>
-				<amount>1</amount>
-			</dr_bonus>
-		</equipment>
-	</equipment_list>
-	<print_settings printer="Photosmart C4700 series" units="in">
-		<orientation>portrait</orientation>
-		<width>8.5</width>
-		<height>11</height>
-		<top_margin>0.5</top_margin>
-		<left_margin>0.5</left_margin>
-		<bottom_margin>0.5</bottom_margin>
-		<right_margin>0.5</right_margin>
-		<ink_chromaticity>monochrome</ink_chromaticity>
-		<sides>single</sides>
-		<quality>normal</quality>
-	</print_settings>
-</character>
+{
+	"type": "character",
+	"version": 1,
+	"id": "4cd42620-9914-4099-97e0-ca66d326ce10",
+	"settings": {
+		"version": 1,
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_and_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"use_title_in_footer": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "Aug 28, 2016, 12:00 AM",
+	"modified_date": "Aug 28, 2016, 12:00 AM",
+	"profile": {
+		"player_name": "dwebster",
+		"name": "BarnAcc Cop",
+		"title": "Peacekeeper",
+		"age": 20,
+		"birthday": "January 21",
+		"eyes": "Blue",
+		"hair": "Black, Wavy, Short",
+		"skin": "Pale",
+		"handedness": "Left",
+		"height": "5' 3\"",
+		"weight": "154 lb",
+		"gender": "Male",
+		"body_type": "humanoid",
+		"tech_level": "8"
+	},
+	"total_points": 115,
+	"ST": 12,
+	"DX": 12,
+	"IQ": 11,
+	"HT": 11,
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "8aeb39b7-de27-4248-b545-806ac9da721b",
+			"name": "Legal Enforcement Powers",
+			"social": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "37c13161-8a40-49fc-ae71-1cd8282f4840",
+					"name": "Peacekeeper",
+					"reference": "B65",
+					"cost_type": "points",
+					"cost": 5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "cfc5d3b7-e0c7-4855-9f96-c712a584e96d",
+					"disabled": true,
+					"name": "@KGB@",
+					"reference": "B65",
+					"cost_type": "points",
+					"cost": 15,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "af79327a-3c6e-4ddd-8231-11aefb78ede9",
+					"disabled": true,
+					"name": "@FBI agent@",
+					"reference": "B65",
+					"cost_type": "points",
+					"cost": 10,
+					"affects": "total"
+				}
+			],
+			"reference": "B65",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "7f11291c-8d25-494d-9b3e-e3bb0072b864",
+			"name": "Duty (Peacekeeper)",
+			"social": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b410673c-21db-4068-b8b6-49b7e398f37a",
+					"disabled": true,
+					"name": "FR: 6",
+					"cost_type": "points",
+					"cost": -2,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d1a1f4c7-a19a-4c59-b2c3-3fe11004e888",
+					"disabled": true,
+					"name": "FR: 9",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3fccaa76-b259-4bd0-86de-4f093fd25804",
+					"name": "FR: 12",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c2da1238-5fd6-4fde-be35-464af60fd0e8",
+					"disabled": true,
+					"name": "FR: 15",
+					"cost_type": "points",
+					"cost": -15,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c5d9ece4-9ea6-462e-bfa0-6a5389b680a3",
+					"disabled": true,
+					"name": "Extremely Hazardous",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ca1210a1-332e-4f63-a0f4-ef8751c2425c",
+					"disabled": true,
+					"name": "Involuntary",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "83dfd325-6235-4949-b69c-c99245f97743",
+					"disabled": true,
+					"name": "Nonhazardous",
+					"cost_type": "points",
+					"cost": 5,
+					"affects": "total"
+				}
+			],
+			"reference": "B133",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "ee06c1e6-0e13-4b6f-aef0-b62d0619b9b9",
+			"name": "Combat Reflexes",
+			"mental": true,
+			"base_points": 15,
+			"reference": "B43",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "Enhanced Time Sense"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "starts_with",
+						"qualifier": "fast-draw"
+					}
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "dodge"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "parry"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "block"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "fright_check"
+				}
+			],
+			"notes": "Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
+			"categories": [
+				"Advantage"
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "e7ae8fc1-5f16-403c-b6e9-d9642bda8a04",
+			"name": "Professional Skill",
+			"reference": "B215",
+			"specialization": "Law Enforcement",
+			"difficulty": "IQ/A",
+			"points": 4,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "ca50e5f7-b72f-4776-814a-a9e02d6c60c6",
+			"name": "Brawling",
+			"reference": "B182",
+			"difficulty": "DX/E",
+			"points": 1,
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Brawling"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					}
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "7cd166e8-a7cc-4b0e-9fcb-ce55c1b2e1e1",
+			"name": "Wrestling",
+			"reference": "B228",
+			"difficulty": "DX/A",
+			"points": 2,
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "f95e0993-092c-4a11-8c2b-c97d30b2b6f0",
+			"name": "Streetwise",
+			"reference": "B223",
+			"difficulty": "IQ/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "5715fbd3-9e95-46dc-a405-f495085a3b5a",
+			"name": "Shortsword",
+			"reference": "B209",
+			"difficulty": "DX/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "Skill",
+					"name": "Broadsword",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Force Sword",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Jitte/Sai",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Knife",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Saber",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Smallsword",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Tonfa",
+					"modifier": -3
+				},
+				{
+					"type": "DX",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "667ae0e6-b018-415a-a2c6-94ad60e56b12",
+			"name": "Electronics Operation",
+			"reference": "B189",
+			"specialization": "Communications",
+			"tech_level": "8",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Operation",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Repair",
+					"specialization": "Communications",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Technical"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "31a98cf0-21e7-43eb-b162-5debe8d2e69c",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "BarnAcc",
+			"difficulty": "IQ/E",
+			"points": 2,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -4,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Geography",
+					"specialization": "BarnAcc",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "8ede9638-2aaa-4e90-a21b-47198e82f2f5",
+			"name": "Guns",
+			"reference": "B198",
+			"specialization": "Pistol",
+			"tech_level": "8",
+			"difficulty": "DX/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -4,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Grenade Launcher",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Gyroc",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Anti-Armor Weapon",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Machine Gun",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Musket",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Beam Weapons",
+					"specialization": "Pistol",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Rifle",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Shotgun",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Submachine Gun",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		}
+	],
+	"equipment": [
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "aa429432-51ab-4920-aba5-d8bee8f988b6",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Armored Shades",
+			"tech_level": "9",
+			"value": "100",
+			"weight": "0.1 lb",
+			"reference": "UT176",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 10,
+					"location": "eyes"
+				}
+			],
+			"categories": [
+				"Armor",
+				"Defenses"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "b19de0ae-0420-4683-a197-c6b0f572b040",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Stun Gun",
+			"tech_level": "7",
+			"value": "25",
+			"weight": "0.5 lb",
+			"reference": "HT200",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "HT-3(0.5) aff"
+					},
+					"strength": "2",
+					"usage": "(stun)",
+					"reach": "C",
+					"parry": "No",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "DX"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapons"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "c53ed9a2-29bd-4e19-9aab-3011d95829e8",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Stun Baton",
+			"tech_level": "8",
+			"value": "60",
+			"weight": "1.5 lb",
+			"reference": "HT200",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "-1"
+					},
+					"strength": "6",
+					"reach": "C,1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Tonfa",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "6",
+					"reach": "C,1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "Skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Tonfa",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "HT-3(0.5) aff"
+					},
+					"usage": "Linked (stun)"
+				}
+			],
+			"categories": [
+				"Melee Weapons"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "00a0e60d-2f20-40de-bcb8-6d04d3c0a44a",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Concealable Vest",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "1000",
+			"weight": "2 lb",
+			"reference": "HT66",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "torso"
+				}
+			],
+			"notes": "Flexible. DR12 vs. pi, cut.",
+			"categories": [
+				"Defenses"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "6fc47c04-fec7-4850-8368-40d9ffb14fda",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Auto Pistol, 9mm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "800",
+			"weight": "2 lb",
+			"reference": "B278",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr (0.5)",
+						"base": "2d+2"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "150/1900",
+					"rate_of_fire": "3",
+					"shots": "18+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Gun!"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "7125ccbc-c015-4d24-bbc0-5bff035e042b",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Boots, Jungle",
+			"tech_level": "7",
+			"value": "75",
+			"weight": "3 lb",
+			"reference": "HT68",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "feet"
+				}
+			],
+			"notes": "DR+1 to sole.",
+			"categories": [
+				"Defenses"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "6ee24531-5842-4070-8c54-86169f4969a8",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Sharp-Protective Gloves",
+			"tech_level": "8",
+			"value": "30",
+			"weight": "1 lb",
+			"reference": "HT69",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "hands"
+				}
+			],
+			"notes": "Flexible. DR+2 vs. imp, cut.",
+			"categories": [
+				"Defenses"
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "f93a73c9-9c1a-4b66-949c-85dce57c4b71",
+			"text": "NAMES:\nXin Ayulwe - man\nChel Vazquez - woman\n\nBarry Jenkins\nFatima Chen\nGizelle Irokawa\nMorimer Preseton\nGanymede ibn Faud"
+		}
+	]
+}

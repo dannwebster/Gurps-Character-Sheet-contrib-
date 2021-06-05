@@ -1,479 +1,811 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="hn16hzps:1vry72wfxy2em" version="1">
-	<advantage_list>
-		<advantage version="2">
-			<name>Increased Strength</name>
-			<type>Physical</type>
-			<levels>3</levels>
-			<points_per_level>10</points_per_level>
-			<modifier version="1" enabled="no">
-				<name>No Fine Manipulators</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-				<reference>B15</reference>
-			</modifier>
-			<modifier version="1">
-				<name>Size</name>
-				<cost type="percentage">-10</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B15</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Super-Effort</name>
-				<cost type="percentage">300</cost>
-				<affects>total</affects>
-				<reference>Sup24</reference>
-			</modifier>
-			<reference>B14</reference>
-			<categories>
-				<category>Advantage</category>
-				<category>Attribute</category>
-			</categories>
-			<attribute_bonus>
-				<attribute>st</attribute>
-				<amount per_level="yes">1</amount>
-			</attribute_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Damage Resistance</name>
-			<type>Physical, Exotic</type>
-			<levels>3</levels>
-			<points_per_level>5</points_per_level>
-			<modifier version="1" enabled="no">
-				<name>Ablative</name>
-				<cost type="percentage">-80</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Absorbtion</name>
-				<cost type="percentage">80</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>Enhances @Trait@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Absorbtion</name>
-				<cost type="percentage">100</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>Enhances any trait</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Absorbtion</name>
-				<cost type="percentage">80</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>Healing only</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Can't wear armor</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Directional</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-				<notes>@Direction: Back, Right, Left, Top or Underside@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Directional</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-				<notes>Front</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Flexible</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Hardened</name>
-				<cost type="percentage">20</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Limited</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>@Common Attack Form@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Limited</name>
-				<cost type="percentage">-60</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>@Occasional Attack Form@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Limited</name>
-				<cost type="percentage">-80</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>@Rare Attack Form@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Limited</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>@Very Common Attack Form@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Reflection</name>
-				<cost type="percentage">100</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Semi-Ablative</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Force Field</name>
-				<cost type="percentage">20</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<reference>B47</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-			<dr_bonus>
-				<location>full_body</location>
-				<amount per_level="yes">1</amount>
-			</dr_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Damage Resistance</name>
-			<type>Physical, Exotic</type>
-			<levels>9</levels>
-			<points_per_level>5</points_per_level>
-			<modifier version="1">
-				<name>Ablative</name>
-				<cost type="percentage">-80</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Absorbtion</name>
-				<cost type="percentage">80</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>Enhances @Trait@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Absorbtion</name>
-				<cost type="percentage">100</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>Enhances any trait</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Absorbtion</name>
-				<cost type="percentage">80</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>Healing only</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Can't wear armor</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Directional</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-				<notes>@Direction: Back, Right, Left, Top or Underside@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Directional</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-				<notes>Front</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Flexible</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Hardened</name>
-				<cost type="percentage">20</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Limited</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>@Common Attack Form@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Limited</name>
-				<cost type="percentage">-60</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>@Occasional Attack Form@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Limited</name>
-				<cost type="percentage">-80</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>@Rare Attack Form@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Limited</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>B46</reference>
-				<notes>@Very Common Attack Form@</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Reflection</name>
-				<cost type="percentage">100</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Semi-Ablative</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Force Field</name>
-				<cost type="percentage">20</cost>
-				<affects>total</affects>
-				<reference>B47</reference>
-			</modifier>
-			<reference>B47</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-			<dr_bonus>
-				<location>full_body</location>
-				<amount per_level="yes">1</amount>
-			</dr_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Temperature Tolerance</name>
-			<type>Physical</type>
-			<levels>5</levels>
-			<points_per_level>1</points_per_level>
-			<reference>B93</reference>
-			<notes>-40 degrees F to 65 degrees F</notes>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Decreased Dexterity</name>
-			<type>Physical</type>
-			<levels>1</levels>
-			<points_per_level>-20</points_per_level>
-			<reference>B15</reference>
-			<categories>
-				<category>Attribute</category>
-				<category>Disadvantage</category>
-			</categories>
-			<attribute_bonus>
-				<attribute>dx</attribute>
-				<amount per_level="yes">-1</amount>
-			</attribute_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Overweight</name>
-			<type>Physical</type>
-			<base_points>-1</base_points>
-			<reference>B19</reference>
-			<notes>+1 ST vs. knockback</notes>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-			<skill_bonus>
-				<name compare="is">disguise</name>
-				<specialization compare="is anything"></specialization>
-				<amount>-1</amount>
-			</skill_bonus>
-			<skill_bonus>
-				<name compare="is">shadowing</name>
-				<specialization compare="is anything"></specialization>
-				<amount>-1</amount>
-			</skill_bonus>
-			<skill_bonus>
-				<name compare="is">swimming</name>
-				<specialization compare="is anything"></specialization>
-				<amount>1</amount>
-			</skill_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Peripheral Vision</name>
-			<type>Physical</type>
-			<base_points>15</base_points>
-			<modifier version="1" enabled="no">
-				<name>Easy to Hit</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-				<reference>B75</reference>
-				<notes>Others can target your eyes at only -6 to hit</notes>
-			</modifier>
-			<reference>B74</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Bad Sight (Nearsighted)</name>
-			<type>Physical</type>
-			<base_points>-25</base_points>
-			<modifier version="1" enabled="no">
-				<name>Mitigator</name>
-				<cost type="percentage">-60</cost>
-				<affects>total</affects>
-				<notes>Glasses</notes>
-			</modifier>
-			<reference>B123</reference>
-			<notes> -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks</notes>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Striker, Large Piercing (Tusk)</name>
-			<type>Physical, Exotic</type>
-			<base_points>6</base_points>
-			<melee_weapon>
-				<damage>thr:+1 pi+</damage>
-				<reach>C</reach>
-				<parry>0</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Brawling</name>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<modifier version="1">
-				<name>Cannot Parry</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Limited Arc (Front)</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-			</modifier>
-			<reference>B88</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Breath-Holding</name>
-			<type>Physical, Exotic</type>
-			<levels>7</levels>
-			<points_per_level>2</points_per_level>
-			<reference>B41</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Extra Hit Points</name>
-			<type>Physical</type>
-			<levels>5</levels>
-			<points_per_level>2</points_per_level>
-			<modifier version="1">
-				<name>Size</name>
-				<cost type="percentage">-10</cost>
-				<levels>1</levels>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>No Fine Manipulators</name>
-				<cost type="percentage">-40</cost>
-				<affects>total</affects>
-			</modifier>
-			<reference>B16</reference>
-			<categories>
-				<category>Advantage</category>
-				<category>Attribute</category>
-			</categories>
-			<attribute_bonus>
-				<attribute>hp</attribute>
-				<amount per_level="yes">1</amount>
-			</attribute_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Bad Grip</name>
-			<type>Physical</type>
-			<levels>1</levels>
-			<points_per_level>-5</points_per_level>
-			<reference>B123</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-			<prereq_list all="yes">
-				<advantage_prereq has="no">
-					<name compare="is">no fine manipulators</name>
-					<notes compare="is anything"></notes>
-				</advantage_prereq>
-			</prereq_list>
-		</advantage>
-		<advantage version="2">
-			<name>Terrain Adaptation (Icefloe)</name>
-			<type>Physical, Exotic</type>
-			<base_points>5</base_points>
-			<modifier version="1" enabled="no">
-				<name>Unstable on solid ground</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B93</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Active</name>
-				<cost type="percentage">300</cost>
-				<affects>total</affects>
-				<reference>P84</reference>
-			</modifier>
-			<reference>B93</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Amphibious</name>
-			<type>Physical, Exotic</type>
-			<base_points>10</base_points>
-			<reference>B40</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-	</advantage_list>
-	<notes>Size Modifier: +1 (8ft tall, 600lbs)</notes>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "bcbae2c9-cd23-4619-8ae7-ac589d25e021",
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "9e8bd72b-acf6-44ea-a74f-cf1852c1c944",
+			"name": "Increased Strength",
+			"physical": true,
+			"levels": "3",
+			"points_per_level": 10,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7c296095-d340-485d-9cd0-7023797031e5",
+					"disabled": true,
+					"name": "No Fine Manipulators",
+					"reference": "B15",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a119fc77-f5d5-48ba-aeb6-c6c06d40e04d",
+					"name": "Size",
+					"reference": "B15",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total",
+					"levels": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "beb7f07c-111b-4962-914c-410566021050",
+					"disabled": true,
+					"name": "Super-Effort",
+					"reference": "Sup24",
+					"cost_type": "percentage",
+					"cost": 300,
+					"affects": "total"
+				}
+			],
+			"reference": "B14",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"per_level": true,
+					"attribute": "st"
+				}
+			],
+			"categories": [
+				"Advantage",
+				"Attribute"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "369eb806-ec2f-4b95-a30a-a18505988518",
+			"name": "Damage Resistance",
+			"physical": true,
+			"exotic": true,
+			"levels": "3",
+			"points_per_level": 5,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1241bba9-c805-4f39-9a93-b733b5a5cc96",
+					"disabled": true,
+					"name": "Ablative",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -80,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "facf133a-51aa-4796-b201-3ac3a4719327",
+					"disabled": true,
+					"name": "Absorbtion",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": 80,
+					"affects": "total",
+					"notes": "Enhances @Trait@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6f20a212-8e16-48be-bc87-b4399129ddd0",
+					"disabled": true,
+					"name": "Absorbtion",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total",
+					"notes": "Enhances any trait"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "141304e8-c4e7-4f56-8e40-d91ecefdcc0b",
+					"disabled": true,
+					"name": "Absorbtion",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": 80,
+					"affects": "total",
+					"notes": "Healing only"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ef854b6f-1226-412a-976a-aec2dc902614",
+					"disabled": true,
+					"name": "Can't wear armor",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "02fa0f20-827a-46d1-b319-4876603d324d",
+					"disabled": true,
+					"name": "Directional",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total",
+					"notes": "@Direction: Back, Right, Left, Top or Underside@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1ef7e49b-3ec4-4e79-97f5-4c050f8cde44",
+					"disabled": true,
+					"name": "Directional",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "Front"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a47b13dd-0a16-450f-8609-963951d544f4",
+					"disabled": true,
+					"name": "Flexible",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "457ca0ce-71a4-4cd6-a8bc-0b459cabb80a",
+					"disabled": true,
+					"name": "Hardened",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total",
+					"levels": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1176ea1b-fbe4-41f7-9b72-da0b4eb57ad0",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total",
+					"notes": "@Common Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "855826c2-c3d1-4b83-a4e9-4a0e1398d78b",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -60,
+					"affects": "total",
+					"notes": "@Occasional Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a71c41af-5219-472e-bc80-b2efb0c489f7",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -80,
+					"affects": "total",
+					"notes": "@Rare Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "43d074c6-e0ce-42c8-a3eb-b53d64b22c18",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "@Very Common Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "329785b9-fa86-4c52-b2d4-0b917896b11f",
+					"disabled": true,
+					"name": "Reflection",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b7095563-337e-45de-8355-9f70ae158551",
+					"disabled": true,
+					"name": "Semi-Ablative",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2269659c-6f1c-423b-81b2-937303b31755",
+					"disabled": true,
+					"name": "Force Field",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total"
+				}
+			],
+			"reference": "B47",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"per_level": true,
+					"location": "full_body"
+				}
+			],
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "1d7bfefc-dee4-43f0-87fb-1ba67f5a61d3",
+			"name": "Damage Resistance",
+			"physical": true,
+			"exotic": true,
+			"levels": "9",
+			"points_per_level": 5,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7ff25c43-5132-4058-be20-6c296d6706e9",
+					"name": "Ablative",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -80,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9003db7e-c47f-4a54-ad2a-e568f7c549cc",
+					"disabled": true,
+					"name": "Absorbtion",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": 80,
+					"affects": "total",
+					"notes": "Enhances @Trait@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "39448fd8-86cf-45c5-a252-3d7d82c62d88",
+					"disabled": true,
+					"name": "Absorbtion",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total",
+					"notes": "Enhances any trait"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "85df1bda-0062-482e-be0b-2da976046b44",
+					"disabled": true,
+					"name": "Absorbtion",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": 80,
+					"affects": "total",
+					"notes": "Healing only"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "298d0e8f-1d94-44ed-867f-cac81058f599",
+					"disabled": true,
+					"name": "Can't wear armor",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "80994a7a-837f-4021-87c6-acbc535c3a0f",
+					"disabled": true,
+					"name": "Directional",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total",
+					"notes": "@Direction: Back, Right, Left, Top or Underside@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "22442cfa-15e4-46d3-8986-baf060a904b4",
+					"disabled": true,
+					"name": "Directional",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "Front"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "08cb822b-8422-49f8-9dea-adc0b418ac85",
+					"disabled": true,
+					"name": "Flexible",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4c39eb57-3c24-47a5-b27a-60107f97eb49",
+					"disabled": true,
+					"name": "Hardened",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total",
+					"levels": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "88e0c42d-173f-4b70-9ba0-3c7dbdc8c667",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total",
+					"notes": "@Common Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d502c375-8eed-4646-8272-b527686dcafd",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -60,
+					"affects": "total",
+					"notes": "@Occasional Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "02e7b42f-80be-4f54-b056-5b9a48316698",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -80,
+					"affects": "total",
+					"notes": "@Rare Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "90620237-7800-4eb4-9ea8-a04fb8bfcf3a",
+					"disabled": true,
+					"name": "Limited",
+					"reference": "B46",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "@Very Common Attack Form@"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "354011de-1613-4160-9ddd-09e324b78ab3",
+					"disabled": true,
+					"name": "Reflection",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": 100,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d168f1c3-e074-4fd0-81f6-69b40e25d6a4",
+					"disabled": true,
+					"name": "Semi-Ablative",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0d3e3ff7-3f31-406c-a791-cc4257d3d2e2",
+					"disabled": true,
+					"name": "Force Field",
+					"reference": "B47",
+					"cost_type": "percentage",
+					"cost": 20,
+					"affects": "total"
+				}
+			],
+			"reference": "B47",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"per_level": true,
+					"location": "full_body"
+				}
+			],
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "22b6edfb-361b-44d2-a942-54ebcec11521",
+			"name": "Temperature Tolerance",
+			"physical": true,
+			"levels": "5",
+			"points_per_level": 1,
+			"reference": "B93",
+			"notes": "-40 degrees F to 65 degrees F",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "cfddda81-2410-4803-9de9-a879164851c0",
+			"name": "Decreased Dexterity",
+			"physical": true,
+			"levels": "1",
+			"points_per_level": -20,
+			"reference": "B15",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": -1,
+					"per_level": true,
+					"attribute": "dx"
+				}
+			],
+			"categories": [
+				"Attribute",
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "8c78e8a9-0c9a-4d48-912d-8950767eb74c",
+			"name": "Overweight",
+			"physical": true,
+			"base_points": -1,
+			"reference": "B19",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": -1,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "disguise"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": -1,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "shadowing"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "swimming"
+					}
+				}
+			],
+			"notes": "+1 ST vs. knockback",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "e7c0140c-fef1-4dd0-bcd3-14a8c01d299e",
+			"name": "Peripheral Vision",
+			"physical": true,
+			"base_points": 15,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ed1ea2a8-4185-43f0-bcef-a442d121f3f4",
+					"disabled": true,
+					"name": "Easy to Hit",
+					"reference": "B75",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "Others can target your eyes at only -6 to hit"
+				}
+			],
+			"reference": "B74",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "5e54f990-f054-46fc-b9f0-7ee90d742385",
+			"name": "Bad Sight (Nearsighted)",
+			"physical": true,
+			"base_points": -25,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "027e6b27-1d4c-4198-b3b8-477a2a108be5",
+					"disabled": true,
+					"name": "Mitigator",
+					"cost_type": "percentage",
+					"cost": -60,
+					"affects": "total",
+					"notes": "Glasses"
+				}
+			],
+			"reference": "B123",
+			"notes": " -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "f76c6fc8-66de-48d9-9d18-7f99f82acfe5",
+			"name": "Striker, Large Piercing (Tusk)",
+			"physical": true,
+			"exotic": true,
+			"base_points": 6,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "pi+",
+						"st": "thr",
+						"modifier_per_die": 1
+					},
+					"reach": "C",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						}
+					]
+				}
+			],
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d8884eb0-b5d5-46b9-a0ee-7d272e304514",
+					"name": "Cannot Parry",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2ee9379a-4666-4962-83a3-e47cafb695f1",
+					"name": "Limited Arc (Front)",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total"
+				}
+			],
+			"reference": "B88",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "d7814659-8380-498e-8e15-8f2882894cdc",
+			"name": "Breath-Holding",
+			"physical": true,
+			"exotic": true,
+			"levels": "7",
+			"points_per_level": 2,
+			"reference": "B41",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "9dc4714a-f31c-4977-9b86-650f1e24a555",
+			"name": "Extra Hit Points",
+			"physical": true,
+			"levels": "5",
+			"points_per_level": 2,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3f2f1036-7608-49ff-8d2f-5c659258570f",
+					"name": "Size",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total",
+					"levels": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "875c335c-c142-4ab8-a9de-7fe89851ad90",
+					"disabled": true,
+					"name": "No Fine Manipulators",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total"
+				}
+			],
+			"reference": "B16",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"per_level": true,
+					"attribute": "hp"
+				}
+			],
+			"categories": [
+				"Advantage",
+				"Attribute"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "b8914713-2c89-44c7-a9ad-eac5dc931de7",
+			"name": "Bad Grip",
+			"physical": true,
+			"levels": "1",
+			"points_per_level": -5,
+			"reference": "B123",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "no fine manipulators"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "cc943dc6-e2ef-4738-a547-dc6d9bdeab36",
+			"name": "Terrain Adaptation (Icefloe)",
+			"physical": true,
+			"exotic": true,
+			"base_points": 5,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ec95ca27-03e9-407a-baf5-57f4a34dbcf0",
+					"disabled": true,
+					"name": "Unstable on solid ground",
+					"reference": "B93",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "782b79d5-d9cc-4f10-af52-8374cee99528",
+					"disabled": true,
+					"name": "Active",
+					"reference": "P84",
+					"cost_type": "percentage",
+					"cost": 300,
+					"affects": "total"
+				}
+			],
+			"reference": "B93",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "997c89db-44b3-4f50-b3fd-b9f369966efe",
+			"name": "Amphibious",
+			"physical": true,
+			"exotic": true,
+			"base_points": 10,
+			"reference": "B40",
+			"categories": [
+				"Advantage"
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "7ccc9f7e-d2e6-4c05-813a-7fde942d78ad",
+			"text": "Size Modifier: +1 (8ft tall, 600lbs)"
+		}
+	]
+}
