@@ -1,1190 +1,1548 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<character id="53a9b055-3b62-467d-a213-0e76f05353a2" version="2">
-	<created_date>Sep 18, 2016</created_date>
-	<modified_date>Oct 30, 2016 4:02 PM</modified_date>
-	<profile>
-		<player_name>dwebster</player_name>
-		<campaign>Dark Borders</campaign>
-		<name>Thug</name>
-		<title>Security Consultant</title>
-		<age>24</age>
-		<birthday>October 31</birthday>
-		<eyes>Blue</eyes>
-		<hair>Black, Curly, Medium</hair>
-		<skin>Pale</skin>
-		<handedness>Left</handedness>
-		<height>5' 7"</height>
-		<weight>115 lb</weight>
-		<SM>0</SM>
-		<gender>Male</gender>
-		<race>Human</race>
-		<tech_level>8</tech_level>
-		<religion>Wellspring Security</religion>
-	</profile>
-	<HP>0</HP>
-	<FP>0</FP>
-	<total_points>150</total_points>
-	<ST>12</ST>
-	<DX>12</DX>
-	<IQ>12</IQ>
-	<HT>12</HT>
-	<will>0</will>
-	<perception>0</perception>
-	<speed>0</speed>
-	<move>0</move>
-	<include_punch>true</include_punch>
-	<include_kick>true</include_kick>
-	<include_kick_with_boots>true</include_kick_with_boots>
-	<advantage_list>
-		<advantage version="2">
-			<name>Duty (Wellspring Security)</name>
-			<type>Social</type>
-			<modifier version="1" enabled="no">
-				<name>FR: 6</name>
-				<cost type="points">-2</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>FR: 9</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>FR: 12</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>FR: 15</name>
-				<cost type="points">-15</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Extremely Hazardous</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Involuntary</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Nonhazardous</name>
-				<cost type="points">5</cost>
-				<affects>total</affects>
-			</modifier>
-			<reference>B133</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Combat Reflexes</name>
-			<type>Mental</type>
-			<base_points>15</base_points>
-			<reference>B43</reference>
-			<notes>Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)</notes>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-			<skill_bonus>
-				<name compare="starts with">fast-draw</name>
-				<specialization compare="is anything"></specialization>
-				<amount>1</amount>
-			</skill_bonus>
-			<attribute_bonus>
-				<attribute>dodge</attribute>
-				<amount>1</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>parry</attribute>
-				<amount>1</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>block</attribute>
-				<amount>1</amount>
-			</attribute_bonus>
-			<attribute_bonus>
-				<attribute>fright check</attribute>
-				<amount>2</amount>
-			</attribute_bonus>
-			<prereq_list all="yes">
-				<advantage_prereq has="no">
-					<name compare="is">Enhanced Time Sense</name>
-					<notes compare="is anything"></notes>
-				</advantage_prereq>
-			</prereq_list>
-		</advantage>
-	</advantage_list>
-	<skill_list>
-		<skill version="2">
-			<name>Brawling</name>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B182</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<weapon_bonus>
-				<name compare="is">Brawling</name>
-				<specialization compare="is anything"></specialization>
-				<level compare="at least">2</level>
-				<amount per_level="yes">1</amount>
-			</weapon_bonus>
-		</skill>
-		<skill version="2">
-			<name>Computer Operation</name>
-			<tech_level>8</tech_level>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B184</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Scholarly</category>
-				<category>Technical</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Detect Lies</name>
-			<difficulty>Per/H</difficulty>
-			<points>1</points>
-			<reference>B187</reference>
-			<categories>
-				<category>Police</category>
-				<category>Social</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Body Language</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Psychology</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Driving</name>
-			<specialization>Automobile</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/A</difficulty>
-			<points>1</points>
-			<reference>B188</reference>
-			<categories>
-				<category>Vehicle</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Driving</name>
-				<specialization>Heavy Wheeled</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Driving</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Electronics Operation</name>
-			<specialization>Security</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>2</points>
-			<reference>B189</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Spy</category>
-				<category>Technical</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Operation</name>
-				<specialization>Security</specialization>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Electronics</specialization>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Electronics Operation</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Fast-Draw</name>
-			<specialization>Pistol</specialization>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B194</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Fast-Draw</name>
-			<specialization>Ammo</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B194</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Guns</name>
-			<specialization>Pistol</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B198</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Grenade Launcher</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Gyroc</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Anti-Armor Weapon</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Machine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Musket</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Beam Weapons</name>
-				<specialization>Pistol</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Rifle</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Shotgun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Submachine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Guns</name>
-			<specialization>Pistol</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B198</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Grenade Launcher</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Gyroc</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Anti-Armor Weapon</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Machine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Musket</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Beam Weapons</name>
-				<specialization>Pistol</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Rifle</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Shotgun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Submachine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Guns</name>
-			<specialization>Rifle</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B198</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Grenade Launcher</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Gyroc</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Anti-Armor Weapon</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Machine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Musket</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Pistol</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Beam Weapons</name>
-				<specialization>Rifle</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Shotgun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Submachine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Guns</name>
-			<specialization>Shotgun</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B198</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Grenade Launcher</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Gyroc</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Anti-Armor Weapon</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Machine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Musket</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Pistol</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Rifle</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Submachine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Guns</name>
-			<specialization>Submachine Gun</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B198</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Grenade Launcher</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Gyroc</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Anti-Armor Weapon</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Machine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Musket</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Pistol</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Rifle</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Shotgun</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Intelligence Analysis</name>
-			<tech_level>8</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>4</points>
-			<reference>B201</reference>
-			<categories>
-				<category>Military</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Strategy</name>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Intimidation</name>
-			<difficulty>Will/A</difficulty>
-			<points>2</points>
-			<reference>B202</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Acting</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Observation</name>
-			<difficulty>Per/A</difficulty>
-			<points>2</points>
-			<reference>B211</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Military</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shadowing</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Search</name>
-			<difficulty>Per/A</difficulty>
-			<points>2</points>
-			<reference>B219</reference>
-			<categories>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Criminology</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Shadowing</name>
-			<difficulty>IQ/A</difficulty>
-			<points>2</points>
-			<reference>B219</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Observation</name>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Stealth</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Streetwise</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B223</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Tactics</name>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B224</reference>
-			<categories>
-				<category>Military</category>
-				<category>Police</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Strategy</name>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Wrestling</name>
-			<difficulty>DX/A</difficulty>
-			<points>2</points>
-			<reference>B228</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-		</skill>
-	</skill_list>
-	<equipment_list>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Assault Carbine, 5.56mm</description>
-			<legality_class>4</legality_class>
-			<value>950</value>
-			<weight>7.3 lb</weight>
-			<reference>ACT1:32</reference>
-			<ranged_weapon>
-				<damage>4d+2 pi</damage>
-				<strength>9&#8224;</strength>
-				<accuracy>4</accuracy>
-				<range>750/2,900</range>
-				<rate_of_fire>15</rate_of_fire>
-				<shots>30+1(3)</shots>
-				<bulk>-4</bulk>
-				<recoil>2</recoil>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Rifle</specialization>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Light Machine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Musket</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Pistol</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Shotgun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Submachine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Grenade Launcher</specialization>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Gyroc</specialization>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Light Anti-Armor Weapon</specialization>
-					<modifier>-4</modifier>
-				</default>
-			</ranged_weapon>
-			<categories>
-				<category>Weapons</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Auto Pistol, 9mm</description>
-			<legality_class>4</legality_class>
-			<value>600</value>
-			<weight>1.9 lb</weight>
-			<reference>ACT1:32</reference>
-			<ranged_weapon>
-				<damage>2d+2 pi</damage>
-				<strength>8</strength>
-				<accuracy>2</accuracy>
-				<range>160/1,800</range>
-				<rate_of_fire>3</rate_of_fire>
-				<shots>17+1(3)</shots>
-				<bulk>-2</bulk>
-				<recoil>2</recoil>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Pistol</specialization>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Light Machine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Musket</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Rifle</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Shotgun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Submachine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<modifier>-4</modifier>
-				</default>
-			</ranged_weapon>
-			<categories>
-				<category>Weapons</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>SMG, 9mm</description>
-			<legality_class>4</legality_class>
-			<value>1500</value>
-			<weight>6 lb</weight>
-			<reference>ACT1:32</reference>
-			<ranged_weapon>
-				<damage>3d-1 pi</damage>
-				<strength>8&#8224;</strength>
-				<accuracy>4</accuracy>
-				<range>170/1,900</range>
-				<rate_of_fire>13</rate_of_fire>
-				<shots>30+1(3)</shots>
-				<bulk>-4</bulk>
-				<recoil>2</recoil>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Submachine Gun</specialization>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Light Machine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Musket</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Pistol</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Shotgun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Rifle</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Grenade Launcher</specialization>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Gyroc</specialization>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Light Anti-Armor Weapon</specialization>
-					<modifier>-4</modifier>
-				</default>
-			</ranged_weapon>
-			<categories>
-				<category>Weapons</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Taser</description>
-			<legality_class>4</legality_class>
-			<value>400</value>
-			<weight>1.1 lb</weight>
-			<reference>ACT1:32</reference>
-			<ranged_weapon>
-				<damage>1d-3 pi-</damage>
-				<strength>7</strength>
-				<accuracy>0</accuracy>
-				<range>7</range>
-				<rate_of_fire>1</rate_of_fire>
-				<shots>2(6)</shots>
-				<bulk>-2</bulk>
-				<recoil>2</recoil>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Pistol</specialization>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Light Machine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Musket</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Rifle</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Shotgun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Submachine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<modifier>-4</modifier>
-				</default>
-			</ranged_weapon>
-			<ranged_weapon>
-				<damage>HT-5(0.5) aff</damage>
-				<usage>follow-up</usage>
-			</ranged_weapon>
-			<categories>
-				<category>Weapons</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Auto Shotgun, 12G</description>
-			<legality_class>4</legality_class>
-			<value>1000</value>
-			<weight>7.3 lb</weight>
-			<reference>ACT1:32</reference>
-			<ranged_weapon>
-				<damage>1d+1 pi</damage>
-				<strength>10&#8224;</strength>
-				<accuracy>3</accuracy>
-				<range>40/800</range>
-				<rate_of_fire>3x9</rate_of_fire>
-				<shots>7+1(2i)</shots>
-				<bulk>-5</bulk>
-				<recoil>1/4</recoil>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Shotgun</specialization>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Light Machine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Musket</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Pistol</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Rifle</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Submachine Gun</specialization>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Grenade Launcher</specialization>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Gyroc</specialization>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Guns</name>
-					<specialization>Light Anti-Armor Weapon</specialization>
-					<modifier>-4</modifier>
-				</default>
-			</ranged_weapon>
-			<categories>
-				<category>Weapons</category>
-			</categories>
-		</equipment>
-		<equipment_container version="3" open="yes" state="equipped">
-			<description>Boots, Reinforced</description>
-			<legality_class>4</legality_class>
-			<value>75</value>
-			<weight>3 lb</weight>
-			<reference>ACT1:31</reference>
-			<melee_weapon>
-				<damage>thr+1</damage>
-				<strength>0</strength>
-				<usage>Kick</usage>
-				<reach>C</reach>
-				<parry>No</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Brawling</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Karate</name>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<notes>DR+1 vs. attacks from underfoot.</notes>
-			<categories>
-				<category>Armor</category>
-			</categories>
-		</equipment_container>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Ballistic Vest</description>
-			<tech_level>8</tech_level>
-			<legality_class>3</legality_class>
-			<value>400</value>
-			<weight>2 lb</weight>
-			<reference>B284</reference>
-			<categories>
-				<category>Body Armor</category>
-			</categories>
-			<dr_bonus>
-				<location>torso</location>
-				<amount>8</amount>
-			</dr_bonus>
-		</equipment>
-	</equipment_list>
-	<print_settings printer="Photosmart C4700 series" units="in">
-		<orientation>portrait</orientation>
-		<width>8.5</width>
-		<height>11</height>
-		<top_margin>0.5</top_margin>
-		<left_margin>0.5</left_margin>
-		<bottom_margin>0.5</bottom_margin>
-		<right_margin>0.5</right_margin>
-		<ink_chromaticity>monochrome</ink_chromaticity>
-		<sides>single</sides>
-		<quality>normal</quality>
-	</print_settings>
-</character>
+{
+	"type": "character",
+	"version": 1,
+	"id": "53a9b055-3b62-467d-a213-0e76f05353a2",
+	"settings": {
+		"version": 1,
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_and_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"use_title_in_footer": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "Sep 18, 2016, 12:00 AM",
+	"modified_date": "Oct 30, 2016, 12:00 AM",
+	"profile": {
+		"player_name": "dwebster",
+		"name": "Thug",
+		"title": "Security Consultant",
+		"age": 24,
+		"birthday": "October 31",
+		"eyes": "Blue",
+		"hair": "Black, Curly, Medium",
+		"skin": "Pale",
+		"handedness": "Left",
+		"height": "5' 7\"",
+		"weight": "115 lb",
+		"gender": "Male",
+		"body_type": "humanoid",
+		"tech_level": "8",
+		"religion": "Wellspring Security"
+	},
+	"total_points": 150,
+	"ST": 12,
+	"DX": 12,
+	"IQ": 12,
+	"HT": 12,
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "8624e3e0-19fa-4a63-b8d7-7447cef18914",
+			"name": "Duty (Wellspring Security)",
+			"social": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e2ea4e92-6d85-418e-950a-ca31b4bb99f8",
+					"disabled": true,
+					"name": "FR: 6",
+					"cost_type": "points",
+					"cost": -2,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "8be4e8d0-8a55-4eb5-8d15-aa758b61c671",
+					"disabled": true,
+					"name": "FR: 9",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "25f07c2b-f435-4ed3-9858-95d22b9b1026",
+					"name": "FR: 12",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c7f3ad97-1725-4f63-a1f2-bfde370da1de",
+					"disabled": true,
+					"name": "FR: 15",
+					"cost_type": "points",
+					"cost": -15,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c1fc22fd-541a-4674-8974-6c3d23943480",
+					"disabled": true,
+					"name": "Extremely Hazardous",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6e52eafe-09dd-449c-864f-24775c7d6888",
+					"disabled": true,
+					"name": "Involuntary",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "bd837c1e-ce6f-4e90-b1bb-d992d492eeca",
+					"disabled": true,
+					"name": "Nonhazardous",
+					"cost_type": "points",
+					"cost": 5,
+					"affects": "total"
+				}
+			],
+			"reference": "B133",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "a13f8ab5-305d-443d-abc5-b32993818718",
+			"name": "Combat Reflexes",
+			"mental": true,
+			"base_points": 15,
+			"reference": "B43",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "Enhanced Time Sense"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "starts_with",
+						"qualifier": "fast-draw"
+					}
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "dodge"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "parry"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"attribute": "block"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "fright_check"
+				}
+			],
+			"notes": "Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
+			"categories": [
+				"Advantage"
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "90701c1d-9eee-4828-b5d4-c3e1f9f477f1",
+			"name": "Brawling",
+			"reference": "B182",
+			"difficulty": "DX/E",
+			"points": 1,
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Brawling"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					}
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "6303bc3d-867d-49bd-b7ff-fac88909daeb",
+			"name": "Computer Operation",
+			"reference": "B184",
+			"tech_level": "8",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -4,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Everyman",
+				"Scholarly",
+				"Technical"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "d0e457af-ac6c-4451-ae9e-8e7dba48747d",
+			"name": "Detect Lies",
+			"reference": "B187",
+			"difficulty": "Per/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -6,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Body Language",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Psychology",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Police",
+				"Social",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "5c68c76f-5bf8-4263-a3c7-574e9596a01c",
+			"name": "Driving",
+			"reference": "B188",
+			"specialization": "Automobile",
+			"tech_level": "8",
+			"difficulty": "DX/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -5
+				},
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Driving",
+					"specialization": "Heavy Wheeled",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Driving",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Vehicle"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "60c65998-b51f-4a43-841e-2d60aa917891",
+			"name": "Electronics Operation",
+			"reference": "B189",
+			"specialization": "Security",
+			"tech_level": "8",
+			"difficulty": "IQ/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Operation",
+					"specialization": "Security",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Electronics Operation",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Spy",
+				"Technical"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "b789645d-a6d7-40df-b62f-6a0d32d6089e",
+			"name": "Fast-Draw",
+			"reference": "B194",
+			"specialization": "Pistol",
+			"difficulty": "DX/E",
+			"points": 1,
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "c91288ff-9944-4c94-be36-8e57e57350d9",
+			"name": "Fast-Draw",
+			"reference": "B194",
+			"specialization": "Ammo",
+			"tech_level": "8",
+			"difficulty": "DX/E",
+			"points": 1,
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "c8a665b5-afab-4dd2-9288-9daa591709f8",
+			"name": "Guns",
+			"reference": "B198",
+			"specialization": "Pistol",
+			"tech_level": "8",
+			"difficulty": "DX/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Guns",
+				"specialization": "Rifle",
+				"modifier": -2,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Grenade Launcher",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Gyroc",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Anti-Armor Weapon",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Machine Gun",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Musket",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Beam Weapons",
+					"specialization": "Pistol",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Rifle",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Shotgun",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Submachine Gun",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "6e751dc3-4f3d-4b66-b4d3-4eb0d8e70153",
+			"name": "Guns",
+			"reference": "B198",
+			"specialization": "Pistol",
+			"tech_level": "8",
+			"difficulty": "DX/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Guns",
+				"specialization": "Rifle",
+				"modifier": -2,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Grenade Launcher",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Gyroc",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Anti-Armor Weapon",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Machine Gun",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Musket",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Beam Weapons",
+					"specialization": "Pistol",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Rifle",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Shotgun",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Submachine Gun",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "cc702599-f393-4832-9e12-5c10dd0537ee",
+			"name": "Guns",
+			"reference": "B198",
+			"specialization": "Rifle",
+			"tech_level": "8",
+			"difficulty": "DX/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Guns",
+				"specialization": "Shotgun",
+				"modifier": -2,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Grenade Launcher",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Gyroc",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Anti-Armor Weapon",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Machine Gun",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Musket",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Pistol",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Beam Weapons",
+					"specialization": "Rifle",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Shotgun",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Submachine Gun",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "5988c5b7-3649-43b7-9b3f-01c23366f171",
+			"name": "Guns",
+			"reference": "B198",
+			"specialization": "Shotgun",
+			"tech_level": "8",
+			"difficulty": "DX/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Guns",
+				"specialization": "Submachine Gun",
+				"modifier": -2,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Grenade Launcher",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Gyroc",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Anti-Armor Weapon",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Machine Gun",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Musket",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Pistol",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Rifle",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Submachine Gun",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "56dad867-b680-4b28-964d-0269789edd66",
+			"name": "Guns",
+			"reference": "B198",
+			"specialization": "Submachine Gun",
+			"tech_level": "8",
+			"difficulty": "DX/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -4,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Grenade Launcher",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Gyroc",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Anti-Armor Weapon",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Light Machine Gun",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Musket",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Pistol",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Rifle",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Guns",
+					"specialization": "Shotgun",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "d1f07633-a8b8-4561-929d-3fdae60d0eb4",
+			"name": "Intelligence Analysis",
+			"reference": "B201",
+			"tech_level": "8",
+			"difficulty": "IQ/H",
+			"points": 4,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Strategy",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Military",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "d14bf3c7-7d04-47bc-8efb-8fd1b1b16add",
+			"name": "Intimidation",
+			"reference": "B202",
+			"difficulty": "Will/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Acting",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "5b3546c4-3a21-49c8-b70f-1901a4a44477",
+			"name": "Observation",
+			"reference": "B211",
+			"difficulty": "Per/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Shadowing",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Military",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "660a70db-61ba-4383-a1ee-07969b860301",
+			"name": "Search",
+			"reference": "B219",
+			"difficulty": "Per/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Criminology",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "9a59e428-5bd3-419a-9cb4-b8856c59382f",
+			"name": "Shadowing",
+			"reference": "B219",
+			"difficulty": "IQ/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Observation",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Stealth",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "9edc7987-801a-4f3e-a179-b179c19294be",
+			"name": "Streetwise",
+			"reference": "B223",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "73e007ef-b6a9-4c64-8f11-0a024d30fabb",
+			"name": "Tactics",
+			"reference": "B224",
+			"difficulty": "IQ/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Strategy",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Military",
+				"Police"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "0927360b-43ea-42cb-849e-bed8a019ba94",
+			"name": "Wrestling",
+			"reference": "B228",
+			"difficulty": "DX/A",
+			"points": 2,
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		}
+	],
+	"equipment": [
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "d9256992-e338-4aef-8a5e-3433ef2b9008",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Assault Carbine, 5.56mm",
+			"value": "950",
+			"weight": "7.3 lb",
+			"reference": "ACT1:32",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "4d+2"
+					},
+					"strength": "9†",
+					"accuracy": "4",
+					"range": "750/2,900",
+					"rate_of_fire": "15",
+					"shots": "30+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Weapons"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "6428c80c-fb35-4ba6-85dd-f1cc96fb7a54",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Auto Pistol, 9mm",
+			"value": "600",
+			"weight": "1.9 lb",
+			"reference": "ACT1:32",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "17+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Weapons"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "6bbc4b90-2416-4b4c-b831-beeed9d3fbb5",
+			"equipped": true,
+			"quantity": 1,
+			"description": "SMG, 9mm",
+			"value": "1500",
+			"weight": "6 lb",
+			"reference": "ACT1:32",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "8†",
+					"accuracy": "4",
+					"range": "170/1,900",
+					"rate_of_fire": "13",
+					"shots": "30+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Weapons"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "a67591b4-04ee-4392-b073-af28eaed7ee0",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Taser",
+			"value": "400",
+			"weight": "1.1 lb",
+			"reference": "ACT1:32",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "1d-3"
+					},
+					"strength": "7",
+					"accuracy": "0",
+					"range": "7",
+					"rate_of_fire": "1",
+					"shots": "2(6)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "HT-5(0.5) aff"
+					},
+					"usage": "follow-up"
+				}
+			],
+			"categories": [
+				"Weapons"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "c0e7e5b2-b1b4-46f8-8c1a-0c6d6a9a52d4",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Auto Shotgun, 12G",
+			"value": "1000",
+			"weight": "7.3 lb",
+			"reference": "ACT1:32",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "10†",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "3x9",
+					"shots": "7+1(2i)",
+					"bulk": "-5",
+					"recoil": "1/4",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Weapons"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "d19a35bb-4909-4a51-be6a-305acfcca41e",
+			"equipped": true,
+			"description": "Boots, Reinforced",
+			"value": "75",
+			"weight": "3 lb",
+			"reference": "ACT1:31",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "",
+						"st": "thr",
+						"base": "+1"
+					},
+					"strength": "0",
+					"usage": "Kick",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "Skill",
+							"name": "Karate"
+						}
+					]
+				}
+			],
+			"notes": "DR+1 vs. attacks from underfoot.",
+			"categories": [
+				"Armor"
+			],
+			"open": true
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "02f33d92-8f2c-426c-94c0-0f2285385f56",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Ballistic Vest",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "400",
+			"weight": "2 lb",
+			"reference": "B284",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 8,
+					"location": "torso"
+				}
+			],
+			"categories": [
+				"Body Armor"
+			]
+		}
+	]
+}

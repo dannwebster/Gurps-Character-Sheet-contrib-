@@ -1,718 +1,1257 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="f4430418-b9f4-482a-b06b-e8eb63233b40" version="1">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Ekimmu</name>
-			<reference>MD34</reference>
-			<advantage_container version="2" open="yes">
-				<name>Attributes</name>
-				<advantage version="2">
-					<name>Increased Intelligence</name>
-					<type>Mental</type>
-					<levels>3</levels>
-					<points_per_level>20</points_per_level>
-					<reference>B15</reference>
-					<categories>
-						<category>Advantage</category>
-						<category>Attribute</category>
-					</categories>
-					<attribute_bonus>
-						<attribute>iq</attribute>
-						<amount per_level="yes">1</amount>
-					</attribute_bonus>
-				</advantage>
-				<advantage version="2">
-					<name>Decreased Health</name>
-					<type>Physical</type>
-					<levels>1</levels>
-					<points_per_level>-10</points_per_level>
-					<reference>B14</reference>
-					<categories>
-						<category>Attribute</category>
-						<category>Disadvantage</category>
-					</categories>
-					<attribute_bonus>
-						<attribute>ht</attribute>
-						<amount per_level="yes">-1</amount>
-					</attribute_bonus>
-				</advantage>
-				<advantage version="2">
-					<name>Increased Will</name>
-					<type>Mental</type>
-					<levels>8</levels>
-					<points_per_level>5</points_per_level>
-					<reference>B16</reference>
-					<categories>
-						<category>Advantage</category>
-						<category>Attribute</category>
-					</categories>
-					<attribute_bonus>
-						<attribute>will</attribute>
-						<amount per_level="yes">1</amount>
-					</attribute_bonus>
-				</advantage>
-				<advantage version="2">
-					<name>Increased Perception</name>
-					<type>Mental/Physical</type>
-					<levels>3</levels>
-					<points_per_level>5</points_per_level>
-					<reference>B16</reference>
-					<categories>
-						<category>Advantage</category>
-						<category>Attribute</category>
-					</categories>
-					<attribute_bonus>
-						<attribute>perception</attribute>
-						<amount per_level="yes">1</amount>
-					</attribute_bonus>
-				</advantage>
-			</advantage_container>
-			<advantage_container version="2" open="yes">
-				<name>Attacks</name>
-				<advantage version="2">
-					<name>Leech</name>
-					<type>Physical</type>
-					<levels>3</levels>
-					<base_points>21</base_points>
-					<points_per_level>4</points_per_level>
-					<modifier version="1">
-						<name>Accelerated Healing</name>
-						<cost type="percentage">25</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Heals FP</name>
-						<cost type="percentage">30</cost>
-						<affects>total</affects>
-						<notes>After HP</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Heals FP</name>
-						<cost type="percentage">60</cost>
-						<affects>total</affects>
-						<notes>Player Chooses</notes>
-					</modifier>
-					<modifier version="1">
-						<name>Steal FP</name>
-						<cost type="percentage">-25</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Steal FP then HP</name>
-						<cost type="percentage">50</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Steal ST</name>
-						<cost type="percentage">100</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Steal HT</name>
-						<cost type="percentage">100</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Steal DX</name>
-						<cost type="percentage">300</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Steal IQ</name>
-						<cost type="percentage">300</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Steal Youth</name>
-						<cost type="percentage">300</cost>
-						<affects>total</affects>
-						<notes>Temporary</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Steal Youth</name>
-						<cost type="percentage">450</cost>
-						<affects>total</affects>
-						<notes>Permanent</notes>
-					</modifier>
-					<modifier version="1">
-						<name>Only Heals FP</name>
-						<cost type="percentage">-20</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Hazard: Dehydration</name>
-						<cost type="percentage">20</cost>
-						<affects>total</affects>
-						<reference>B104</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Hazard: Drowning</name>
-						<cost type="percentage">0</cost>
-						<affects>total</affects>
-						<reference>B104</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Hazard: Freezing</name>
-						<cost type="percentage">20</cost>
-						<affects>total</affects>
-						<reference>B104</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Hazard: Missed Sleep</name>
-						<cost type="percentage">50</cost>
-						<affects>total</affects>
-						<reference>B104</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Hazard: Starvation</name>
-						<cost type="percentage">40</cost>
-						<affects>total</affects>
-						<reference>B104</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Hazard: Suffocation</name>
-						<cost type="percentage">0</cost>
-						<affects>total</affects>
-						<reference>B104</reference>
-					</modifier>
-					<modifier version="1">
-						<name>Malediction</name>
-						<cost type="percentage">100</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1">
-						<name>Vision Based With Malediction</name>
-						<cost type="percentage">-20</cost>
-						<affects>total</affects>
-						<notes>Requires Eye Contact</notes>
-					</modifier>
-					<modifier version="1">
-						<name>Based on Will</name>
-						<cost type="percentage">20</cost>
-						<affects>total</affects>
-					</modifier>
-					<reference>P96</reference>
-					<categories>
-						<category>Advantage</category>
-					</categories>
-				</advantage>
-				<advantage version="2">
-					<name>Affliction: Curse</name>
-					<type>Physical, Exotic</type>
-					<levels>3</levels>
-					<points_per_level>10</points_per_level>
-					<modifier version="1">
-						<name>Victim Gains Cursed</name>
-						<cost type="percentage">1</cost>
-						<levels>75</levels>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1">
-						<name>Costs Fatigue</name>
-						<cost type="percentage">-5</cost>
-						<levels>4</levels>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1">
-						<name>Preparation Required</name>
-						<cost type="percentage">-20</cost>
-						<affects>total</affects>
-						<notes>1 Minute of Talking</notes>
-					</modifier>
-					<modifier version="1">
-						<name>Sense Based</name>
-						<cost type="percentage">150</cost>
-						<affects>total</affects>
-						<notes>Hearing</notes>
-					</modifier>
-					<modifier version="1">
-						<name>Based on Will</name>
-						<cost type="percentage">20</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1">
-						<name>Extended Duration</name>
-						<cost type="percentage">120</cost>
-						<affects>total</affects>
-						<notes>Hour Per margin of Victory</notes>
-					</modifier>
-					<modifier version="1">
-						<name>Modifier</name>
-						<cost type="percentage">0</cost>
-						<affects>total</affects>
-					</modifier>
-					<reference>B35</reference>
-					<notes>(Will vs. Will-2): Must speak to victim and spend 4 FP.
-Victim gains Cursed, &#234;kimmu gains Luck, for hours equal
-to margin of victory.</notes>
-					<categories>
-						<category>Advantage</category>
-					</categories>
-				</advantage>
-				<advantage version="2">
-					<name>Luck</name>
-					<type>Mental</type>
-					<base_points>15</base_points>
-					<modifier version="1" enabled="no">
-						<name>Active</name>
-						<cost type="percentage">-40</cost>
-						<affects>total</affects>
-						<reference>B66</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Aspected</name>
-						<cost type="percentage">-20</cost>
-						<affects>total</affects>
-						<reference>B66</reference>
-						<notes>@Aspect@</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Defensive</name>
-						<cost type="percentage">-20</cost>
-						<affects>total</affects>
-						<reference>B66</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Wishing</name>
-						<cost type="percentage">100</cost>
-						<affects>total</affects>
-						<reference>P59</reference>
-					</modifier>
-					<modifier version="1">
-						<name>Only When Victim is Drained</name>
-						<cost type="percentage">-60</cost>
-						<affects>total</affects>
-					</modifier>
-					<reference>B66</reference>
-					<notes>Usable once per hour of play</notes>
-					<categories>
-						<category>Only while victim is Cursed</category>
-					</categories>
-					<prereq_list all="yes">
-						<advantage_prereq has="no">
-							<name compare="starts with">Luck</name>
-							<notes compare="is anything"></notes>
-						</advantage_prereq>
-					</prereq_list>
-				</advantage>
-			</advantage_container>
-			<advantage_container version="2" open="yes">
-				<name>Advantages</name>
-				<advantage version="2">
-					<name>Night Vision</name>
-					<type>Physical</type>
-					<levels>5</levels>
-					<points_per_level>1</points_per_level>
-					<reference>B71</reference>
-					<categories>
-						<category>Advantage</category>
-					</categories>
-				</advantage>
-				<advantage version="2">
-					<name>Energy Reserve (Reality Shard)</name>
-					<type>Physical, Exotic</type>
-					<levels>12</levels>
-					<points_per_level>3</points_per_level>
-					<modifier version="1" enabled="no">
-						<name>Abilities Only</name>
-						<cost type="percentage">-10</cost>
-						<affects>total</affects>
-						<reference>P119</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>One Power</name>
-						<cost type="percentage">-50</cost>
-						<affects>total</affects>
-						<reference>P117</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Slow Recharge</name>
-						<cost type="percentage">-20</cost>
-						<affects>total</affects>
-						<reference>P117</reference>
-						<notes>1/hour</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Slow Recharge</name>
-						<cost type="percentage">-60</cost>
-						<affects>total</affects>
-						<reference>P117</reference>
-						<notes>1/day</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Special Recharge</name>
-						<cost type="percentage">-70</cost>
-						<affects>total</affects>
-						<reference>P117</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Special Recharge</name>
-						<cost type="percentage">-80</cost>
-						<affects>total</affects>
-						<reference>P117</reference>
-						<notes>1/s bleed</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Stunts Only</name>
-						<cost type="percentage">-10</cost>
-						<affects>total</affects>
-						<reference>P117</reference>
-					</modifier>
-					<modifier version="1">
-						<name>Only 1 Yard Reality Shard</name>
-						<cost type="percentage">-80</cost>
-						<affects>total</affects>
-					</modifier>
-					<reference>P119</reference>
-					<categories>
-						<category>Advantage</category>
-						<category>Attribute</category>
-					</categories>
-				</advantage>
-			</advantage_container>
-			<advantage_container version="2" open="yes">
-				<name>Disadvantages</name>
-				<advantage version="2">
-					<name>Dependency (Luck)</name>
-					<type>Physical, Exotic</type>
-					<modifier version="1" enabled="no">
-						<name>Rarity: Rare</name>
-						<cost type="points">-30</cost>
-						<affects>total</affects>
-						<reference>B130</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Rarity: Occasional</name>
-						<cost type="points">-20</cost>
-						<affects>total</affects>
-						<reference>B130</reference>
-					</modifier>
-					<modifier version="1">
-						<name>Rarity: Common</name>
-						<cost type="points">-10</cost>
-						<affects>total</affects>
-						<reference>B130</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Rarity: Very Common</name>
-						<cost type="points">-5</cost>
-						<affects>total</affects>
-						<reference>B130</reference>
-					</modifier>
-					<modifier version="1">
-						<name>Illegal</name>
-						<cost type="points">-5</cost>
-						<affects>total</affects>
-						<reference>B130</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Frequency: Constantly</name>
-						<cost type="multiplier">5</cost>
-						<reference>B130</reference>
-						<notes>Lose 1 HP per minute without it</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Frequency: Hourly</name>
-						<cost type="multiplier">4</cost>
-						<reference>B130</reference>
-						<notes>Lose 1 HP per 10 minutes after missing a hourly dose</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Frequency: Daily</name>
-						<cost type="multiplier">3</cost>
-						<reference>B130</reference>
-						<notes>Lose 1 HP per hour after missing a daily dose</notes>
-					</modifier>
-					<modifier version="1">
-						<name>Frequency: Weekly</name>
-						<cost type="multiplier">2</cost>
-						<reference>B130</reference>
-						<notes>Lose 1 HP per six hours after missing a weekly dose</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Frequency: Monthly</name>
-						<cost type="multiplier">1</cost>
-						<reference>B130</reference>
-						<notes>Lose 1 HP per day after missing a monthly dose</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Frequency: Seasonally</name>
-						<cost type="multiplier">0.33333</cost>
-						<reference>B130</reference>
-						<notes>Lose 1 HP per 3 days after missing a seasonal dose</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Frequency: Yearly</name>
-						<cost type="multiplier">0.1</cost>
-						<reference>B130</reference>
-						<notes>Lose 1 HP per 2 weeks after missing a yearly dose</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Aging</name>
-						<cost type="percentage">30</cost>
-						<affects>total</affects>
-						<reference>B130</reference>
-						<notes>Age 2 years for each HP lost due to this dependency</notes>
-					</modifier>
-					<reference>B130</reference>
-					<categories>
-						<category>Disadvantage</category>
-					</categories>
-				</advantage>
-				<advantage version="2">
-					<name>Appearance</name>
-					<type>Physical</type>
-					<modifier version="1" enabled="no">
-						<name>Universal</name>
-						<cost type="percentage">25</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Off-the-Shelf Looks</name>
-						<cost type="percentage">-50</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Androgynous</name>
-						<cost type="points">0</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Impressive</name>
-						<cost type="points">0</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Attractive</name>
-						<cost type="points">4</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Average</name>
-						<cost type="points">0</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Horrific</name>
-						<cost type="points">-24</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Monstrous</name>
-						<cost type="points">-20</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Hideous</name>
-						<cost type="points">-16</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Ugly</name>
-						<cost type="points">-8</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1">
-						<name>Unattractive</name>
-						<cost type="points">-4</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Handsome</name>
-						<cost type="points">12</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Beautiful</name>
-						<cost type="points">12</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Very Handsome</name>
-						<cost type="points">16</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Very Beautiful</name>
-						<cost type="points">16</cost>
-						<affects>total</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Transcendent</name>
-						<cost type="points">20</cost>
-						<affects>total</affects>
-					</modifier>
-					<reference>B21</reference>
-					<categories>
-						<category>Advantage</category>
-					</categories>
-				</advantage>
-			</advantage_container>
-		</advantage_container>
-	</advantage_list>
-	<skill_list>
-		<skill_container version="2" open="yes">
-			<name>Ekimmu</name>
-			<skill version="2">
-				<name>Body Language</name>
-				<difficulty>Per/A</difficulty>
-				<points>2</points>
-				<reference>B181</reference>
-				<categories>
-					<category>Police</category>
-					<category>Social</category>
-					<category>Spy</category>
-				</categories>
-				<default>
-					<type>Skill</type>
-					<name>Detect Lies</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Psychology</name>
-					<modifier>-4</modifier>
-				</default>
-			</skill>
-			<skill version="2">
-				<name>Hidden Lore</name>
-				<specialization>History B</specialization>
-				<difficulty>IQ/A</difficulty>
-				<points>2</points>
-				<reference>B199</reference>
-				<categories>
-					<category>Knowledge</category>
-				</categories>
-			</skill>
-			<technique version="2" limit="0">
-				<name>Hypnotic Freeze</name>
-				<difficulty>H</difficulty>
-				<points>5</points>
-				<default>
-					<type>Skill</type>
-					<name>Hypnotism</name>
-					<modifier>-8</modifier>
-				</default>
-				<prereq_list all="yes">
-					<skill_prereq has="yes">
-						<name compare="is">Hypnotism</name>
-						<specialization compare="is anything"></specialization>
-					</skill_prereq>
-				</prereq_list>
-			</technique>
-			<skill version="2">
-				<name>Hypnotism</name>
-				<difficulty>IQ/H</difficulty>
-				<points>16</points>
-				<reference>B201</reference>
-				<categories>
-					<category>Medical</category>
-				</categories>
-			</skill>
-			<skill version="2">
-				<name>Invisibility Art</name>
-				<difficulty>IQ/VH</difficulty>
-				<points>1</points>
-				<reference>B202</reference>
-				<categories>
-					<category>Esoteric</category>
-				</categories>
-				<prereq_list all="yes">
-					<skill_prereq has="yes">
-						<name compare="is">stealth</name>
-						<specialization compare="is"></specialization>
-						<level compare="at least">14</level>
-					</skill_prereq>
-					<skill_prereq has="yes">
-						<name compare="is">hypnotism</name>
-						<specialization compare="is"></specialization>
-						<level compare="at least">14</level>
-					</skill_prereq>
-					<advantage_prereq has="yes">
-						<name compare="is">trained by a master</name>
-						<notes compare="is anything"></notes>
-					</advantage_prereq>
-				</prereq_list>
-			</skill>
-			<skill version="2">
-				<name>Symbol Drawing</name>
-				<specialization>Annunaki</specialization>
-				<difficulty>IQ/H</difficulty>
-				<points>1</points>
-				<reference>B224</reference>
-				<categories>
-					<category>Occult/Magical</category>
-				</categories>
-			</skill>
-			<skill_container version="2" open="yes">
-				<name>Glyphs</name>
-				<technique version="2" limit="2">
-					<name>NAM.HILI (Fascinate)</name>
-					<difficulty>H</difficulty>
-					<points>4</points>
-					<reference>MD41</reference>
-					<default>
-						<type>Skill</type>
-						<name>Symbol Drawing</name>
-						<specialization>Annunaki</specialization>
-						<modifier>-6</modifier>
-					</default>
-					<notes>Costs 6 Fatigue</notes>
-					<categories>
-						<category>Glyph</category>
-					</categories>
-					<prereq_list all="yes">
-						<skill_prereq has="yes">
-							<name compare="is">Symbol Drawing</name>
-							<specialization compare="is anything">Annunaki</specialization>
-						</skill_prereq>
-					</prereq_list>
-				</technique>
-				<technique version="2" limit="-2">
-					<name>GAZ (Kill)</name>
-					<difficulty>H</difficulty>
-					<points>4</points>
-					<reference>MD39</reference>
-					<default>
-						<type>Skill</type>
-						<name>Symbol Drawing</name>
-						<specialization>Annunaki</specialization>
-						<modifier>-10</modifier>
-					</default>
-					<notes>Costs 6 Fatigue</notes>
-					<categories>
-						<category>Glyph</category>
-					</categories>
-					<prereq_list all="yes">
-						<skill_prereq has="yes">
-							<name compare="is">Symbol Drawing</name>
-							<specialization compare="is anything">Annunaki</specialization>
-						</skill_prereq>
-					</prereq_list>
-				</technique>
-				<technique version="2" limit="2">
-					<name>KU.SHU (Exhausted)</name>
-					<difficulty>H</difficulty>
-					<points>4</points>
-					<reference>MD41</reference>
-					<default>
-						<type>Skill</type>
-						<name>Symbol Drawing</name>
-						<specialization>Annunaki</specialization>
-						<modifier>-8</modifier>
-					</default>
-					<notes>Costs 4 Fatigue</notes>
-					<categories>
-						<category>Glyph</category>
-					</categories>
-					<prereq_list all="yes">
-						<skill_prereq has="yes">
-							<name compare="is">Symbol Drawing</name>
-							<specialization compare="is anything">Annunaki</specialization>
-						</skill_prereq>
-					</prereq_list>
-				</technique>
-			</skill_container>
-		</skill_container>
-	</skill_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "f4430418-b9f4-482a-b06b-e8eb63233b40",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "39a513ed-77b6-4062-9539-e8e9b047addc",
+			"name": "Ekimmu",
+			"reference": "MD34",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage_container",
+					"version": 1,
+					"id": "511391f6-a75b-4a3e-a498-f6501d54a744",
+					"name": "Attributes",
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "c3363353-c152-4959-a987-5d5dabdd3ec4",
+							"name": "Increased Intelligence",
+							"mental": true,
+							"levels": "3",
+							"points_per_level": 20,
+							"reference": "B15",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"amount": 1,
+									"per_level": true,
+									"attribute": "iq"
+								}
+							],
+							"categories": [
+								"Advantage",
+								"Attribute"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "e00a4a19-c346-4370-b616-4379db29dc9a",
+							"name": "Decreased Health",
+							"physical": true,
+							"levels": "1",
+							"points_per_level": -10,
+							"reference": "B14",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"amount": -1,
+									"per_level": true,
+									"attribute": "ht"
+								}
+							],
+							"categories": [
+								"Attribute",
+								"Disadvantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "b9f3d22b-2f2b-4c59-b3cd-db03258fe874",
+							"name": "Increased Will",
+							"mental": true,
+							"levels": "8",
+							"points_per_level": 5,
+							"reference": "B16",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"amount": 1,
+									"per_level": true,
+									"attribute": "will"
+								}
+							],
+							"categories": [
+								"Advantage",
+								"Attribute"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "e529967e-76c9-4588-a1d5-1c42a5a2650e",
+							"name": "Increased Perception",
+							"mental": true,
+							"physical": true,
+							"levels": "3",
+							"points_per_level": 5,
+							"reference": "B16",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"amount": 1,
+									"per_level": true,
+									"attribute": "perception"
+								}
+							],
+							"categories": [
+								"Advantage",
+								"Attribute"
+							]
+						}
+					]
+				},
+				{
+					"type": "advantage_container",
+					"version": 1,
+					"id": "6aa8c173-83e7-4902-a7d3-b2c3a102f89c",
+					"name": "Attacks",
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "66254332-537f-46c3-952b-69cd943b7226",
+							"name": "Leech",
+							"physical": true,
+							"levels": "3",
+							"base_points": 21,
+							"points_per_level": 4,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "ef6799c5-bcf2-447e-9630-8d9713767e53",
+									"name": "Accelerated Healing",
+									"cost_type": "percentage",
+									"cost": 25,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "d00149e2-db8c-4143-aeff-c18790320ab1",
+									"disabled": true,
+									"name": "Heals FP",
+									"cost_type": "percentage",
+									"cost": 30,
+									"affects": "total",
+									"notes": "After HP"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "1b526c6f-1c7d-45c7-a389-02ca252162f1",
+									"disabled": true,
+									"name": "Heals FP",
+									"cost_type": "percentage",
+									"cost": 60,
+									"affects": "total",
+									"notes": "Player Chooses"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "1a443889-a14e-42a9-82a3-c410151b7724",
+									"name": "Steal FP",
+									"cost_type": "percentage",
+									"cost": -25,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "045c0a55-db15-4b74-9232-4b0eaf965d61",
+									"disabled": true,
+									"name": "Steal FP then HP",
+									"cost_type": "percentage",
+									"cost": 50,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "cf86243c-83ac-4ddd-a763-473949bee446",
+									"disabled": true,
+									"name": "Steal ST",
+									"cost_type": "percentage",
+									"cost": 100,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "b8d52a4a-42e3-42e3-8622-cf146cc113c8",
+									"disabled": true,
+									"name": "Steal HT",
+									"cost_type": "percentage",
+									"cost": 100,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "99a3c3e3-db8e-4106-a447-7ef7050a31d0",
+									"disabled": true,
+									"name": "Steal DX",
+									"cost_type": "percentage",
+									"cost": 300,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "95b0ab1b-1de0-4898-9714-135db9ee8c97",
+									"disabled": true,
+									"name": "Steal IQ",
+									"cost_type": "percentage",
+									"cost": 300,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "e9bb5771-ace1-44b1-b386-f27b7dba08c7",
+									"disabled": true,
+									"name": "Steal Youth",
+									"cost_type": "percentage",
+									"cost": 300,
+									"affects": "total",
+									"notes": "Temporary"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "42fa43a5-d8c7-4bfa-b462-d3ac470f5d23",
+									"disabled": true,
+									"name": "Steal Youth",
+									"cost_type": "percentage",
+									"cost": 450,
+									"affects": "total",
+									"notes": "Permanent"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "1668d71a-d35a-4be3-8fea-a218bffdff9c",
+									"name": "Only Heals FP",
+									"cost_type": "percentage",
+									"cost": -20,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "886d999c-a024-46d0-b684-078dfcedbf81",
+									"disabled": true,
+									"name": "Hazard: Dehydration",
+									"reference": "B104",
+									"cost_type": "percentage",
+									"cost": 20,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "fcf1ba88-3aa5-4576-9645-a6ae38b3c687",
+									"disabled": true,
+									"name": "Hazard: Drowning",
+									"reference": "B104",
+									"cost_type": "percentage",
+									"cost": 0,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "36e1fbb2-8005-42a9-a025-8ac82aa99981",
+									"disabled": true,
+									"name": "Hazard: Freezing",
+									"reference": "B104",
+									"cost_type": "percentage",
+									"cost": 20,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "543f1bcc-fd0b-4ba9-b68c-013c81e549dc",
+									"disabled": true,
+									"name": "Hazard: Missed Sleep",
+									"reference": "B104",
+									"cost_type": "percentage",
+									"cost": 50,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "56a91e10-5bb2-4151-9ae6-5cdc68ad8b31",
+									"disabled": true,
+									"name": "Hazard: Starvation",
+									"reference": "B104",
+									"cost_type": "percentage",
+									"cost": 40,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "ade60bb8-f973-4498-8533-d933e2eddcdf",
+									"disabled": true,
+									"name": "Hazard: Suffocation",
+									"reference": "B104",
+									"cost_type": "percentage",
+									"cost": 0,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "0b260e1f-8825-4341-9c96-1e25fde11f7b",
+									"name": "Malediction",
+									"cost_type": "percentage",
+									"cost": 100,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "738094f4-d890-4aff-b936-143d352a2be9",
+									"name": "Vision Based With Malediction",
+									"cost_type": "percentage",
+									"cost": -20,
+									"affects": "total",
+									"notes": "Requires Eye Contact"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "a747b359-5b19-4ddf-a875-6c9c73ff415e",
+									"name": "Based on Will",
+									"cost_type": "percentage",
+									"cost": 20,
+									"affects": "total"
+								}
+							],
+							"reference": "P96",
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "690ab3b0-9116-4cb7-9d24-a1566d3f9a15",
+							"name": "Affliction: Curse",
+							"physical": true,
+							"exotic": true,
+							"levels": "3",
+							"points_per_level": 10,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "9ea5041d-1431-4995-9cd8-5c7ae07d8b3a",
+									"name": "Victim Gains Cursed",
+									"cost_type": "percentage",
+									"cost": 1,
+									"affects": "total",
+									"levels": 75
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "c9c7cc3d-5dd3-4e61-b702-0566efaefcff",
+									"name": "Costs Fatigue",
+									"cost_type": "percentage",
+									"cost": -5,
+									"affects": "total",
+									"levels": 4
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "a705408f-3ec5-4214-9a21-e69124e66f2a",
+									"name": "Preparation Required",
+									"cost_type": "percentage",
+									"cost": -20,
+									"affects": "total",
+									"notes": "1 Minute of Talking"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "d4db0c21-66f4-414d-81a9-ea129c613bf1",
+									"name": "Sense Based",
+									"cost_type": "percentage",
+									"cost": 150,
+									"affects": "total",
+									"notes": "Hearing"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "a114e99a-15e1-45a0-bd6f-ddc1662e20d7",
+									"name": "Based on Will",
+									"cost_type": "percentage",
+									"cost": 20,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "30c37c7c-7733-4136-93f9-d7f83b727e2b",
+									"name": "Extended Duration",
+									"cost_type": "percentage",
+									"cost": 120,
+									"affects": "total",
+									"notes": "Hour Per margin of Victory"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "299c2bb8-df53-4ef2-9078-75e6571f0b2d",
+									"name": "Modifier",
+									"cost_type": "percentage",
+									"cost": 0,
+									"affects": "total"
+								}
+							],
+							"reference": "B35",
+							"notes": "(Will vs. Will-2): Must speak to victim and spend 4 FP.\nVictim gains Cursed, êkimmu gains Luck, for hours equal\nto margin of victory.",
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "134c49c7-bc08-4c06-8026-5527f94753f4",
+							"name": "Luck",
+							"mental": true,
+							"base_points": 15,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "fbb369e8-76cd-448b-ad2a-0775c0352410",
+									"disabled": true,
+									"name": "Active",
+									"reference": "B66",
+									"cost_type": "percentage",
+									"cost": -40,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "1a295639-dbbf-4bb2-a5dd-4bd0cb7f8826",
+									"disabled": true,
+									"name": "Aspected",
+									"reference": "B66",
+									"cost_type": "percentage",
+									"cost": -20,
+									"affects": "total",
+									"notes": "@Aspect@"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "dd9a24e3-e378-4213-aed6-5434189a9f9a",
+									"disabled": true,
+									"name": "Defensive",
+									"reference": "B66",
+									"cost_type": "percentage",
+									"cost": -20,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "059744b7-ac8a-4256-827c-2b0a67b981d9",
+									"disabled": true,
+									"name": "Wishing",
+									"reference": "P59",
+									"cost_type": "percentage",
+									"cost": 100,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "39283127-66cb-49d7-8b4d-7545097a059b",
+									"name": "Only When Victim is Drained",
+									"cost_type": "percentage",
+									"cost": -60,
+									"affects": "total"
+								}
+							],
+							"reference": "B66",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "advantage_prereq",
+										"has": false,
+										"name": {
+											"compare": "starts_with",
+											"qualifier": "Luck"
+										}
+									}
+								]
+							},
+							"notes": "Usable once per hour of play",
+							"categories": [
+								"Only while victim is Cursed"
+							]
+						}
+					]
+				},
+				{
+					"type": "advantage_container",
+					"version": 1,
+					"id": "1a82495b-92f6-481c-ab1e-ddf83b599143",
+					"name": "Advantages",
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "ac739486-9f13-4ae0-8dc1-138d18126363",
+							"name": "Night Vision",
+							"physical": true,
+							"levels": "5",
+							"points_per_level": 1,
+							"reference": "B71",
+							"categories": [
+								"Advantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "de9fbbc9-6191-438d-ac71-cd7449f6f981",
+							"name": "Energy Reserve (Reality Shard)",
+							"physical": true,
+							"exotic": true,
+							"levels": "12",
+							"points_per_level": 3,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "cf732c30-5bcf-49ac-b2c8-39a24ac06cc3",
+									"disabled": true,
+									"name": "Abilities Only",
+									"reference": "P119",
+									"cost_type": "percentage",
+									"cost": -10,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "ee409282-b8a6-4e5b-880b-ee8079b4e0b5",
+									"disabled": true,
+									"name": "One Power",
+									"reference": "P117",
+									"cost_type": "percentage",
+									"cost": -50,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "51de133e-1e92-4fd3-aaa1-4e262b7bcc3e",
+									"disabled": true,
+									"name": "Slow Recharge",
+									"reference": "P117",
+									"cost_type": "percentage",
+									"cost": -20,
+									"affects": "total",
+									"notes": "1/hour"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "4f14acdd-314e-428c-acf2-993939b3c1cb",
+									"disabled": true,
+									"name": "Slow Recharge",
+									"reference": "P117",
+									"cost_type": "percentage",
+									"cost": -60,
+									"affects": "total",
+									"notes": "1/day"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "1f334531-02f3-42a2-8aae-3eccce3fbf74",
+									"disabled": true,
+									"name": "Special Recharge",
+									"reference": "P117",
+									"cost_type": "percentage",
+									"cost": -70,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "cc229bf7-43f3-4952-a7e3-a3424d0c2c02",
+									"disabled": true,
+									"name": "Special Recharge",
+									"reference": "P117",
+									"cost_type": "percentage",
+									"cost": -80,
+									"affects": "total",
+									"notes": "1/s bleed"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "78b640f1-f5ff-4a31-9c71-85acbebe0e09",
+									"disabled": true,
+									"name": "Stunts Only",
+									"reference": "P117",
+									"cost_type": "percentage",
+									"cost": -10,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "77d763e5-15c5-41a1-9634-62ef84d7bc18",
+									"name": "Only 1 Yard Reality Shard",
+									"cost_type": "percentage",
+									"cost": -80,
+									"affects": "total"
+								}
+							],
+							"reference": "P119",
+							"categories": [
+								"Advantage",
+								"Attribute"
+							]
+						}
+					]
+				},
+				{
+					"type": "advantage_container",
+					"version": 1,
+					"id": "240423bf-91f6-4c27-9826-030f26b02636",
+					"name": "Disadvantages",
+					"open": true,
+					"children": [
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "d4963400-0d01-4088-a1b3-0183570e747a",
+							"name": "Dependency (Luck)",
+							"physical": true,
+							"exotic": true,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "a3dc6da2-b099-4f85-a371-5a9339f81c45",
+									"disabled": true,
+									"name": "Rarity: Rare",
+									"reference": "B130",
+									"cost_type": "points",
+									"cost": -30,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "05d4e050-6f37-4ce8-9f63-319c8f93a46e",
+									"disabled": true,
+									"name": "Rarity: Occasional",
+									"reference": "B130",
+									"cost_type": "points",
+									"cost": -20,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "439623d3-228e-4861-96c5-ec6d8d11ffd2",
+									"name": "Rarity: Common",
+									"reference": "B130",
+									"cost_type": "points",
+									"cost": -10,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "35888a0a-c791-4fda-863f-c8f41d3af44a",
+									"disabled": true,
+									"name": "Rarity: Very Common",
+									"reference": "B130",
+									"cost_type": "points",
+									"cost": -5,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "da7a0b7d-00b2-474e-8f1c-ebb5d488ece8",
+									"name": "Illegal",
+									"reference": "B130",
+									"cost_type": "points",
+									"cost": -5,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "9d8e5556-441f-47e2-b327-2e0f893ebb64",
+									"disabled": true,
+									"name": "Frequency: Constantly",
+									"reference": "B130",
+									"cost_type": "multiplier",
+									"cost": 5,
+									"notes": "Lose 1 HP per minute without it"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "33e53545-1abc-4adc-bb5c-965983434fe1",
+									"disabled": true,
+									"name": "Frequency: Hourly",
+									"reference": "B130",
+									"cost_type": "multiplier",
+									"cost": 4,
+									"notes": "Lose 1 HP per 10 minutes after missing a hourly dose"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "ec0c17fa-fd7d-4974-90a1-5d1f0b389965",
+									"disabled": true,
+									"name": "Frequency: Daily",
+									"reference": "B130",
+									"cost_type": "multiplier",
+									"cost": 3,
+									"notes": "Lose 1 HP per hour after missing a daily dose"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "59fd4f00-19ca-4436-9d10-1d613ddb52f5",
+									"name": "Frequency: Weekly",
+									"reference": "B130",
+									"cost_type": "multiplier",
+									"cost": 2,
+									"notes": "Lose 1 HP per six hours after missing a weekly dose"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "4ccb412e-1c1c-4380-958a-797079b93405",
+									"disabled": true,
+									"name": "Frequency: Monthly",
+									"reference": "B130",
+									"cost_type": "multiplier",
+									"cost": 1,
+									"notes": "Lose 1 HP per day after missing a monthly dose"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "bdbac9cc-c369-4465-b3a6-9c48fd603354",
+									"disabled": true,
+									"name": "Frequency: Seasonally",
+									"reference": "B130",
+									"cost_type": "multiplier",
+									"cost": 0.33333,
+									"notes": "Lose 1 HP per 3 days after missing a seasonal dose"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "ca7aae0b-33dd-4ed3-9cc2-a44a5dd021e6",
+									"disabled": true,
+									"name": "Frequency: Yearly",
+									"reference": "B130",
+									"cost_type": "multiplier",
+									"cost": 0.1,
+									"notes": "Lose 1 HP per 2 weeks after missing a yearly dose"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "c74bd9e2-2faf-4f47-af17-6b93d065d5b0",
+									"disabled": true,
+									"name": "Aging",
+									"reference": "B130",
+									"cost_type": "percentage",
+									"cost": 30,
+									"affects": "total",
+									"notes": "Age 2 years for each HP lost due to this dependency"
+								}
+							],
+							"reference": "B130",
+							"categories": [
+								"Disadvantage"
+							]
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "93651c0d-0d6a-4c05-b100-ecb5b6bb71f0",
+							"name": "Appearance",
+							"physical": true,
+							"modifiers": [
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "cdfa2643-58da-4c09-993b-f78d1f5687d1",
+									"disabled": true,
+									"name": "Universal",
+									"cost_type": "percentage",
+									"cost": 25,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "31c7c12e-c5d3-4967-be19-dd812430a0f5",
+									"disabled": true,
+									"name": "Off-the-Shelf Looks",
+									"cost_type": "percentage",
+									"cost": -50,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "89b97f16-77c2-4a60-898c-4a7fb676ac86",
+									"disabled": true,
+									"name": "Androgynous",
+									"cost_type": "points",
+									"cost": 0,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "3357881c-6e5b-4969-8bc9-9861235e3d18",
+									"disabled": true,
+									"name": "Impressive",
+									"cost_type": "points",
+									"cost": 0,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "a55766f0-2310-4375-ac7f-9e242a670543",
+									"disabled": true,
+									"name": "Attractive",
+									"cost_type": "points",
+									"cost": 4,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "f8e5bf36-c063-4fdc-bec9-46ba8eff04d9",
+									"disabled": true,
+									"name": "Average",
+									"cost_type": "points",
+									"cost": 0,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "fef732eb-59a4-431c-b78e-a7d53eb8cd42",
+									"disabled": true,
+									"name": "Horrific",
+									"cost_type": "points",
+									"cost": -24,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "e9b39ab3-a164-4cde-98aa-976074683030",
+									"disabled": true,
+									"name": "Monstrous",
+									"cost_type": "points",
+									"cost": -20,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "c186e471-1d81-49e5-871b-3709068544a1",
+									"disabled": true,
+									"name": "Hideous",
+									"cost_type": "points",
+									"cost": -16,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "b7de9b14-681a-4de3-8771-cdf337a751c1",
+									"disabled": true,
+									"name": "Ugly",
+									"cost_type": "points",
+									"cost": -8,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "7a0cce3c-0f98-4a1d-b16e-4a00ffa51f48",
+									"name": "Unattractive",
+									"cost_type": "points",
+									"cost": -4,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "be4f8947-dae5-4a20-a59e-9a2631080cc2",
+									"disabled": true,
+									"name": "Handsome",
+									"cost_type": "points",
+									"cost": 12,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "c3276b55-0105-4ed3-a1ff-abac7d208ec9",
+									"disabled": true,
+									"name": "Beautiful",
+									"cost_type": "points",
+									"cost": 12,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "7f2d23c6-db42-494d-84c9-074b5948eddb",
+									"disabled": true,
+									"name": "Very Handsome",
+									"cost_type": "points",
+									"cost": 16,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "5fc0b144-2580-4651-a856-432c8acc8dbf",
+									"disabled": true,
+									"name": "Very Beautiful",
+									"cost_type": "points",
+									"cost": 16,
+									"affects": "total"
+								},
+								{
+									"type": "modifier",
+									"version": 1,
+									"id": "17095846-4ef8-4306-9f14-f8d2150894fb",
+									"disabled": true,
+									"name": "Transcendent",
+									"cost_type": "points",
+									"cost": 20,
+									"affects": "total"
+								}
+							],
+							"reference": "B21",
+							"categories": [
+								"Advantage"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill_container",
+			"version": 1,
+			"id": "7952a89f-86e9-46d7-81f9-d33117d9867e",
+			"name": "Ekimmu",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "c8c5c88e-414b-4669-8d76-12364fbf2953",
+					"name": "Body Language",
+					"reference": "B181",
+					"difficulty": "Per/A",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Detect Lies",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Psychology",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Police",
+						"Social",
+						"Spy"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "3d1a1036-afb3-4c45-a2dd-1f59c23bd921",
+					"name": "Hidden Lore",
+					"reference": "B199",
+					"specialization": "History B",
+					"difficulty": "IQ/A",
+					"points": 2,
+					"categories": [
+						"Knowledge"
+					]
+				},
+				{
+					"type": "technique",
+					"version": 1,
+					"id": "00506e6e-6fe3-44ab-b656-c027669a3627",
+					"name": "Hypnotic Freeze",
+					"difficulty": "H",
+					"points": 5,
+					"limit": 0,
+					"default": {
+						"type": "Skill",
+						"name": "Hypnotism",
+						"modifier": -8
+					},
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Hypnotism"
+								}
+							}
+						]
+					}
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "692851a0-eb8d-47f5-a943-4b6a4659aa17",
+					"name": "Hypnotism",
+					"reference": "B201",
+					"difficulty": "IQ/H",
+					"points": 16,
+					"categories": [
+						"Medical"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "404ab1d2-346f-4fb5-bda7-fe395360a780",
+					"name": "Invisibility Art",
+					"reference": "B202",
+					"difficulty": "IQ/VH",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "stealth"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 14
+								},
+								"specialization": {
+									"compare": "is"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "hypnotism"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 14
+								},
+								"specialization": {
+									"compare": "is"
+								}
+							},
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "trained by a master"
+								}
+							}
+						]
+					},
+					"categories": [
+						"Esoteric"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "8bb84895-eda3-4715-a0a5-f8835b698b8b",
+					"name": "Symbol Drawing",
+					"reference": "B224",
+					"specialization": "Annunaki",
+					"difficulty": "IQ/H",
+					"points": 1,
+					"categories": [
+						"Occult/Magical"
+					]
+				},
+				{
+					"type": "skill_container",
+					"version": 1,
+					"id": "fa9e3e18-3304-4c7b-b137-49da63b8b8bd",
+					"name": "Glyphs",
+					"open": true,
+					"children": [
+						{
+							"type": "technique",
+							"version": 1,
+							"id": "44233913-06ff-4016-8f52-d9eb2f6fee13",
+							"name": "NAM.HILI (Fascinate)",
+							"reference": "MD41",
+							"difficulty": "H",
+							"points": 4,
+							"limit": 2,
+							"default": {
+								"type": "Skill",
+								"name": "Symbol Drawing",
+								"specialization": "Annunaki",
+								"modifier": -6
+							},
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "Symbol Drawing"
+										}
+									}
+								]
+							},
+							"notes": "Costs 6 Fatigue",
+							"categories": [
+								"Glyph"
+							]
+						},
+						{
+							"type": "technique",
+							"version": 1,
+							"id": "20a962a4-3754-497b-85b5-a6baf716e3ea",
+							"name": "GAZ (Kill)",
+							"reference": "MD39",
+							"difficulty": "H",
+							"points": 4,
+							"limit": -2,
+							"default": {
+								"type": "Skill",
+								"name": "Symbol Drawing",
+								"specialization": "Annunaki",
+								"modifier": -10
+							},
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "Symbol Drawing"
+										}
+									}
+								]
+							},
+							"notes": "Costs 6 Fatigue",
+							"categories": [
+								"Glyph"
+							]
+						},
+						{
+							"type": "technique",
+							"version": 1,
+							"id": "4cfbde21-6c67-42be-af66-8b73d1b0a0fb",
+							"name": "KU.SHU (Exhausted)",
+							"reference": "MD41",
+							"difficulty": "H",
+							"points": 4,
+							"limit": 2,
+							"default": {
+								"type": "Skill",
+								"name": "Symbol Drawing",
+								"specialization": "Annunaki",
+								"modifier": -8
+							},
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "Symbol Drawing"
+										}
+									}
+								]
+							},
+							"notes": "Costs 4 Fatigue",
+							"categories": [
+								"Glyph"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

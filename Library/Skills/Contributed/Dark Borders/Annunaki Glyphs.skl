@@ -1,404 +1,629 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<skill_list id="15be98ba-3f82-4df8-9b0d-7cf20e4a2e4e" version="1">
-	<technique version="2" limit="0">
-		<name>BU.LU.UH (Vomit)</name>
-		<difficulty>H</difficulty>
-		<points>1</points>
-		<reference>MD39</reference>
-		<default>
-			<type>Skill</type>
-			<name>Symbol Drawing</name>
-			<specialization>Annunaki</specialization>
-			<modifier>-8</modifier>
-		</default>
-		<notes>Costs 5 Fatigue</notes>
-		<categories>
-			<category>Glyph</category>
-		</categories>
-		<skill_bonus>
-			<name compare="is"></name>
-			<specialization compare="is anything"></specialization>
-			<amount>1</amount>
-		</skill_bonus>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">Symbol Drawing</name>
-				<specialization compare="is anything">Annunaki</specialization>
-			</skill_prereq>
-		</prereq_list>
-	</technique>
-	<technique version="2" limit="-2">
-		<name>GAZ (Kill)</name>
-		<difficulty>H</difficulty>
-		<points>2</points>
-		<reference>MD39</reference>
-		<default>
-			<type>Skill</type>
-			<name>Symbol Drawing</name>
-			<specialization>Annunaki</specialization>
-			<modifier>-10</modifier>
-		</default>
-		<notes>Costs 6 Fatigue</notes>
-		<categories>
-			<category>Glyph</category>
-		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">Symbol Drawing</name>
-				<specialization compare="is anything">Annunaki</specialization>
-			</skill_prereq>
-		</prereq_list>
-	</technique>
-	<technique version="2" limit="4">
-		<name>GESHTUG.ULU (Forget this)</name>
-		<difficulty>H</difficulty>
-		<points>2</points>
-		<reference>MD40</reference>
-		<default>
-			<type>Skill</type>
-			<name>Symbol Drawing</name>
-			<specialization>Annunaki</specialization>
-			<modifier>-8</modifier>
-		</default>
-		<notes>Costs 3 Fatigue</notes>
-		<categories>
-			<category>Glyph</category>
-		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">Symbol Drawing</name>
-				<specialization compare="is anything">Annunaki</specialization>
-			</skill_prereq>
-		</prereq_list>
-	</technique>
-	<technique version="2" limit="4">
-		<name>GU.SHUB (Neglect)</name>
-		<difficulty>H</difficulty>
-		<points>2</points>
-		<reference>MD40</reference>
-		<default>
-			<type>Skill</type>
-			<name>Symbol Drawing</name>
-			<specialization>Annunaki</specialization>
-			<modifier>-6</modifier>
-		</default>
-		<notes>Costs 6 Fatigue</notes>
-		<categories>
-			<category>Glyph</category>
-		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">Symbol Drawing</name>
-				<specialization compare="is anything">Annunaki</specialization>
-			</skill_prereq>
-		</prereq_list>
-	</technique>
-	<technique version="2" limit="2">
-		<name>HUL (Delight)</name>
-		<difficulty>H</difficulty>
-		<points>2</points>
-		<reference>MD40</reference>
-		<default>
-			<type>Skill</type>
-			<name>Symbol Drawing</name>
-			<specialization>Annunaki</specialization>
-			<modifier>-8</modifier>
-		</default>
-		<notes>Costs 3 Fatigue</notes>
-		<categories>
-			<category>Glyph</category>
-		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">Symbol Drawing</name>
-				<specialization compare="is anything">Annunaki</specialization>
-			</skill_prereq>
-		</prereq_list>
-	</technique>
-	<technique version="2" limit="-4">
-		<name>IGI.NU.GAL (Blind)</name>
-		<difficulty>H</difficulty>
-		<points>2</points>
-		<reference>MD40</reference>
-		<default>
-			<type>Skill</type>
-			<name>Symbol Drawing</name>
-			<specialization>Annunaki</specialization>
-			<modifier>-10</modifier>
-		</default>
-		<notes>Costs 5 Fatigue</notes>
-		<categories>
-			<category>Glyph</category>
-		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">Symbol Drawing</name>
-				<specialization compare="is anything">Annunaki</specialization>
-			</skill_prereq>
-		</prereq_list>
-	</technique>
-	<technique version="2" limit="2">
-		<name>KAR (Flee)</name>
-		<difficulty>H</difficulty>
-		<points>2</points>
-		<reference>MD40</reference>
-		<default>
-			<type>Skill</type>
-			<name>Symbol Drawing</name>
-			<specialization>Annunaki</specialization>
-			<modifier>-6</modifier>
-		</default>
-		<notes>Costs 4 Fatigue</notes>
-		<categories>
-			<category>Glyph</category>
-		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">Symbol Drawing</name>
-				<specialization compare="is anything">Annunaki</specialization>
-			</skill_prereq>
-		</prereq_list>
-	</technique>
-	<technique version="2" limit="0">
-		<name>KI.AG (Love me)</name>
-		<difficulty>H</difficulty>
-		<points>2</points>
-		<reference>MD40</reference>
-		<default>
-			<type>Skill</type>
-			<name>Symbol Drawing</name>
-			<specialization>Annunaki</specialization>
-			<modifier>-8</modifier>
-		</default>
-		<notes>Costs 5 Fatigue</notes>
-		<categories>
-			<category>Glyph</category>
-		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">Symbol Drawing</name>
-				<specialization compare="is anything">Annunaki</specialization>
-			</skill_prereq>
-		</prereq_list>
-	</technique>
-	<technique version="2" limit="2">
-		<name>KU.SHU (Exhausted)</name>
-		<difficulty>H</difficulty>
-		<points>2</points>
-		<reference>MD41</reference>
-		<default>
-			<type>Skill</type>
-			<name>Symbol Drawing</name>
-			<specialization>Annunaki</specialization>
-			<modifier>-8</modifier>
-		</default>
-		<notes>Costs 4 Fatigue</notes>
-		<categories>
-			<category>Glyph</category>
-		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">Symbol Drawing</name>
-				<specialization compare="is anything">Annunaki</specialization>
-			</skill_prereq>
-		</prereq_list>
-	</technique>
-	<technique version="2" limit="2">
-		<name>LIL (Fool)</name>
-		<difficulty>H</difficulty>
-		<points>2</points>
-		<reference>MD41</reference>
-		<default>
-			<type>Skill</type>
-			<name>Symbol Drawing</name>
-			<specialization>Annunaki</specialization>
-			<modifier>-8</modifier>
-		</default>
-		<notes>Costs 3 Fatigue</notes>
-		<categories>
-			<category>Glyph</category>
-		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">Symbol Drawing</name>
-				<specialization compare="is anything">Annunaki</specialization>
-			</skill_prereq>
-		</prereq_list>
-	</technique>
-	<technique version="2" limit="2">
-		<name>NAM.HILI (Fascinate)</name>
-		<difficulty>H</difficulty>
-		<points>2</points>
-		<reference>MD41</reference>
-		<default>
-			<type>Skill</type>
-			<name>Symbol Drawing</name>
-			<specialization>Annunaki</specialization>
-			<modifier>-6</modifier>
-		</default>
-		<notes>Costs 6 Fatigue</notes>
-		<categories>
-			<category>Glyph</category>
-		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">Symbol Drawing</name>
-				<specialization compare="is anything">Annunaki</specialization>
-			</skill_prereq>
-		</prereq_list>
-	</technique>
-	<technique version="2" limit="0">
-		<name>NI.NGI.NA (Truth)</name>
-		<difficulty>H</difficulty>
-		<points>2</points>
-		<reference>MD41</reference>
-		<default>
-			<type>Skill</type>
-			<name>Symbol Drawing</name>
-			<specialization>Annunaki</specialization>
-			<modifier>-8</modifier>
-		</default>
-		<notes>Costs 5 Fatigue</notes>
-		<categories>
-			<category>Glyph</category>
-		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">Symbol Drawing</name>
-				<specialization compare="is anything">Annunaki</specialization>
-			</skill_prereq>
-		</prereq_list>
-	</technique>
-	<technique version="2" limit="-2">
-		<name>NING.LUL (Falsehood)</name>
-		<difficulty>H</difficulty>
-		<points>2</points>
-		<reference>MD41</reference>
-		<default>
-			<type>Skill</type>
-			<name>Symbol Drawing</name>
-			<specialization>Annunaki</specialization>
-			<modifier>-10</modifier>
-		</default>
-		<notes>Costs 6 Fatigue</notes>
-		<categories>
-			<category>Glyph</category>
-		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">Symbol Drawing</name>
-				<specialization compare="is anything">Annunaki</specialization>
-			</skill_prereq>
-		</prereq_list>
-	</technique>
-	<technique version="2" limit="0">
-		<name>SANGUSH (I belong here)</name>
-		<difficulty>H</difficulty>
-		<points>2</points>
-		<reference>MD41</reference>
-		<default>
-			<type>Skill</type>
-			<name>Symbol Drawing</name>
-			<specialization>Annunaki</specialization>
-			<modifier>-8</modifier>
-		</default>
-		<notes>Costs 4 Fatigue</notes>
-		<categories>
-			<category>Glyph</category>
-		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">Symbol Drawing</name>
-				<specialization compare="is anything">Annunaki</specialization>
-			</skill_prereq>
-		</prereq_list>
-	</technique>
-	<technique version="2" limit="6">
-		<name>SHEG (Obey and agree)</name>
-		<difficulty>H</difficulty>
-		<points>2</points>
-		<reference>MD41</reference>
-		<default>
-			<type>Skill</type>
-			<name>Symbol Drawing</name>
-			<specialization>Annunaki</specialization>
-			<modifier>-8</modifier>
-		</default>
-		<notes>Costs 4 Fatigue</notes>
-		<categories>
-			<category>Glyph</category>
-		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">Symbol Drawing</name>
-				<specialization compare="is anything">Annunaki</specialization>
-			</skill_prereq>
-		</prereq_list>
-	</technique>
-	<technique version="2" limit="0">
-		<name>SUH.DUG (Confusion of speech)</name>
-		<difficulty>H</difficulty>
-		<points>2</points>
-		<reference>MD42</reference>
-		<default>
-			<type>Skill</type>
-			<name>Symbol Drawing</name>
-			<specialization>Annunaki</specialization>
-			<modifier>-6</modifier>
-		</default>
-		<notes>Costs 3 Fatigue</notes>
-		<categories>
-			<category>Glyph</category>
-		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">Symbol Drawing</name>
-				<specialization compare="is anything">Annunaki</specialization>
-			</skill_prereq>
-		</prereq_list>
-	</technique>
-	<technique version="2" limit="0">
-		<name>UKU (Sleep)</name>
-		<difficulty>H</difficulty>
-		<points>2</points>
-		<reference>MD42</reference>
-		<default>
-			<type>Skill</type>
-			<name>Symbol Drawing</name>
-			<specialization>Annunaki</specialization>
-			<modifier>-10</modifier>
-		</default>
-		<notes>Costs 4 Fatigue</notes>
-		<categories>
-			<category>Glyph</category>
-		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">Symbol Drawing</name>
-				<specialization compare="is anything">Annunaki</specialization>
-			</skill_prereq>
-		</prereq_list>
-	</technique>
-	<technique version="2" limit="0">
-		<name>UR.IDIM (Mad dog)</name>
-		<difficulty>H</difficulty>
-		<points>2</points>
-		<reference>MD42</reference>
-		<default>
-			<type>Skill</type>
-			<name>Symbol Drawing</name>
-			<specialization>Annunaki</specialization>
-			<modifier>-8</modifier>
-		</default>
-		<notes>Costs 4 Fatigue</notes>
-		<categories>
-			<category>Glyph</category>
-		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">Symbol Drawing</name>
-				<specialization compare="is anything">Annunaki</specialization>
-			</skill_prereq>
-		</prereq_list>
-	</technique>
-</skill_list>
+{
+	"type": "skill_list",
+	"version": 1,
+	"id": "15be98ba-3f82-4df8-9b0d-7cf20e4a2e4e",
+	"rows": [
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "41b20d1f-d931-4127-a183-be5560d8afd4",
+			"name": "BU.LU.UH (Vomit)",
+			"reference": "MD39",
+			"difficulty": "H",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "Skill",
+				"name": "Symbol Drawing",
+				"specialization": "Annunaki",
+				"modifier": -8
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is"
+					}
+				}
+			],
+			"notes": "Costs 5 Fatigue",
+			"categories": [
+				"Glyph"
+			]
+		},
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "80e6af8b-dee6-4929-994d-1d7707c4dc57",
+			"name": "GAZ (Kill)",
+			"reference": "MD39",
+			"difficulty": "H",
+			"points": 2,
+			"limit": -2,
+			"default": {
+				"type": "Skill",
+				"name": "Symbol Drawing",
+				"specialization": "Annunaki",
+				"modifier": -10
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						}
+					}
+				]
+			},
+			"notes": "Costs 6 Fatigue",
+			"categories": [
+				"Glyph"
+			]
+		},
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "84402b62-6bc4-46bb-93bc-a1b5b28e9149",
+			"name": "GESHTUG.ULU (Forget this)",
+			"reference": "MD40",
+			"difficulty": "H",
+			"points": 2,
+			"limit": 4,
+			"default": {
+				"type": "Skill",
+				"name": "Symbol Drawing",
+				"specialization": "Annunaki",
+				"modifier": -8
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						}
+					}
+				]
+			},
+			"notes": "Costs 3 Fatigue",
+			"categories": [
+				"Glyph"
+			]
+		},
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "64baf885-e949-401f-b90c-4eaf32d61a2d",
+			"name": "GU.SHUB (Neglect)",
+			"reference": "MD40",
+			"difficulty": "H",
+			"points": 2,
+			"limit": 4,
+			"default": {
+				"type": "Skill",
+				"name": "Symbol Drawing",
+				"specialization": "Annunaki",
+				"modifier": -6
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						}
+					}
+				]
+			},
+			"notes": "Costs 6 Fatigue",
+			"categories": [
+				"Glyph"
+			]
+		},
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "246f9054-9eed-403d-a20c-67bad7057c8a",
+			"name": "HUL (Delight)",
+			"reference": "MD40",
+			"difficulty": "H",
+			"points": 2,
+			"limit": 2,
+			"default": {
+				"type": "Skill",
+				"name": "Symbol Drawing",
+				"specialization": "Annunaki",
+				"modifier": -8
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						}
+					}
+				]
+			},
+			"notes": "Costs 3 Fatigue",
+			"categories": [
+				"Glyph"
+			]
+		},
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "fddf44aa-2fb6-4e9e-97eb-a010320cd8ec",
+			"name": "IGI.NU.GAL (Blind)",
+			"reference": "MD40",
+			"difficulty": "H",
+			"points": 2,
+			"limit": -4,
+			"default": {
+				"type": "Skill",
+				"name": "Symbol Drawing",
+				"specialization": "Annunaki",
+				"modifier": -10
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						}
+					}
+				]
+			},
+			"notes": "Costs 5 Fatigue",
+			"categories": [
+				"Glyph"
+			]
+		},
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "fe7486cd-a14f-41a8-b76e-1c9e74ec5d70",
+			"name": "KAR (Flee)",
+			"reference": "MD40",
+			"difficulty": "H",
+			"points": 2,
+			"limit": 2,
+			"default": {
+				"type": "Skill",
+				"name": "Symbol Drawing",
+				"specialization": "Annunaki",
+				"modifier": -6
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						}
+					}
+				]
+			},
+			"notes": "Costs 4 Fatigue",
+			"categories": [
+				"Glyph"
+			]
+		},
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "c0976735-a975-48db-ad0b-5f7198a4149f",
+			"name": "KI.AG (Love me)",
+			"reference": "MD40",
+			"difficulty": "H",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "Skill",
+				"name": "Symbol Drawing",
+				"specialization": "Annunaki",
+				"modifier": -8
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						}
+					}
+				]
+			},
+			"notes": "Costs 5 Fatigue",
+			"categories": [
+				"Glyph"
+			]
+		},
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "74f97762-70d3-40fb-ba5e-55a122f20d95",
+			"name": "KU.SHU (Exhausted)",
+			"reference": "MD41",
+			"difficulty": "H",
+			"points": 2,
+			"limit": 2,
+			"default": {
+				"type": "Skill",
+				"name": "Symbol Drawing",
+				"specialization": "Annunaki",
+				"modifier": -8
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						}
+					}
+				]
+			},
+			"notes": "Costs 4 Fatigue",
+			"categories": [
+				"Glyph"
+			]
+		},
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "ba0c14bc-0c44-4db2-a289-2dcb038011d3",
+			"name": "LIL (Fool)",
+			"reference": "MD41",
+			"difficulty": "H",
+			"points": 2,
+			"limit": 2,
+			"default": {
+				"type": "Skill",
+				"name": "Symbol Drawing",
+				"specialization": "Annunaki",
+				"modifier": -8
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						}
+					}
+				]
+			},
+			"notes": "Costs 3 Fatigue",
+			"categories": [
+				"Glyph"
+			]
+		},
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "6841c106-8333-43d0-8128-b778ad6d58e9",
+			"name": "NAM.HILI (Fascinate)",
+			"reference": "MD41",
+			"difficulty": "H",
+			"points": 2,
+			"limit": 2,
+			"default": {
+				"type": "Skill",
+				"name": "Symbol Drawing",
+				"specialization": "Annunaki",
+				"modifier": -6
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						}
+					}
+				]
+			},
+			"notes": "Costs 6 Fatigue",
+			"categories": [
+				"Glyph"
+			]
+		},
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "d819226f-d44a-4908-84b3-b70c484c6b93",
+			"name": "NI.NGI.NA (Truth)",
+			"reference": "MD41",
+			"difficulty": "H",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "Skill",
+				"name": "Symbol Drawing",
+				"specialization": "Annunaki",
+				"modifier": -8
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						}
+					}
+				]
+			},
+			"notes": "Costs 5 Fatigue",
+			"categories": [
+				"Glyph"
+			]
+		},
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "32f4ea8f-b0a8-4f85-a522-98ca9cd56bcb",
+			"name": "NING.LUL (Falsehood)",
+			"reference": "MD41",
+			"difficulty": "H",
+			"points": 2,
+			"limit": -2,
+			"default": {
+				"type": "Skill",
+				"name": "Symbol Drawing",
+				"specialization": "Annunaki",
+				"modifier": -10
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						}
+					}
+				]
+			},
+			"notes": "Costs 6 Fatigue",
+			"categories": [
+				"Glyph"
+			]
+		},
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "327e501a-cbf1-4887-b056-0fc3b05b7f1a",
+			"name": "SANGUSH (I belong here)",
+			"reference": "MD41",
+			"difficulty": "H",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "Skill",
+				"name": "Symbol Drawing",
+				"specialization": "Annunaki",
+				"modifier": -8
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						}
+					}
+				]
+			},
+			"notes": "Costs 4 Fatigue",
+			"categories": [
+				"Glyph"
+			]
+		},
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "ccead7c0-7bed-4978-858c-4f358fc57dd9",
+			"name": "SHEG (Obey and agree)",
+			"reference": "MD41",
+			"difficulty": "H",
+			"points": 2,
+			"limit": 6,
+			"default": {
+				"type": "Skill",
+				"name": "Symbol Drawing",
+				"specialization": "Annunaki",
+				"modifier": -8
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						}
+					}
+				]
+			},
+			"notes": "Costs 4 Fatigue",
+			"categories": [
+				"Glyph"
+			]
+		},
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "52d76436-c4c2-4452-8e16-fb6d28d857a7",
+			"name": "SUH.DUG (Confusion of speech)",
+			"reference": "MD42",
+			"difficulty": "H",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "Skill",
+				"name": "Symbol Drawing",
+				"specialization": "Annunaki",
+				"modifier": -6
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						}
+					}
+				]
+			},
+			"notes": "Costs 3 Fatigue",
+			"categories": [
+				"Glyph"
+			]
+		},
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "1e4a8223-61e4-44da-b333-76ca79a52f5b",
+			"name": "UKU (Sleep)",
+			"reference": "MD42",
+			"difficulty": "H",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "Skill",
+				"name": "Symbol Drawing",
+				"specialization": "Annunaki",
+				"modifier": -10
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						}
+					}
+				]
+			},
+			"notes": "Costs 4 Fatigue",
+			"categories": [
+				"Glyph"
+			]
+		},
+		{
+			"type": "technique",
+			"version": 1,
+			"id": "6b685357-5b07-43cf-af39-09e1460a96df",
+			"name": "UR.IDIM (Mad dog)",
+			"reference": "MD42",
+			"difficulty": "H",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "Skill",
+				"name": "Symbol Drawing",
+				"specialization": "Annunaki",
+				"modifier": -8
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						}
+					}
+				]
+			},
+			"notes": "Costs 4 Fatigue",
+			"categories": [
+				"Glyph"
+			]
+		}
+	]
+}

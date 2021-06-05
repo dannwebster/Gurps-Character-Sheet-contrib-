@@ -1,1235 +1,1899 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<character id="2d32bd1f-25dd-46fa-934b-d123daef6fe9" version="2">
-	<created_date>Aug 27, 2016</created_date>
-	<modified_date>Nov 5, 2016 4:56 PM</modified_date>
-	<profile>
-		<player_name>Rudy Jahchan</player_name>
-		<campaign>The Barn-Acc</campaign>
-		<name> bC</name>
-		<title>Councillor</title>
-		<age>43</age>
-		<birthday>June 11</birthday>
-		<eyes>Brown</eyes>
-		<hair>Black, Wavy, Long</hair>
-		<skin>Dark Brown</skin>
-		<handedness>Right</handedness>
-		<height>6'</height>
-		<weight>158 lb</weight>
-		<SM>0</SM>
-		<gender>Male</gender>
-		<race>Human ("Martian")</race>
-		<tech_level>8</tech_level>
-		<religion>Sufism</religion>
-	</profile>
-	<HP>0</HP>
-	<FP>0</FP>
-	<total_points>250</total_points>
-	<ST>10</ST>
-	<DX>13</DX>
-	<IQ>15</IQ>
-	<HT>11</HT>
-	<will>0</will>
-	<perception>0</perception>
-	<speed>0</speed>
-	<move>0</move>
-	<include_punch>true</include_punch>
-	<include_kick>true</include_kick>
-	<include_kick_with_boots>true</include_kick_with_boots>
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Culture</name>
-			<advantage version="2">
-				<name>Language: Arabic</name>
-				<type>Mental</type>
-				<modifier version="1">
-					<name>Native</name>
-					<cost type="points">-6</cost>
-					<affects>total</affects>
-					<reference>B23</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Spoken</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>None</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Spoken</name>
-					<cost type="points">1</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Broken</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Spoken</name>
-					<cost type="points">2</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Accented</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Spoken</name>
-					<cost type="points">3</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Native</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>None</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">1</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Broken</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">2</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Accented</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Written</name>
-					<cost type="points">3</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Native</notes>
-				</modifier>
-				<reference>B24</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Language</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Language: English</name>
-				<type>Mental</type>
-				<modifier version="1" enabled="no">
-					<name>Native</name>
-					<cost type="points">-6</cost>
-					<affects>total</affects>
-					<reference>B23</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Spoken</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>None</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Spoken</name>
-					<cost type="points">1</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Broken</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Spoken</name>
-					<cost type="points">2</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Accented</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Spoken</name>
-					<cost type="points">3</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Native</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>None</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">1</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Broken</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Written</name>
-					<cost type="points">2</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Accented</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Written</name>
-					<cost type="points">3</cost>
-					<affects>total</affects>
-					<reference>B24</reference>
-					<notes>Native</notes>
-				</modifier>
-				<reference>B24</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Language</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Cultural Familiarity (Middle Eastern)</name>
-				<type>Mental</type>
-				<base_points>1</base_points>
-				<modifier version="1" enabled="no">
-					<name>Alien</name>
-					<cost type="points">1</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1">
-					<name>Native</name>
-					<cost type="points">-1</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B23</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Cultural Familiarity (BarnAcc)</name>
-				<type>Mental</type>
-				<base_points>1</base_points>
-				<modifier version="1" enabled="no">
-					<name>Alien</name>
-					<cost type="points">1</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Native</name>
-					<cost type="points">-1</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B23</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-		<advantage_container version="2" open="yes">
-			<name>Advantages</name>
-			<advantage version="2">
-				<name>Danger Sense</name>
-				<type>Mental</type>
-				<base_points>15</base_points>
-				<reference>B47</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Talent (Smooth Operator)</name>
-				<type>Mental</type>
-				<levels>2</levels>
-				<points_per_level>15</points_per_level>
-				<reference>B91</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<skill_bonus>
-					<name compare="is">acting</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">carousing</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">detect lies</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">diplomacy</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">fast-talk</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">intimidation</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">leadership</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">panhandling</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">politics</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">public speaking</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="contains">savoir-faire</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">sex appeal</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">streetwise</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Rank</name>
-				<type>Physical</type>
-				<levels>2</levels>
-				<points_per_level>5</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Replaces Status</name>
-					<cost type="points">5</cost>
-					<affects>levels only</affects>
-					<reference>B29</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Courtesy</name>
-					<cost type="points">-4</cost>
-					<affects>levels only</affects>
-					<reference>B29</reference>
-				</modifier>
-				<reference>B29</reference>
-				<notes>Council Member: Councillor Man</notes>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Status</name>
-				<type>Social</type>
-				<levels>1</levels>
-				<points_per_level>5</points_per_level>
-				<reference>B28</reference>
-				<notes>Council Member</notes>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Honest Face</name>
-				<type>Physical</type>
-				<base_points>1</base_points>
-				<reference>B101</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Appearance</name>
-				<type>Physical</type>
-				<modifier version="1" enabled="no">
-					<name>Universal</name>
-					<cost type="percentage">25</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Off-the-Shelf Looks</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Androgynous</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Impressive</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1">
-					<name>Attractive</name>
-					<cost type="points">4</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Average</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Horrific</name>
-					<cost type="points">-24</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Monstrous</name>
-					<cost type="points">-20</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Hideous</name>
-					<cost type="points">-16</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Ugly</name>
-					<cost type="points">-8</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Unattractive</name>
-					<cost type="points">-4</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Handsome</name>
-					<cost type="points">12</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Beautiful</name>
-					<cost type="points">12</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Very Handsome</name>
-					<cost type="points">16</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Very Beautiful</name>
-					<cost type="points">16</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Transcendent</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B21</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Luck, Extraordinary</name>
-				<type>Mental</type>
-				<base_points>30</base_points>
-				<modifier version="1" enabled="no">
-					<name>Active</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B66</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Aspected</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B66</reference>
-					<notes>@Aspect@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Defensive</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B66</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Wishing</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>P59</reference>
-				</modifier>
-				<reference>B66</reference>
-				<notes>Usable once per 30 minutes of play</notes>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<prereq_list all="yes">
-					<advantage_prereq has="no">
-						<name compare="is">Luck</name>
-						<notes compare="is anything"></notes>
-					</advantage_prereq>
-				</prereq_list>
-			</advantage>
-		</advantage_container>
-		<advantage_container version="2" open="yes">
-			<name>Quirks</name>
-			<advantage version="2">
-				<name>Quirk Incorigible Flirt</name>
-				<type>Mental</type>
-				<levels>0</levels>
-				<base_points>-1</base_points>
-				<reference>B164</reference>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Quirk Vanity</name>
-				<type>Mental</type>
-				<levels>0</levels>
-				<base_points>-1</base_points>
-				<reference>B164</reference>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Quirk Tone Deaf</name>
-				<type>Mental</type>
-				<levels>0</levels>
-				<base_points>-1</base_points>
-				<reference>B164</reference>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Quirk Teatotaller</name>
-				<type>Mental</type>
-				<levels>0</levels>
-				<base_points>-1</base_points>
-				<reference>B164</reference>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Quirk Humdullah</name>
-				<type>Mental</type>
-				<levels>0</levels>
-				<base_points>-1</base_points>
-				<reference>B164</reference>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-		<advantage_container version="2" open="yes">
-			<name>Disadvantages</name>
-			<advantage version="2">
-				<name>Compulsive Gambling</name>
-				<type>Mental</type>
-				<base_points>-5</base_points>
-				<cr>9</cr>
-				<reference>B128</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Greed</name>
-				<type>Mental</type>
-				<base_points>-15</base_points>
-				<cr>9</cr>
-				<reference>B137</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Overconfidence</name>
-				<type>Mental</type>
-				<base_points>-5</base_points>
-				<cr>9</cr>
-				<reference>B148</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Social Stigma (Criminal Record)</name>
-				<type>Social</type>
-				<base_points>-5</base_points>
-				<reference>B155</reference>
-				<notes>-1 Reaction, -2 for cops &amp; judges</notes>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Secret (Murder; Utter Rejection)</name>
-				<type>Social</type>
-				<base_points>-10</base_points>
-				<reference>B152</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<skill_list>
-		<skill version="2">
-			<name>Acting</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B174</reference>
-			<categories>
-				<category>Social</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Performance</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Public Speaking</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Administration</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B174</reference>
-			<categories>
-				<category>Business</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Merchant</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Brawling</name>
-			<difficulty>DX/E</difficulty>
-			<points>2</points>
-			<reference>B182</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<weapon_bonus>
-				<name compare="is">Brawling</name>
-				<specialization compare="is anything"></specialization>
-				<level compare="at least">2</level>
-				<amount per_level="yes">1</amount>
-			</weapon_bonus>
-		</skill>
-		<skill version="2">
-			<name>Detect Lies</name>
-			<difficulty>Per/H</difficulty>
-			<points>1</points>
-			<reference>B187</reference>
-			<categories>
-				<category>Police</category>
-				<category>Social</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Body Language</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Psychology</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Diplomacy</name>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B187</reference>
-			<categories>
-				<category>Business</category>
-				<category>Police</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Politics</name>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Fast-Talk</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B195</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Social</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Acting</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Gambling</name>
-			<difficulty>IQ/A</difficulty>
-			<points>4</points>
-			<reference>B197</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Mathematics</name>
-				<specialization>Statistics</specialization>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Games</name>
-			<specialization>Cards</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>4</points>
-			<reference>B197</reference>
-			<categories>
-				<category>Knowledge</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Holdout</name>
-			<difficulty>IQ/A</difficulty>
-			<points>4</points>
-			<reference>B200</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Sleight of Hand</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Knife</name>
-			<difficulty>DX/E</difficulty>
-			<points>4</points>
-			<reference>B208</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Main-Gauche</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Politics</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B215</reference>
-			<categories>
-				<category>Business</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Diplomacy</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Politics</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B215</reference>
-			<categories>
-				<category>Business</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Diplomacy</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Public Speaking</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B216</reference>
-			<categories>
-				<category>Business</category>
-				<category>Scholarly</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Acting</name>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Performance</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Politics</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Savoir-Faire</name>
-			<specialization>High Society</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B218</reference>
-			<categories>
-				<category>Business</category>
-				<category>Knowledge</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Savoir-Faire</name>
-				<specialization>Servant</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Savoir-Faire</name>
-			<specialization>Mafia</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B218</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Knowledge</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Streetwise</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Sex Appeal</name>
-			<difficulty>HT/A</difficulty>
-			<points>2</points>
-			<reference>B219</reference>
-			<categories>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>HT</type>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Sleight of Hand</name>
-			<difficulty>DX/H</difficulty>
-			<points>4</points>
-			<reference>B221</reference>
-			<categories>
-				<category>Arts/Entertainment</category>
-				<category>Criminal/Street</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Filch</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Streetwise</name>
-			<difficulty>IQ/A</difficulty>
-			<points>2</points>
-			<reference>B223</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Thrown Weapon</name>
-			<specialization>Knife</specialization>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B226</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Wrestling</name>
-			<difficulty>DX/A</difficulty>
-			<points>1</points>
-			<reference>B228</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Shortsword</name>
-			<difficulty>DX/A</difficulty>
-			<points>0</points>
-			<reference>B209</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Knife</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Tonfa</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-	</skill_list>
-	<equipment_list>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Tactical Folding Knife</description>
-			<tech_level>8</tech_level>
-			<legality_class>4</legality_class>
-			<value>30</value>
-			<weight>0.5 lb</weight>
-			<reference>HT200</reference>
-			<melee_weapon>
-				<damage>sw-3 cut</damage>
-				<strength>5</strength>
-				<reach>C,1</reach>
-				<parry>-1</parry>
-				<default>
-					<type>Skill</type>
-					<name>Force Sword</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Main-Gauche</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shortsword</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Knife</name>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<melee_weapon>
-				<damage>thr-1 imp</damage>
-				<strength>5</strength>
-				<reach>C</reach>
-				<parry>-1</parry>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Knife</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Force Sword</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Main-Gauche</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shortsword</name>
-					<modifier>-3</modifier>
-				</default>
-			</melee_weapon>
-			<categories>
-				<category>Melee Weapons</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Baton</description>
-			<tech_level>0</tech_level>
-			<legality_class>4</legality_class>
-			<value>20</value>
-			<weight>1 lb</weight>
-			<reference>B273</reference>
-			<melee_weapon>
-				<damage>sw cr</damage>
-				<strength>6</strength>
-				<usage>Swung</usage>
-				<reach>1</reach>
-				<parry>0</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shortsword</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Broadsword</name>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Force Sword</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Jitte/Sai</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Knife</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Saber</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Smallsword</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Tonfa</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Sword!</name>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<melee_weapon>
-				<damage>thr cr</damage>
-				<strength>6</strength>
-				<usage>Thrust</usage>
-				<reach>1</reach>
-				<parry>0</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shortsword</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Broadsword</name>
-					<modifier>-2</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Force Sword</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Jitte/Sai</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Knife</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Saber</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Smallsword</name>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Tonfa</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Sword!</name>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<categories>
-				<category>Melee Weapon</category>
-			</categories>
-		</equipment>
-	</equipment_list>
-	<print_settings printer="Photosmart C4700 series" units="in">
-		<orientation>portrait</orientation>
-		<width>8.5</width>
-		<height>11</height>
-		<top_margin>0.5</top_margin>
-		<left_margin>0.5</left_margin>
-		<bottom_margin>0.5</bottom_margin>
-		<right_margin>0.5</right_margin>
-		<ink_chromaticity>monochrome</ink_chromaticity>
-		<sides>single</sides>
-		<quality>normal</quality>
-	</print_settings>
-</character>
+{
+	"type": "character",
+	"version": 1,
+	"id": "2d32bd1f-25dd-46fa-934b-d123daef6fe9",
+	"settings": {
+		"version": 1,
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_and_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"use_title_in_footer": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "Aug 27, 2016, 12:00 AM",
+	"modified_date": "Nov 5, 2016, 12:00 AM",
+	"profile": {
+		"player_name": "Rudy Jahchan",
+		"name": " bC",
+		"title": "Councillor",
+		"age": 43,
+		"birthday": "June 11",
+		"eyes": "Brown",
+		"hair": "Black, Wavy, Long",
+		"skin": "Dark Brown",
+		"handedness": "Right",
+		"height": "6'",
+		"weight": "158 lb",
+		"gender": "Male",
+		"body_type": "humanoid",
+		"tech_level": "8",
+		"religion": "Sufism"
+	},
+	"total_points": 250,
+	"ST": 10,
+	"DX": 13,
+	"IQ": 15,
+	"HT": 11,
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "dd3dd45a-969c-4492-938d-899f69fec577",
+			"name": "Culture",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "f277048f-146b-4180-88c2-7cabe9c61837",
+					"name": "Language: Arabic",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "09bd4f1f-027d-4b4f-a7fa-c2a594ca87f4",
+							"name": "Native",
+							"reference": "B23",
+							"cost_type": "points",
+							"cost": -6,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "cccd4ac3-7331-4b30-b990-031b7e86cdff",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "48711543-0b12-401b-a8c0-9433b0e7f88c",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5be5e208-27a3-4e37-9940-ab34f3fdb326",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f4500d09-70ac-4a06-ac09-9746a2addf99",
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d298ae54-42ff-4926-ae9b-a06fefd8a156",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0ab88326-8caf-4d98-9641-36db27571684",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c36d48a3-6f8c-43cd-89dc-5867b508df09",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f8da4046-21d2-4a05-a650-ac45d169ff26",
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						}
+					],
+					"reference": "B24",
+					"categories": [
+						"Advantage",
+						"Language"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "755da483-6da6-40eb-bff5-3f8e97e07b12",
+					"name": "Language: English",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "bc4534aa-88d7-4f28-ba00-bc61fd895a57",
+							"disabled": true,
+							"name": "Native",
+							"reference": "B23",
+							"cost_type": "points",
+							"cost": -6,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1a99251e-b0c6-4582-be1a-9c8cd2128860",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "827504ce-c63a-459c-ab3f-004f09dea24e",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6f536bc9-0ede-4d3a-8890-d2aa9e67ddc5",
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "239f7a4a-178f-4762-9622-de8e9e7b5b73",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "05282a6c-2c8e-4855-8e0a-23c4b4aff181",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "80351212-4278-4668-93f7-50dd7ff27599",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f90cc023-52c4-43dd-a202-35549f68b914",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d817c35e-4692-4570-afcb-62756219d869",
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						}
+					],
+					"reference": "B24",
+					"categories": [
+						"Advantage",
+						"Language"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "781612f9-f313-419c-a1a2-d213b1560eba",
+					"name": "Cultural Familiarity (Middle Eastern)",
+					"mental": true,
+					"base_points": 1,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0f6c0784-5f2b-4f78-88f8-27849a8ed2a1",
+							"disabled": true,
+							"name": "Alien",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f9090d7a-cb7f-49c6-8d7f-e4ee55ee2241",
+							"name": "Native",
+							"cost_type": "points",
+							"cost": -1,
+							"affects": "total"
+						}
+					],
+					"reference": "B23",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "39ea38c0-85ae-4da5-b6bd-309cb69b734e",
+					"name": "Cultural Familiarity (BarnAcc)",
+					"mental": true,
+					"base_points": 1,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8bed008f-13e6-4d9d-bc45-ccde449001e6",
+							"disabled": true,
+							"name": "Alien",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d55fb352-bbc9-42de-850f-8cd999c0f68f",
+							"disabled": true,
+							"name": "Native",
+							"cost_type": "points",
+							"cost": -1,
+							"affects": "total"
+						}
+					],
+					"reference": "B23",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "e4b0dc3c-c22d-485a-91b4-ae3483cda025",
+			"name": "Advantages",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "51aafb9d-0e6f-4ee6-94f5-3f1887ef58c0",
+					"name": "Danger Sense",
+					"mental": true,
+					"base_points": 15,
+					"reference": "B47",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "16706ad2-2e10-4441-a74d-15ff5ea61463",
+					"name": "Talent (Smooth Operator)",
+					"mental": true,
+					"levels": "2",
+					"points_per_level": 15,
+					"reference": "B91",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "acting"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "carousing"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "detect lies"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "diplomacy"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast-talk"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "intimidation"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "leadership"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "panhandling"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "politics"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "public speaking"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "savoir-faire"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sex appeal"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "streetwise"
+							}
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "ab0164b0-4cd9-439d-aae4-9a2a624f2836",
+					"name": "Rank",
+					"physical": true,
+					"levels": "2",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "cc275c15-21f7-4d08-b2ea-45d2dad224bc",
+							"disabled": true,
+							"name": "Replaces Status",
+							"reference": "B29",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "levels_only"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "52366dee-e21b-47ba-bf3f-bbbdca23b094",
+							"disabled": true,
+							"name": "Courtesy",
+							"reference": "B29",
+							"cost_type": "points",
+							"cost": -4,
+							"affects": "levels_only"
+						}
+					],
+					"reference": "B29",
+					"notes": "Council Member: Councillor Man",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "0076b760-2df5-486b-bf6e-1391863205db",
+					"name": "Status",
+					"social": true,
+					"levels": "1",
+					"points_per_level": 5,
+					"reference": "B28",
+					"notes": "Council Member",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "662c6553-ac4e-4576-be4e-b78445abad87",
+					"name": "Honest Face",
+					"physical": true,
+					"base_points": 1,
+					"reference": "B101",
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "83c6f8de-d838-47cd-b068-e4a101a52d23",
+					"name": "Appearance",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b6307ea8-b9c3-4431-af9a-b1f3291b0b6d",
+							"disabled": true,
+							"name": "Universal",
+							"cost_type": "percentage",
+							"cost": 25,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "28c8c030-88b7-4aa8-a77e-793a64172af3",
+							"disabled": true,
+							"name": "Off-the-Shelf Looks",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e5ecf51c-260f-4a37-b283-bcc12222e4ff",
+							"disabled": true,
+							"name": "Androgynous",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a5a2a597-9c19-462c-bdc3-4b18404a63dc",
+							"disabled": true,
+							"name": "Impressive",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "40a5b67d-25cd-4b5e-851c-dacdbcaac34c",
+							"name": "Attractive",
+							"cost_type": "points",
+							"cost": 4,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4780094b-12ea-42ef-a35b-207ac8277276",
+							"disabled": true,
+							"name": "Average",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7a93a422-7088-407c-b115-bb87807a12dc",
+							"disabled": true,
+							"name": "Horrific",
+							"cost_type": "points",
+							"cost": -24,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a1e98324-574d-4396-ad6e-86246ff1318d",
+							"disabled": true,
+							"name": "Monstrous",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ebbbbd2c-c1f2-4e61-b58c-41522dbfad46",
+							"disabled": true,
+							"name": "Hideous",
+							"cost_type": "points",
+							"cost": -16,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ad7aa53e-e7d9-4ddc-bd86-3667ee588b90",
+							"disabled": true,
+							"name": "Ugly",
+							"cost_type": "points",
+							"cost": -8,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "bf3725d2-caeb-473d-b4bf-956c4174d78e",
+							"disabled": true,
+							"name": "Unattractive",
+							"cost_type": "points",
+							"cost": -4,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ebfe6a35-cdc5-4059-8369-65e6426157f3",
+							"disabled": true,
+							"name": "Handsome",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c3c3fb2a-1cda-435b-802e-5a4974e32432",
+							"disabled": true,
+							"name": "Beautiful",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "44aefd9a-fe0e-4076-bdd7-0965a88ec165",
+							"disabled": true,
+							"name": "Very Handsome",
+							"cost_type": "points",
+							"cost": 16,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6cc2c335-89e5-41f6-9bee-e3ae73a57b77",
+							"disabled": true,
+							"name": "Very Beautiful",
+							"cost_type": "points",
+							"cost": 16,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a5023fdb-2151-4cd6-83fb-7d1e355dd3aa",
+							"disabled": true,
+							"name": "Transcendent",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						}
+					],
+					"reference": "B21",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "1c5219de-9064-4700-820f-5ae5252579dd",
+					"name": "Luck, Extraordinary",
+					"mental": true,
+					"base_points": 30,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8ebffe4b-343b-494c-ac2f-3116ca8ef800",
+							"disabled": true,
+							"name": "Active",
+							"reference": "B66",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1ac32406-6382-4f3a-a58d-e77c4a2c2dd2",
+							"disabled": true,
+							"name": "Aspected",
+							"reference": "B66",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "@Aspect@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0321cb29-3e93-41b7-9167-cb0675ecd703",
+							"disabled": true,
+							"name": "Defensive",
+							"reference": "B66",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c18d584d-26f7-4ca7-9173-d481950b5334",
+							"disabled": true,
+							"name": "Wishing",
+							"reference": "P59",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						}
+					],
+					"reference": "B66",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Luck"
+								}
+							}
+						]
+					},
+					"notes": "Usable once per 30 minutes of play",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "b2d8af77-3d5b-4dd4-8e45-e030c90eede6",
+			"name": "Quirks",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "3bf34696-3ce0-475c-9e26-788d18c24bda",
+					"name": "Quirk Incorigible Flirt",
+					"mental": true,
+					"levels": "0",
+					"base_points": -1,
+					"reference": "B164",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "a9a8fe43-4f38-4168-9a21-0850656fe4bd",
+					"name": "Quirk Vanity",
+					"mental": true,
+					"levels": "0",
+					"base_points": -1,
+					"reference": "B164",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "3aa0dfdd-16b7-43fa-8991-2945c4417584",
+					"name": "Quirk Tone Deaf",
+					"mental": true,
+					"levels": "0",
+					"base_points": -1,
+					"reference": "B164",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "8b980b36-ff33-4605-9f72-debd8e7d3b79",
+					"name": "Quirk Teatotaller",
+					"mental": true,
+					"levels": "0",
+					"base_points": -1,
+					"reference": "B164",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "379664e9-b496-48ad-8e67-0bcbbc532bd2",
+					"name": "Quirk Humdullah",
+					"mental": true,
+					"levels": "0",
+					"base_points": -1,
+					"reference": "B164",
+					"categories": [
+						"Quirk"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "f5f5d799-12c1-43f3-acba-a37ee81b867b",
+			"name": "Disadvantages",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "44a3412a-0e14-4106-bcc1-1af221c5c252",
+					"name": "Compulsive Gambling",
+					"mental": true,
+					"base_points": -5,
+					"cr": 9,
+					"reference": "B128",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "d56beefd-3feb-469a-b094-16054cf935a7",
+					"name": "Greed",
+					"mental": true,
+					"base_points": -15,
+					"cr": 9,
+					"reference": "B137",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "f5d17fa1-3758-431a-b903-a3262d395c22",
+					"name": "Overconfidence",
+					"mental": true,
+					"base_points": -5,
+					"cr": 9,
+					"reference": "B148",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "2e75e403-5f09-4e30-be5a-9760e6fd9b16",
+					"name": "Social Stigma (Criminal Record)",
+					"social": true,
+					"base_points": -5,
+					"reference": "B155",
+					"notes": "-1 Reaction, -2 for cops & judges",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "f32d8858-1dd8-44b7-b31f-465a67307167",
+					"name": "Secret (Murder; Utter Rejection)",
+					"social": true,
+					"base_points": -10,
+					"reference": "B152",
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "b7456d05-bc91-41c5-beb9-ce8681cf2bf0",
+			"name": "Acting",
+			"reference": "B174",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Performance",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Public Speaking",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Social",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "4538dae3-12f5-4bee-9277-7906eb30d674",
+			"name": "Administration",
+			"reference": "B174",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "Skill",
+					"name": "Merchant",
+					"modifier": -3
+				},
+				{
+					"type": "IQ",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Business",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "66d12629-91ca-4fa9-b252-d7ca0abd28a6",
+			"name": "Brawling",
+			"reference": "B182",
+			"difficulty": "DX/E",
+			"points": 2,
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Brawling"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					}
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "6792d28d-95a1-4ef6-b7ac-efe314fd21d6",
+			"name": "Detect Lies",
+			"reference": "B187",
+			"difficulty": "Per/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Per",
+				"modifier": -6,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "Per",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Body Language",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Psychology",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Police",
+				"Social",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "107ffaa7-7544-46fd-b6fc-e898f9f9b2e3",
+			"name": "Diplomacy",
+			"reference": "B187",
+			"difficulty": "IQ/H",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Politics",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Business",
+				"Police",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "7a210ab9-748c-4de9-896f-523d4ec28e7e",
+			"name": "Fast-Talk",
+			"reference": "B195",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Acting",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Social",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "ca7efe50-6ca7-4246-a439-bd5a6a46a74c",
+			"name": "Gambling",
+			"reference": "B197",
+			"difficulty": "IQ/A",
+			"points": 4,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Mathematics",
+					"specialization": "Statistics",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "76039a7c-efdf-473e-a827-cbfda71f533e",
+			"name": "Games",
+			"reference": "B197",
+			"specialization": "Cards",
+			"difficulty": "IQ/E",
+			"points": 4,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -4,
+				"level": 11,
+				"adjusted_level": 11,
+				"points": -11
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "d69281d1-05dd-4728-b546-94a81a21bf1d",
+			"name": "Holdout",
+			"reference": "B200",
+			"difficulty": "IQ/A",
+			"points": 4,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Sleight of Hand",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "8ed687cd-226a-4915-9fb1-258b632f84c6",
+			"name": "Knife",
+			"reference": "B208",
+			"difficulty": "DX/E",
+			"points": 4,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -4,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "Skill",
+					"name": "Force Sword",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Main-Gauche",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Shortsword",
+					"modifier": -3
+				},
+				{
+					"type": "DX",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "25ba9ad2-7281-4a2f-8d1d-7af6f9282977",
+			"name": "Politics",
+			"reference": "B215",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Diplomacy",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Business",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "af3522be-51ae-4593-96f0-a0990cfcab39",
+			"name": "Politics",
+			"reference": "B215",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Diplomacy",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Business",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "8e89da66-c981-4bea-a9df-c096b6b944bd",
+			"name": "Public Speaking",
+			"reference": "B216",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Acting",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Performance",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Politics",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Business",
+				"Scholarly",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "6520c48a-2cd5-404e-8dfa-8f35334997db",
+			"name": "Savoir-Faire",
+			"reference": "B218",
+			"specialization": "High Society",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -4,
+				"level": 11,
+				"adjusted_level": 11,
+				"points": -11
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Savoir-Faire",
+					"specialization": "Servant",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Business",
+				"Knowledge",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "2a82166a-3de5-4e94-9541-2cf82a156b22",
+			"name": "Savoir-Faire",
+			"reference": "B218",
+			"specialization": "Mafia",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Streetwise",
+				"modifier": -3,
+				"level": 12,
+				"adjusted_level": 12,
+				"points": -12
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Streetwise",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Knowledge",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "b1a9fd78-1b34-4306-ad59-61d69bcb954d",
+			"name": "Sex Appeal",
+			"reference": "B219",
+			"difficulty": "HT/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "HT",
+				"modifier": -3,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "HT",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "398cd779-50b9-4345-b26b-6cf8793a645b",
+			"name": "Sleight of Hand",
+			"reference": "B221",
+			"difficulty": "DX/H",
+			"points": 4,
+			"defaults": [
+				{
+					"type": "Skill",
+					"name": "Filch",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Arts/Entertainment",
+				"Criminal/Street"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "6ac7d5b0-3472-4a73-b16f-981cb6aafbcf",
+			"name": "Streetwise",
+			"reference": "B223",
+			"difficulty": "IQ/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "dfe97206-63f5-4c5c-90f6-a45ced830a8e",
+			"name": "Thrown Weapon",
+			"reference": "B226",
+			"specialization": "Knife",
+			"difficulty": "DX/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "DX",
+				"modifier": -4,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "f63735a0-713c-4a1b-b8ea-de8334c7e640",
+			"name": "Wrestling",
+			"reference": "B228",
+			"difficulty": "DX/A",
+			"points": 1,
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "9801848f-76db-4ac9-abc4-ce31fe2efa89",
+			"name": "Shortsword",
+			"reference": "B209",
+			"difficulty": "DX/A",
+			"points": 0,
+			"defaulted_from": {
+				"type": "Skill",
+				"name": "Knife",
+				"modifier": -4,
+				"level": 11,
+				"adjusted_level": 11,
+				"points": -11
+			},
+			"defaults": [
+				{
+					"type": "Skill",
+					"name": "Broadsword",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Force Sword",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Jitte/Sai",
+					"modifier": -3
+				},
+				{
+					"type": "Skill",
+					"name": "Knife",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Saber",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Smallsword",
+					"modifier": -4
+				},
+				{
+					"type": "Skill",
+					"name": "Tonfa",
+					"modifier": -3
+				},
+				{
+					"type": "DX",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		}
+	],
+	"equipment": [
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "7a6d74eb-111a-477e-bfb7-f66b77c84081",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Tactical Folding Knife",
+			"tech_level": "8",
+			"value": "30",
+			"weight": "0.5 lb",
+			"reference": "HT200",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-3"
+					},
+					"strength": "5",
+					"reach": "C,1",
+					"parry": "-1",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Shortsword",
+							"modifier": -3
+						},
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Knife"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "5",
+					"reach": "C",
+					"parry": "-1",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Knife"
+						},
+						{
+							"type": "Skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Shortsword",
+							"modifier": -3
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapons"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "dbd7ae66-339d-4add-b241-fd2bec8db2c6",
+			"equipped": true,
+			"quantity": 1,
+			"description": "Baton",
+			"tech_level": "0",
+			"value": "20",
+			"weight": "1 lb",
+			"reference": "B273",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw"
+					},
+					"strength": "6",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "Skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Sword!"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "6",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "Skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Sword!"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Melee Weapon"
+			]
+		}
+	]
+}

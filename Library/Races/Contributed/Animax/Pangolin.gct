@@ -1,429 +1,704 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="icus4fpo:1agxpytv2jagf" version="1">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Pangolin</name>
-			<advantage version="2">
-				<name>Bad Sight (Nearsighted)</name>
-				<type>Physical</type>
-				<base_points>-25</base_points>
-				<modifier version="1" enabled="no">
-					<name>Mitigator</name>
-					<cost type="percentage">-60</cost>
-					<affects>total</affects>
-					<notes>Glasses</notes>
-				</modifier>
-				<reference>B123</reference>
-				<notes> -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks</notes>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Careful</name>
-				<type>Mental</type>
-				<base_points>-1</base_points>
-				<reference>B163</reference>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Dull</name>
-				<type>Mental</type>
-				<base_points>-1</base_points>
-				<reference>B164</reference>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Claws, Sharp (Hands)</name>
-				<type>Physical</type>
-				<base_points>5</base_points>
-				<melee_weapon>
-					<damage>thr-1 cut</damage>
-					<usage>Slash</usage>
-					<reach>C</reach>
-					<parry>0</parry>
-					<block>No</block>
-					<default>
-						<type>DX</type>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Brawling</name>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Boxing</name>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Karate</name>
-						<modifier>0</modifier>
-					</default>
-				</melee_weapon>
-				<reference>B42</reference>
-				<notes>Only pay for hands or feet, not both</notes>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Damage Resistance</name>
-				<type>Physical, Exotic</type>
-				<levels>5</levels>
-				<points_per_level>5</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Force Field</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Hardened</name>
-					<cost type="percentage">20</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Enhances @Trait@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Healing only</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Enhances any trait</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Reflection</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="points">-1</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Rare@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-5</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Occasional@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Common@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-15</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Very Common@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Directional</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-					<notes>Front</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Flexible</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Very Common Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Semi-Ablative</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Can't wear armor</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Directional</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-					<notes>Back</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Common Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Tough Skin</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<notes>Effects that just require skin contact or a scratch ignore this DR</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-60</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Occasional Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Ablative</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Rare Attack Form@</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Or When Curled In a Ball, Immobile</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B47</reference>
-				<notes>Scales</notes>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<dr_bonus>
-					<location>full body</location>
-					<amount per_level="yes">1</amount>
-				</dr_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Night Vision</name>
-				<type>Physical</type>
-				<levels>5</levels>
-				<points_per_level>1</points_per_level>
-				<reference>B71</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Extra Arm</name>
-				<type>Physical, Exotic</type>
-				<levels>1</levels>
-				<points_per_level>10</points_per_level>
-				<modifier version="1">
-					<name>Extra-Flexible</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Long</name>
-					<cost type="percentage">100</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Foot Manipulators</name>
-					<cost type="percentage">-30</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1">
-					<name>No Physical Attack</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Short</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Weak</name>
-					<cost type="percentage">-25</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-					<notes>Half body ST</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Weak</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-					<notes>Quarter body ST</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Weapon Mount</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Can't Talk While Using</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B53</reference>
-				<notes>Long Tongue</notes>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Affliction</name>
-				<type>Physical, Exotic</type>
-				<levels>1</levels>
-				<points_per_level>10</points_per_level>
-				<modifier version="1">
-					<name>Disadvantage</name>
-					<cost type="percentage">10</cost>
-					<affects>total</affects>
-					<notes>Bad Smell: -2 Reaction</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Contact Agent</name>
-					<cost type="percentage">150</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1">
-					<name>Incapacitation</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<notes>Retching</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Inaccurate</name>
-					<cost type="percentage">-5</cost>
-					<levels>3</levels>
-					<affects>total</affects>
-					<notes>Acc 0</notes>
-				</modifier>
-				<reference>B35</reference>
-				<notes>Skunk Spray</notes>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Extra Arm</name>
-				<type>Physical, Exotic</type>
-				<levels>1</levels>
-				<points_per_level>10</points_per_level>
-				<modifier version="1">
-					<name>Extra-Flexible</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Long</name>
-					<cost type="percentage">100</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Foot Manipulators</name>
-					<cost type="percentage">-30</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1">
-					<name>No Physical Attack</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Short</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Weak</name>
-					<cost type="percentage">-25</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-					<notes>Half body ST</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Weak</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-					<notes>Quarter body ST</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Weapon Mount</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<reference>B53</reference>
-				<notes>Prehensile Tail</notes>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Tunneling (1)</name>
-				<type>Physical, Exotic</type>
-				<levels>1</levels>
-				<base_points>30</base_points>
-				<points_per_level>5</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Hands Free</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>P86</reference>
-				</modifier>
-				<reference>B94</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "927fb0f7-02a2-47dd-a960-a66e698b933a",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "48c39b94-039e-4d80-a7b9-51c33807f156",
+			"name": "Pangolin",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "e40622aa-70b8-4d69-9a38-1f5dada38c75",
+					"name": "Bad Sight (Nearsighted)",
+					"physical": true,
+					"base_points": -25,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2b3439bf-f359-4fa3-b6bf-251f76c11795",
+							"disabled": true,
+							"name": "Mitigator",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total",
+							"notes": "Glasses"
+						}
+					],
+					"reference": "B123",
+					"notes": " -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "0d3ee839-c3ab-448d-adef-71d5c42e7ee3",
+					"name": "Careful",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B163",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "176971fa-72e7-49c4-bac7-e41afb2af4cf",
+					"name": "Dull",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B164",
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "2ca3049f-61b4-496b-8c12-dae764af8de6",
+					"name": "Claws, Sharp (Hands)",
+					"physical": true,
+					"base_points": 5,
+					"weapons": [
+						{
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Slash",
+							"reach": "C",
+							"parry": "0",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "DX"
+								},
+								{
+									"type": "Skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "Skill",
+									"name": "Boxing"
+								},
+								{
+									"type": "Skill",
+									"name": "Karate"
+								}
+							]
+						}
+					],
+					"reference": "B42",
+					"notes": "Only pay for hands or feet, not both",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "3c023851-b525-4d43-9c85-6130e678681a",
+					"name": "Damage Resistance",
+					"physical": true,
+					"exotic": true,
+					"levels": "5",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f5ef4063-ace3-44f7-8fbf-6995dc75b5f8",
+							"disabled": true,
+							"name": "Force Field",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f5e45702-610e-486a-9f80-91690dccf486",
+							"disabled": true,
+							"name": "Hardened",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "78ef4f0e-70d4-4dc9-bd0a-a8c7b54fa4bc",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 80,
+							"affects": "total",
+							"notes": "Enhances @Trait@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9242c9fb-beb9-47ef-be6e-e7a224cb725c",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 80,
+							"affects": "total",
+							"notes": "Healing only"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3841b402-67a3-44c2-b1a7-c594a46b9b45",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"notes": "Enhances any trait"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "54b827d6-5ca3-4033-8f08-4302b8d68c6c",
+							"disabled": true,
+							"name": "Reflection",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a89646ef-43c9-4ead-bffd-b137e1bba49c",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "points",
+							"cost": -1,
+							"affects": "total",
+							"notes": "@Rare@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a0267879-767d-456a-b9c0-17eb0007882b",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "percentage",
+							"cost": -5,
+							"affects": "total",
+							"notes": "@Occasional@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "459297d5-a039-4eea-9ba8-7f74c16480b6",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"notes": "@Common@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f6a98df1-f14e-490a-bbfa-90a08fa5dbd7",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "percentage",
+							"cost": -15,
+							"affects": "total",
+							"notes": "@Very Common@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "af19f1a8-2999-4619-a27f-e3d8c67f2378",
+							"disabled": true,
+							"name": "Directional",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "Front"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "11ccfb17-80e8-4972-8145-5020d913a85b",
+							"disabled": true,
+							"name": "Flexible",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8bbcd327-4b0b-4def-ad52-a31b0955467a",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "@Very Common Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "33e0abc0-e51d-4fd6-9735-bbe341234dbf",
+							"disabled": true,
+							"name": "Semi-Ablative",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1e5a0992-a1a8-4165-a826-eea23ba6cdc1",
+							"name": "Can't wear armor",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9e2689b5-457d-4d04-9b2c-64d5df9839fd",
+							"name": "Directional",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "Back"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3928b25d-207d-4b09-a512-64cf6fd3acf8",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "@Common Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "828976f3-9770-4055-b2b3-20cc590e81be",
+							"disabled": true,
+							"name": "Tough Skin",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "Effects that just require skin contact or a scratch ignore this DR"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4af75280-bcee-4d74-96da-0328cc75d436",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total",
+							"notes": "@Occasional Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "11c2af9c-f298-4797-a188-0180ebfea75b",
+							"disabled": true,
+							"name": "Ablative",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7c7e36eb-19a9-4997-a74b-19325ad1895c",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total",
+							"notes": "@Rare Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7a40b85d-0198-447e-9dfd-b56c25453539",
+							"name": "Or When Curled In a Ball, Immobile",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						}
+					],
+					"reference": "B47",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "full_body"
+						}
+					],
+					"notes": "Scales",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "91be5b68-8850-4ca1-aa02-748ea4f1799a",
+					"name": "Night Vision",
+					"physical": true,
+					"levels": "5",
+					"points_per_level": 1,
+					"reference": "B71",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "6243f7ea-268a-4a99-bd8c-fae15ca5df4e",
+					"name": "Extra Arm",
+					"physical": true,
+					"exotic": true,
+					"levels": "1",
+					"points_per_level": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fb02b13e-de5a-4ec4-b9fa-effb8e7b0c0c",
+							"name": "Extra-Flexible",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7014ea12-dd6c-4c4a-a474-4eacb8f056f0",
+							"disabled": true,
+							"name": "Long",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d39499ef-3501-4ede-8a62-86d95436cbb3",
+							"disabled": true,
+							"name": "Foot Manipulators",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4b20dd5f-89cd-4f78-97c2-86d937b13692",
+							"name": "No Physical Attack",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fd34ca8e-7b90-473c-945e-50be709e91b9",
+							"disabled": true,
+							"name": "Short",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "31bff53b-58b3-43f4-acb4-55628ae03aae",
+							"disabled": true,
+							"name": "Weak",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -25,
+							"affects": "total",
+							"notes": "Half body ST"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c8ba7a6d-d46c-4799-a493-b8aba8d82ebe",
+							"name": "Weak",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total",
+							"notes": "Quarter body ST"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d673e94f-175e-4d2e-bb81-1174a5595fac",
+							"disabled": true,
+							"name": "Weapon Mount",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "eaf100ce-bfbe-41fe-b960-6874e17ee61b",
+							"name": "Can't Talk While Using",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total"
+						}
+					],
+					"reference": "B53",
+					"notes": "Long Tongue",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "4e053af4-6760-43bc-8d5e-92dde02cdf50",
+					"name": "Affliction",
+					"physical": true,
+					"exotic": true,
+					"levels": "1",
+					"points_per_level": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fc6b8566-5385-4b49-8c53-7490ca314de3",
+							"name": "Disadvantage",
+							"cost_type": "percentage",
+							"cost": 10,
+							"affects": "total",
+							"notes": "Bad Smell: -2 Reaction"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "24a94afb-152d-40ed-9d58-496ec3bf1827",
+							"name": "Contact Agent",
+							"cost_type": "percentage",
+							"cost": 150,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b529d629-4af6-4a56-979c-5cb58f4b4585",
+							"name": "Incapacitation",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"notes": "Retching"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f7cc15cd-0e6d-4a7c-8859-bfc1eab42d3d",
+							"name": "Inaccurate",
+							"cost_type": "percentage",
+							"cost": -5,
+							"affects": "total",
+							"levels": 3,
+							"notes": "Acc 0"
+						}
+					],
+					"reference": "B35",
+					"notes": "Skunk Spray",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "bbdff964-5aae-46c4-bca2-5a7b551788c6",
+					"name": "Extra Arm",
+					"physical": true,
+					"exotic": true,
+					"levels": "1",
+					"points_per_level": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f9799fc5-d9ef-402f-897b-aba7a388e69d",
+							"name": "Extra-Flexible",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "890da929-edbb-464a-9fe8-75c1d115f411",
+							"disabled": true,
+							"name": "Long",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "097046ac-d164-41a8-b527-0f8701a2bbef",
+							"disabled": true,
+							"name": "Foot Manipulators",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "708b34f8-b845-49ad-aa43-3296163302d8",
+							"name": "No Physical Attack",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d4aa6ac6-7c26-49e3-a18f-4eabe12144e7",
+							"disabled": true,
+							"name": "Short",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "70b1af1a-88f8-4f56-8069-67b2555ad1fd",
+							"name": "Weak",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -25,
+							"affects": "total",
+							"notes": "Half body ST"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9216d9be-17a9-4a5c-ad26-4815ed1d5309",
+							"disabled": true,
+							"name": "Weak",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total",
+							"notes": "Quarter body ST"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "588dabed-9a98-45fb-927f-6e9a1cbe1299",
+							"disabled": true,
+							"name": "Weapon Mount",
+							"reference": "B53",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						}
+					],
+					"reference": "B53",
+					"notes": "Prehensile Tail",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "5a4ee8de-ecab-4f8f-9d15-ff6c66ce965c",
+					"name": "Tunneling (1)",
+					"physical": true,
+					"exotic": true,
+					"levels": "1",
+					"base_points": 30,
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f410d244-395e-40d6-90db-771ad49af609",
+							"disabled": true,
+							"name": "Hands Free",
+							"reference": "P86",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						}
+					],
+					"reference": "B94",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	]
+}

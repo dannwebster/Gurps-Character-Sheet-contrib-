@@ -1,393 +1,703 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="376fd540-804f-4db6-a4b7-cf70b8fe46c2" version="1">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Irruptor Meta Trait</name>
-			<advantage version="2">
-				<name>Appearance</name>
-				<type>Physical</type>
-				<modifier version="1" enabled="no">
-					<name>Universal</name>
-					<cost type="percentage">25</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Off-the-Shelf Looks</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Androgynous</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Impressive</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Attractive</name>
-					<cost type="points">4</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Average</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Horrific</name>
-					<cost type="points">-24</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1">
-					<name>Monstrous</name>
-					<cost type="points">-20</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Hideous</name>
-					<cost type="points">-16</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Ugly</name>
-					<cost type="points">-8</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Unattractive</name>
-					<cost type="points">-4</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Handsome</name>
-					<cost type="points">12</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Beautiful</name>
-					<cost type="points">12</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Very Handsome</name>
-					<cost type="points">16</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Very Beautiful</name>
-					<cost type="points">16</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Transcendent</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B21</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Sadism</name>
-				<type>Mental</type>
-				<base_points>-15</base_points>
-				<cr>12</cr>
-				<reference>B152</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Sense of Duty</name>
-				<type>Mental</type>
-				<modifier version="1" enabled="no">
-					<name>Friends and Companions</name>
-					<cost type="points">-5</cost>
-					<affects>total</affects>
-					<reference>B153</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Small Group@</name>
-					<cost type="points">-5</cost>
-					<affects>total</affects>
-					<reference>B153</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Individual@</name>
-					<cost type="points">-2</cost>
-					<affects>total</affects>
-					<reference>B153</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Large Group@</name>
-					<cost type="points">-10</cost>
-					<affects>total</affects>
-					<reference>B153</reference>
-				</modifier>
-				<modifier version="1">
-					<name>History B</name>
-					<cost type="points">-15</cost>
-					<affects>total</affects>
-					<reference>B153</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Every Living Being</name>
-					<cost type="points">-20</cost>
-					<affects>total</affects>
-					<reference>B153</reference>
-				</modifier>
-				<reference>B153</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Weirdness Magnet</name>
-				<type>Mental, Supernatural</type>
-				<base_points>-15</base_points>
-				<modifier version="1" enabled="no">
-					<name>Origins Magnet</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-					<reference>SU32</reference>
-				</modifier>
-				<reference>B161</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>No Sense of Humor</name>
-				<type>Physical</type>
-				<base_points>-10</base_points>
-				<reference>B146</reference>
-				<notes>-2 Reaction</notes>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Callous</name>
-				<type>Mental</type>
-				<base_points>-5</base_points>
-				<reference>B125</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-				<skill_bonus>
-					<name compare="is">psychology</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-3</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">teaching</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-3</amount>
-				</skill_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Recovery</name>
-				<type>Physical, Exotic</type>
-				<base_points>10</base_points>
-				<reference>B80</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Subsonic Speech</name>
-				<type>Physical, Exotic</type>
-				<base_points>10</base_points>
-				<modifier version="1" enabled="no">
-					<name>No normal speech</name>
-					<cost type="points">-10</cost>
-					<affects>total</affects>
-					<reference>B89</reference>
-				</modifier>
-				<reference>B89</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Resistant</name>
-				<type>Physical</type>
-				<modifier version="1">
-					<name>Human Psi</name>
-					<cost type="points">30</cost>
-					<affects>total</affects>
-					<reference>B80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Common: Poison, Sickness, etc.@</name>
-					<cost type="points">15</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Occasional: Disease, Ingested Poison, etc.@</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@</name>
-					<cost type="points">5</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Immunity</name>
-					<cost type="multiplier">1</cost>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1">
-					<name>+8 to all HT rolls to resist</name>
-					<cost type="multiplier">0.5</cost>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>+3 to all HT rolls to resist</name>
-					<cost type="multiplier">0.33</cost>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Human Psi Only</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B81</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Resistant</name>
-				<type>Physical</type>
-				<modifier version="1">
-					<name>Annunaki Programming</name>
-					<cost type="points">30</cost>
-					<affects>total</affects>
-					<reference>B80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Common: Poison, Sickness, etc.@</name>
-					<cost type="points">15</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Occasional: Disease, Ingested Poison, etc.@</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@</name>
-					<cost type="points">5</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Immunity</name>
-					<cost type="multiplier">1</cost>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>+8 to all HT rolls to resist</name>
-					<cost type="multiplier">0.5</cost>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>+3 to all HT rolls to resist</name>
-					<cost type="multiplier">0.33</cost>
-					<reference>B81</reference>
-				</modifier>
-				<reference>B81</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Detect</name>
-				<type>Mental/Physical, Exotic</type>
-				<modifier version="1" enabled="no">
-					<name>@Rare Substance/Condition@</name>
-					<cost type="points">5</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Occasional Substance/Condition@</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1">
-					<name>History B</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Very Common Substance/Condition@</name>
-					<cost type="points">30</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Precise</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Signal Detection</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Vague</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Analyzing</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>P47</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Irruptor Psi</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B48</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<skill_list>
-		<skill_container version="2" open="yes">
-			<name>Irruptor Meta Trait</name>
-			<skill version="2">
-				<name>Hidden Lore</name>
-				<specialization>History B</specialization>
-				<difficulty>IQ/A</difficulty>
-				<points>2</points>
-				<reference>B199</reference>
-				<categories>
-					<category>Knowledge</category>
-				</categories>
-			</skill>
-		</skill_container>
-	</skill_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "376fd540-804f-4db6-a4b7-cf70b8fe46c2",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "932ec8ab-e135-4812-9ed4-c992271b37ff",
+			"name": "Irruptor Meta Trait",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "71940f3e-9139-4b1a-90a0-d68beef26046",
+					"name": "Appearance",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1ede24c0-828c-4685-981c-20ae08dae909",
+							"disabled": true,
+							"name": "Universal",
+							"cost_type": "percentage",
+							"cost": 25,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "60dfb23c-4699-4db6-b037-f92ed1d0d9e0",
+							"disabled": true,
+							"name": "Off-the-Shelf Looks",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "acc9815b-1d7e-466a-99cd-441311a1099e",
+							"disabled": true,
+							"name": "Androgynous",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "245db403-e2d8-4f09-ba4b-7de7e5f3ab89",
+							"disabled": true,
+							"name": "Impressive",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6a60db33-eb76-4996-b8f1-6d90a642291a",
+							"disabled": true,
+							"name": "Attractive",
+							"cost_type": "points",
+							"cost": 4,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "be8c1017-f939-4de2-a5e7-04103737e745",
+							"disabled": true,
+							"name": "Average",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "82789ee9-39c2-472e-9144-8c188fe4830a",
+							"disabled": true,
+							"name": "Horrific",
+							"cost_type": "points",
+							"cost": -24,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3c4dd860-2516-449e-ad8b-5de3b8a0d46a",
+							"name": "Monstrous",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0740df45-e2de-43fe-86a4-56a695a6e9d0",
+							"disabled": true,
+							"name": "Hideous",
+							"cost_type": "points",
+							"cost": -16,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "deef5e81-67a6-4b9e-b6f1-37e970959295",
+							"disabled": true,
+							"name": "Ugly",
+							"cost_type": "points",
+							"cost": -8,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9d45baba-77f8-4e0c-b16e-1e8551c033a6",
+							"disabled": true,
+							"name": "Unattractive",
+							"cost_type": "points",
+							"cost": -4,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e71c4c05-e48e-44a0-ae49-60622f778711",
+							"disabled": true,
+							"name": "Handsome",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8e208f5f-e4f6-44ee-bf5c-24731623e66e",
+							"disabled": true,
+							"name": "Beautiful",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "51684834-6aaa-467c-919a-2d542aecdb90",
+							"disabled": true,
+							"name": "Very Handsome",
+							"cost_type": "points",
+							"cost": 16,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ea05962f-2d93-40ab-aa9b-654c538d0bc9",
+							"disabled": true,
+							"name": "Very Beautiful",
+							"cost_type": "points",
+							"cost": 16,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9c216473-00ea-4b4b-b8a8-d62a4784eba9",
+							"disabled": true,
+							"name": "Transcendent",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						}
+					],
+					"reference": "B21",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "33a2f88b-f8c1-4eb7-8d03-d3f242736217",
+					"name": "Sadism",
+					"mental": true,
+					"base_points": -15,
+					"cr": 12,
+					"reference": "B152",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "4c7dacfb-f9ea-4b5c-b1ab-7f5f5f5afbaa",
+					"name": "Sense of Duty",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b135914d-026a-4ba2-b0d1-c0386f88596e",
+							"disabled": true,
+							"name": "Friends and Companions",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "986632a9-00ce-4a4a-9447-e287f96e7feb",
+							"disabled": true,
+							"name": "@Small Group@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "168d50ea-27f5-4c8f-aa98-58e6437fe0c6",
+							"disabled": true,
+							"name": "@Individual@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -2,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f549d234-1e4d-4a84-800b-dd482dc84696",
+							"disabled": true,
+							"name": "@Large Group@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fc1bd7ae-49ad-4137-b11f-d005e851cb47",
+							"name": "History B",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "30cfc001-7574-4316-94df-a755e21ad375",
+							"disabled": true,
+							"name": "Every Living Being",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						}
+					],
+					"reference": "B153",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "04686c65-5ab7-43fc-a271-f48a51b4fbcd",
+					"name": "Weirdness Magnet",
+					"mental": true,
+					"supernatural": true,
+					"base_points": -15,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "23c623fd-e68a-4ae8-889f-0b1f771be2be",
+							"disabled": true,
+							"name": "Origins Magnet",
+							"reference": "SU32",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						}
+					],
+					"reference": "B161",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "89547005-6596-49b8-b1f2-8d6bb3ca9097",
+					"name": "No Sense of Humor",
+					"physical": true,
+					"base_points": -10,
+					"reference": "B146",
+					"notes": "-2 Reaction",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "10a451fc-2496-44f5-b710-a3cc937d1e9f",
+					"name": "Callous",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B125",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "psychology"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "teaching"
+							}
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "1fa0544a-3e4b-4a2e-a984-cad8e911a3c9",
+					"name": "Recovery",
+					"physical": true,
+					"exotic": true,
+					"base_points": 10,
+					"reference": "B80",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "134ee3da-ef3b-479c-956d-41fdfa514a8e",
+					"name": "Subsonic Speech",
+					"physical": true,
+					"exotic": true,
+					"base_points": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "adc230f2-033c-4fac-92b8-c368f8757aed",
+							"disabled": true,
+							"name": "No normal speech",
+							"reference": "B89",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						}
+					],
+					"reference": "B89",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "56b1b3ac-e489-4566-8ac6-4370d5262da2",
+					"name": "Resistant",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0dcb2939-49c4-4581-a88c-e22005256e8b",
+							"name": "Human Psi",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "088d5344-2554-4c97-ab3a-c29bd0aa032b",
+							"disabled": true,
+							"name": "@Common: Poison, Sickness, etc.@",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "be449b11-bc50-4578-8fd0-339ca2ab142b",
+							"disabled": true,
+							"name": "@Occasional: Disease, Ingested Poison, etc.@",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "12fc3360-1c5e-4f2f-b758-494948020349",
+							"disabled": true,
+							"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9c872e93-6ba7-48a8-8ff7-645c526d18f9",
+							"disabled": true,
+							"name": "Immunity",
+							"reference": "B81",
+							"cost_type": "multiplier",
+							"cost": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "160de4ba-a163-4be3-b33b-821867ab09d4",
+							"name": "+8 to all HT rolls to resist",
+							"reference": "B81",
+							"cost_type": "multiplier",
+							"cost": 0.5
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a488efe3-e7b0-4a89-a256-a031a32257ed",
+							"disabled": true,
+							"name": "+3 to all HT rolls to resist",
+							"reference": "B81",
+							"cost_type": "multiplier",
+							"cost": 0.33
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "98d670ca-7aa8-4d0f-9961-ae8b7ec452b0",
+							"name": "Human Psi Only",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						}
+					],
+					"reference": "B81",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "9ad0382a-cfeb-4c53-98ca-8c60d182708f",
+					"name": "Resistant",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a75fca2e-67f2-4a0d-8011-915de26adfb9",
+							"name": "Annunaki Programming",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d3c229f0-7c63-45f4-a832-770129ac0384",
+							"disabled": true,
+							"name": "@Common: Poison, Sickness, etc.@",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d7faa83e-d24c-4367-bcc2-d4821f1e2604",
+							"disabled": true,
+							"name": "@Occasional: Disease, Ingested Poison, etc.@",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f40b2798-2e7d-4d1b-9e0f-7f5e7850e655",
+							"disabled": true,
+							"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f9d91cb2-a744-4d5b-b917-8304a50fee65",
+							"disabled": true,
+							"name": "Immunity",
+							"reference": "B81",
+							"cost_type": "multiplier",
+							"cost": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "12a8564a-f1cb-4d4e-ae0b-271736a76190",
+							"disabled": true,
+							"name": "+8 to all HT rolls to resist",
+							"reference": "B81",
+							"cost_type": "multiplier",
+							"cost": 0.5
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5d0e8521-4c1a-4997-984d-efd0f2f55c15",
+							"disabled": true,
+							"name": "+3 to all HT rolls to resist",
+							"reference": "B81",
+							"cost_type": "multiplier",
+							"cost": 0.33
+						}
+					],
+					"reference": "B81",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "0f467141-1d79-4f91-873e-bf98e27d5233",
+					"name": "Detect",
+					"mental": true,
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "dc7e7d04-8f42-4f60-aee6-6935b62fa106",
+							"disabled": true,
+							"name": "@Rare Substance/Condition@",
+							"reference": "B48",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5bf8da99-3ed2-499a-88ad-7156c85c796b",
+							"disabled": true,
+							"name": "@Occasional Substance/Condition@",
+							"reference": "B48",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ca3ac9d8-b400-4f0a-ae7a-205772269e53",
+							"name": "History B",
+							"reference": "B48",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "cf8d0379-d7bd-4759-8b58-8331c8e3ad3e",
+							"disabled": true,
+							"name": "@Very Common Substance/Condition@",
+							"reference": "B48",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1036af6b-e290-4aa6-aca4-c2ae76e31473",
+							"name": "Precise",
+							"reference": "B48",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c7506ebf-f8c1-41a6-9dbf-1a6f77947905",
+							"disabled": true,
+							"name": "Signal Detection",
+							"reference": "B48",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "adca2cb8-d5fd-4b90-91df-93c71dfdb484",
+							"disabled": true,
+							"name": "Vague",
+							"reference": "B48",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "66156582-41cb-4ac1-8d19-8eb64a391e90",
+							"disabled": true,
+							"name": "Analyzing",
+							"reference": "P47",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "301ff20d-62d2-4121-ac25-111a68a0f95f",
+							"name": "Irruptor Psi",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total"
+						}
+					],
+					"reference": "B48",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill_container",
+			"version": 1,
+			"id": "abf8968e-d51c-40f6-b860-5bb742e546da",
+			"name": "Irruptor Meta Trait",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "e454ed60-0bbb-483b-a419-ba573ab5849c",
+					"name": "Hidden Lore",
+					"reference": "B199",
+					"specialization": "History B",
+					"difficulty": "IQ/A",
+					"points": 2,
+					"categories": [
+						"Knowledge"
+					]
+				}
+			]
+		}
+	]
+}

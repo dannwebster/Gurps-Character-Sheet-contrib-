@@ -1,879 +1,1464 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<character id="288a15c1-0943-43aa-94c2-11430e952523" version="2">
-	<created_date>May 19, 2016</created_date>
-	<modified_date>Sep 18, 2016 4:21 PM</modified_date>
-	<profile>
-		<player_name>dwebster</player_name>
-		<campaign>Dark Borders</campaign>
-		<name>Dr. Carmen Vazquez</name>
-		<title>Post Doctoral Student</title>
-		<age>28</age>
-		<birthday>March 11</birthday>
-		<eyes>Dark Brown</eyes>
-		<hair>Dark, Wavy</hair>
-		<skin>Copper</skin>
-		<handedness>Right</handedness>
-		<height>5' 4"</height>
-		<weight>130 lb</weight>
-		<SM>0</SM>
-		<gender>Female</gender>
-		<race>Human</race>
-		<tech_level>8</tech_level>
-		<religion>Lapsed Catholic</religion>
-	</profile>
-	<HP>0</HP>
-	<FP>2</FP>
-	<total_points>85</total_points>
-	<ST>9</ST>
-	<DX>11</DX>
-	<IQ>13</IQ>
-	<HT>12</HT>
-	<will>-1</will>
-	<perception>-1</perception>
-	<speed>0.25</speed>
-	<move>0</move>
-	<include_punch>true</include_punch>
-	<include_kick>true</include_kick>
-	<include_kick_with_boots>true</include_kick_with_boots>
-	<advantage_list>
-		<advantage version="2">
-			<name>Bad Sight (Nearsighted)</name>
-			<type>Physical</type>
-			<base_points>-25</base_points>
-			<modifier version="1">
-				<name>Mitigator</name>
-				<cost type="percentage">-60</cost>
-				<affects>total</affects>
-				<notes>Glasses</notes>
-			</modifier>
-			<reference>B123</reference>
-			<notes> -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks</notes>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Wealth</name>
-			<type>Social</type>
-			<modifier version="1" enabled="no">
-				<name>Dead Broke</name>
-				<cost type="points">-25</cost>
-				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is $0</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Poor</name>
-				<cost type="points">-15</cost>
-				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is 1/5 average</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Struggling</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is 1/2 average</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Average</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B25</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Comfortable</name>
-				<cost type="points">10</cost>
-				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is 2x average</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Wealthy</name>
-				<cost type="points">20</cost>
-				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is 5x average</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Very Wealthy</name>
-				<cost type="points">30</cost>
-				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is 20x average</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Filthy Rich</name>
-				<cost type="points">50</cost>
-				<affects>total</affects>
-				<reference>B25</reference>
-				<notes>Starting wealth is 100x average</notes>
-			</modifier>
-			<reference>B25</reference>
-			<categories>
-				<category>Advantage</category>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Lecherousness</name>
-			<type>Mental</type>
-			<base_points>-15</base_points>
-			<cr>15</cr>
-			<reference>B142</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Obsession</name>
-			<type>Physical</type>
-			<modifier version="1">
-				<name>Short term</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B146</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Long term</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B146</reference>
-			</modifier>
-			<reference>B146</reference>
-			<notes>Fix Social Injustice</notes>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Odious Personal Habit</name>
-			<type>Physical</type>
-			<modifier version="1">
-				<name>-1 Reaction</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B22</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>-2 Reaction</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B22</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>-3 Reaction</name>
-				<cost type="points">-15</cost>
-				<affects>total</affects>
-				<reference>B22</reference>
-			</modifier>
-			<reference>B22</reference>
-			<notes>Calling out Social Injustice</notes>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Sense of Duty</name>
-			<type>Mental</type>
-			<modifier version="1">
-				<name>Friends and Companions</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B153</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Small Group@</name>
-				<cost type="points">-5</cost>
-				<affects>total</affects>
-				<reference>B153</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Individual@</name>
-				<cost type="points">-2</cost>
-				<affects>total</affects>
-				<reference>B153</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Large Group@</name>
-				<cost type="points">-10</cost>
-				<affects>total</affects>
-				<reference>B153</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>@Entire Race@</name>
-				<cost type="points">-15</cost>
-				<affects>total</affects>
-				<reference>B153</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Every Living Being</name>
-				<cost type="points">-20</cost>
-				<affects>total</affects>
-				<reference>B153</reference>
-			</modifier>
-			<reference>B153</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Compelled to go to Mass monthly</name>
-			<type>Mental</type>
-			<levels>0</levels>
-			<base_points>-1</base_points>
-			<reference>B164</reference>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Likes "Dangerous" Men</name>
-			<type>Mental</type>
-			<levels>0</levels>
-			<base_points>-1</base_points>
-			<reference>B164</reference>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Likes Warm Weather</name>
-			<type>Mental</type>
-			<levels>0</levels>
-			<base_points>-1</base_points>
-			<reference>B164</reference>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Seeks Adventure and Fame</name>
-			<type>Mental</type>
-			<levels>0</levels>
-			<base_points>-1</base_points>
-			<reference>B164</reference>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Spends Too Much on Good Coffee</name>
-			<type>Mental</type>
-			<levels>0</levels>
-			<base_points>-1</base_points>
-			<reference>B164</reference>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Cultural Familiarity (Western)</name>
-			<type>Mental</type>
-			<base_points>1</base_points>
-			<modifier version="1" enabled="no">
-				<name>Alien</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Native</name>
-				<cost type="points">-1</cost>
-				<affects>total</affects>
-			</modifier>
-			<reference>B23</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Language: English</name>
-			<type>Mental</type>
-			<modifier version="1">
-				<name>Native</name>
-				<cost type="points">-6</cost>
-				<affects>total</affects>
-				<reference>B23</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>None</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Broken</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Accented</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Spoken</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Native</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>None</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Broken</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Accented</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Written</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Native</notes>
-			</modifier>
-			<reference>B24</reference>
-			<categories>
-				<category>Advantage</category>
-				<category>Language</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Cultural Familiarity (Aboriginal American)</name>
-			<type>Mental</type>
-			<base_points>1</base_points>
-			<modifier version="1" enabled="no">
-				<name>Alien</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Native</name>
-				<cost type="points">-1</cost>
-				<affects>total</affects>
-			</modifier>
-			<reference>B23</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Appearance</name>
-			<type>Physical</type>
-			<modifier version="1" enabled="no">
-				<name>Universal</name>
-				<cost type="percentage">25</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Off-the-Shelf Looks</name>
-				<cost type="percentage">-50</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Androgynous</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Impressive</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Attractive</name>
-				<cost type="points">4</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Average</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Horrific</name>
-				<cost type="points">-24</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Monstrous</name>
-				<cost type="points">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Hideous</name>
-				<cost type="points">-16</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Ugly</name>
-				<cost type="points">-8</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Unattractive</name>
-				<cost type="points">-4</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Handsome</name>
-				<cost type="points">12</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Beautiful</name>
-				<cost type="points">12</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Very Handsome</name>
-				<cost type="points">16</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Very Beautiful</name>
-				<cost type="points">16</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Transcendent</name>
-				<cost type="points">20</cost>
-				<affects>total</affects>
-			</modifier>
-			<reference>B21</reference>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Charisma</name>
-			<type>Mental</type>
-			<levels>1</levels>
-			<points_per_level>5</points_per_level>
-			<reference>B41</reference>
-			<notes>+1/level to Influence rolls</notes>
-			<categories>
-				<category>Advantage</category>
-			</categories>
-			<skill_bonus>
-				<name compare="is">fortune-telling</name>
-				<specialization compare="is anything"></specialization>
-				<amount per_level="yes">1</amount>
-			</skill_bonus>
-			<skill_bonus>
-				<name compare="is">leadership</name>
-				<specialization compare="is anything"></specialization>
-				<amount per_level="yes">1</amount>
-			</skill_bonus>
-			<skill_bonus>
-				<name compare="is">panhandling</name>
-				<specialization compare="is anything"></specialization>
-				<amount per_level="yes">1</amount>
-			</skill_bonus>
-			<skill_bonus>
-				<name compare="is">public speaking</name>
-				<specialization compare="is anything"></specialization>
-				<amount per_level="yes">1</amount>
-			</skill_bonus>
-		</advantage>
-		<advantage version="2">
-			<name>Language: Spanish</name>
-			<type>Mental</type>
-			<modifier version="1" enabled="no">
-				<name>Native</name>
-				<cost type="points">-6</cost>
-				<affects>total</affects>
-				<reference>B23</reference>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>None</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Broken</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Spoken</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Accented</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Spoken</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Native</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">0</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>None</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">1</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Broken</notes>
-			</modifier>
-			<modifier version="1" enabled="no">
-				<name>Written</name>
-				<cost type="points">2</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Accented</notes>
-			</modifier>
-			<modifier version="1">
-				<name>Written</name>
-				<cost type="points">3</cost>
-				<affects>total</affects>
-				<reference>B24</reference>
-				<notes>Native</notes>
-			</modifier>
-			<reference>B24</reference>
-			<categories>
-				<category>Advantage</category>
-				<category>Language</category>
-			</categories>
-		</advantage>
-	</advantage_list>
-	<skill_list>
-		<skill version="2">
-			<name>Anthropology</name>
-			<specialization>Meso American</specialization>
-			<difficulty>IQ/H</difficulty>
-			<points>2</points>
-			<reference>B175</reference>
-			<categories>
-				<category>Social Sciences/Humanities</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Paleontology</name>
-				<specialization>Paleoanthropology</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Sociology</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Area Knowledge</name>
-			<specialization>Washington DC </specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B176</reference>
-			<notes>All important businesses, streets, citizens, leaders, etc.</notes>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Geography</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Computer Operation</name>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B184</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Scholarly</category>
-				<category>Technical</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Connoisseur</name>
-			<specialization>Coffee</specialization>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B185</reference>
-			<categories>
-				<category>Arts/Entertainment</category>
-				<category>Knowledge</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Cooking</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B185</reference>
-			<categories>
-				<category>Everyman</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Housekeeping</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Diplomacy</name>
-			<difficulty>IQ/H</difficulty>
-			<points>2</points>
-			<reference>B187</reference>
-			<notes>+1 Attractive, +1 Charisma</notes>
-			<categories>
-				<category>Business</category>
-				<category>Police</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Politics</name>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Driving</name>
-			<specialization>Automobile</specialization>
-			<tech_level>8</tech_level>
-			<difficulty>DX/A</difficulty>
-			<points>1</points>
-			<reference>B188</reference>
-			<categories>
-				<category>Vehicle</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Driving</name>
-				<specialization>Heavy Wheeled</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Driving</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Fast-Talk</name>
-			<difficulty>IQ/A</difficulty>
-			<points>4</points>
-			<reference>B195</reference>
-			<notes>+1 Attractive, +1 Charisma</notes>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Social</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Acting</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>History</name>
-			<specialization>Meso American</specialization>
-			<difficulty>IQ/H</difficulty>
-			<points>2</points>
-			<reference>B200</reference>
-			<categories>
-				<category>Social Sciences/Humanities</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Professional Skill</name>
-			<specialization>Grad Student</specialization>
-			<difficulty>IQ/A</difficulty>
-			<points>4</points>
-			<reference>B215</reference>
-			<notes>(Admin, Accounting, Diplomacy, Savoir Faire, Writing, in an academic environs)</notes>
-			<categories>
-				<category>Knowledge</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Public Speaking</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B216</reference>
-			<notes>+1 Attractive, +1 Charisma</notes>
-			<categories>
-				<category>Business</category>
-				<category>Scholarly</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Acting</name>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Performance</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Politics</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Research</name>
-			<tech_level>3</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B217</reference>
-			<categories>
-				<category>Scholarly</category>
-				<category>Spy</category>
-			</categories>
-			<prereq_list all="yes">
-				<prereq_list all="yes">
-					<when_tl compare="at least">8</when_tl>
-					<skill_prereq has="yes">
-						<name compare="is">Computer Operation</name>
-						<specialization compare="is anything"></specialization>
-					</skill_prereq>
-				</prereq_list>
-				<prereq_list all="no">
-					<advantage_prereq has="yes">
-						<name compare="starts with">Language</name>
-						<notes compare="contains">Written (Native</notes>
-					</advantage_prereq>
-					<advantage_prereq has="yes">
-						<name compare="starts with">Language</name>
-						<notes compare="contains">Written (Accented)</notes>
-					</advantage_prereq>
-					<advantage_prereq has="yes">
-						<name compare="starts with">Language</name>
-						<notes compare="contains">Written (Broken)</notes>
-					</advantage_prereq>
-				</prereq_list>
-			</prereq_list>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Writing</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Running</name>
-			<difficulty>HT/A</difficulty>
-			<points>2</points>
-			<reference>B218</reference>
-			<categories>
-				<category>Athletic</category>
-			</categories>
-			<default>
-				<type>HT</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Sex Appeal</name>
-			<difficulty>HT/A</difficulty>
-			<points>2</points>
-			<reference>B219</reference>
-			<notes>+1 Attractive, +1 Charisma</notes>
-			<categories>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>HT</type>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-	</skill_list>
-	<print_settings printer="Photosmart C4700 series" units="in">
-		<orientation>portrait</orientation>
-		<width>8.5</width>
-		<height>11</height>
-		<top_margin>0.5</top_margin>
-		<left_margin>0.5</left_margin>
-		<bottom_margin>0.5</bottom_margin>
-		<right_margin>0.5</right_margin>
-		<ink_chromaticity>monochrome</ink_chromaticity>
-		<sides>single</sides>
-		<quality>normal</quality>
-	</print_settings>
-</character>
+{
+	"type": "character",
+	"version": 1,
+	"id": "288a15c1-0943-43aa-94c2-11430e952523",
+	"settings": {
+		"version": 1,
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"base_will_and_per_on_10": false,
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"use_know_your_own_strength": false,
+		"use_reduced_swing": false,
+		"use_thrust_equals_swing_minus_2": false,
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"use_title_in_footer": false,
+		"block_layout": [
+			"reactions",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		]
+	},
+	"created_date": "May 19, 2016, 12:00 AM",
+	"modified_date": "Sep 18, 2016, 12:00 AM",
+	"profile": {
+		"player_name": "dwebster",
+		"name": "Dr. Carmen Vazquez",
+		"title": "Post Doctoral Student",
+		"age": 28,
+		"birthday": "March 11",
+		"eyes": "Dark Brown",
+		"hair": "Dark, Wavy",
+		"skin": "Copper",
+		"handedness": "Right",
+		"height": "5' 4\"",
+		"weight": "130 lb",
+		"gender": "Female",
+		"body_type": "humanoid",
+		"tech_level": "8",
+		"religion": "Lapsed Catholic"
+	},
+	"FP_adj": 2,
+	"total_points": 85,
+	"ST": 9,
+	"DX": 11,
+	"IQ": 13,
+	"HT": 12,
+	"will_adj": -1,
+	"per_adj": -1,
+	"speed_adj": 0.25,
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "6113fe1d-1a1f-48f4-8b5a-ab8e6e660e03",
+			"name": "Bad Sight (Nearsighted)",
+			"physical": true,
+			"base_points": -25,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a30ed207-621b-4986-976f-4df5d24f272f",
+					"name": "Mitigator",
+					"cost_type": "percentage",
+					"cost": -60,
+					"affects": "total",
+					"notes": "Glasses"
+				}
+			],
+			"reference": "B123",
+			"notes": " -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "203eb6a6-3955-424b-9c2a-64cb8edd8266",
+			"name": "Wealth",
+			"social": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "49bda168-1d49-4873-9f87-b39410add7c2",
+					"disabled": true,
+					"name": "Dead Broke",
+					"reference": "B25",
+					"cost_type": "points",
+					"cost": -25,
+					"affects": "total",
+					"notes": "Starting wealth is $0"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3b0c9b63-c32d-48b4-adb2-f27b809ba0ca",
+					"disabled": true,
+					"name": "Poor",
+					"reference": "B25",
+					"cost_type": "points",
+					"cost": -15,
+					"affects": "total",
+					"notes": "Starting wealth is 1/5 average"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b41c1e32-2a71-4a25-ad0f-88f66ef28c14",
+					"name": "Struggling",
+					"reference": "B25",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total",
+					"notes": "Starting wealth is 1/2 average"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f4fb1933-3082-4243-83a7-871dc06f5e2e",
+					"disabled": true,
+					"name": "Average",
+					"reference": "B25",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "18c9d555-1162-459a-81da-a5e6d3b445db",
+					"disabled": true,
+					"name": "Comfortable",
+					"reference": "B25",
+					"cost_type": "points",
+					"cost": 10,
+					"affects": "total",
+					"notes": "Starting wealth is 2x average"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e5689826-4191-47f2-98c0-fdde8f985f21",
+					"disabled": true,
+					"name": "Wealthy",
+					"reference": "B25",
+					"cost_type": "points",
+					"cost": 20,
+					"affects": "total",
+					"notes": "Starting wealth is 5x average"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f5a47df0-093c-4c38-8c99-358ff2ead177",
+					"disabled": true,
+					"name": "Very Wealthy",
+					"reference": "B25",
+					"cost_type": "points",
+					"cost": 30,
+					"affects": "total",
+					"notes": "Starting wealth is 20x average"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "271fd4d7-1d89-4954-9235-d6a9fdf0eb6a",
+					"disabled": true,
+					"name": "Filthy Rich",
+					"reference": "B25",
+					"cost_type": "points",
+					"cost": 50,
+					"affects": "total",
+					"notes": "Starting wealth is 100x average"
+				}
+			],
+			"reference": "B25",
+			"categories": [
+				"Advantage",
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "a079b55b-bfec-45f7-91b2-ef679f7d052b",
+			"name": "Lecherousness",
+			"mental": true,
+			"base_points": -15,
+			"cr": 15,
+			"reference": "B142",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "72a715b0-770c-42f4-9d4f-86fbccbbca24",
+			"name": "Obsession",
+			"physical": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3ee78896-9dcb-4069-ab00-b327db3c2972",
+					"name": "Short term",
+					"reference": "B146",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5bd222ee-9dea-4581-9f3c-9fb9449a2395",
+					"disabled": true,
+					"name": "Long term",
+					"reference": "B146",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total"
+				}
+			],
+			"reference": "B146",
+			"notes": "Fix Social Injustice",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "d07e0a8d-7266-4651-bb49-dbab0d4fe9a0",
+			"name": "Odious Personal Habit",
+			"physical": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a5402769-4a55-4af3-bb1a-869dff05b1b7",
+					"name": "-1 Reaction",
+					"reference": "B22",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "78c7ef25-8a2a-47ef-bd62-8c00011321e3",
+					"disabled": true,
+					"name": "-2 Reaction",
+					"reference": "B22",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "8ead806b-558c-475e-9f69-5bf04546893e",
+					"disabled": true,
+					"name": "-3 Reaction",
+					"reference": "B22",
+					"cost_type": "points",
+					"cost": -15,
+					"affects": "total"
+				}
+			],
+			"reference": "B22",
+			"notes": "Calling out Social Injustice",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "96d36595-cf85-4fcf-bae6-ca40b0573572",
+			"name": "Sense of Duty",
+			"mental": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ebfe1bb6-ae98-46d7-94ad-9717e80df233",
+					"name": "Friends and Companions",
+					"reference": "B153",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c10aeda7-ecb9-4286-a733-5b5f81065240",
+					"disabled": true,
+					"name": "@Small Group@",
+					"reference": "B153",
+					"cost_type": "points",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f6e1607a-dd1a-4dae-8711-eedb766ffadb",
+					"disabled": true,
+					"name": "@Individual@",
+					"reference": "B153",
+					"cost_type": "points",
+					"cost": -2,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1811eb3c-673f-4f1e-b4f6-1532172bbc2d",
+					"disabled": true,
+					"name": "@Large Group@",
+					"reference": "B153",
+					"cost_type": "points",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b708fb58-2c50-424c-9104-c4984cf48897",
+					"disabled": true,
+					"name": "@Entire Race@",
+					"reference": "B153",
+					"cost_type": "points",
+					"cost": -15,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f1494e7c-1527-4b0c-9fee-eac9837c70b5",
+					"disabled": true,
+					"name": "Every Living Being",
+					"reference": "B153",
+					"cost_type": "points",
+					"cost": -20,
+					"affects": "total"
+				}
+			],
+			"reference": "B153",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "110b47fe-04f6-4b21-a4ff-678f74494b58",
+			"name": "Compelled to go to Mass monthly",
+			"mental": true,
+			"levels": "0",
+			"base_points": -1,
+			"reference": "B164",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "c9b39a51-554b-44d5-a94c-9fbbaf828096",
+			"name": "Likes \"Dangerous\" Men",
+			"mental": true,
+			"levels": "0",
+			"base_points": -1,
+			"reference": "B164",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "f02ea56f-2650-4c6e-9e55-127635c14cc1",
+			"name": "Likes Warm Weather",
+			"mental": true,
+			"levels": "0",
+			"base_points": -1,
+			"reference": "B164",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "12df003c-6970-4390-a3be-a5be9007c3cb",
+			"name": "Seeks Adventure and Fame",
+			"mental": true,
+			"levels": "0",
+			"base_points": -1,
+			"reference": "B164",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "25d34ea1-24a4-49af-971e-8cc5aca9d0c9",
+			"name": "Spends Too Much on Good Coffee",
+			"mental": true,
+			"levels": "0",
+			"base_points": -1,
+			"reference": "B164",
+			"categories": [
+				"Quirk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "549092f3-685a-4e8b-aee1-96359ac64232",
+			"name": "Cultural Familiarity (Western)",
+			"mental": true,
+			"base_points": 1,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "80887966-2103-49ef-9888-1887ae442231",
+					"disabled": true,
+					"name": "Alien",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5401d273-f21e-4eda-a9d9-f85b1df2fe1f",
+					"name": "Native",
+					"cost_type": "points",
+					"cost": -1,
+					"affects": "total"
+				}
+			],
+			"reference": "B23",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "bb910a41-e652-400c-95c5-8f0d814741a7",
+			"name": "Language: English",
+			"mental": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a3e7cff4-f9b9-4e53-b2aa-828264d8ce17",
+					"name": "Native",
+					"reference": "B23",
+					"cost_type": "points",
+					"cost": -6,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "317b9c0d-d485-4eaf-8296-1963328307c8",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f1caa899-8d84-4975-a5f3-5b19c23e0b70",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5333aec3-c9a5-4a1d-883c-b4ae33c1c566",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "486689a6-c6a8-4504-bf5d-f605cf9143c5",
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f16c1102-fbb5-4220-89f1-062bd4f3b69b",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "56123830-897f-49bd-a470-54bb626998ae",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e915e559-eec2-4602-bffc-19f212d919e7",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3e70ef0b-99ea-442a-b9c2-d867e3ecda9d",
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				}
+			],
+			"reference": "B24",
+			"categories": [
+				"Advantage",
+				"Language"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "e3040334-f746-4d9c-a235-8afe0a831ccf",
+			"name": "Cultural Familiarity (Aboriginal American)",
+			"mental": true,
+			"base_points": 1,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "dcd4f1be-22cc-47be-ad56-2cc273802a47",
+					"disabled": true,
+					"name": "Alien",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "152aa393-a3cf-4dd7-9980-3499b3693a51",
+					"disabled": true,
+					"name": "Native",
+					"cost_type": "points",
+					"cost": -1,
+					"affects": "total"
+				}
+			],
+			"reference": "B23",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "deff3cf0-41a8-4dc6-bee8-734685df508a",
+			"name": "Appearance",
+			"physical": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "8980753a-788c-45ad-9491-4f1c1de6adf6",
+					"disabled": true,
+					"name": "Universal",
+					"cost_type": "percentage",
+					"cost": 25,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "fed094f0-798c-4f75-8df6-27bfe6e9f446",
+					"disabled": true,
+					"name": "Off-the-Shelf Looks",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d1a10397-ea41-4e17-abae-40dbb17082ae",
+					"disabled": true,
+					"name": "Androgynous",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "8decc244-cac2-419f-addd-5825d1ae83a0",
+					"disabled": true,
+					"name": "Impressive",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a069a97c-46b6-4973-a9ea-cd0fd8f1f7ba",
+					"name": "Attractive",
+					"cost_type": "points",
+					"cost": 4,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2fc1e406-5df8-436e-8b52-168a3a8fc734",
+					"disabled": true,
+					"name": "Average",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ece1346a-fcc2-4ea2-a44f-12edb52dd787",
+					"disabled": true,
+					"name": "Horrific",
+					"cost_type": "points",
+					"cost": -24,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "006fb988-87d5-4f1e-8296-35bc0918d1e5",
+					"disabled": true,
+					"name": "Monstrous",
+					"cost_type": "points",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "41a72044-8e18-476b-9fcf-9ec557da52c2",
+					"disabled": true,
+					"name": "Hideous",
+					"cost_type": "points",
+					"cost": -16,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e63838a6-139d-4e64-9d2b-c38f51919dd0",
+					"disabled": true,
+					"name": "Ugly",
+					"cost_type": "points",
+					"cost": -8,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f01e3eb8-348e-4ae2-8120-2bcd59088ae1",
+					"disabled": true,
+					"name": "Unattractive",
+					"cost_type": "points",
+					"cost": -4,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "44aa13e3-b4f7-42ed-b21e-dad2dd0bdad0",
+					"disabled": true,
+					"name": "Handsome",
+					"cost_type": "points",
+					"cost": 12,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "8ad68cf3-16ee-48ea-8a98-141e5eb2b958",
+					"disabled": true,
+					"name": "Beautiful",
+					"cost_type": "points",
+					"cost": 12,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "36ff1d98-1f5b-41b4-a2f0-992a245462bc",
+					"disabled": true,
+					"name": "Very Handsome",
+					"cost_type": "points",
+					"cost": 16,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2b236188-6250-4ee6-af85-248e4f451f21",
+					"disabled": true,
+					"name": "Very Beautiful",
+					"cost_type": "points",
+					"cost": 16,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7507730d-8200-47d9-95b8-cda09ff708a7",
+					"disabled": true,
+					"name": "Transcendent",
+					"cost_type": "points",
+					"cost": 20,
+					"affects": "total"
+				}
+			],
+			"reference": "B21",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "d252bd32-aee1-462b-b158-665c1f6d6d0d",
+			"name": "Charisma",
+			"mental": true,
+			"levels": "1",
+			"points_per_level": 5,
+			"reference": "B41",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "fortune-telling"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "leadership"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "panhandling"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "public speaking"
+					}
+				}
+			],
+			"notes": "+1/level to Influence rolls",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "e0e9edf8-cb14-49fd-a78b-54a4307ec4ee",
+			"name": "Language: Spanish",
+			"mental": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0d4605ce-7917-4ac3-bf62-198553158c0d",
+					"disabled": true,
+					"name": "Native",
+					"reference": "B23",
+					"cost_type": "points",
+					"cost": -6,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9ba50514-4b4f-4ddb-b872-3607d487ef8e",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "09f6cd8d-6a64-417f-8e28-dcb06d81b41f",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0ac51735-f75d-468d-9f48-1ba019176d6b",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "69f5b762-9183-46a4-8cd0-2281ae898b64",
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9164819b-2bdb-4af7-b4bf-a2d907779909",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2cc32039-69b8-47ca-98c9-41129c579e89",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d7ef6b43-155a-46aa-b9e0-da353c63131b",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "446bc493-8b60-4d4f-9902-135fbaf9ade8",
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				}
+			],
+			"reference": "B24",
+			"categories": [
+				"Advantage",
+				"Language"
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "0d1e19d5-2ebd-4c66-906f-ff22e6b73bdd",
+			"name": "Anthropology",
+			"reference": "B175",
+			"specialization": "Meso American",
+			"difficulty": "IQ/H",
+			"points": 2,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Paleontology",
+					"specialization": "Paleoanthropology",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Sociology",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "b590301b-811c-4484-8508-0ee78ef83844",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "Washington DC ",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "Skill",
+					"name": "Geography",
+					"modifier": -3
+				}
+			],
+			"notes": "All important businesses, streets, citizens, leaders, etc.",
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "f9439b45-cfe5-4b99-9f26-bcf89414f203",
+			"name": "Computer Operation",
+			"reference": "B184",
+			"tech_level": "3",
+			"difficulty": "IQ/E",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -4,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Everyman",
+				"Scholarly",
+				"Technical"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "19349e17-0f6b-4e63-96cd-189b5d1de8a4",
+			"name": "Connoisseur",
+			"reference": "B185",
+			"specialization": "Coffee",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Arts/Entertainment",
+				"Knowledge",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "15fe4910-5ba2-49f2-bc9e-d8825224e900",
+			"name": "Cooking",
+			"reference": "B185",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Housekeeping",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Everyman"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "ce6fb809-43ef-48fd-a604-38e569e2564f",
+			"name": "Diplomacy",
+			"reference": "B187",
+			"difficulty": "IQ/H",
+			"points": 2,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				},
+				{
+					"type": "Skill",
+					"name": "Politics",
+					"modifier": -6
+				}
+			],
+			"notes": "+1 Attractive, +1 Charisma",
+			"categories": [
+				"Business",
+				"Police",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "6ff2c082-9943-4d9e-a65e-ff064af5d818",
+			"name": "Driving",
+			"reference": "B188",
+			"specialization": "Automobile",
+			"tech_level": "8",
+			"difficulty": "DX/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "DX",
+					"modifier": -5
+				},
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Driving",
+					"specialization": "Heavy Wheeled",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Driving",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Vehicle"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "bf705dbc-b162-4649-9d3c-1a765f629739",
+			"name": "Fast-Talk",
+			"reference": "B195",
+			"difficulty": "IQ/A",
+			"points": 4,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Acting",
+					"modifier": -5
+				}
+			],
+			"notes": "+1 Attractive, +1 Charisma",
+			"categories": [
+				"Criminal/Street",
+				"Social",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "129d8341-b106-49f5-a166-66abfec36b0f",
+			"name": "History",
+			"reference": "B200",
+			"specialization": "Meso American",
+			"difficulty": "IQ/H",
+			"points": 2,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -6,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "e9c2ca3f-4189-49e9-8567-31f9c2bb3785",
+			"name": "Professional Skill",
+			"reference": "B215",
+			"specialization": "Grad Student",
+			"difficulty": "IQ/A",
+			"points": 4,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				}
+			],
+			"notes": "(Admin, Accounting, Diplomacy, Savoir Faire, Writing, in an academic environs)",
+			"categories": [
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "bd7ada8f-50fe-437f-8ffc-47ef0dc4bb58",
+			"name": "Public Speaking",
+			"reference": "B216",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Acting",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Performance",
+					"modifier": -2
+				},
+				{
+					"type": "Skill",
+					"name": "Politics",
+					"modifier": -5
+				}
+			],
+			"notes": "+1 Attractive, +1 Charisma",
+			"categories": [
+				"Business",
+				"Scholarly",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "3cd1ce6e-6fc7-4156-9db9-3cb64bd05176",
+			"name": "Research",
+			"reference": "B217",
+			"tech_level": "3",
+			"difficulty": "IQ/A",
+			"points": 1,
+			"defaulted_from": {
+				"type": "IQ",
+				"modifier": -5,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": true,
+						"when_tl": {
+							"compare": "at_least",
+							"qualifier": 8
+						},
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Computer Operation"
+								}
+							}
+						]
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "Language"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Written (Native"
+								}
+							},
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "Language"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Written (Accented)"
+								}
+							},
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "Language"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Written (Broken)"
+								}
+							}
+						]
+					}
+				]
+			},
+			"defaults": [
+				{
+					"type": "IQ",
+					"modifier": -5
+				},
+				{
+					"type": "Skill",
+					"name": "Writing",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Scholarly",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "55a6d55e-7c07-4f36-8982-95c74bf81019",
+			"name": "Running",
+			"reference": "B218",
+			"difficulty": "HT/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "HT",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"defaults": [
+				{
+					"type": "HT",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"version": 1,
+			"id": "cc316a8e-6292-46d9-a0cd-2074f31e73c2",
+			"name": "Sex Appeal",
+			"reference": "B219",
+			"difficulty": "HT/A",
+			"points": 2,
+			"defaulted_from": {
+				"type": "HT",
+				"modifier": -3,
+				"level": 9,
+				"adjusted_level": 9,
+				"points": -9
+			},
+			"defaults": [
+				{
+					"type": "HT",
+					"modifier": -3
+				}
+			],
+			"notes": "+1 Attractive, +1 Charisma",
+			"categories": [
+				"Social"
+			]
+		}
+	]
+}
